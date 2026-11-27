@@ -255,13 +255,13 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 1,
-      "durum": "in_progress",
+      "durum": "waiting_owner",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": "2026-11-27T15:20:00Z",
-      "sonraki_guvenli_adim": "Başlıklar doğrulandı; transkript/açıklama ile içerik ve rakam doğrulaması",
+      "son_calisma": "2026-11-27T15:40:00Z",
+      "sonraki_guvenli_adim": "YouTube watch sayfası CAPTCHA'ya yönleniyor (aşılmadı, Anayasa 12). Bora'dan 3 videonun transkripti (YouTube 'Transkripti göster' → kopyala) gerekli.",
       "surum": 1
     },
     {
@@ -634,6 +634,18 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0022"
+    },
+    {
+      "id": "K-B8",
+      "soru": "Üç referans videonun transkriptini (YouTube → '...' → 'Transkripti göster' → kopyala) bana yapıştırabilir misin? En az 3. videonun 8:30–10:00 arası.",
+      "secenekler": [
+        "Yapıştırırım",
+        "Gerek yok, geç"
+      ],
+      "oneri": "Kısa da olsa yapıştır: rakamları ancak böyle doğrulayabiliriz",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0009"
     }
   ]
 }

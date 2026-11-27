@@ -7,3 +7,4 @@
 | 2026-11-27 | Referans videoların içeriği doğrulanamadı | Bora: üç videonun başlığı + açıklaması (veya transkripti) | Ağ izni açılınca yeniden çalıştır (G-0009) | istihbarat/kaynaklar/REFERANS-VIDEOLAR.md |
 | 2026-11-27 | Zamanlayıcı repo kaynağı olmadan çalışmaz (ALONI dersi: 403) | Uzak repo → tetikleyiciye kaynak olarak ekle | Bora oturum açtığında `/vardiya` elle | ALONI docs/autopilot/BLOCKERS.md 2026-11-24 |
 | 2026-11-27 | Rakip hesapların gerçek takipçi/izlenme verisi platformdan okunamıyor | Ağ izni veya resmi araç (TikTok Creative Center vb.) | Basın/rapor kaynaklı rakamlar, düşük güven etiketiyle | — |
+| 2026-11-27 | YouTube izleme sayfaları (watch) bu ortamdan Google 'sorry' CAPTCHA sayfasına 302 yapıyor; oEmbed çalışıyor ama açıklama/altyazı alınamıyor. Koruma aşılmadı | Bora: transkript kopyası (K-B8) | Başlıklar oEmbed ile doğrulandı; içerik için yalnızca arama özetleri | G-0009 raporu, curl 302 |
