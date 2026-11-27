@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T13:10:00Z",
+  "guncelleme": "2026-11-27T13:40:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": null,
@@ -10,7 +10,7 @@
   },
   "simdi": null,
   "sayac": {
-    "son_gorev_no": 18,
+    "son_gorev_no": 20,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -225,12 +225,17 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "toplantilar/gundem/",
+        "toplantilar/karsi-gorusler/",
+        "toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md",
+        "karakterler/adaylar/tomruk.md"
+      ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T13:40:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -313,7 +318,7 @@
     },
     {
       "id": "G-0012",
-      "baslik": "EXP-0001 düşük maliyetli prototip üretimi (portföyden seçilen konsept)",
+      "baslik": "Karakter tutarlılığı benchmark'ı (Üçüncü Kat sahnesi, 3 model) — EXP-0001 öncesi",
       "kaynak": "manifesto §37 / kuruluş oturumu",
       "olusturma": "2026-11-27T12:00:00Z",
       "oncelik": "P2",
@@ -322,11 +327,11 @@
       "onay_seviyesi": "A2",
       "onay": null,
       "bagimliliklar": [
-        "G-0008"
+        "G-0019"
       ],
       "beklenen_cikti": "Üretim + benchmark + kredi kaydı",
       "basari_kriteri": "Kullanılabilir video, onaylı sınır içinde",
-      "azami_maliyet": "Bora belirleyecek",
+      "azami_maliyet": "önerilen max 80 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
       "durum": "proposed",
@@ -335,7 +340,7 @@
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": null,
+      "sonraki_guvenli_adim": "Bora: 'G-0012 onay, max 80 kredi' derse produksiyon-maliyet çalışır",
       "surum": 1
     },
     {
@@ -495,7 +500,121 @@
       "son_calisma": null,
       "sonraki_guvenli_adim": "Bora paketi ChatGPT'ye yapıştırır, cevabı geri verir",
       "surum": 1
+    },
+    {
+      "id": "G-0019",
+      "baslik": "Üçüncü Kat revizyonu: çeşitli bölüm sonları, Cetvel/Anahtar Character Bible, ad çakışma taraması, kredisiz animatik/storyboard",
+      "kaynak": "toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md",
+      "olusturma": "2026-11-27T13:40:00Z",
+      "oncelik": "P5",
+      "departman": "kreatif-direktor",
+      "sorumlu_ajan": "kreatif-direktor",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
+      "bagimliliklar": [
+        "G-0008"
+      ],
+      "beklenen_cikti": "gündem v2 + 2 karakter dosyası + storyboard",
+      "basari_kriteri": "Mahkeme şartlarının hepsi karşılandı; Bekçi ONAY",
+      "azami_maliyet": "0 kredi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "queued",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": null,
+      "surum": 1
+    },
+    {
+      "id": "G-0020",
+      "baslik": "Kayıp Eşya Bürosu metinsiz revizyon (oylama yok, 4 klip/bölüm) + kredisiz karusel storyboard",
+      "kaynak": "toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md",
+      "olusturma": "2026-11-27T13:40:00Z",
+      "oncelik": "P5",
+      "departman": "kreatif-direktor",
+      "sorumlu_ajan": "kreatif-direktor",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
+      "bagimliliklar": [
+        "G-0008"
+      ],
+      "beklenen_cikti": "gündem v2 + storyboard",
+      "basari_kriteri": "Metin kartı kaldırıldı, oylama mekaniği yok",
+      "azami_maliyet": "0 kredi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "queued",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": null,
+      "surum": 1
     }
   ],
-  "bekleyen_kararlar": []
+  "bekleyen_kararlar": [
+    {
+      "id": "K-B1",
+      "soru": "Kuruluş belgelerini (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) onaylıyor musun? Anayasa madde 1'e 'kaynağı gösterilemeyen sayı çıktıya girmez' eklendi; madde 10'a 'hesap açma' ve 'ödeme' açıkça eklendi.",
+      "secenekler": [
+        "Onaylıyorum",
+        "Şu maddeleri değiştir: ..."
+      ],
+      "oneri": "Onay (eklemeler manifestonun ruhunu daraltıyor, genişletmiyor)",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0001"
+    },
+    {
+      "id": "K-B2",
+      "soru": "GitHub'da private 'AI-Media-Company' reposunu açıp bu ortama ekler misin? (Bu ortamın GitHub tokeni repo oluşturamıyor.)",
+      "secenekler": [
+        "Açtım, ekledim",
+        "Başka ad kullan"
+      ],
+      "oneri": "Aç — şu an tüm şirket hafızası silinebilir bir bulut konteynerinde",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0010"
+    },
+    {
+      "id": "K-B3",
+      "soru": "Ortamın ağ ayarlarında youtube.com, tiktok.com, trends.google.com, support.google.com, support.tiktok.com, help.instagram.com izinli olsun mu?",
+      "secenekler": [
+        "Evet",
+        "Hayır, WebSearch yeter"
+      ],
+      "oneri": "Evet — araştırmanın tamamı şu an arama özetlerine dayanıyor",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0009"
+    },
+    {
+      "id": "K-B4",
+      "soru": "G-0012 karakter tutarlılığı benchmark'ı için en fazla 80 Higgsfield kredisi harcanabilir mi? (bakiyenin ~%4'ü; G-0019 storyboard'u bitince)",
+      "secenekler": [
+        "Onay, max 80 kredi",
+        "Henüz değil"
+      ],
+      "oneri": "Onay — sonraki tüm kredi kararları bu ölçüme dayanacak",
+      "maliyet": "≤80 kredi",
+      "geri_alinabilir_mi": false,
+      "ilgili_gorev": "G-0012"
+    },
+    {
+      "id": "K-B5",
+      "soru": "Higgsfield Ultra planının aylık ücreti ve kredi yenilenme tarihi nedir?",
+      "secenekler": [
+        "(serbest)"
+      ],
+      "oneri": "Bilgi gerekli: kredi başına € hesabı yapılamıyor",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0007"
+    }
+  ]
 }
