@@ -13,5 +13,5 @@ tarih,gorev_id,deney_id,arac,model,islem,tahmini_kredi,gercek_kredi,basarili,ure
 2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,tikirti_8sn_720p_ses,8,8,kısmen (ayak anı küçük/karanlık; saatte rakam),97c7b1cb-a6cb-4ad8-9e7e-391c995123af,K-023,
 2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_8sn_720p_ses,8,8,hayır (iç içe geçme hatası),0bc0bd88-50ee-4209-b819-df05ab18a647,K-023,
 2026-11-27,G-0026,,higgsfield,nano_banana_2(nano_banana_flash),kapi_v2_cekimB_baslangic_karesi,1.5,1.5,evet (karakterler ayrık),fefd2f19-7d2d-4ac0-ba05-28921903d909,K-023,iç içe geçme düzeltmesi
-2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_v2_cekimA_4sn,4,4,bekliyor,d4acc47c-e6cc-4d24-acae-da26d9cd6032,K-023,tek karakter
-2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_v2_cekimB_5sn,5,5,bekliyor,597cbe29-9549-4708-82a8-922f866f8a0e,K-023,G-0026 toplam 32.5/35
+2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_v2_cekimA_4sn,4,4,evet (ilk 2,7 sn kullanıldı),d4acc47c-e6cc-4d24-acae-da26d9cd6032,K-023,tek karakter
+2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_v2_cekimB_5sn,5,5,kısmen (kapı menteşe yönü tutarsız),597cbe29-9549-4708-82a8-922f866f8a0e,K-023,G-0026 toplam 32.5/35
