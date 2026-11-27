@@ -315,3 +315,131 @@ Durum: **önerildi** (Bora seçimi bekliyor; CLAUDE.md kural 5). Üretim yok, kr
 3. Kreatif ajanın görüşü (TAHMİN, Bora'yı bağlamaz): hata önleme açısından **B ve D**, Bora'nın sözü açısından **A** öne çıkıyor; pazar kanıtı yalnızca A ve F'de var. Ucuz sıradaki adım (kural 5): Bora'nın seçtiği 1–2 görünüm için tek karakterde ~1,5 kredilik referans görseli (A2 onayı + azami kredi gerekir; bu görevde yapılmadı) → Bora'nın referansı onaylaması → tek eylemli, temassız çekim.
 
 - 2026-11-28 · G-0049 (referans görünüm seçenekleri) · Stil seçeneği sunarken "hata azaltır" yargısını her stil için ayrı yazıp aynı anda hangi sınıfı gizlemeyeceğini de listeledim ve linklerin stilini görmediğimi baştan işaretledim; bir dahaki sefere stil adayını önce hesap_olc ile ölçüp, linkin stilini doğrulamak için Bora'nın 10 sn bakışını (ya da erişilebilirse video kareleri) şart koşacağım, ve yapay zekâ olmayan insan yapımı örneği "model bu stili tutar" kanıtı sayma.
+
+## 2026-11-28 G-0050: 2. tur
+
+Durum: **önerildi** (Bekçi denetimi ve Bora seçimi bekliyor; CLAUDE.md kural 5). Üretim yok, kredi harcanmadı, görsel/klip üretilmedi, mahkemeye gönderilmedi, puanlanmadı. "Komik" iddiası yoktur; komiklik TAHMİN ve yalnız Bora'nın / gerçek izleyicinin izlemesiyle ölçülür. Hiçbir klip görülmedi ya da dinlenmedi.
+**Girdi (OKUDUM, dosyadan):** G-0044 beş senaryo, G-0049 stil seçenekleri, konsey G-0045 itirazları ve "sınırlar" (özellikle: dört konsey aynı girdiyi aldı, itirazlar kısmen kreatifin kendi "zayıf yan" notlarının yankısı; bu yüzden aşağıda itirazı "4/4 çıktı" diye değil içeriğine göre tarttım), `uretim-hata-onleme` v1 (kriter 6: tabloda herhangi bir Y varsa çekim üretime gitmez), platform G-0041 eki §B.2 ve §F (resmî sayfa AÇILDI).
+**İki ortak varsayım (TAHMİN, ölçülmedi):** (a) "Telefonların çoğu sessizde izler": depoda bunun ölçümü yok; yalnız Tüketici konseyi sezgisi (simülasyon) ve VIU denetçi notları var. Ölçülmemiş varsayım olarak alıyorum; bu yüzden tasarım "sessizde de okunsun, sesle de komik olsun" biçiminde, ikisine birden. (b) "İlk 2 sn görsel kanca": kanca sayılan şey burada **ekranda görünen bir hareket/olay** (göz kayması, çiğneme); gerçekten dikkat çekip çekmediği TAHMİN.
+**Yöntem notu:** yeniden doldurulan tablolar `uretim-hata-onleme` 14 sınıfıyla (1 iç içe · 2 kaybolma–belirme · 3 çoğalma · 4 morf · 5 yüzen · 6 kapı · 7 ince esnek · 8 prop · 9 yön/yürüyüş · 10 dönüş · 11 karanlık/küçük kilit an · 12 yazı/rakam · 13 kamera · 14 ≥3 karakter). Bu tablolar da HİPOTEZ; üretimle test edilmedi. Bekçi bağımsız denetimi bekliyor.
+
+### Karar özeti
+| Senaryo | En güçlü itiraz (konseyden) | Karar | Gerekçe (tek cümle) |
+|---|---|---|---|
+| 1 Mevsimlik Kurye | Şaka tek 3 sn'lik çekime (A) bağlı; ilk sürpriz 15. sn | **Değiştirildi** (Bora'ya sunulmuyor, sıra 3) | Açılış hareketi + kısaltma + ses motifi itirazı hafifletir ama 14 "O" ve "hüzünlü okunur" riski kalır |
+| 2 Sessizlik Kuralı | Şaka sessizde yok, ilk 2 sn zayıf | **Değiştirildi, Bora'ya sunulur** | Görüntü ve ses vuruşu birlikte kuruldu; Y yok |
+| 3 Ağırlıksız | Yerçekimi öncülü modelin kanıtlı hatasıyla çakışıyor; ret nedeni kurulmuyor | **BEKLEMEDE** (itiraz haklı) | Öncül test edilmeden değiştirilirse neyi düzelttiğim bilinmez |
+| 4 Ay Yiyen | Klişe, tahmin edilebilir sürpriz, aynı kalıpta seri | **Değiştirildi (tek bölüm, seri sözü yok), Bora'ya sunulur** | Sürpriz neden-sonuç ve görüntüye taşındı; seri iddiası geri çekildi |
+| 5 Bir Adım Geç | Final belirsiz ve modelin en zayıf yerinde | **BEKLEMEDE** (itiraz haklı) | Dört öneri çelişiyor; seçim bir ön test ve stil kararı olmadan tahmin |
+
+### Senaryo 1: Mevsimlik Kurye (değiştirildi, sunulmuyor)
+**İtiraz:** şaka tavşanın taşındığını A çekiminde fark etmeye bağlı; kaçıran için boş oda "hüzün"; ilk sürpriz ~15. sn; yavaş ironik biçim için pazarda ölçülmüş örnek yok.
+**Cevap (neyi değiştirdim):**
+1. A çekimi 3 → 2 sn ve ilk kareden hareketli: tavşan **belirgin dolgun sırt çantasıyla** hızlı adımla kadrajdan çıkar (açılış görseli = "biri taşınıyor"). Okunurluğu artıracağı TAHMİN.
+2. C, D, E (yaz, sonbahar, kış) 2,5/2,5/3 → 1,5 sn'er (montajda kırpma, yeni üretim yok); boş oda (F) ~9,5. sn'ye iner (önceden ~14). Toplam ~20 sn (önceden ~24,5).
+3. Ses motifi: A'da tavşana kısa ıslık, H'de aynı ıslık uzaktan duyulur (kurye duymaz). Bu ses TAHMİN, dinlemedim; üç konseyin aynı önermesi (yankı olabilir).
+4. Seri kuralı yeniden yazıldı: "kurye pes etmez; **teslimat her bölümde farklı bir sonuçla biter**" (eski kural "hiç bitiremez" platform §B.2 'aynı durum, aynı sonuç' maddesine yakındı).
+**Yeniden dolu risk tablosu:** yalnız A değişti (B–H aynı, G-0044 tablosuna bak).
+| Çekim | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A (2 sn) | D | D | D | D | D | D | D | O | O | D | D | D | D | D |
+(8=O: sırt çantası ilk karede takılı kalmalı, kayma/çoğalma kare kare izlenecek; 9=O: hızlı yürüyüş; Y yok. Toplam O: 15.) KARAR: HAZIR (O'larla).
+**Her bölümde değişen (S1):**
+| Bölüm | Kurulum | Mekanizma | Sonuç | Öncekinden fark |
+|---|---|---|---|---|
+| Pilot | Alıcı (tavşan) taşınmış, kurye bilmiyor | dramatik ironi | **Iska: alıcı yok** | (başlangıç) |
+| "Kısa Yol" | Kurye uçurum patikasını seçer, kesmeyle ertesi mevsim | zaman atlaması | **Erken varır:** alıcı henüz taşınmamış | Sonuç "ıska" değil "erken" |
+| "Yanlış Adres" | Alıcı evde, ama alıcı da kaplumbağa | sesle yanıltma (zil geç çalar) | **Teslim edilemez ama nedeni kuryenin kendisi** | Alıcı var, hata kuryede |
+| "Geri Dönüş" | Kutu sonunda sahibine ulaşır | ters çevirme | **Teslim edilir;** kutu sahibinin bir yıl önceki kutusudur | Sonuç "teslim" |
+Dürüst sınır: dört sonucun hepsi "kurye bir şeyi ıskalar/geç kalır" ailesinden; bu çeşitliliğin YouTube'un "özgün" eşiğini geçip geçmediği BİLİNMİYOR (eşik yayınlanmamış). F.1 kuralı bölüm yazılırken uygulanır: her bölüm brifinde "öncekinden hangi olayda ve sonuçta farklı" satırı, art arda iki bölüm aynı çatıdaysa Bekçi RED. Pazarda yavaş ironik biçim için ölçülmüş örnek yok (konsey Muhalefet; ÖLÇTÜM yokluğu kanıt değil ama destek de değil).
+**Neden sunulmuyor:** en çok O (15), en yavaş, "hüzünlü okunur" riski yalnız Bora'nın izlemesiyle ayrılır, ilk sürpriz hâlâ ~9,5. sn.
+
+### Senaryo 2: Sessizlik Kuralı (değiştirildi, Bora'ya sunulur)
+**İtiraz (4/4, ama defterin kendi "zayıf yan" notunun yankısı olabilir):** şakanın ~5 sn'si yalnız ses; sessizde "duran baykuş"; ilk 4 sn hareketsiz geniş çekim.
+**Cevap: itirazı haklı buldum, senaryoyu değiştirdim.**
+1. **Geniş açılış çekimi atıldı.** Video ilk karede baykuş yüzünün yakın planıyla başlar; ilk göz kayması 0,2 sn'de (açılışın ilk 2 sn'sinde ekranda göz hareketi var; kanca olup olmadığı TAHMİN).
+2. **Vuruş görüntüye de taşındı:** son çekimde gözler kapanmaz, **gürültüden 0,2 sn sonra aşağı, kendi karnına kayar** (dördüncü yön: sol, sağ, yukarı, aşağı). Bunun sessizde okunması için son çekim yüz + karın birlikte görünen orta plan olur (yüz ≥ kadraj yüksekliğinin 1/3'ü; "ilk test").
+3. **Montajda yazı:** gürültü anında "GURRR" kelimesi montaj yazısı (model üretmez, 12. sınıf risk doğurmaz). Ses açık/kapalı iki izleme için tasarım; hangisinin daha çok izleneceği TAHMİN.
+4. Raflar: arka planda yalnız bulanık sıcak ışık + düz koyu kitap blokları (sırt yazısı prompta yazılmaz).
+**Yeni çekim listesi (süre ≈ 14,5 sn; önceden ~18,5):**
+| # | Süre | Kamera | Tek eylem | Ses (montaj) |
+|---|---|---|---|---|
+| 1 | 3 sn | kilitli, yakın yüz | 0,2 sn'de gözler sola kayar | uzak sayfa hışırtısı |
+| 2 | 3 sn | aynı | Gözler sağa kayar | sandalye gıcırtısı (orta) |
+| 3 | 3 sn | aynı | Gözler yukarı kayar | hapşırık + yankı (büyük) |
+| 4 | 1,5 sn | 3'ün son karesi dondurulmuş (üretim yok) | – | 1 sn tam sessizlik |
+| 5 | 4 sn | kilitli, yüz + karın orta plan | Gözler 0,2 sn sonra aşağı, kendi karnına kayar | karından gürültü (en büyük, bas) + "GURRR" yazısı, sonra sessizlik |
+**Yeniden dolu risk tablosu:**
+| Çekim | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | D | D | D | D | D | D | D | D | D | D | O | O | D | D |
+| 2 | D | D | D | D | D | D | D | D | D | D | O | O | D | D |
+| 3 | D | D | D | D | D | D | D | D | D | D | O | O | D | D |
+| 5 | D | D | D | D | D | D | D | D | D | D | O | O | D | D |
+(4 dondurulmuş kare, risk satırı yok. 11=O: göz kayması şakanın tamamı, gece/lamba ışığında göz küçük kalırsa kaybolur; yüz ≥ 1/3, sıcak ışık, 12 kare/sn izleme; 5. çekimde yüz küçüldüğü için en kırılgan. 12=O: bulanık kitap blokları harfe dönüşebilir. Y yok. Toplam O: 8, önceki 5; **risk azalmadı, görsel okunurluk arttı.** KARAR: HAZIR (O'larla); ilk test 5. çekim: göz karnına kayıyor mu, sessizde anlaşılıyor mu.)
+**Her bölümde değişen (S2):**
+| Bölüm | Gürültü kaynağı | Mekanizma | Sonuç (kim ihlal eder) | Öncekinden fark |
+|---|---|---|---|---|
+| Pilot "Sessizlik Kuralı" | baykuşun kendi karnı | ses tırmanışı + ters çevirme | baykuş kuralı bozar | (başlangıç) |
+| "Vardiya Değişimi" | yeni nöbetçi (ayrı çekimde yalnız gözleri) | iki göz arasında bekleme; nöbetçi kendi gürültüsüne bakar | **baykuş haklı çıkar**, ihlal başkasında | Sonuç tersine döner |
+| "Hiç Ses Yok" | hiç gürültü gelmez | beklentiyi boş bırakma | **vuruş yok**, son karede gözler izleyiciye bakar | Gürültü ve ihlal yok |
+Dürüst sınır: üçü de "göz + ses" ailesi. Platform "karakter dizisi, her videonun ayrı hikâyesi" derken kabul ediyor (§B.2, AÇILDI); ama bu üç bölümün yeterince farklı sayılması BİLİNMİYOR. **Seri sözü verilmez:** önce pilot; bölüm 2'ye yalnız pilot Bora'da işe yararsa geçilir.
+**Stil (G-0049):** D (düşük detaylı 3D), ikinci B. Gerekçe: D'de raf sırtı/yazı (12) ve ince ayrıntı azalır (G-0049 TAHMİN), 3D olduğu için Bora'nın "3D her zaman daha iyi" (K-020) sözüyle çelişmez; B'de düz arka plan + yakın göz. A bu senaryoda zayıf (gece ışığı, G-0049).
+
+### Senaryo 3: Ağırlıksız: **BEKLEMEDE (itiraz haklı)**
+**Neden:** (1) Hikâyenin öncülü (sıfır yerçekimi, nesne süzülür) bizim kayıtlı "koli süzüldü" hatamızla (`uretim-hata-onleme` §8) aynı fiziğe dayanıyor; 8 çekimde 13 "O". (2) Anti-AI izleyici için kasıtlı süzülme ile model hatası görsel olarak ayırt edilemeyebilir (TAHMİN; konsey sezgisi). (3) Ret nedeni kurulmuyor: Creator'ın "tek göz aç-kapa" ve Muhalefet'in "0,5 sn siyah + atılma klibi tekrarı" önerisi çelişkili, biri seçilmeden tablo yeniden doldurulamaz; Tüketici'nin "köstebek baş aşağı" önerisi yön/dönüş (9, 10) ekler ve doldurulmadı. (4) Seri fikirlerinin üçü de "bir şey süzülür, ulaşamaz" (Creator) = aynı durum, aynı sonuç; seri yeniden yazılmadan sunulamaz.
+**Neden "değiştirmedim":** Uzman'ın "kutuyu neredeyse sabit üretip süzülmeyi montajda ver" önerisi yalnız kutu çekimlerinin (3, 5) riskini düşürür; köstebek çekimlerinde (1, 2, 4, 6, 8) öncül aynı kalır. Tek bir değişiklik öncülün kendisini çözmüyor.
+**Yeniden açılma koşulu:** (a) Bora özellikle isterse, ya da (b) başka bir senaryonun üretiminde yüzen nesne (5) sınıfı üretimde gerçekten güvenli çıkarsa. Açılırsa sırası: ret nedeni tek eylemle kurulur, tablo yeniden doldurulur, ilk iş tek 4 sn çekim 1 (kural 5: 2 başarısızlıkta durulur; öncül başarısızsa konsept 1. başarısızlık).
+
+### Senaryo 4: Ay Yiyen (değiştirildi, tek bölüm, Bora'ya sunulur)
+**İtiraz (4/4, yankı uyarısıyla):** "ayı yiyen hayvan" tanıdık masal klişesi; sürpriz (dolunay geri gelir) doğal döngü olduğu için tahmin edilebilir; çocuk masalı tonu; seri (güneş, bulut, yıldız) aynı kalıp, "aynı durum aynı sonuç" örneklerinin en yakını.
+**Cevap: itirazın "seri" ve "tahmin edilebilir sürpriz" kısmını haklı buldum; senaryoyu değiştirdim, seriyi geri çektim.**
+1. **Sürpriz neden-sonuç oldu** (Muhalefet önerisi): dolunayın dönüşü doğal döngü değil, farenin **geğirmesinin sonucu**; geğirme sesi 5→6 kesme anına bindirilir.
+2. **Vuruş görüntüye taşındı** (Tüketici önerisi): ay küçüldükçe farenin **karnı ay renginde daha parlak** olur; yeni ayda sahnedeki tek ışık karın. Sessiz izleyen de "ay fareye girdi" diye okuyabilir (TAHMİN). Bu yeni bir ışık öğesi: tabloda 3, 4, 11 yeniden dolduruldu.
+3. **Açılışın ilk karesinden hareket:** fare 0. sn'den çiğniyor (çene hareketi), dolunay arkada (açılışta ekranda olay var; kanca olup olmadığı TAHMİN).
+4. **Ton:** ay yüzsüz, fare "bıkkın/umursamaz", büyük sevimli göz yok (yetişkin kodu; çocuk algısı riski ölçülmedi, TAHMİN). "Sıvazlama" kaldırıldı (kendi gövdesine temas riski); fare dokunmaz.
+5. **Seri sözü yok.** Tek bağımsız bölüm (Muhalefet alternatifi, bu senaryo için kabul). Seri ancak pilot Bora'da işe yararsa ve sonucu farklı bölümler yazılabilirse düşünülür (F.1 kuralı).
+**Yeni çekim listesi (≈ 19 sn):**
+| # | Süre | Kamera | Tek eylem | Ses (montaj) |
+|---|---|---|---|---|
+| 1 | 3 sn | kilitli, geniş, profil | Dolunay (kadrajın ≥%40'ı) önünde fare ilk kareden çiğner | cırcır böceği + kıtır |
+| 2 | 3 sn | aynı | Ay biraz eksik; fare daha yuvarlak, karnı hafif parlak; çiğner | kıtır (kesme anına senkron) |
+| 3 | 3 sn | aynı | Yarım ay; karın daha parlak; çiğner | kıtır (yoğun) |
+| 4 | 3 sn | aynı | Hilal; karın belirgin parlak; çiğner | kıtır (yavaş) |
+| 5 | 3 sn | aynı | Yeni ay: yıldızlı karanlık, tek ışık farenin karnı; fare oturur, gözler yarı kapalı, dokunma yok | çiğneme biter; derin geğirme son 0,3 sn'de |
+| 6 | 4 sn | aynı | Dolunay geri; karın sönük; fare kameraya bıkkın bakar | 1 sn boşluk, tek kıtır |
+**Yeniden dolu risk tablosu:**
+| Çekim | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | D | D | D | O | D | D | D | D | D | D | O | D | D | D |
+| 2 | D | D | O | O | D | D | D | D | D | D | O | D | D | D |
+| 3 | D | D | O | O | D | D | D | D | D | D | O | D | D | D |
+| 4 | D | D | O | O | D | D | D | D | D | D | O | D | D | D |
+| 5 | D | O | D | O | D | D | D | D | D | D | O | D | D | D |
+| 6 | D | D | D | O | D | D | D | D | D | D | O | D | D | D |
+(3=O: karın ışığı ikinci bir "ay"a ya da ışık lekesine çoğalabilir. 2=O (çekim 5): başlangıç karesinde ay yok; model ay'ı belirsiz biçimde "soldurup" ekleyebilir; ay kenarı/karın parlaklığı klip içinde değişebilir (4). 11=O: gece sahnesi; 5'te tek ışık karın (≥ kadrajın 1/4'ü) + güçlü kenar ışığı, ilk kare parlaklık ölçümü (Tıkırtı 40/255'in belirgin üstü; eşik TAHMİN). 1, 5, 6, 8, 9, 10, 12, 13, 14 D (sabit oturma, dönüş yok, yazı yok). Y yok. Toplam O: 16, önceki 11; **risk arttı**, karşılığında vuruş görüntüde.) KARAR: HAZIR (O'larla).
+**Geri dönüş yolu:** karın ışığı denemede çoğalır/yanıp sönerse (3, 4) ışık öğesi çıkarılır ve G-0044'teki sürüme (11 O) dönülür; sürpriz yine neden-sonuç kalır. Kural 5: 2 başarısızlıkta durulur.
+**Stil (G-0049):** D (düz gölgeli 3D: parlayan karın düz renk alanı olarak daha okunur olabilir, TAHMİN), ikinci A (Bora'nın önceki 3D tercihi, pazar kanıtı var; ama "sevimli/parlak" çocuk algısını artırabilir, TAHMİN).
+
+### Senaryo 5: Bir Adım Geç: **BEKLEMEDE (itiraz haklı)**
+**Neden:** (1) Final ("dünya ona uydu") belirsiz ve şakanın kilit anı, modelin en zayıf olduğu yere (kareli/benekli desen yüzmesi: sınıf 4, çekim 3–6) denk geliyor. (2) Dört konsey dört farklı düzeltme önerdi (ek çekim / 6'yı böl / 1'i at / "erken" ile ters çevir); aralarından birini seçmek şu an yalnız tahmin, hepsi sınıf 4 ve 3'ü yeniden dolduruyor. (3) Konseyin dayandığı sinyalin yarısı kreatifin kendi notuydu (yankı).
+**Taslak (tablolanmadı, yalnız yön):** Bora B (düz renk 2D) ya da D seçerse desen yüzmesi yerine **düz renk bloğu** kullanılabilir (yaprak yeşil → örtü kırmızı → minder mavi; final: ilk yaprak mavi). Tüketici'nin "1. çekimi at, örtüde yeşil bukalemunla aç" önerisi açılışta kuralı ilk karede gösterir (açılış kancası olarak makul, TAHMİN). Bu sürüm ancak stil seçildikten sonra ve 14 sınıfla yeniden doldurulur.
+**Yeniden açılma koşulu:** Bora B ya da D'yi seçer **ve** S2/S4 üretiminde düz stil modelde tutarlı çıkar. O zamana kadar sunulmaz.
+
+### Muhalefet alternatifine dürüst cevap: "5'i de yapma; tek bölüm + 0 kredilik sesli animatik"
+**Zaten kısmen kabul edildi:** beş senaryonun hiçbiri üretime gitmedi, hiçbirine kredi ayrılmadı; yukarıdaki karar özeti 5'i 2'ye indiriyor ve kural 5 gereği önce tek senaryo, tek çekim. "Beşi de yap" diye bir plan yoktu; Muhalefet'in bu kısmı bir saman adam değil ama karşılığı zaten yapılıyor.
+**Muhalefet haklı olduğu koşullar:**
+1. **Şaka büyük ölçüde sesle ve zamanlamayla taşınıyorsa** (S2: göz kayması + ses tırmanışı + 1 sn sessizlik): animatik asıl riski, yani "zamanlama ve ses komik mi?" sorusunu **kredisiz** sınar. Bora sesli sonra sessiz izler; vuruş sessizde anlaşılmıyorsa S2'nin 5. çekim tasarımı başarısız demektir, kredi harcamadan öğrenilir.
+2. **Animatik hiç gülümsetmiyorsa** dururuz; üretim modelinin ne yaptığı sorusuna hiç gelinmez (kötü şaka güzel görüntüyle düzelmez, K-016 "hiç komik değil").
+3. **Bora'nın zamanı sınırlıysa**: Bora'nın izleme dakikası kredi kadar kıt; her ek senaryo bu dakikayı ister. 2'den fazlasını sunmamam bu yüzden.
+4. **Pazar örneği yokluğunu animatik değiştirmez**, ama "ölçüm aracıyla AI olmayan, sessiz anlatımlı 3 animasyon hesabı" ölçümü (Muhalefet adım 2, 0 kredi) bu boşluğu daraltır; öneriyorum (Chief'in karar vereceği ayrı bir görev; bu görevde yapılmadı).
+**Muhalefet'in gözden kaçırdığı / animatiğin sınırı:** (a) animatik **modelin hatalarını (14 sınıf) sınamaz**; animatik geçti = model çalışır demek değildir; yalnız tek 4 sn'lik üretim testi bunu söyler. (b) S4'te şaka görsel (ay evreleri + parlayan karın); durağan karelerle animatik görseli yeterince sınamaz, S4 için animatik S2'ye göre daha az bilgi verir (TAHMİN). (c) Bora tek izleyici; gerçek izleyici tepkisi yayından önce ölçülemez (K-031).
+**Sonuç:** Muhalefet **sıra konusunda haklı**: ücretli adımdan önce 0 kredilik sesli animatik, özellikle S2 için. "Tek bölüm" konusunda S4'te kabul ettim (seri yok); S2'de pilot önce, seri sözü yok. Animatiği hazırlamak ayrı bir görevdir (0 kredi ama ses kaynağı lisansı ve araç durumu doğrulanmadı: yok sayılmaz, Chief'in görevi).
+
+### Bora'ya sunulacak (en fazla 2)
+1. **Senaryo 2 "Sessizlik Kuralı"** (baykuş, ~14,5 sn): stil **D**, ikinci **B**. Önerilen ilk adım: Bora 0 kredilik sesli animatiği önce sesli, sonra sessiz izler.
+2. **Senaryo 4 "Ay Yiyen"** (fare, ~19 sn, tek bölüm): stil **D**, ikinci **A**.
+Sıralama yok (komiklik ölçülemez). Hiçbiri üretime hazır değil; Bora'nın harf seçimi (kural 5) ve A2 onayı olmadan referans görsel de üretilmez. Sunmayanlar: S1 (değişti, sırada 3), S3 ve S5 (beklemede, yeniden açılma koşulları yazılı).
+**BORA'YA SORU:** (1) Stil: D mi, B mi, A mı? (Tek harf yeter; D'yi seçerse iki senaryo aynı referans görünümü paylaşır.) (2) 0 kredilik sesli animatik adımını istiyor musun, yoksa doğrudan referans görsele mi geçelim?
+
+- 2026-11-28 · G-0050 (2. tur) · Bir itirazı "senaryoyu değiştir" diye kapatmak her zaman riski düşürmedi: S2 ve S4'te okunurluğu artırmak "O" sayısını artırdı (5→8, 11→16); bir dahaki sefere her revizyonda "okunurluk kazandı mı / risk ne kadar arttı" sorusunu önce ayrı yazıp, riski artıran revizyon için geri dönüş yolunu (eski sürüm) tabloyla birlikte vereceğim, ve konsey itirazlarını "kaç konsey söyledi" diye değil içeriğine göre tartacağım (yankı uyarısı).
