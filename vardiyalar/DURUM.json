@@ -334,7 +334,7 @@
       "azami_maliyet": "80 kredi",
       "gercek_maliyet": "58,00 kredi (1935,39→1877,39)",
       "deneme": 1,
-      "durum": "needs_revision",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md",
@@ -634,12 +634,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
+      ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T18:25:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -687,13 +689,13 @@
       "basari_kriteri": "Bora'nın tepkisi + ileride gerçek izleyici; komedi atölyesi bulgularıyla karşılaştırma",
       "azami_maliyet": "plan içi (K-019); tek iş >100 kredi ise önce bilgi",
       "gercek_maliyet": null,
-      "deneme": 0,
-      "durum": "queued",
+      "deneme": 1,
+      "durum": "in_progress",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T18:25:00Z",
       "sonraki_guvenli_adim": "G-0023 bulguları gelince senaryo",
       "surum": 1
     }
