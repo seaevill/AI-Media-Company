@@ -52,6 +52,13 @@ for x in d2["gorevler"]:
 r2 = gs.sec(d2, CFG, T)
 test("ikinci koşu bir sonraki görevi alır, tamamlananı değil", r1["gorev"]["id"] == "G-1" and r2["gorev"]["id"] == "G-2")
 
+r = gs.sec(durum(g("G-1", durum="in_progress", oncelik="P4"), g("G-2", oncelik="P2")), CFG, T)
+test("simdi boşken yetim in_progress görev bitirilir (kuru koşu A bulgusu)", r["karar"] == "devam" and r["gorev"]["id"] == "G-1")
+r = gs.sec(durum(g("G-1", durum="review", oncelik="P5"), g("G-2", durum="in_progress", oncelik="P1")), CFG, T)
+test("birden çok yarım görevde en öncelikli önce", r["gorev"]["id"] == "G-2")
+r = gs.sec(durum(g("G-1", departman="kreatif-direktor")), CFG, T)
+test("ipucu eşleşmezse gerekçe bunu söyler", "ipucu etkisiz" in r["gerekce"])
+
 kalan = [a for a, k in sonuclar if not k]
 print(f"{len(sonuclar)-len(kalan)}/{len(sonuclar)} geçti")
 sys.exit(1 if kalan else 0)

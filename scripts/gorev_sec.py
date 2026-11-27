@@ -58,6 +58,16 @@ def sec(durum, cfg, simdi):
                 return {"karar": "engel", "gorev": g, "gerekce": "deneme hakkı doldu; blocked yapılıp Bora'ya bildirilmeli"}
             return {"karar": "devam", "gorev": g, "gerekce": "simdi alanındaki yarım görev tamamlanmadan yeni görev alınmaz"}
 
+    # 1b) simdi boş ama yarım görev(ler) var (çöken koşu ya da etkileşimli oturum): yetim bırakma, en önceliklisini bitir.
+    yarim = [g for g in durum.get("gorevler", []) if g["durum"] in {"in_progress", "review", "needs_revision"}]
+    if yarim:
+        yarim.sort(key=lambda g: (ONCELIK.index(g.get("oncelik", "P7")), g.get("olusturma", ""), g["id"]))
+        g = yarim[0]
+        if g["durum"] == "needs_revision" and g.get("deneme", 0) >= lim["gorev_deneme_azami"]:
+            return {"karar": "engel", "gorev": g, "gerekce": "deneme hakkı doldu; blocked yapılıp Bora'ya bildirilmeli"}
+        neden = "Bekçi denetimi bekliyor" if g["durum"] == "review" else "yarım kalmış"
+        return {"karar": "devam", "gorev": g, "gerekce": f"simdi boş ama {g['id']} {neden}; yeni görev alınmaz (P1)"}
+
     # 2) Günlük sınır.
     gun = durum.get("gunluk", {})
     if gun.get("tarih") == yerel.date().isoformat() and gun.get("ajanli_kosu", 0) >= lim["gunluk_ajanli_kosu_azami"]:
@@ -89,7 +99,8 @@ def sec(durum, cfg, simdi):
         g.get("olusturma", ""),
         g["id"],
     ))
-    return {"karar": "gorev", "gorev": adaylar[0], "gerekce": f"en yüksek öncelik {adaylar[0].get('oncelik')}; vardiya ipucu={ipucu}"}
+    eslesti = adaylar[0].get("departman") == ipucu
+    return {"karar": "gorev", "gorev": adaylar[0], "gerekce": f"en yüksek öncelik {adaylar[0].get('oncelik')}; vardiya ipucu={ipucu} ({'eşleşti' if eslesti else 'eşleşen aday yok, ipucu etkisiz'})"}
 
 
 def main():

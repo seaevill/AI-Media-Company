@@ -87,7 +87,7 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "completed",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/kaynaklar/REFERANS-VIDEOLAR.md"
@@ -114,7 +114,7 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "completed",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/platform-analizleri/"
@@ -141,7 +141,7 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "completed",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/creator-arastirmalari/"
