@@ -1,5 +1,16 @@
 # CLAUDE.md — AI Media Company
 
+## Gerçeklik kuralları (2026-11-27 gerçeklik denetiminden sonra — her şeyin önünde)
+
+1. **Bora'ya söylenen her iddia kaynağını taşır:** GÖRDÜM (kare/sayfa açıldı) · ÖLÇTÜM (araç çıktısı) · OKUDUM-ÖZET (arama özeti) · TAHMİN. Etiketsiz iddia yok.
+2. **"Çalıştı / tamam / doğrulandı / eksiksiz" denmez** — kanıt dosyası ya da Bora'nın onayı yoksa. Önce bilinen hatalar, sonra iyi taraf.
+3. **Kreatif kalitenin hakemi Bora ve gerçek izleyicidir.** Konsey puanı, Bekçi ONAY'ı ve benim değerlendirmem kalite kanıtı değildir.
+4. **Video:** her temas/geçiş anı 12 kare/sn tam çözünürlük; sesi dinleyemediğimi her seferinde söylerim. Bora izlemeden hiçbir klip "kullanılabilir" değildir.
+5. **Üretim sırası:** Bora referans görünümü seçer → tek eylemli, temassız çekim → zamanlama montajda → Bora izler. Aynı konsept 2. başarısızlıkta durur.
+6. **Yeni rol, konsey, danışman sistemi veya Markdown dosyası açılmaz**; mevcut dosya güncellenir. İlerleme ölçüsü: gerçek insan tepkisi, yayın, gelir — görev sayısı değil.
+7. **Para/kredi/yetki ifadesi belirsizse tek cümleyle sorarım**, yorumla yazmam (K-019 hatası).
+8. Konseyler yalnızca fikir üretir; karar dayanağı değildir (komediyi ölçemedikleri kanıtlandı).
+
 ## Şirket düzeni (her oturumda geçerli)
 
 Bu repo bir şirkettir. Hangi iş olursa olsun önce oku:
