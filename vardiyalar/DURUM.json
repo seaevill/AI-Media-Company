@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T13:40:00Z",
+  "guncelleme": "2026-11-27T14:05:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": null,
@@ -10,7 +10,7 @@
   },
   "simdi": null,
   "sayac": {
-    "son_gorev_no": 20,
+    "son_gorev_no": 21,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -38,7 +38,7 @@
         "scripts/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517): 14 korunan dosya (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) yalnızca Bora onaylar",
+      "bekci_karari": "İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517): 14 korunan dosya (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) yalnızca Bora onaylar; ikinci tur: ANAYASA m.11 manifestoya döndürüldü, dogrula.py koruma listesi genişletildi — yine İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6)",
       "son_calisma": null,
       "sonraki_guvenli_adim": "Bora ANAYASA.md ve YETKI-MATRISI.md'yi okuyup onaylar; madde 1 ve 10'daki genişletmeleri kabul/ret",
       "surum": 1
@@ -114,14 +114,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 1,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/platform-analizleri/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
-      "son_calisma": "2026-11-27T13:10:00Z",
+      "bekci_karari": "ONAY (düzeltme turu 1; denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6)",
+      "son_calisma": "2026-11-27T14:05:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -168,14 +168,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 1,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
-      "son_calisma": "2026-11-27T13:10:00Z",
+      "bekci_karari": "ONAY (düzeltme turu 1; denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6)",
+      "son_calisma": "2026-11-27T14:05:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -195,14 +195,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": "0 kredi",
       "deneme": 1,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
-      "son_calisma": "2026-11-27T13:10:00Z",
+      "bekci_karari": "ONAY (düzeltme turu 1; denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6)",
+      "son_calisma": "2026-11-27T14:05:00Z",
       "sonraki_guvenli_adim": "balance + models_explore + estimate_video_cost",
       "surum": 1
     },
@@ -224,7 +224,7 @@
       "basari_kriteri": "3 konsept araştırmaya bağlı, mahkeme tutanağı",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
+      "deneme": 1,
       "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
@@ -234,8 +234,8 @@
         "karakterler/adaylar/tomruk.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T13:40:00Z",
+      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6); azınlık aktarımı, hipotez etiketi, yöntem sınırı düzeltildi — yeniden denetim bekliyor",
+      "son_calisma": "2026-11-27T14:05:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -503,7 +503,7 @@
     },
     {
       "id": "G-0019",
-      "baslik": "Üçüncü Kat revizyonu: çeşitli bölüm sonları, Cetvel/Anahtar Character Bible, ad çakışma taraması, kredisiz animatik/storyboard",
+      "baslik": "Üçüncü Kat revizyonu: çeşitli bölüm sonları, Cetvel/Anahtar Character Bible, ad çakışma taraması, kredisiz animatik/storyboard; Bölüm 1'deki yazılı damgayı kaldır",
       "kaynak": "toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md",
       "olusturma": "2026-11-27T13:40:00Z",
       "oncelik": "P5",
@@ -553,6 +553,33 @@
       "bekci_karari": null,
       "son_calisma": null,
       "sonraki_guvenli_adim": null,
+      "surum": 1
+    },
+    {
+      "id": "G-0021",
+      "baslik": "dogrula.py koruma listesine gorev_sec.py, kilit.sh, mahkeme_skor.py, tests/, .claude/commands/ eklenmesini Bora'ya öner",
+      "kaynak": "denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6",
+      "olusturma": "2026-11-27T14:05:00Z",
+      "oncelik": "P6",
+      "departman": "chief-of-staff",
+      "sorumlu_ajan": "chief-of-staff",
+      "onay_seviyesi": "A4",
+      "onay": null,
+      "bagimliliklar": [],
+      "beklenen_cikti": "Bora kararı",
+      "basari_kriteri": "Karar KARARLAR.md'de",
+      "azami_maliyet": "0",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "waiting_owner",
+      "en_erken": null,
+      "ilgili_dosyalar": [
+        "scripts/dogrula.py"
+      ],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": "Bora ile G-0001 onayında birlikte",
       "surum": 1
     }
   ],

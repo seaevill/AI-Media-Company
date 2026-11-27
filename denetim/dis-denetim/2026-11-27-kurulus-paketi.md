@@ -16,7 +16,7 @@ Sen bu girişimin bağımsız dış denetçisisin. Aşağıdaki sistem başka bi
 Kısa ve madde madde cevap ver; her eleştiriye bir "düşük maliyetli doğrulama yolu" ekle.
 
 ## A. Vizyon (özet)
-Kurucu (Bora, Yunanistan'da yaşıyor, Türk, mesleği nedeniyle zamanı kısıtlı) AI destekli bir dijital medya şirketi kuruyor. Amaç fenomen olmak değil, **fenomen yaratabilen** bir sistem: gerçek talebi araştır, ucuza test et, kazananı büyüt, kaybedeni ucuza değiştir, öğreneni hafızaya yaz. Kurucunun kişisel ilgi alanları (yat, spor, tarım) içerik kategorisi seçiminde ölçüt değil. Öncelik: 1) AI karakter/eğlence hesapları → 2) kitleyi gelire dönüştürme → 3) AI reklam stüdyosu → 4) micro-SaaS. Başarı ölçütü: tahsil edilmiş gelir; takipçi değil.
+Kurucu (AB'de yaşıyor, mesleği nedeniyle zamanı kısıtlı) AI destekli bir dijital medya şirketi kuruyor. Amaç fenomen olmak değil, **fenomen yaratabilen** bir sistem: gerçek talebi araştır, ucuza test et, kazananı büyüt, kaybedeni ucuza değiştir, öğreneni hafızaya yaz. Kurucunun kişisel ilgi alanları (yat, spor, tarım) içerik kategorisi seçiminde ölçüt değil. Öncelik: 1) AI karakter/eğlence hesapları → 2) kitleyi gelire dönüştürme → 3) AI reklam stüdyosu → 4) micro-SaaS. Başarı ölçütü: tahsil edilmiş gelir; takipçi değil.
 
 ## B. Kurulan sistem
 - Hafıza: private GitHub reposu (henüz yerelde; uzak repo kurucunun onayını bekliyor), Markdown + JSON + CSV.

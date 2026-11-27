@@ -56,7 +56,7 @@ Her biri ayrı bağlamda, diğerlerini görmeden değerlendirir; tahminleri ger�
 - Kazanan formatlar araç değil **karakter ve dünya** üzerine kurulu; sözsüz, dilden bağımsız, sabit kadrolu seriler en güçlü global kanıta sahip.
 - Platform fonları küçük; asıl gelir marka anlaşması, lisans, merch ve uzun format (doğrulanmış gelir verisi neredeyse yok).
 - Şablon tekrarı ve gerçekçi sahte içerik artık cezalandırılıyor (YouTube Temmuz 2026, Meta Mart 2026).
-**İlk İçerik Mahkemesi:** Üçüncü Kat 60,9 · Kayıp Eşya Bürosu 57,6 · Dağ Kileri 50,4 — hiçbiri "deney adayı" eşiğini geçmedi; ana aday Üçüncü Kat, önce kredisiz animatik. → `toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md`
+**İlk İçerik Mahkemesi** (tutanak Bekçi'nin ilk denetiminde düzeltme aldı, düzeltildi, ikinci denetim bekliyor): Üçüncü Kat 60,9 · Kayıp Eşya Bürosu 57,6 · Dağ Kileri 50,4 — hiçbiri "deney adayı" eşiğini geçmedi; ana aday Üçüncü Kat, önce kredisiz animatik. → `toplantilar/kararlar/2026-11-27-ilk-portfoy-mahkemesi.md`
 
 ## 8. Çalışmayan / eksik
 - **Uzak repo yok.** Tüm şirket şu an silinebilir bir bulut konteynerinde (yerel git). En acil risk.
@@ -70,7 +70,7 @@ Her biri ayrı bağlamda, diğerlerini görmeden değerlendirir; tahminleri ger�
 
 ## 9. Kullanılan kaynak
 - **Higgsfield: 0 kredi** (yalnızca bakiye, model listesi ve 10 fiyat tahmini okundu).
-- **Claude:** 15 alt ajan koşusu (4 araştırma, 2 kuru koşu, 1 kreatif, 5 mahkeme, 3 Bekçi) — alt ajanlar toplam ~2,4 milyon token + ana oturum. Parasal karşılığı **bilinmiyor** (abonelik; ALONI ile paylaşılan limitten düştü).
+- **Claude:** 14 alt ajan koşusu (4 araştırma, 2 kuru koşu, 1 kreatif, 5 mahkeme, 2 Bekçi) — alt ajanlar toplam ~2,5 milyon token + ana oturum. Parasal karşılığı **bilinmiyor** (abonelik; ALONI ile paylaşılan limitten düştü).
 - Nakit: 0 €.
 
 ## 10. Senden gereken kararlar

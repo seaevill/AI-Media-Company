@@ -5,6 +5,7 @@
 Görev: G-0008 · Gündem: `toplantilar/gundem/2026-11-27-{ucuncu-kat,dag-kileri,kayip-esya-burosu}.md` (kreatif-direktor).
 Bağımsız tur: Uzman, Creator, Tüketici, Muhalefet konseyleri **ayrı alt ajan bağlamlarında**, birbirlerinin çıktısını görmeden (`toplantilar/karsi-gorusler/2026-11-27-*.md`). Finans + Bekçi ön kontrolü ayrı bağlamda.
 Skor hesabı: `python3 -I scripts/mahkeme_skor.py` — önce konsey içi ortalama, sonra konseyler arası ortalama (kalabalık konsey baskın olmasın), MAHKEME.md ağırlıkları. Maliyet kriterine finansın puanı (5 / 6 / 7) eklendi.
+**Yöntem sınırları (Bekçi notu):** "Yorum" kriterinde Üçüncü Kat ve Dağ Kileri için yalnızca Muhalefet puan verdi, Kayıp Eşya için Tüketici de verdi (~+0,75 puan lehine). Betik bazı karma etiketleri (ör. "platform yerliliği / dikkat arbitrajı") anahtar kelimeyle eşliyor. Toplam etki < 1 puan, sıralama değişmiyor; ama Dağ Kileri ~50,1 ile bant sınırında.
 
 ## Skor tablosu (0–10 ortalamalar)
 | Kriter (ağırlık) | Üçüncü Kat | Dağ Kileri | Kayıp Eşya Bürosu |
@@ -27,7 +28,7 @@ Skor hesabı: `python3 -I scripts/mahkeme_skor.py` — önce konsey içi ortalam
 | Dağ Kileri | geliştir (ses testi önce) | geliştir | geliştir | **düşük öncelik** | ŞARTLI (en ağır) · 84/240/400 |
 | Kayıp Eşya Bürosu | geliştir (1 bölüm pilot) | düşük öncelik (metin kartı sözsüz ilkeyi bozuyor) | geliştir (sınırda) | geliştir (en özgün, en ucuz) | ŞARTLI · 56/159/255 (düzeltilmiş) |
 
-**Engel (ENGEL) yok.** Hiçbiri koşulsuz geçmedi.
+Finans+Bekçi **ön kontrolünde** engel (ENGEL) çıkmadı; hiçbiri koşulsuz geçmedi. Bu ön kontroldür; bağımsız Bekçi denetimi ayrıdır (`denetim/audit-logs/2026-11-27-ikinci-tur.md`).
 
 ## Karar (Chief of Staff)
 1. **Üçüncü Kat → ana aday, "geliştir + ucuz doğrulama".** En yüksek skor; iki konsey deney adayı diyor. Ama en zayıf kriteri **özgünlük (5,0)** ve Muhalefet'in en ölümcül eleştirisi doğru: üç bölüm de aynı "3/C koli" şakasıyla bitiyor → YouTube'un "generic/repetitive" tanımına tasarım gereği yaklaşıyor. Şartlar:
@@ -38,15 +39,18 @@ Skor hesabı: `python3 -I scripts/mahkeme_skor.py` — önce konsey içi ortalam
 3. **Dağ Kileri → düşük öncelik, arşiv adayı.** Paylaşılma (3,7) ve yorum (3,0) en düşük; talep kanıtı tek bir tarihsiz haber; "AI yemek zanaatı" Anti-AI/Skeptic profillerinde slop algısı yaratıyor; Li Ziqi estetiğine yakınlık riski. Ses kalitesi kanıtlanırsa yeniden açılabilir.
 
 ## Azınlık görüşleri (kayıt)
-- Creator (Hormozi, Trahan profilleri): Dağ Kileri B2B/marka geliri için en net yol (gelire dönüşme 5,3 — üçün en yükseği).
-- Uzman (özgünlük 8): Kayıp Eşya Bürosu en savunulabilir uzun vadeli IP.
-- Tüketici (Anti-AI, Unsubscriber): Üçüncü Kat "AI hayvan videosu" olarak algılanabilir; şablon ~5. bölümde tükenir.
+(Bekçi düzeltmesi 2026-11-27: önceki sürüm bir cümleyi Uzman Konseyi'ne yanlış atfediyordu ve Muhalefet'in azınlığını atlamıştı.)
+- **Muhalefet (Chaos Director, Anti-Trend):** Kayıp Eşya Bürosu üçü içinde "tek gerçek deney adayı" (muhalefet-konseyi.md ~s.306). Anti-Trend: ses testi geçerse Dağ Kileri ilk sıraya çıkabilir (~s.211).
+- **Creator (Hormozi, Trahan profilleri):** Dağ Kileri B2B/marka geliri için en net yol (Creator'ın kendi "gelire dönüşme" puanı 6; üç konseyin ortalaması 5,3).
+- **Uzman:** Kayıp Eşya Bürosu'na en yüksek özgünlük puanını (8) verdi (yorum Uzman'ın değil, tutanağındır: uzun vadeli IP için en savunulabilir olabilir).
+- **Tüketici (Anti-AI, Unsubscriber):** Üçüncü Kat "AI hayvan videosu" olarak algılanabilir; şablon ~5. bölümde tükenir.
 
 ## Ortak bulgular (üç konsept için)
 - Hiçbir fikirde gerçek performans verisi yok; tüm rakip kanıtı arama özeti (güven düşük-orta).
 - Üç dosya da "yedek arşiv + çoklu platform" öneriyor; ama aynı videoyu birden fazla hesaba yüklemek platform kurallarına aykırı → her platformda tek resmî hesap, platforma özel kurgu.
 - Modellerin 9:16 ve ses desteği ölçülmedi (özellikle Hailuo 2.3-fast).
-- Bandar Apna Dost (Üçüncü Kat'ın kanıtı) kitlesi çocuk/genç ağırlıklı; Üçüncü Kat'ın hedefi yetişkin → kanıt aktarımı zayıf.
+- **Hipotez (doğrulanmadı):** Bandar Apna Dost'un (Üçüncü Kat'ın kanıtı) kitlesi çocuk/genç ağırlıklı olabilir (Kart 8 hipotez alanı; Bekçi kitle dökümü bulamadı). Doğruysa yetişkin hedefli Üçüncü Kat'a kanıt aktarımı zayıflar.
+- Üçüncü Kat Bölüm 1'deki Türkçe "TESLİM ALINDI" damgası sözsüz/global iddiasıyla çelişiyor → G-0019'da yazısız ya da ikonik işarete çevrilecek.
 
 ## Kalibrasyon için tahminler (72 saat, kanal medyanına göre)
 Üçüncü Kat: Uzman benzer · Creator benzer · Tüketici benzer · Muhalefet benzer. Dağ Kileri: dördü de altında. Kayıp Eşya: dördü de altında (Tüketici: yorum oranı üstünde olabilir). → `konseyler/kalibrasyon.csv`.
