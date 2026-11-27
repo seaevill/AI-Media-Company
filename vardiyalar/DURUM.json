@@ -340,7 +340,7 @@
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": "Bora: 'G-0012 onay, max 80 kredi' derse produksiyon-maliyet çalışır",
+      "sonraki_guvenli_adim": "Plan: 3 referans görsel + 3 model, planlanan 56,5 kredi, tekrarlar dahil tavan 70, onay tavanı 80 (storyboard dosyası)",
       "surum": 1
     },
     {
@@ -518,8 +518,8 @@
       "basari_kriteri": "Mahkeme şartlarının hepsi karşılandı; Bekçi ONAY",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 1,
-      "durum": "needs_revision",
+      "deneme": 2,
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-ucuncu-kat-v2.md",
@@ -529,7 +529,7 @@
       ],
       "ilgili_pr": null,
       "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-G-0019.md @ 527ecc0): benchmark ~86 > 80 kredi onayı; cetvel tutarsız; tomruk.md bayat; özet satırları",
-      "son_calisma": "2026-11-27T16:20:00Z",
+      "son_calisma": "2026-11-27T16:35:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },

@@ -25,7 +25,7 @@ Kural: yazı yok (kare içi tabela/damga metni yok); tek istisna, K10'daki "3/C"
 **KOLİ (çekirdek):**
 `oversized plain cardboard parcel box, taller than the door frame, packing tape, blank white shipping label with no text`
 
-Prompt kuralı: **çekirdek (STİL + ilgili karakter çekirdekleri) hiç değişmez; yalnız "DEĞİŞKEN" satırı karedir.** Referans görseller (Nano Banana 2, A2) önce karakter başına 4 açı; video modelinde çekirdek metin referansla birlikte verilir.
+Prompt kuralı: **çekirdek (STİL + ilgili karakter çekirdekleri) hiç değişmez; yalnız "DEĞİŞKEN" satırı karedir.** Referans görseller (Nano Banana 2, A2) önce karakter başına 1 görsel (3/4, tam boy; bütçe §3); video modelinde çekirdek metin referansla birlikte verilir.
 
 ## 2. Kare kare storyboard (10 kare)
 
@@ -53,16 +53,36 @@ Not: K1–K10 toplam ≈ 20 sn; üretim klipleri A (K1–K4: 0–7), B (K5–K7:
 - 2–5: Koli bir kat süzülür; Cetvel metreyi uzatıp kaymayı ölçmeye çalışır; Tomruk hareketsiz; Anahtar damgayı havada tutar, kaşı kalkık.
 - 5–7: Metre sonuna gelir, kopar, uçar; koli Anahtar'ın ayağına yaklaşır, durur.
 
-**Prompt:** STİL + TOMRUK + CETVEL + ANAHTAR çekirdeği + MEKÂN + KOLİ + K6/K7 değişken satırı birleşimi. Aynı prompt ve aynı referans görseller 3 modelde; model başına tek üretim (G-0007: Hailuo 2.3-fast ≈ 4, Seedance 2.0 Mini ≈ 8, Seedance 2.5 varsayılan ≈ 56 → ~68 kredi; azami 80, A2 onayı Bora).
+**Prompt:** STİL + TOMRUK + CETVEL + ANAHTAR çekirdeği + MEKÂN + KOLİ + K6/K7 değişken satırı birleşimi. Aynı prompt ve aynı referans görseller 3 modelde; model başına **tek** üretim (G-0007 tahminleri).
+
+**Benchmark bütçesi (G-0019 düzeltme 1; G-0012 tavanı azami 80 kredi, A2 onayı Bora; planlanan toplam ≤ 70, ≥ 10 kredi başarısız üretim payı):**
+Seçim ve gerekçe: (a) referans görsel **karakter başına 1** (tek, 3/4 görünüm, tam boy) = 3 × 1,5; 4 açı yerine 1 görsel, çünkü benchmark tek sahne ölçer ve çok açı bütçeyi 18'e çıkarıyordu; (b) üçüncü model Seedance 2.5 varsayılan (56) yerine **Seedance 2.5 Flash** (40): aynı aile, 720p ve ses korunur (Biçim kriteri ölçülebilir); taslak 480p (24) 720p okunurluk ölçütünü bozacağı için seçilmedi.
+
+| Kalem | Birim tahmin | Adet | Kredi |
+|---|---:|---:|---:|
+| Referans görsel: Nano Banana 2 1k (Tomruk, Cetvel, Anahtar; karakter başına 1) | 1,5 | 3 | 4,5 |
+| Video: Hailuo 2.3-fast, 6 sn, 768p | 4 | 1 | 4 |
+| Video: Seedance 2.0 Mini, 8 sn, 720p, ses açık | 8 | 1 | 8 |
+| Video: Seedance 2.5 Flash, 8 sn, 720p, ses | 40 | 1 | 40 |
+| **PLANLANAN TOPLAM** | | | **56,5** |
+| Tavan altı pay (80 − 56,5) | | | 23,5 |
+| Planlanan tavan (≤ 70) içinde tekrar payı (70 − 56,5) | | | 13,5 |
+
+Tahminler `produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md` (gerçek fatura ≠ tahmin olabilir; ilk üretimde `tahmini_kredi` ↔ `gercek_kredi` karşılaştırılır).
+
+**İlk deneme başarısız çıkarsa:**
+- Başarısızlık iki ayrı şeydir. **Kalite başarısızlığı** (üretim tamamlandı, puan düşük) tekrar sebebi **değildir**: o model için sonuç veridir, benchmark.csv'ye yazılır; tekrar yok.
+- **Teknik başarısızlık** (iş hata verdi, boş/bozuk dosya, 9:16 yerine letterbox, ses yok): yalnızca ucuz kalemler için **en fazla 1 tekrar** (referans görsel 1,5; Hailuo 4; Seedance 2.0 Mini 8). Seedance 2.5 Flash (40) teknik hatada da **tekrar edilmez**; durulur, Bora'ya hata kaydı ve yeni onay talebi gider.
+- Tekrarlar dahil **toplam harcama 70'i geçemez**; 70'e ulaşılırsa ya da bir tekrar da başarısız olursa **durulur** ve rapor edilir. 80 hiçbir koşulda aşılmaz. Referans görseller kullanılamazsa üç videoya geçilmez (referanssız sonuç ölçüt dışı).
 
 **Ne ölçülür** (her madde 0–2: 0 bozuk, 1 kısmen, 2 doğru; hipotez eşikleri, Bible'daki "eşik yok" boşluğunu doldurur):
 
 | Boyut | Madde | Puan |
 |---|---|---|
-| **Karakter tutarlılığı** (15) | Tomruk: yuvarlak silüet, yarı kapalı göz, turuncu yelek, kulak çentiği, çanta (5 çapa; her biri 0–2 → 10) → en az 3 çapa okunur sayılır | 0–2 × 5 |
-| | Cetvel: kiremit-pembe S boyun silüeti, şerit metre, gözlük, yelek, gaga çizgisi | 0–2 × 5 |
-| | Anahtar: kemik-beyaz silüet, lacivert blazer, anahtar halkası, damga ikonu, gaga çentiği | 0–2 × 5 |
-| | Klip içinde ve başlangıç/son karesinde karakterlerin birbirine **karışmaması** (kimlik kayması) | 0–2 |
+| **Karakter tutarlılığı** (32 = 3 × 10 + 2) | Tomruk: yuvarlak silüet, yarı kapalı göz, turuncu yelek, kulak çentiği, çanta (5 çapa; her biri 0–2 → en çok 10) | 0–2 × 5 (en çok 10) |
+| | Cetvel: kiremit-pembe S boyun silüeti, şerit metre, gözlük, yelek, gaga çizgisi | 0–2 × 5 (en çok 10) |
+| | Anahtar: kemik-beyaz silüet, lacivert blazer, anahtar halkası, damga ikonu, gaga çentiği | 0–2 × 5 (en çok 10) |
+| | Klip içinde ve başlangıç/son karesinde karakterlerin birbirine **karışmaması** (kimlik kayması) | 0–2 (en çok 2) |
 | **Hareket** (10) | Koli kayma fiziği (süzülme/eğim, havada asılı kalmama) | 0–2 |
 | | Şerit metre: sarkma, kopma, uçma (nesne sürekliliği) | 0–2 |
 | | Üç karakterin aynı karede bağımsız hareketi; uzuv/boyun deformasyonu yok (flamingo boynu, kaz kanadı + damga) | 0–2 |
@@ -71,10 +91,11 @@ Not: K1–K10 toplam ≈ 20 sn; üretim klipleri A (K1–K4: 0–7), B (K5–K7:
 | **Ses** (6) | Mekân sesi (floresan, karton, metal korkuluk) görüntüye senkron | 0–2 |
 | | Karakter imzaları (halka şıngırtısı, metre çıtırtısı, nefes) duyulur ve karışmaz | 0–2 |
 | | Müzik/konuşma/üretilmiş "yazı" yok (istenmeyen eklenti = 0) | 0–2 |
+| **TOPLAM (puanlı boyutlar)** | 32 + Hareket 10 + Ses 6 | **en çok 48** |
 | **Biçim** (bilinen boşluk) | 9:16 dikey gerçekten üretildi mi (letterbox yok), 720p okunurluk, süre ≥ 6 sn | geçti/kaldı |
 | **Kredi** | kullanılabilir saniye başına kredi (G-0007 yöntemi) | sayı |
 
-**Geçme önerisi (hipotez, Bora/Chief onayına tabi):** toplam ≥ 24/31 **ve** her üç karakterde ≥ 3 çapa okunur **ve** kimlik kayması 0 puan değil **ve** 9:16 geçti. En iyi model, geçerse A2 onayıyla Bölüm 1–3 üretimine (9 klip) taşınır; hiçbiri geçmezse tek karakterli sürüme (Muhalefet R1) dönülür. Tek örnek: sonuç kesin değil, yöntem bilgisidir (Kalite Standartları 11).
+**Geçme önerisi (HİPOTEZ: ölçülmüş eşik değil, yaklaşık %70; Bora/Chief onayına tabi, Benchmark sonrası gözden geçirilir):** toplam ≥ 34/48 **ve** her karakterin tutarlılık puanı ≥ 6/10 (≈ 3 çapa tam okunur) **ve** kimlik kayması puanı ≥ 1/2 **ve** 9:16 geçti. En iyi model, geçerse A2 onayıyla Bölüm 1–3 üretimine (9 klip) taşınır; hiçbiri geçmezse tek karakterli sürüme (Muhalefet R1) dönülür. Tek örnek: sonuç kesin değil, yöntem bilgisidir (Kalite Standartları 11).
 `benchmark.csv`'ye gerçek kredi ve puanlar yalnızca üretimden sonra yazılır.
 
 ## 4. Açık noktalar

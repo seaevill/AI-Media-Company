@@ -11,8 +11,8 @@ Bilgi sınıfı notu: bu dosyadaki her bölüm planı **hipotez**dir; çakışma
 
 | # | v1 | v2 | Karşılanan şart (kaynak) |
 |---|---|---|---|
-| 1 | Üç bölüm de "koli → 3/C" etiketiyle ve yüz tepkisiyle (punchline gibi) bitiyordu | Her bölüm **farklı tür** bir sonla biter; koli yalnızca **bağlayıcı ipucu** (nesne, ses, iz, mekân, içerik); okunabilir "3/C" yalnızca 5 bölümün 2'sinde | Karar §1: "bölüm sonlarını çeşitlendir; koli bağlayıcı ipucu olarak kalsın, punchline olmasın"; Muhalefet: "koli şakası en fazla 1/3 bölümde" |
-| 2 | Bölüm 1 sonunda Türkçe "TESLİM ALINDI" damgası; tabela metni (çamaşırhane saat tabelası) | Yazılı metin yok. Anahtar'ın damgası **ikonik işaret**: halka içinde anahtar deliği. Tabelalar piktogram | Karar "Ortak bulgular": damga yazısız/ikonik olacak; Tüketici (Global Viewer): damga dili engel |
+| 1 | Üç bölüm de "koli → 3/C" etiketiyle ve yüz tepkisiyle (punchline gibi) bitiyordu | Her bölüm **farklı tür** bir sonla biter; koli yalnızca **bağlayıcı ipucu** (nesne, ses, iz, mekân, içerik); okunabilir "3/C" yalnızca 5 bölümün 2'sinde (B1 ve B5) | Karar §1: "bölüm sonlarını çeşitlendir; koli bağlayıcı ipucu olarak kalsın, punchline olmasın"; Muhalefet: "koli şakası en fazla 1/3 bölümde" |
+| 2 | Bölüm 1 sonunda Türkçe "TESLİM ALINDI" damgası; tabela metni (çamaşırhane saat tabelası) | Konuşma/altyazı/tabela metni yok; **tek istisna: B1 ve B5'te okunur "3/C" kodu** (etiket/plaka; glif alternatifi §4). Anahtar'ın damgası **ikonik işaret**: halka içinde anahtar deliği. Tabelalar piktogram | Karar "Ortak bulgular": damga yazısız/ikonik olacak; Tüketici (Global Viewer): damga dili engel |
 | 3 | Cetvel "pembe flamingo", açılışta genel pastel olasılığı, ses/müzik tanımsız | Palet: mat, doygunluğu düşük (kurşun yeşili, toprak, kiremit, lacivert); Cetvel tozlu kiremit-pembe; **çocuk müziği ve müzik yok**, yalnızca mekân sesi; "çocuklara özel değil" platform işareti + yetişkin durumlar | Karar §1: "pastel/şeker renk yok, çocuk müziği yok, 'çocuklara özel değil' işareti" |
 | 4 | 3 bölüm taslak | **5 bölümlük taslak sezon yayı** + bölümler arası fark tablosu (mekân, çatışma türü, kazanan karakter, son türü) | Muhalefet: şablon tekrarı; Tüketici: ~5. bölümde tükenme; Karar §1 |
 | 5 | Bölüm 2/3 açılışları okunaklı değil (tek çorap, karanlık asansör) | Her bölüm açılışı tek bakışta okunur (iki sepet/tek makine; kırmızı acil ışıkta üç yüz); karanlık = kırmızı ışık, kara ekran yalnızca 1 bölümde ve bilinçli | Tüketici "en büyük risk" notu |
@@ -29,7 +29,7 @@ Kategori / format: Sözsüz, sabit kadrolu fiziksel komedi mini sitkomu. Dikey 9
 Bir cümlede: Eski bir apartmanın üçüncü katında komşu üç hayvan (bitkin gece kuryesi vombat Tomruk, ölçü takıntılı flamingo Cetvel, kayıt tutan kaz yönetici Anahtar) her bölümde **farklı bir mekânda, farklı türde bir çatışma** yaşar; binada hiç var olmayan "3/C" dairesine ait izler her bölümde başka biçimde ortaya çıkar.
 İlk 2 saniye (açılış hipotezi, Bölüm 1): koridorda sabaha karşı, yüzü kolinin üzerine yapışık, kapısı tıkalı bir vombat. Hipotez: engelin kendisi kanca.
 Hedef tüketici: 18–45, sözsüz mizaha açık global izleyici. **Hipotez (doğrulanmadı):** Bandar Apna Dost kitlesi çocuk/genç ağırlıklı olabilir; yetişkin kitle için ayrı kanıt yok. Yayında analitikte yaş dağılımı ilk ölçülecek veridir.
-Dil bağımlılığı: **sözsüz ve yazısız** (konuşma yok, altyazı yok, tabela yok; yalnızca piktogram ve "3/C" kodu: bkz. §4 not).
+Dil bağımlılığı: **sözsüz; yazısız, ancak B1 ve B5'te okunur "3/C" kodu hariç** (konuşma yok, altyazı yok, tabela metni yok; piktogram var; "3/C" B1'de etikette, B5'te plakada okunur: bkz. §4 not).
 
 ## 3. Görsel ve ses dili (yetişkin kodlu)
 
@@ -149,10 +149,10 @@ Yöntem: Claude Code WebSearch (standart mod), 2026-11-27. **Sınır:** arama ö
 
 ## 9. Tahmini üretim (kaynak: `produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md`; hiçbir kredi harcanmadı)
 - Model (planlanan): Seedance 2.0 Mini, 8 sn, 720p, ses açık, 9:16: 8 kredi/klip (tahmin). Referans görsel: Nano Banana 2 1k, 1,5 kredi/görsel.
-- **Önerilen kapsam (v1 ile aynı kredi zarfı):** üretime yalnızca **Bölüm 1–3** (9 klip) ve 12 referans görsel; Bölüm 4–5 kâğıtta kalır, ilk üç bölümün tutarlılık ve ses verisi gelene kadar. Hesap: 9 × 8 = 72 + 12 × 1,5 = 18 → **90 kredi taban; ~252 orta; ~165–400 aralık** (v1 varsayımı: 3 deneme/klip; ölçülmedi, benchmark.csv boş).
-- Beş bölümün tamamı olursa (15 klip, 3 deneme/klip): 360 + 36 referans = **~396 kredi** orta nokta; 2–5 deneme için **~276–636** (varsayım).
+- **Önerilen kapsam (v1 ile aynı 9 klip; kredi yeniden hesaplandı):** üretime yalnızca **Bölüm 1–3** (9 klip) ve **3 referans görsel** (karakter başına 1; benchmark'ta üretilen görseller yeniden kullanılır); Bölüm 4–5 kâğıtta kalır, ilk üç bölümün tutarlılık ve ses verisi gelene kadar. Hesap (Seedance 2.0 Mini varsayımıyla): 9 × 8 = 72 + 3 × 1,5 = 4,5 → **~76,5 kredi taban (1 deneme/klip); 3 deneme/klip ~220,5 orta; 2–5 deneme ~148,5–364,5 aralık** (deneme sayısı varsayım; ölçülmedi, benchmark.csv boş). G-0012 benchmark (≈56,5) bu rakamlara dahil değildir, ayrı kalemdir.
+- Beş bölümün tamamı olursa (15 klip, 3 deneme/klip): 360 + 4,5 referans = **~364,5 kredi** orta nokta; 2–5 deneme için **~244,5–604,5** (varsayım; referans yeniden kullanılır, Bölüm 4–5 ek karakter/açı gerektirirse artar).
 - Her platform için ayrı kesim gerekirse ek maliyet doğar (platform kuralları §6); henüz hesaba katılmadı.
-- Ön koşul: G-0012 benchmark (azami 80 kredi, A2, Bora). Test sahnesi: `produksiyon/storyboard/2026-11-27-ucuncu-kat-b1.md`.
+- Ön koşul: G-0012 benchmark (azami 80 kredi; **planlanan 56,5, ≤ 70 hedef**, A2, Bora; kalem kalem tablo ve başarısızlık kuralı storyboard §3). Test sahnesi: `produksiyon/storyboard/2026-11-27-ucuncu-kat-b1.md`.
 - Bilinmeyenler: Seedance 2.0 Mini'nin üç karakteri tutarlı tutması, ses kalitesi, 9:16 desteği, damga/etiket gibi küçük ayrıntıların modelde okunabilirliği ("3/C" metni modelde değil **kurgu aşamasında** eklenecek; "yazı yok" kuralı korunur, yalnız Bölüm 1 ve 5'te kod okunur).
 
 ## 10. Gelir hipotezi (hepsi hipotez)

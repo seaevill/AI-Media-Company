@@ -1,6 +1,6 @@
 # Character Bible — Tomruk (TASLAK)
-Kaynak: manifesto §22. Durum: **taslak / aday** (2026-11-27, G-0008). Üretim, referans görseli, yayın ve Bekçi denetimi yok. Bilinmeyen alanlar "henüz yok".
-Bağlı gündem: `toplantilar/gundem/2026-11-27-ucuncu-kat.md`
+Kaynak: manifesto §22. Durum: **taslak / aday** (2026-11-27, G-0008). Üretim, referans görseli, yayın yok. **G-0019 düzeltme 1 (2026-11-27): v2 ile uyumlu hale getirildi** (3/B daire, Cetvel aynı kat, yazısız Anahtar, damga espirisi). Bilinmeyen alanlar "henüz yok".
+Bağlı gündem: `toplantilar/gundem/2026-11-27-ucuncu-kat-v2.md` (v1 `...-ucuncu-kat.md` eski, silinmedi)
 
 ## Kimlik
 - Ad: Tomruk
@@ -28,10 +28,10 @@ Bağlı gündem: `toplantilar/gundem/2026-11-27-ucuncu-kat.md`
 - Jest ve mimikler: yarı kapalı göz; sinirli burun kırışması; pes edince omuz düşmesi.
 - İmza davranış: bir engelle karşılaşınca önce yüzünü dayar, bir süre iter, sonra pes edip engelin üstüne oturur.
 - Mizah biçimi: yorgun adamın sabrı; sessiz tahammül; fiziksel komedi.
-- Tekrarlanan espriler: koli etiketi "3/C"; damga yemesi; Cetvel'in ölçümlerinden kaçışı.
+- Tekrarlanan espriler: koli ipucu "3/C" (okunur etiket/plaka yalnız B1 ve B5'te; diğer bölümlerde ses/iz/boş kutu); Cetvel'in ölçümlerinden kaçışı. (v1'deki "damga yemesi" çıkarıldı: v2'de Tomruk damga yemez; B1'de Anahtar'ın damgası havada kalır, B4'te iz çıkmaz.)
 - Diğer karakterlerle ilişki (kısa; ayrı Bible'lar henüz yok):
-  - **Cetvel** (flamingo, takıntılı düzenli komşu; üst kat): Tomruk'un karşıtı; sessiz çatışma.
-  - **Anahtar** (kaz, apartman yöneticisi): damga ve tabelayla iletişim; otorite.
+  - **Cetvel** (flamingo, takıntılı düzenli komşu; **aynı kat, 3/A**, Tomruk'un yan dairesi): Tomruk'un karşıtı; sessiz çatışma.
+  - **Anahtar** (kaz, apartman yöneticisi): yazıyla iletişim kurmaz; halka-anahtar deliği biçimli **ikonik damga** ve halka şıngırtısı; otorite.
 - **Asla yapmayacakları:** konuşmak; şiddet uygulamak veya şiddete maruz kalmak (komik düşme dışında); bir hayvan/insanın gerçek acısı; çocuklarla etkileşim; gerçek marka ürünü kullanmak; politik/dinî/sağlık/finans mesajı; gerçek kişiye benzemek.
 
 ## Üretim

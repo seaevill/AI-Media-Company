@@ -61,4 +61,4 @@ Bağlı gündem: `toplantilar/gundem/2026-11-27-ucuncu-kat-v2.md` (v1: `...-ucun
 | — | henüz yok | henüz yok | henüz yok | henüz yok |
 
 ## Not (Chief of Staff'a)
-`karakterler/adaylar/tomruk.md` içinde Cetvel "üst kat" diye geçiyor; gündem v1 de "üst kattan" diyordu. v2 kurgusunda Cetvel **3/A** (aynı kat, Tomruk'un yan dairesi); B1'de merdiven korkuluğundan sarkar. Tomruk dosyası güncellenmedi (bu görevin kapsamı dışında).
+`karakterler/adaylar/tomruk.md` içinde Cetvel "üst kat" diye geçiyor; gündem v1 de "üst kattan" diyordu. v2 kurgusunda Cetvel **3/A** (aynı kat, Tomruk'un yan dairesi); B1'de merdiven korkuluğundan sarkar. Tomruk dosyası G-0019 düzeltme turu 1'de v2 ile uyumlu hale getirildi (2026-11-27).
