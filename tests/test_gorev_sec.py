@@ -20,6 +20,7 @@ def durum(*gorevler, simdi=None, gunluk=None):
 sonuclar = []
 def test(ad, kosul):
     sonuclar.append((ad, kosul)); print(("GEÇTİ " if kosul else "KALDI ") + ad)
+test.__test__ = False  # pytest bunu test sanmasın
 
 r = gs.sec(durum(g("G-1", oncelik="P5"), g("G-2", oncelik="P3")), CFG, T)
 test("öncelik sırası: P3, P5'ten önce", r["gorev"]["id"] == "G-2")
@@ -61,4 +62,11 @@ test("ipucu eşleşmezse gerekçe bunu söyler", "ipucu etkisiz" in r["gerekce"]
 
 kalan = [a for a, k in sonuclar if not k]
 print(f"{len(sonuclar)-len(kalan)}/{len(sonuclar)} geçti")
-sys.exit(1 if kalan else 0)
+
+
+def test_gorev_sec_hepsi():  # pytest toplayıcısı için; doğrudan çalıştırma davranışı aynı
+    assert not kalan, kalan
+
+
+if __name__ == "__main__":
+    sys.exit(1 if kalan else 0)
