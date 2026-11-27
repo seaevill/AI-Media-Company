@@ -1,0 +1,59 @@
+{
+  "_aciklama": "Çalışma sıklığı, günlük sınırlar ve bütçe için TEK doğruluk kaynağı. YONETICI.md ve diğer dosyalar sayı yazmaz, buraya bakar. ALONI'de aynı bilginin iki dosyada farklı yazılması (3 saat / saatlik yoğun mod, sınır 4 / 12) tekrarlanmasın diye. Yalnızca Bora değiştirir; her değişiklik KARARLAR.md'ye satır olarak yazılır.",
+  "surum": "1.0",
+  "guncelleme": "2026-11-27",
+  "saat_dilimi": "Europe/Athens",
+  "zamanlayici": {
+    "durum": "pasif",
+    "durum_notu": "Bora onayı (A3) ve uzak repo kurulmadan etkinleştirilmez. ALONI dersi: repo kaynağı eklenmemiş zamanlanmış görev repoya 403 alıyor.",
+    "aralik_saat": 3,
+    "cron_onerisi": "CRON_TZ=Europe/Athens 7 */3 * * *",
+    "yogun_mod": null
+  },
+  "vardiya_ipuclari": {
+    "_not": "Görev seçiminde eşitlik bozucu. Öncelik sırasının (P0-P7) yerini tutmaz.",
+    "00-03": "pazar-istihbarati",
+    "03-06": "pazar-istihbarati",
+    "06-09": "kreatif-direktor",
+    "09-12": "produksiyon-maliyet",
+    "12-15": "bekci",
+    "15-18": "kreatif-direktor",
+    "18-21": "analitik-gelir",
+    "21-24": "chief-of-staff"
+  },
+  "limitler": {
+    "gunluk_kosu_azami": 8,
+    "gunluk_ajanli_kosu_azami": 4,
+    "kosu_basina_gorev": 1,
+    "alt_ajan_kosu_basina": 6,
+    "bekci_duzeltme_hakki": 2,
+    "gorev_deneme_azami": 2,
+    "kilit_bayatlama_dakika": 150,
+    "etkilesimli_oturum_sessizlik_dakika": 45
+  },
+  "butce": {
+    "para_birimi": "EUR",
+    "genel_harcama_yetkisi": false,
+    "higgsfield": {
+      "plan_gozlenen": "ultra",
+      "bakiye_gozlenen": 1935.39,
+      "bakiye_tarihi": "2026-11-27",
+      "onayli_kredi_toplam": 0,
+      "harcanan_kredi_toplam": 0,
+      "deney_basina_varsayilan_azami": null,
+      "_not": "Her A2 onayı deney bazında azami kredi içerir. Önerilen dağılım finans/BUTCE.md'de; onaylanana kadar 0."
+    },
+    "kling": { "onayli_kredi_toplam": 0, "_not": "Bağlantı bu oturumda bağlanamadı/denenmedi." },
+    "nakit_harcama_onayli_eur": 0
+  },
+  "modeller": {
+    "varsayilan": "sonnet",
+    "basit_tarama": "haiku",
+    "gerekce_ile": "opus"
+  },
+  "dis_denetim": {
+    "chatgpt_otomatik_baglanti": false,
+    "siklik": "haftalık + her A3 öncesi kritik karar",
+    "paket_yeri": "denetim/dis-denetim/"
+  }
+}
