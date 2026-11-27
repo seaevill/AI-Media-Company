@@ -659,12 +659,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "istihbarat/pazar-firsatlari/2026-11-27-isim-secimi.md"
+      ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": null,
+      "bekci_karari": "Bekçi bekliyor (bir sonraki denetim partisi)",
+      "son_calisma": "2026-11-27T18:10:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -677,7 +679,7 @@
       "departman": "kreatif-direktor",
       "sorumlu_ajan": "kreatif-direktor",
       "onay_seviyesi": "A2",
-      "onay": "Bora, 2026-11-27, plan kredisi kalıcı yetki (K-019)",
+      "onay": "Bora, 2026-11-27, kalıcı yetki K-019 (max: plan içi kredi; tek iş >100 kredi önce bilgi)",
       "bagimliliklar": [
         "G-0023"
       ],
@@ -732,6 +734,19 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0009"
+    },
+    {
+      "id": "K-B10",
+      "soru": "Çalışma adı 'Unit 3C' (yedek 'Landing 3'). @unit3c TikTok ve YouTube'da boş görünüyor (kesin değil). Hesapları sen mi açarsın, yoksa açma talimatı verir misin? (Hesap açmak A3.)",
+      "secenekler": [
+        "Ben açarım",
+        "Sonra",
+        "Başka ad"
+      ],
+      "oneri": "Boş görünen kullanıcı adlarını yayın yapmadan erkenden ayırt; ilk yayın kararı ayrı",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0013"
     }
   ]
 }
