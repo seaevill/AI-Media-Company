@@ -519,7 +519,7 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 1,
-      "durum": "review",
+      "durum": "needs_revision",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-ucuncu-kat-v2.md",
@@ -528,8 +528,8 @@
         "produksiyon/storyboard/2026-11-27-ucuncu-kat-b1.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T16:00:00Z",
+      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-G-0019.md @ 527ecc0): benchmark ~86 > 80 kredi onayı; cetvel tutarsız; tomruk.md bayat; özet satırları",
+      "son_calisma": "2026-11-27T16:20:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
