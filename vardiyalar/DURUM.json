@@ -8,7 +8,7 @@
     "kosu": 1,
     "ajanli_kosu": 2
   },
-  "simdi": "G-0026",
+  "simdi": null,
   "sayac": {
     "son_gorev_no": 26,
     "son_deney_no": 0
@@ -689,8 +689,8 @@
       "basari_kriteri": "Senaryo + storyboard Bora'ya sunulur",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
-      "durum": "review",
+      "deneme": 1,
+      "durum": "needs_revision",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-unit3c-pilot.md"
@@ -717,16 +717,17 @@
       "beklenen_cikti": "2 kısa video + kredi/benchmark kaydı",
       "basari_kriteri": "Bora'nın tepkisi: komik mi?",
       "azami_maliyet": "35 kredi",
-      "gercek_maliyet": null,
+      "gercek_maliyet": "22 kredi",
       "deneme": 1,
-      "durum": "in_progress",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
-        "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
+        "produksiyon/model-testleri/2026-11-27-G-0026-icerik-sonuc.md",
+        "finans/kredi-kayitlari.csv"
       ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": "2026-11-27T19:00:00Z",
+      "son_calisma": "2026-11-27T19:45:00Z",
       "sonraki_guvenli_adim": "Bora: 'G-0026 onay, max 35 kredi'",
       "surum": 1
     }
