@@ -1,0 +1,49 @@
+Anahtar: J=B1 (beceri), K=A1 (beceri yok), L=A2 (beceri yok), M=B2 (beceri)
+
+**Kör puanlama: flash ve kapiA, 4 çıktı (J, K, L, M)**
+
+Kaynak: yalnızca anahtar dosyası ve dört çıktı dosyası. Hepsi OKUDUM; video ya da kare açmadım.
+
+**HIT / HALF / MISS ve alıntılar** (ağırlıklar: F1=1, F2=0,5, F3=0,5, A1=1, A2=1; toplam 4,0)
+
+| Hata | J | K | L | M |
+|---|---|---|---|---|
+| F1 metre yok oluyor (6,6–7,3) | HIT "sarı parçacıklara dağılıp havada eriyor" (6,6–7,6) | HIT "havada dumana ya da parçacığa dönüp siliniyor" (6,7–7,3) | HIT "Yarı saydamlaşıp havada eriyor" (6,67–7,00) | HIT "toz gibi dağılarak yok oluyor" (6,9–7,4) |
+| F2 merdiven geometrisi | MISS | MISS | MISS | MISS |
+| F3 koli süzülüyor | HALF ("yüzen nesne şüphesi") | HIT* "Koli merdivenden kaymıyor, süzülüyor" | HIT* "Yüzen nesne … düz bir şekilde süzülüyor" | HALF ("yüzme şüphesi") |
+| A1 dönüş morfu (2,0–2,6) | HIT "yandan görünümden tam karşıdan görünüme dönüyor" (2,1–2,5) | HIT "gaga biçimi ve rengi ile yüz yapısı … değişiyor" (2,3–2,8) | HIT "180° dönüp … gövde ve boyun şekil değiştiriyor" (2,25–2,67) | HIT "insan eldiveni gibi eller" (2,1–2,6) |
+| A2 kapıya yaslanma (2,5–4,0) | HIT "sırtını KAPIYA yaslayıp duruyor" | HIT "sırtını kapıya yaslayıp orada kalıyor" | HIT "Dönüp sırtını kapıya yaslıyor" | HIT "sırtını aynı kapıya yaslıyor" |
+| **Ağırlıklı recall** | **3,25/4 = 0,81** | **3,5/4 = 0,875** | **3,5/4 = 0,875** | **3,25/4 = 0,81** |
+
+\*K ve L bu hatayı "şüphe" diye değil, doğrudan hata olarak yazdı. Güven "orta", yorum ise "TAHMİN" etiketli. Bunu HIT saydım. HALF sayılırsa K ve L'nin recall'u 0,81'e iner.
+
+**Yanlış pozitifler** (anahtarda karşılığı olmayan iddialar)
+- J (5): ters derinlik (7,1–7,5) †; metre kutusu yok, metre vombatın kafasına bağlı; okunurluk (6,6) †; flamingo hareketsiz; anahtarlık sıçraması †
+- K (5): metre yeniden beliriyor ve morf oluyor (7,2–7,8) †; metre ucu vombatın kafasına giriyor; damga sapı dönüyor; anahtar halkası zıplıyor †; itme zayıf okunuyor
+- L (4): metre kafaya girip önünde yeniden beliriyor (6,92–7,9) †; kilit an zayıf †; kapı alt panelleri morf (2,08–2,25); "küçük risk": gaga kapıya çok yakın
+- M (3): kaybolma–belirme ve ters derinlik (7,2–7,6) †; okunurluk (6,4–6,9) †; omuz kapıya gömülme şüphesi (3,0–4,1)
+
+† = "muhtemel gerçek, anahtarda yok" (en az 3 çıktıda var):
+- Metre parçasının vombatın ve kolinin önünde yeniden belirmesi / ters derinlik, yaklaşık 7,1–7,8 sn: 4/4 çıktı.
+- Kopma anının okunmaması, yaklaşık 6,4–7 sn: J, L, M ayrı hata olarak yazdı (K bunu F1'in içinde söylüyor).
+- Anahtarlığın yer değiştirmesi, yaklaşık 2,2–2,6 sn: J, K ayrı hata olarak, M morf maddesinin içinde. M'de ayrı iddia olmadığı için FP saymadım.
+
+**Precision** (ağırlıksız; HIT=1, HALF=0,5)
+
+| | J | K | L | M |
+|---|---|---|---|---|
+| Hit | 3,5 | 4 | 4 | 3,5 |
+| † dahil (tüm FP) | 3,5/8,5 = 0,41 | 4/9 = 0,44 | 4/8 = 0,50 | 3,5/6,5 = 0,54 |
+| † hariç | 3,5/5,5 = 0,64 | 4/7 = 0,57 | 4/6 = 0,67 | 3,5/4,5 = 0,78 |
+
+**Kararlar** (doğru cevap: iki videoda da ENGEL VAR)
+- J: VAR / VAR, doğru
+- K: VAR / **BELİRSİZ**, kapiA yanlış
+- L: VAR / VAR, doğru
+- M: VAR / VAR, doğru
+
+**Ses:** Dört çıktının dördü de sesin dinlenmediğini açıkça yazıyor.
+
+**Sınırlar:**
+- Anahtar eksiksiz değil ve F3 için HIT/HALF ayrımı yoruma dayanıyor. J'nin "flamingo hareketsiz", L'nin "küçük risk" maddeleri sınırda; ben iddia sayıp FP'ye ekledim.
+- Sayılar 2 video ve 4 çıktıdan geliyor, istatistiksel güç çok düşük. Videoları görmediğim için iddiaların doğruluğunu ben kontrol etmedim.

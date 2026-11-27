@@ -1,0 +1,85 @@
+{
+ "_kural": "Bir hata 'kesin' sayılır: en az iki bağımsız kaynak (Bora, VIU-A, VIU-B, CoS 12fps doğrulama, ffprobe) aynı türü aynı zaman aralığında bildirdiyse. Tolerans ±0.6 sn.",
+ "hatalar": [
+  {
+   "id": "F1",
+   "video": "flash",
+   "t": [
+    6.6,
+    7.3
+   ],
+   "tur": "nesne sürekliliği",
+   "tanim": "şerit metre havada dağılıp yok oluyor, yere düşmüyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  },
+  {
+   "id": "F2",
+   "video": "flash",
+   "t": [
+    0,
+    8
+   ],
+   "tur": "geometri",
+   "tanim": "merdiven boşluğu geometrisi tuhaf (ortada elmas/mercek biçimli duvar paneli)",
+   "kaynak": [
+    "VIU-A (engel)",
+    "VIU-B (tuhaf, engel değil)"
+   ],
+   "agirlik": 0.5,
+   "set": "yeni"
+  },
+  {
+   "id": "F3",
+   "video": "flash",
+   "t": [
+    0,
+    8
+   ],
+   "tur": "fizik/yerçekimi",
+   "tanim": "koli hafif süzülüyor, basamak teması zayıf",
+   "kaynak": [
+    "VIU-B",
+    "VIU-A (kayma niyeti zayıf)"
+   ],
+   "agirlik": 0.5,
+   "set": "yeni"
+  },
+  {
+   "id": "A1",
+   "video": "kapiA",
+   "t": [
+    2.0,
+    2.6
+   ],
+   "tur": "morf/atlama",
+   "tanim": "kaz ~0.3 sn'de yan profilden öne dönüyor; eller parmaklıdan yumru/eldivene geçiyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  },
+  {
+   "id": "A2",
+   "video": "kapiA",
+   "t": [
+    2.5,
+    4.0
+   ],
+   "tur": "niyet",
+   "tanim": "kaz sola/duvara değil kapının önüne geri çekilip kapıya yaslanıyor",
+   "kaynak": [
+    "VIU-A",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+## Pazar araştırması: yapay zekâyla üretilmiş, konuşmasız hayvan/nesne karakterli kısa animasyon hesapları
+
+**Önce bilinen hatalar:**
+- Altı hesabın hepsini **sağlam** biçimde bulamadım. Tam uyan 2 hesap var (Bandar Apna Dost, meowtakeover). Kısmen uyan 1 hesap var: asmraiworks, ama nesneler karakter değil. Kalan 3 hesapta yapay zekâ kanıtı zayıf ya da tartışmalı, bunları ayrı işaretledim.
+- **Hiçbir videoyu izlemedim, sesini de dinleyemedim.** "Konuşmasız" ve "gerçek kişi yok" bilgileri izlemeye değil, okuduğum habere ya da tahmine dayanıyor.
+- Ölçüm aracı kendi çıktısına "GÖRDÜM" yazıyor. Ben bunları **ÖLÇTÜM** saydım, çünkü sayfayı açmadım, araç okudu.
+- Araç TikTok'ta video başına izlenmeyi okuyamıyor. Bu yüzden TikTok hesaplarında medyan ve oran yok.
+- Ölçüm zamanı: 2026-11-27, 17:53–17:55 UTC.
+
+### Bulunan hesaplar
+
+| # | Hesap | Abone / takipçi | Son kliplerde izlenme medyanı | En yüksek klip / medyan | Yapay zekâ kanıtı | Gerçek kişi |
+|---|---|---|---|---|---|---|
+| 1 | YouTube [@BandarApnaDost](https://www.youtube.com/@BandarApnaDost) (maymun) | 3,96 milyon (ÖLÇTÜM). Kasım 2025'te 2,76 milyon deniyordu (OKUDUM-ÖZET, Kapwing haberleri) → büyüyor | 5,75 milyon (48 klip, ÖLÇTÜM) | 144 milyon / 5,75 milyon = **25 kat** (ÖLÇTÜM) | Kapwing raporu kanalı "tamamen yapay zekâ" listesinde 1 numara sayıyor (OKUDUM-ÖZET) | Yok (TAHMİN) |
+| 2 | TikTok [@meowtakeover](https://www.tiktok.com/@meowtakeover) (dans eden yavru kediler) | TikTok 2,6 milyon takipçi, 169,8 milyon beğeni, 405 video (ÖLÇTÜM). Hesap Aralık 2025'te başladı (OKUDUM-ÖZET, KnowYourMeme) | TikTok'ta ölçülemedi. YouTube'da [@meowtakeover](https://www.youtube.com/@meowtakeover): 25,2 bin abone, medyan 22 bin (ÖLÇTÜM) | YouTube'da 2,1 milyon / 22 bin = **95 kat** (ÖLÇTÜM) | KnowYourMeme "AI Kittens Dancing" maddesi: müzikli, konuşmasız (OKUDUM-ÖZET) | Yok (TAHMİN) |
+| 3 | TikTok [@asmraiworks](https://www.tiktok.com/@asmraiworks) (meyve ve lav kesme ASMR'ı; nesne var, karakter yok) | 172,6 bin takipçi, 8,6 milyon beğeni, 40 video (ÖLÇTÜM). YouTube'daki aynı adlı hesapta 4 abone var (ÖLÇTÜM) | Ölçülemedi | — | Fast Company ve KnowYourMeme: Veo 3 ile yapılan yapay zekâ ASMR'ı (OKUDUM-ÖZET) | Yapay zekâ eli olabilir (TAHMİN) |
+| 4 | TikTok [@tailbitpets](https://www.tiktok.com/@tailbitpets) (merdivenden "sörf yapan" kediler) | 856,9 bin takipçi, 588 video (ÖLÇTÜM). 2025'teki haberde 42,8 bin (OKUDUM-ÖZET) → büyüyor | Ölçülemedi | — | **Tartışmalı.** Daily Dot yalnızca yorumcuların şüphesini aktarıyor, doğrulanmış değil | Bilinmiyor |
+| 5 | TikTok [@officialdivingdog](https://www.tiktok.com/@officialdivingdog) (olimpiyat atlayışı yapan köpek) | 154,2 bin takipçi, 274 video (ÖLÇTÜM) | Ölçülemedi | — | **Zayıf.** Tek kaynak bir araç firmasının pazarlama sayfası | Yok (TAHMİN) |
+| 6 | YouTube [@funntastic_AI](https://www.youtube.com/@funntastic_AI) ("FUNTASTIC YT", kızıl kedi) | 572 bin (ÖLÇTÜM). Ağustos 2025'te yaklaşık 600 bin deniyordu (OKUDUM-ÖZET, NPR) → **büyümüyor** | 47 bin (29 klip, ÖLÇTÜM). Bu, abone sayısının yalnızca %8'i | 98 bin / 47 bin = 2,1 kat (ÖLÇTÜM) | NPR'da yapımcı kendisi anlatıyor (OKUDUM-ÖZET) | Yok (TAHMİN) |
+
+Kenara bıraktığım hesap: TikTok @ai.cinema021 ("Fruit Love Island", meyve karakterler). Dizi **diyaloglu** olduğu için kapsam dışında. Bir çelişki var: Gizmodo hesabın silindiğini yazmıştı, ama hesap açık görünüyor: 2.000.000 takipçi, 39 video (ÖLÇTÜM). Takipçi sayısının tam yuvarlak çıkması şüpheli.
+
+### Başarısız karşı örnekler
+
+- **Super Cat League** (YouTube, insan gibi davranan kedilerin "pembe dizi"si): yaklaşık 3,9–4,3 milyon abonesi vardı. Ocak 2026'daki toplu kapatmada video arşivi silindi (OKUDUM-ÖZET: Guardian, Kapwing, The Verge haberleri). Kanalın gerçek adresini bulamadım, ölçemedim.
+- **Pouty Frenchie** (YouTube, yapay zekâ köpek ve kedi videoları): vidIQ'ya göre Mart 2025'te açılmış, 1,3 milyon abonesi varmış (OKUDUM-ÖZET). Bugün @poutyfrenchie adresi **404 veriyor**, yani sayfa yok (ÖLÇTÜM). Neden kapandığını bilmiyorum.
+- **Three Minutes Wisdom** (Güney Kore, yapay zekâyla hayvan dövüşleri): yaklaşık 2 milyar izlenmesi vardı. Tek bir kaynak içeriğinin büyük kısmının silindiğini yazıyor (OKUDUM-ÖZET). Denediğim adresler bulunamadı (ÖLÇTÜM).
+- **Hafif başarısızlık:** @funntastic_AI (tablodaki 6 numara) hâlâ açık ama durgun. 572 bin abonesi var, yeni klipleri ise 47 bin civarında izleniyor (ÖLÇTÜM).
+
+### Bu veriden çıkan 3 kısa ders
+
+1. **En büyük risk platformun kendisi.** Ölçebildiğim kadarıyla bu türün en büyük YouTube kanallarından en az üçü silindi ya da içeriği temizlendi. Haberlere göre Ocak 2026'da 16 kanal birden kapatıldı. Yani başarılı görünen örnekler, ayakta kalanlardan ibaret. Kanıt düzeyi: OKUDUM-ÖZET + iki 404 ölçümü. Neden kapandıkları doğrulanmadı.
+2. **İzlenme birkaç büyük klipten geliyor.** En yüksek klip medyanın 25 ila 95 katı. Bir hesabın değerini tek bir viral klibe bakarak değil, medyanına bakarak ölçmek gerek. Kanıt düzeyi: ÖLÇTÜM, ama yalnızca 3 YouTube kanalında.
+3. **Aynı karakter platformlar arasında taşınmıyor.** meowtakeover TikTok'ta 2,6 milyon takipçiye sahipken YouTube'da 25,2 bin abonesi var. Tek karakterli kanallar da yaşlanıyor: funntastic_AI'nın abonesi yerinde sayıyor, izlenmesi abonesinin %8'inde kalıyor. Kanıt düzeyi: ÖLÇTÜM ama örnek çok az, düşüşün nedeni TAHMİN.
+
+**Eksik kalan:** Altı sağlam hesaba ulaşmak için TikTok'ta video başına izlenmeyi okuyabilecek bir yol gerekiyor. Ayrıca "konuşmasız" ve "gerçek kişi yok" bilgilerinin doğrulanması için videoları Bora'nın izlemesi gerekiyor.
+
+Kaynaklar: [Kapwing raporu](https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/) · [NPR](https://www.npr.org/2025/08/28/nx-s1-5493485/ai-slop-videos-youtube-tiktok) · [KnowYourMeme, AI Kittens Dancing](https://knowyourmeme.com/memes/ai-kittens-dancing) · [Fast Company, yapay zekâ ASMR'ı](https://www.fastcompany.com/91353440/ai-generated-asmr-is-taking-over-tiktok) · [Daily Dot, tailbitpets](https://dailydot.com/tailbitpets-surfing-cat-stairs) · [Tubefilter, Ocak 2026 kapatmaları](https://tubefilter.com/2026/01/29/youtube-ai-slop-channel-crackdown-bans/) · [vidIQ, Pouty Frenchie](https://vidiq.com/youtube-stats/channel/@poutyfrenchie/) · [Gizmodo, Fruit Love Island](https://gizmodo.com/whatever-just-happened-with-fruit-love-island-nobody-won-2000739498) · [Inkl/Guardian, Super Cat League](https://www.inkl.com/news/cat-soap-operas-and-babies-trapped-in-space-the-ai-slop-taking-over-youtube)

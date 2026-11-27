@@ -1,0 +1,54 @@
+**Pazar araştırması: AI üretimi, konuşmasız hayvan/nesne karakterli kısa animasyon hesapları (YouTube Shorts + TikTok)**
+
+Sayılar 2026-11-27 17:53–17:54 UTC arasında `hesap_olc.py` ile ölçüldü. Bir dosya bir kez kurala uymadı: `curl` ile hakkında sayfası okuma denemem izin sisteminde reddedildi, tekrar denemedim. Hiçbir dosyaya yazmadım.
+
+**Önce bilinen eksikler:**
+1. Hiçbir videoyu izlemedim, sesini dinlemedim (izleyemiyorum). Yani "konuşmasız" olup olmadığı ve gerçek kişi içerip içermediği hiçbir hesapta GÖRDÜM değil. Ya haberden okudum (OKUDUM-ÖZET) ya da bilinmiyor.
+2. TikTok'ta betik video başına izlenme okumuyor. TikTok satırlarında medyan yok, yalnız takipçi, beğeni ve video sayısı var.
+3. Betik büyüme geçmişi ölçmüyor. "Büyüyor" yargısı, bugünkü ölçümle eski haber sayısının karşılaştırması. Eski sayı OKUDUM-ÖZET, bu yüzden büyüme yargısı en iyi ihtimalle TAHMİN.
+4. Bazı handle'ların haberdeki hesapla aynı hesap olduğu doğrulanmadı. Tabloda "kimlik?" diye işaretli.
+
+### Başarılı / büyüyen 6 hesap (ölçüm: GÖRDÜM/ÖLÇTÜM)
+
+| # | Hesap | Platform ve ölçüm | Medyan (n) · min–max · medyan/abone · en yüksek/medyan | AI kanıtı | Konuşmasız mı | Gerçek kişi | Büyüme |
+|---|---|---|---|---|---|---|---|
+| 1 | Bandar Apna Dost — youtube.com/@BandarApnaDost | YT 3,96M abone | 5.750.000 (48) · 51K–144M · 1,45 · 25,0 (tek viral şüphesi) | Kapwing AI Slop raporu ve çok sayıda haber (OKUDUM-ÖZET). Hesabın kendi beyanı yok | "No talking" haberde geçiyor (OKUDUM-ÖZET) | Haberde maymun ve Hulk benzeri insansı karakter var. Gerçek kişi: bilinmiyor | 2,76M (haber, 2025 sonu) → 3,96M (TAHMİN: büyüyor). Handle'ın haberdeki kanalla aynı olduğu doğrulanmadı, sayılar tutarlı. TikTok'taki @bandarapnadost'un 10 takipçisi var, büyük olasılıkla ilgisiz bir hesap |
+| 2 | meowtakeover — tiktok.com/@meowtakeover · youtube.com/@meowtakeover | TT 2,6M takipçi, 169,8M beğeni, 405 video. YT 25,2K abone | YT: 22.000 (48) · 5,1K–2,1M · 0,87 · 95,5 (tek viral) | Know Your Meme'ye göre "AI kitten" videoları (OKUDUM-ÖZET) | Müzik ve Arapça altyazı var. Konuşma durumu bilinmiyor | Bilinmiyor | İlk viral Aralık 2025 / Ocak 2026 (39,7M izlenme, OKUDUM). TT ile YT arasında 100 kat fark var. YT kimliği doğrulanmadı |
+| 3 | MPMinds ("Chubby") — tiktok.com/@mpminds · youtube.com/@MPMinds_ (kimlik?) | TT 1,4M takipçi, 32M beğeni, 188 video. YT @MPMinds_ 1,32M abone | YT: 17.500 (48) · 551–191K · **0,013** · 10,9 | Haberler ve Know Your Meme: AI görsel slayt hikâyeleri, kurucu Fransız "Charles" (OKUDUM-ÖZET) | "Wordless" slayt ve miyavlayan şarkı (OKUDUM-ÖZET) | Bilinmiyor | TT 875K (Haziran 2024, haber) → 1,4M (TAHMİN: yavaş büyüme). YT'de abone çok, izlenme çok düşük: kitle soğumuş görünüyor |
+| 4 | TailBitPets — tiktok.com/@tailbitpets · youtube.com/@tailbitpets | TT 856,7K takipçi, 44,7M beğeni, 588 video. YT 153K abone | YT: 65.000 (48) · 5,3K–3,8M · 0,43 · 58,5 | **Zayıf.** Yalnız Daily Dot'taki yorumcu şüphesi var, hesap beyanı yok (TAHMİN) | Bilinmiyor | Bilinmiyor | TT 42,8K (Daily Dot, tarihi belirsiz) → 856,7K (TAHMİN) |
+| 5 | FUNTASTIC YT — youtube.com/@funntastic_AI | YT 572K abone | 47.000 (29) · 17K–98K · 0,08 · 2,1 (en istikrarlı dağılım) | NPR'da yapımcının kendi beyanı var: Filipinli öğrenci, generative AI kullanıyor, bir ayda 9.000 $ kazanmış (OKUDUM-ÖZET, en güçlü AI kanıtı bu) | Bilinmiyor. Kedinin "babası" var, insan mı kedi mi belli değil | Bilinmiyor | Ağustos 2025'te ~600K (NPR) → 572K. **Büyümüyor, hafif düşüyor** (TAHMİN). TikTok'ta bu adla hesap yok (10221) |
+| 6 | ai.shxdda ("animal × ANIMAL fusion") — youtube.com/@ai.shxdda | YT 39,2K abone | 9.150 (48) · 3K–44K · 0,23 · 4,8 | Dreamina (CapCut, araç satıcısı) blogunda örnek olarak geçiyor (OKUDUM-ÖZET, zayıf) | Bilinmiyor | Bilinmiyor | Veri yok. TT @ai.shxdda: 0 takipçi, büyük olasılıkla başka hesap |
+
+Nesne karakterli konuşmasız bir hesap bulamadım. Fruit Love Island ve meyve dramaları konuşmalı (OKUDUM-ÖZET). Sessiz nesne tarafında yalnız AI ASMR (cam meyve kesme) hesapları çıktı. Onlarda karakter yok:
+- **@asmraiworks:** TT 172,7K takipçi, 40 video. YT'deki aynı handle'ın 4 abonesi var.
+
+### Başarısız / küçük kalmış karşı örnekler
+
+| Hesap | Ölçüm | Ne oldu |
+|---|---|---|
+| tiktok.com/@impossibleais (AI ASMR) | TT 170,1K takipçi, 6,6M beğeni, **1 video**. YT yok | Haziran 2025'te 8 günde 170K takipçi olmuş (OKUDUM). Takipçi sayısı aynı yerde donmuş, video kalmamış: hesap ölü ya da temizlenmiş (TAHMİN) |
+| tiktok.com/@satisfyingclips50 (AI cam kesme) | TT 13,9K takipçi, 81 video. YT'de yok (404) | Haziran 2025'teki tek klibi 11 günde 5,3M izlenmiş (OKUDUM). Viral, takipçiye dönmemiş |
+| Super Cat League (AI kedi) | Haberdeki ~4,21M abone OKUDUM-ÖZET. @SuperCatLeague handle'ı 15 abone (kimlik?) | Bir habere göre Ocak 2026'da YouTube'un sildiği 16 "AI slop" kanalından biri (bolnews, tek kaynak, OKUDUM-ÖZET) |
+| youtube.com/@aimeowrealm (AI kedi filmleri) | YT 170 abone, medyan 983 (48), en yüksek/medyan 35,6 | Bir rehber sitesi 104K abone diyor (Şubat 2026). Sayfa 170 gösteriyor. Ya handle yanlış ya kanal sıfırlanmış: çözülmedi |
+
+### Bu veriden 3 ders
+
+1. **Takipçi sayısı izlenmeyi göstermiyor.** MPMinds YouTube'da 1,32M aboneye karşı 17,5K medyan izlenme alıyor (oran 0,013). FUNTASTIC 572K'da durmuş. Hesabı abone sayısıyla değil, son kliplerin medyan izlenmesiyle değerlendirmek gerek. (Kanıt: ÖLÇTÜM. Ama kimlik eşleşmesi kısmen doğrulanmadı.)
+2. **Bu türde büyüme tek virale bağlı ve kırılgan.** 6 hesabın 4'ünde en yüksek klip medyanın 25 ile 95 katı. Viral bir klip takipçi getirmeyebilir (satisfyingclips50) ya da hesap birkaç ayda donabilir (impossibleais). (Kanıt: oranlar ÖLÇTÜM. "Kırılgan" yorumu TAHMİN, örnek sayısı küçük.)
+3. **Platform riski gerçek ve büyük.** Haberlere göre YouTube Ocak 2026'da 16 büyük AI kanalını sildi ya da içeriğini boşalttı; bunlardan biri AI kedi kanalı. Aynı içerik platformlar arasında da 100 kat fark ediyor (meowtakeover: TT 2,6M, YT 25K). Kendimize ait karakter ve birden çok platform şart görünüyor. (Kanıt: silinme OKUDUM-ÖZET. Platform farkı ÖLÇTÜM.)
+
+**Bora'dan gereken:** Konuşmasızlık ve gerçek kişi sütunları ancak videolar izlenince dolar. Ya Bora 6 hesaptan 2–3 klip izler, ya da `viral-video-analizi` için videoya erişim gerekir.
+
+Kaynaklar (OKUDUM-ÖZET):
+- [NPR – AI slop / FUNTASTIC](https://www.npr.org/2025/08/28/nx-s1-5493485/ai-slop-videos-youtube-tiktok)
+- [Kapwing AI Slop Report](https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/)
+- [The Statesman – Bandar Apna Dost](https://www.thestatesman.com/entertainment/bandar-apna-dost-mixes-monkey-and-ai-to-become-most-viewed-ai-generated-youtube-channel-earning-crores-annually-1503533379.html)
+- [Know Your Meme – AI Kittens Dancing (meowtakeover)](https://knowyourmeme.com/memes/ai-kittens-dancing)
+- [Know Your Meme – AI Cat Stories (MPMinds)](https://knowyourmeme.com/memes/ai-cat-stories-sad-meow-meow-song)
+- [Daily Dot – TailBitPets](https://dailydot.com/tailbitpets-surfing-cat-stairs)
+- [Know Your Meme – AI ASMR](https://knowyourmeme.com/memes/ai-asmr)
+- [Tubefilter – YouTube AI slop silmeleri](https://tubefilter.com/2026/01/29/youtube-ai-slop-channel-crackdown-bans/)
+- [Bolnews – silinen kanallar](https://www.bolnews.com/?p=1154743)
+- [Dreamina – AI animal video](https://dreamina.capcut.com/resource/ai-animal-video)
+
+SKILL: pazar-istihbarati-olcum v1

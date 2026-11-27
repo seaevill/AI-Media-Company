@@ -1,0 +1,32 @@
+Animasyon kalite kontrolü, iki video. Sesi dinleyemedim; iki videoda da ses kanalı var (aac). Kareler şu klasörde: /tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/tekrar/aqc-B2/
+
+```
+VİDEO: flash.mp4  KARAR: YAYIN ENGELİ VAR
+TEKNİK (ÖLÇTÜM): 720x1280 (9:16), 24 fps, 8.06 sn, h264 + aac ses kanalı var. video_qc: ortalama parlaklık 73.2 (karanlık uyarısı yok); 6.0–7.0 sn arası 6 ani değişim anı.  SES: dinlenmedi
+OLAYLAR İNCELENDİ: 0–2 sn başlangıç ve kayma (12 fps, üst yarı kırpılmış) · 2.5–3.5 sn koli–basamak teması (6 fps, tam çözünürlük kırpma; bu olayda 12 fps yapılmadı) · 5–7 sn koli kaza yaklaşıyor (12 fps, alt kırpma) · 5.9–7.9 sn metrenin kopması (12 fps, üst kırpma) · 6.3–6.8 sn flamingo gagası (12 fps, 2x büyütme) · 7.0–7.6 sn metrenin düşmesi (12 fps, tam çözünürlük) · 7.9 sn son kare (tam çözünürlük)
+HATALAR:
+- [6.9–7.4 sn] [kaybolma] Metre gagadan koptuktan sonra düşmüyor; havada dalgalanıp toz gibi dağılarak yok oluyor. Yerde metre kalmıyor, flamingonun elinde/gagasında da kalıntı yok. [Blocker, güven: yüksek] [olay_flash_kopma_6.9.png]
+- [7.2–7.6 sn] [kaybolma–belirme + ters derinlik] Bir metre parçası vombatın göğsünün ve kolinin ön yüzünün önünden aşağı akıyor, 7.6 sn'de zemine değmeden yok oluyor. [Blocker, güven: yüksek] [olay_flash_dusus_7.3.png, olay_flash_son_7.0.png]
+- [0.5–6.0 sn] [yüzme şüphesi] Koli basamaklardan aşağı hep düz ve yatay kayıyor; basamak kenarına çarpmıyor, eğilmiyor, sarsılmıyor; zeminle teması belirsiz. [Issue, güven: orta] [olay_flash_kayma_3.0.png, olay_flash_bas_1.0.png]
+- [6.4–6.9 sn] [okunurluk] Kilit an (metrenin kopması) kadrajın en üstünde, gaganın dibinde ve çok küçük (ince bir şerit; kopma anında koyu bir leke). Telefonda büyük olasılıkla fark edilmez. [Issue, güven: orta] [olay_flash_gaga_6.5.png]
+NİYET: Gerçekleşenler: gözlüklü flamingo (gözlük doğrulandı), metre sarkıyor, vombat koli üstünde aşağı kayıyor, kaz elinde damga tutuyor, metre kopuyor, koli kazın yanında duruyor (son karede kaz ve koli aynı zeminde). Kusurlu olan: kopmadan sonraki fizik; metre düşmek yerine yok oluyor.
+MONTAJLA ÇÖZÜLEBİLİR: Klibi kopma anında (yaklaşık 6.9 sn) kesip üstüne ayrı bir "metre yere düşer" çekimi eklemek; kopma anı için yakın plan. Bunlar TAHMİN, denenmedi.
+MODEL KAPASİTESİ ÜSTÜNDE: İnce esnek nesnenin kopup düşmesi (bilinen zaaf; burada da tutmadı) · kayma/yerçekimi.
+SKILL: animasyon-kalite-kontrol v1
+```
+
+```
+VİDEO: kapiA.mp4  KARAR: YAYIN ENGELİ VAR
+TEKNİK (ÖLÇTÜM): 720x1280 (9:16), 24 fps, 4.10 sn, h264 + aac ses kanalı var. video_qc: ortalama parlaklık 78.0; ani değişim anları 2.12 / 2.25 / 2.38 sn.  SES: dinlenmedi
+OLAYLAR İNCELENDİ: 0–2 sn kapıyı itme (8 fps genel tablo) · 1.25–3.25 sn vazgeçip dönme (12 fps, 600x900 kırpma) · 3.0–4.1 sn son bölüm (12 fps, kırpma)
+HATALAR:
+- [2.4–4.1 sn] [ana eylem yok / yanlış eylem] Kaz sola, duvara doğru geri çekilmiyor. Kameraya dönüyor, sonra SAĞA, kapıya doğru kayıp sırtını aynı kapıya yaslıyor ve video öyle bitiyor. İstenen yön ve hedef gerçekleşmedi. [Blocker, güven: yüksek] [olay_kapiA_donus_2.25.png, olay_kapiA_son_3.5.png]
+- [2.1–2.6 sn] [morf] Yarım saniyede profilden tam cepheye dönüyor (ani değişim anlarıyla aynı yer). Bu sırada vücut biçimi değişiyor: başta ince gövde ve uzun kuyruk, sonda yuvarlak, daha iri gövde ve insan eldiveni gibi eller; anahtarlık karnın önünden sol yana geçiyor. [Issue, Blocker'a yakın; güven: orta] [olay_kapiA_donus_2.25.png]
+- [3.0–4.1 sn] [iç içe geçme şüphesi] Sırtını kapıya yasladığında sağ omzu ve kolu kapı yüzeyine gömülmüş gibi görünüyor; temas düzlemi net değil. [Issue, güven: düşük] [olay_kapiA_son_3.5.png]
+NİYET: Gerçekleşenler: koridor, kaz kapıyı itiyor, kapı açılmıyor, pes etme ifadesi (iç çekme, omuz düşmesi). Gerçekleşmeyen: sola, duvara doğru geri çekilme; yerine kapıya yaslanma var.
+MONTAJLA ÇÖZÜLEBİLİR: 0–2.0 sn (itme ve kapının açılmaması) kullanılabilir aday; 2.1 sn'den sonrası kesilip geri çekilme ayrı tek eylemli çekimle eklenebilir. Bu TAHMİN; kullanılabilir olup olmadığına Bora karar verir.
+MODEL KAPASİTESİ ÜSTÜNDE: Belirli yöne geri çekilme ile dönmenin aynı çekimde istenmesi · kapı ve gövde teması.
+SKILL: animasyon-kalite-kontrol v1
+```
+
+Not: Bulgular 12 kare/sn yakın incelemeye dayanıyor (GÖRDÜM). Tek istisna flash'taki koli kayması: o olayı 12 değil 6 kare/sn inceledim. İkinci bağımsız denetçi ve Bora izlemeden hiçbir bölüm "kullanılabilir" sayılmaz. Kalibrasyon dosyasına yazmadım.

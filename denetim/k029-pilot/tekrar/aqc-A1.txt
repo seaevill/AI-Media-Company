@@ -1,0 +1,42 @@
+## Animasyon kalite kontrol: flash.mp4 ve kapiA.mp4
+
+**Nasıl baktım:** ffprobe ile ölçtüm. İki videonun da tamamından saniyede 12 kare tam çözünürlükte çıkardım (flash 96 kare, kapiA 48 kare). Temas anlarını büyütüp kendim açıp baktım. `video_qc.py`'yi kullanmadım; hiçbir repo dosyasını açmadım. Kareler şurada: `/tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/tekrar/aqc-A1/` (alt klasörler `flash/` ve `kapiA/`; `f_###.png` tam kare, `sheet_*.png` özet sayfası, kırpmalar aynı klasörde).
+
+**Sesi dinleyemiyorum.** Yalnızca ses kanalının var ve dolu olduğunu ölçtüm: flash ortalama -23,3 dB, kapiA -25,2 dB. İçeriği hakkında bir şey söyleyemem.
+
+---
+
+### flash.mp4 (720x1280, 24 kare/sn, 8,04 sn) — karar: **YAYIN ENGELİ VAR**
+
+Bilinen hatalar:
+
+1. **Metre kopunca kayboluyor.** Süre yaklaşık 6,7–7,3 sn (12 kare/sn'de kare 80–87). Kopan metre düşmüyor; havada dumana ya da parçacığa dönüp siliniyor. Flamingonun gagasında da kopuk uç kalmıyor (kare 84 ve sonrası). **GÖRDÜM, güven yüksek.** Bu, hikâyenin ana anı ve okunmuyor.
+2. **Metre yoktan geri beliriyor ve morf oluyor.** Süre yaklaşık 7,2–7,8 sn (kare 86–93). Silinen metre önce vombatın göğsünün önünde yarı saydam bir hayalet olarak (kare 86–87), sonra kolinin ön yüzünden aşağı akan sarı şeritler olarak (kare 88–92) yeniden çıkıyor. **GÖRDÜM, güven yüksek.**
+3. **Koli merdivenden kaymıyor, süzülüyor.** Süre 0–6,5 sn. Koli bütün iniş boyunca tamamen düz kalıyor; ne basamaklara eğiliyor ne sarsılıyor, sadece büyüyerek aşağı iniyor. Gördüğüm şey düz koli; "kayma yerine süzülme" gibi okunacağı benim yorumum (TAHMİN). Güven orta.
+4. **Metrenin ucu vombatın kafasına giriyor.** Süre 0–6,7 sn. Metre vombatın kafasının tepesinde bitiyor; bağlı ya da batmış gibi duruyor. **GÖRDÜM**, güven orta. Tek başına engel değil.
+5. **Damga sapı yön değiştiriyor.** Süre yaklaşık 6,6–7,4 sn. Kazın elindeki damganın sapı kareden kareye dönüyor. **GÖRDÜM**, güven düşük–orta, küçük hata.
+
+İyi taraf (GÖRDÜM):
+- Gözlüklü flamingo, metre, koli üstünde vombat ve damgalı kaz istendiği gibi kadrajda.
+- Koli sonunda kazın yanında, ayağının dibinde duruyor.
+- Koli ile kazın kolu/damgası arasında net bir iç içe geçme görmedim.
+
+---
+
+### kapiA.mp4 (720x1280, 24 kare/sn, 4,04 sn) — karar: **BELİRSİZ** (istenen bitiş hareketi şarttıysa engel var)
+
+Bilinen hatalar:
+
+1. **İstenen bitiş hareketi yok.** Süre yaklaşık 2,2–4,0 sn (kare 26–48). Kaz pes edip sola, duvara doğru geri çekilmiyor. Kameraya dönüyor, sonra sırtını kapıya yaslayıp orada kalıyor; yani kapıya geri dönüyor. **GÖRDÜM, güven yüksek.** Bu fizik hatası değil, istemden sapma. Şakanın sonu bu geri çekilmeye dayanıyorsa yayını engeller.
+2. **Kazın yüzü değişiyor.** Süre yaklaşık 2,3–2,8 sn (kare 28–34). Kaz kameraya dönerken gaga biçimi ve rengi ile yüz yapısı belirgin biçimde değişiyor. **GÖRDÜM**, güven orta. Kısa ama fark edilir.
+3. **Anahtar halkası zıplıyor.** Süre yaklaşık 2,2–2,6 sn (kare 26–31). Anahtarlar karnın önünden sol kalçaya akıyor ya da sıçrıyor. **GÖRDÜM**, güven orta, küçük hata.
+4. **İtme zayıf okunuyor.** Süre 0–2 sn. Kapı hiç kıpırdamıyor ve kazda zorlanma belirtisi zayıf. "İtiyor ama açılmıyor" anı zor okunabilir. Bu benim yorumum (TAHMİN), güven düşük.
+
+İyi taraf (GÖRDÜM):
+- Kapı açılmıyor, istendiği gibi.
+- İtme anında gaga ya da eller kapının içine girmiyor (kare 5, 13 ve 21 büyütülerek bakıldı).
+- Kapıya yaslanırken kapının içine geçme görmedim (kare 36 ve 48 büyütülerek bakıldı).
+
+---
+
+Bu bir hata taraması, kalite onayı değil. Bora izlemeden iki klip de "kullanılabilir" sayılmaz.
