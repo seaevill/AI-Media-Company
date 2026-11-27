@@ -229,3 +229,123 @@
 | Snapchat birleşik para kazanma | Bilinmiyor (davetle) | Düşük | https://www.snap.com/monetization-terms |
 
 **Kısa cevap:** Yunanistan'daki hesap için doğrulanabilen tek güçlü platform ödemesi yolu **YouTube YPP**. Instagram Gifts listede görünüyor. TikTok CRP büyük olasılıkla yok. Meta'nın ana ödeme programları davetle ve ülke durumu bilinmiyor. Hepsi, hesap açıldığında uygulama içinden teyit edilmeli.
+
+
+---
+
+## 2026-11-28 ek: AI ve özgün olmayan içerik kuralları (G-0041)
+
+- Hazırlayan: pazar-istihbarati ajanı. Okuma tarihi: **2026-11-27** (curl, `-A "Mozilla/5.0"`, HTTP 200; metin elle ayıklandı).
+- Etiketler: **AÇILDI** = sayfa curl ile açıldı ve metni okundu · **OKUDUM-ÖZET** = arama özeti · **AÇILAMADI** = erişim yok / içerik gelmedi.
+- Kapsam: 16 resmî sayfa AÇILDI (11 YouTube + 5 TikTok). Üstteki §0'daki "hiçbir sayfa açılamadı" cümlesi bu ekle **düzeltildi**: support.google.com ve tiktok.com sayfaları bu oturumda açıldı.
+
+### A. Açılan resmî sayfalar (AÇILDI)
+
+| # | Platform | Sayfa | URL |
+|---|---|---|---|
+| 1 | YouTube | Channel monetization policies | https://support.google.com/youtube/answer/1311392 |
+| 2 | YouTube | Disclosing use of GenAI content | https://support.google.com/youtube/answer/14328491 |
+| 3 | YouTube | Spam Policy | https://support.google.com/youtube/answer/2801973 |
+| 4 | YouTube | "How this content was made" | https://support.google.com/youtube/answer/15447836 |
+| 5 | YouTube | YPP overview & eligibility | https://support.google.com/youtube/answer/72851 |
+| 6 | YouTube | Changes to the YPP (1 Şubat 2027) | https://support.google.com/youtube/answer/12843009 |
+| 7 | YouTube | Shorts monetization policies | https://support.google.com/youtube/answer/12504220 |
+| 8 | YouTube | Channel or account terminations | https://support.google.com/youtube/answer/2802168 |
+| 9 | YouTube | Community Guidelines strike basics | https://support.google.com/youtube/answer/2802032 |
+| 10 | YouTube | Advertiser-friendly content guidelines (yalnız giriş okundu, alt başlıklar okunmadı) | https://support.google.com/youtube/answer/6162278 |
+| 11 | YouTube | Protecting your identity (AI benzerlik şikâyeti) | https://support.google.com/youtube/answer/2801895 |
+| 12 | TikTok | Community Guidelines, Integrity & Authenticity (yayın 2026-08-25, yürürlük 2026-09-24) | https://www.tiktok.com/community-guidelines/en/integrity-authenticity |
+| 13 | TikTok | Supporting responsible, transparent AIGC (Safety Center) | https://www.tiktok.com/safety/en/policies-and-engagement/supporting-responsible-transparent-ai-generated-content |
+| 14 | TikTok | Creator Academy: Creator Rewards Program | https://www.tiktok.com/creator-academy/en/article/creator-rewards-program |
+| 15 | TikTok | Creator Academy: Understanding TikTok's Originality Policy (sayfada yayın 2026-09-26) | https://www.tiktok.com/creator-academy/en/article/tiktok-originality-policy |
+| 16 | TikTok | Creator Academy: AI-generated content label (sayfada yayın 2026-09-26) | https://www.tiktok.com/creator-academy/en/article/ai-generated-content-label |
+
+**AÇILAMADI / içerik gelmedi:**
+- `support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content` ve `support.tiktok.com/.../creator-rewards-program`: HTTP 200 döndü ama gövde boş JavaScript kabuğu (içerik yok). Aşmaya çalışılmadı. Aynı konunun içeriği Creator Academy ve Safety Center sayfalarından okundu (#13–16).
+- `answer/9899216` HTTP 404 (yanlış tahmin edilen numara).
+- Haber siteleri (tubefilter, arynews, kapwing, blog.youtube.com): ağ izni yok (bağlantı kurulamadı). Ocak 2026 haberleri yalnızca arama özetinden.
+- Yunanistan'ın YPP ülke listesi (answer/7101720) bu turda yeniden okunmadı; üstteki §1.3 satırı OKUDUM-ÖZET olarak kalıyor.
+- TikTok yardım sayfalarında "AI içerik için kaldırma/hesap kapatma sayısal eşiği": yayınlanmış bir eşik görmedim (bilinmiyor).
+
+### B. YouTube: resmî metne göre kurallar (AÇILDI)
+
+1. **Para kazanma için "özgün ve otantik" şartı** (#1): İçerik "seri üretilmiş, jenerik, tekrarlı veya manipülatif" olmamalı; izleyicinin keyfi için yapılmalı, "yalnızca izlenme almak için" değil. İnceleyiciler kanalın ana temasına, en çok izlenen ve en yeni videolara, en büyük izlenme süresi payına, başlık/küçük resim/açıklamalara ve "Hakkında" bölümüne bakabilir.
+2. **"Inauthentic" (jenerik/tekrarlı) içerik** (#1): Sayfa başındaki not 15 Temmuz 2025'te "repetitious" adının "inauthentic content" olduğunu ve "tekrarlı veya seri üretilmiş" ifadesinin eklendiğini söylüyor.
+   - İZİN VERİLEN örnekler: aynı giriş/çıkış; "karakter dizisi izleyen seri, **ama her videonun ayrı hikâyesi, odağı ya da konsepti var**".
+   - PARA KAZANAMAZ örnekleri: "videodan videoya minimum farklılık"; **"karakterlerin tekrar tekrar aynı duruma sokulup aynı sonucu aldığı videolar (benzer hikâye şablonu)"**; şablonlu hikâyeler/slayt/kayan yazı; **"jenerik veya özgün olmayan şablonlarla yapılmış, yaratıcının özgün bakışını katmayan, seri üretim izlenimi veren AI içerik"**.
+3. **"Tatmin etmeyen / itici içerik" başlığı** (#1) (üstteki §1.2'de ikincil kaynakla geçen "itici/üzücü içerik" maddesi resmî sayfada AÇILDI):
+   - PARA KAZANAMAZ: duygusal manipülasyon formülüne dayanan şablonlar; **"hayvanların abartılı sıkıntı/tehlike içinde olduğu tekrarlı senaryolar"**; "ilgisiz veya tutarsız AI klipleri art arda dizip şaşırtmak"; netsiz anlatı kavisi; sahte ünlü ölümü/doğal afet gibi aldatıcı gerçekçi görüntü.
+   - İZİN VERİLEN: tutarlı hikâye; "trende kendi özgün bakışını katan Short"; **"icat ettiğin benzersiz bir karakter ve anlatıyı görselleştirmek için AI kullanmak"**; "otomatik araç/şablon kullanırsan da son ürün yaratıcı vizyonunu ve eğlence/eğitim değerini göstermeli".
+4. **Hassas konularda AI personaları** (#1): sağlık, hukuk, finans, siyaset gibi konuda insan uzman gibi tavsiye veren AI personası para kazanamaz. (Bizi ilgilendirmiyor; konuşmasız hayvan/nesne serisi bu kapsamda değil.)
+5. **Spam politikası** (#3): **"Otomatik veya sentetik seri üretim"** yasak: AI/otomasyonla "az değişiklikle çok sayıda benzer içerik" üretip platformu doldurmak. İstisna cümlesi: "yeni araçları denemek ya da bir videonun birkaç varyasyonunu paylaşmak sorun değil." Örnek: "aynı arka plan müziği ve tekrarlı AI görselleri, her videoda AI yazdığı metni okuyan kanallar." Sayfa AI açıklamasının "serbest geçiş kartı olmadığını" ayrıca yazıyor. Yaptırım: para kazanmayı askıya alma veya kanal/hesap kapatma; bazı ihlallerde uyarı veya strike.
+6. **Strike ve kapatma** (#9, #8, #3):
+   - Topluluk Kuralları ihlalinde ilk ihlal genelde uyarı; ikinci ihlalde strike (1 hafta yükleme/planlama kısıtı); **90 gün içinde 3 strike = kanal kapatılabilir**. Tek ağır ihlal doğrudan kapatma getirebilir.
+   - Kapatma sebepleri sayfada: tekrarlayan ihlal; "tek ağır kötüye kullanım (ör. yırtıcı davranış, **spam**, pornografi)"; bir ihlale "adanmışlık" (nefret, taciz, taklit).
+   - Kapatılınca YPP geliri biter, ödenmemiş kazanç tutulabilir. **Kapatılan kişi yeni/başka kanal açıp dolanamaz; aksi tüm kanalların kapatılmasına yol açar.** İtiraz: kapatmadan sonra 1 yıl içinde, en fazla 2 itiraz.
+   - Para kazanma kaybı (askıya alma) ile kanal kapatma ayrı kararlardır (#1: "para kazanma askıya alınabilir ya da kanal kapatılabilir").
+7. **AI etiketi** (#2, #4):
+   - Zorunlu açıklama: "gerçekçi görünen" AI içerik. Örnekler: gerçek kişiye yapmadığı şeyi yaptırmak, gerçek olay/yer görüntüsünü değiştirmek, **olmamış gerçekçi bir sahne üretmek**, ana odağı müzik olan AI müzik.
+   - Zorunlu DEĞİL: "gerçekçi olmayan" içerik; örnek olarak sayfa "tamamen animasyon bir videoda AI üretimli animasyon füzesi", "gerçekçi olmayan fantastik sahneler", senaryo/başlık/küçük resim yardımı, kendi sesinin klonu, altyazı vb. sayıyor.
+   - Ayar adı resmî sayfada **"AI use"** (Studio > Attributes). (Üstteki §1.1'deki "Altered content sorusu" adı eski/yanlış kullanım; sayfadaki ad "AI use".)
+   - **"Açıklama tek başına kitleyi sınırlamaz ve para kazanma uygunluğunu etkilemez"** (#2). Etiket yeri: fotogerçekçi ve müzik için oynatıcıda olabilir; "animasyon / fotogerçekçi olmayan" AI için genişletilmiş açıklamada.
+   - **Otomatik etiket:** YouTube'un kendi AI araçlarıyla üretilen, **C2PA meta verisi taşıyan** veya sistemlerin AI saptadığı içerik otomatik etiketlenebilir. Yaratıcı hatalı otomatik etiketi çoğu durumda "Hayır" diyerek değiştirebilir; **YouTube AI araçlarıyla üretilen, C2PA'lı veya elle incelenip etiketlenen içeriğin etiketi değiştirilemez** (#2). Tam-AI videoda geçerli C2PA 2.1+ bilgisi "Made with AI" olarak taşınır (#4).
+   - Sürekli açıklamayanlara etiketi elle koyma ve **içerik kaldırma ya da YPP'den çıkarma** cezası yazıyor (#2).
+8. **Gerçek kişi benzerliği** (#11): Gerçekçi AI benzerliği, kişi tekil olarak tanınıyorsa gizlilik şikâyetiyle kaldırtılabilir (parodi/hiciv ve açıklama bir etken). Hayvan/nesne karakter bu kapsamda değil; gerçek kişiyi andıran karakter olmamalı.
+9. **Shorts geliri** (#7): Gelir paylaşımında yalnızca uygun "engaged view" sayılır; **özgün olmayan Short'lar, bot görüntülemeleri ve reklam uygunluğu kurallarına aykırı içerik sayılmaz**. Yaratıcı, havuzdaki payının %45'ini alır; Short'ta 1 müzik parçası varsa o görüntülemelerin gelirinin yarısı, 2 parçada üçte ikisi müzik lisansına gider. 1 dakikadan uzun ve claim'li Short engellenir (monetize edilmez).
+10. **YPP şartları** (#5, #6):
+   - Başvuru koşulları: aktif strike yok, 2 adımlı doğrulama, ülke uygunluğu, AdSense. Şu anki eşik: **1.000 abone + (12 ayda 4.000 izlenme saati veya 90 günde 10M nitelikli Shorts görüntülemesi)**. Karar süresi ~1 ay; ilk ret sonrası 30 gün (sonrakilerde 90 gün) bekleme; 21 gün içinde itiraz.
+   - **1 Şubat 2027'den itibaren yeni başvuranlar için: 1.000 abone + (365 günde 8.000 saat veya 90 günde 20M Shorts görüntülemesi)**. Mevcut üyelerin durumu bu güncellemeden etkilenmez. Fan funding/alışveriş girişi aynı kalır: **500 abone + 3.000 saat veya 90 günde 3M Shorts görüntülemesi** (#6).
+   - **Shorts Creator Pool'dan ve Premium'dan aylık pay almak için son 90 günde en az 10M nitelikli Shorts görüntülemesi gerekir** (1 Şubat 2027'den; ölçüm penceresi hesaplanan ayın bir önceki ayının 15'inde biten 90 gün). Eşik tutmazsa YPP'den çıkarılmaz, uzun video geliri etkilenmez (#6, #7).
+   - **Aktif kanal tanımı (1 Şubat 2027):** 365 günde 1.000 saat, ya da 90 günde 1M Shorts görüntülemesi, ya da 90 günde 2 uzun video veya 5 Short yüklemek (#6). Düşenlere 90 günlük toparlanma süresi. Şimdiki sayfa: 6+ ay yükleme yoksa para kazanma kapatılabilir (#5).
+   - YPP'li kanal strike alsa da programdan düşmez (#5), ama strike varken başvuru yapılamaz.
+
+### C. TikTok: resmî metne göre kurallar (AÇILDI)
+
+1. **AI etiketi** (#12, #16): Gerçekçi görünen sahne/kişi içeren AI veya ciddi şekilde düzenlenmiş içerik etiketlenmeli; **etiketsiz içerik kaldırılabilir, kısıtlanabilir veya TikTok tarafından etiketlenebilir** (zarara göre). Creator Academy sayfası: AI içerik tanımı "AI ile yapılmış ya da değiştirilmiş her görüntü, video veya ses; **anime, çizgi film, resim gibi stiller dahil**"; ama açıklama gerekmeyen durumlar arasında **"anime gibi sanatsal stiller"**, küçük renk/kırpma düzenlemeleri ve tanınabilir bir kişiyi taklit etmeyen genel TTS anlatımı sayılıyor. Etiket gönderide ("AI-generated content" ayarı) açılır; **yayından sonra değiştirilemez/kaldırılamaz**; etiketin erişimi düşürmediği ("ihlal yoksa ve FYF uygunluğu varsa") yazılı. Etiketi aldatmak için kötüye kullanmak ihlal.
+2. **Otomatik etiket** (#13): TikTok kendi AI efektleriyle üretileni otomatik etiketler; **C2PA Content Credentials** taşıyan başka platform içeriğini de bu metaveriyle etiketler. AI saptama: proaktif teknoloji, uzman uyarıları, bilinen AI içeriğe benzeyen klip/anahtar kelime aramaları, kullanıcı şikâyetleri. Yanıltıcı AI içerik başka yerde yayılıyorsa benzer sürümlerini otomatik yakalamaya çalışıyor.
+3. **Yasak AI içerik** (#13, #12): 18 yaş altı kişi benzerliği ve izinsiz özel birey benzerliği yasak; **halka açık kişinin onay/destek verirmiş gibi gösterilmesi (endorsement) yasak olarak listeli**. Üstteki §2.2'deki "Ağustos 2025'te bu ifade metinden çıktı, güncel metin doğrulanmadı" satırı **düzeltildi**: Safety Center sayfasında "halka açık kişilerin ... onay vermesi veya onaylanması" ifadesi duruyor. Ayrıca kamu yararı konularında yanıltıcı, sahte otoriter kaynak veya kriz olayı gösteren AI içerik yasak.
+4. **Özgün olmayan içerik** (#15, #12): Tanım: başkasından tamamen kopyalanan, yaratıcı düzenleme eklenmeden başka kaynaktan yeniden kullanılan, çok kaynaktan az bilgiyle birleştirilen, başkasının filigranı olan içerik. Sonuç: FYF'den çıkarılabilir; **Creator Rewards gibi para kazanma programlarına da uygun değil** ("originality" ödül formülünde ana ölçüt). Topluluk Kuralları: "özgün olmayan veya yeniden kullanılmış, yeni bir şey içermeyen içerik FYF'ye uygun değil". **Sayfalarda "AI ile seri üretim" diye ayrı bir kural veya sayı görmedim** (bilinmiyor).
+5. **Spam / otomasyon** (#12): Sistemleri aşmak için otomasyon araçları, betikler yasak; hesap yasağı, ek hesap yasağı, paylaşım/arama/FYF kısıtı. Birden fazla hesap serbest ama aldatmak veya kural aşmak için olamaz; yasaklanan başka hesap açıp dolanamaz.
+6. **Creator Rewards Program (CRP)** (#14):
+   - Şartlar: **10.000 takipçi ve son 30 günde 100.000 video görüntüleme**, 18+, kişisel hesap (iş hesabı değil), iyi durumda hesap, program açık ülkede yaşama/kayıt. Her video: **özgün, yüksek kaliteli, 1 dakikadan uzun**, FYF'den en az 1.000 görüntüleme, Duet/Stitch/Photo Mode değil, reklam/sponsorlu içerik değil; Additional Reward için 1080p+.
+   - **Açık ülkeler (resmî sayfa): ABD, Birleşik Krallık, Almanya, Japonya, Güney Kore, Fransa, Meksika, Brezilya. Yunanistan listede yok.** Üstteki §2.3'teki "Yunanistan büyük olasılıkla uygun değil, resmî teyit yok" satırı bu sayfa tarihiyle **doğrulandı**; yine de sayfa yayın tarihi gösterilmiyor (bilinmiyor), uygulama içi TikTok Studio'dan kontrol edilmeli.
+   - Uygun olmayan içerik/hesap (FAQ): **özgün olmayan** ("minimum özgün girdi veya düzenleme"), **düşük kalite** (bölünmüş ekran, anlamsız tepkiler, düşük kaliteli görüntü, **slayt videolar**), clickbait, rahatsız edici, sahte etkileşim vb. Eşikler: **son 30 günde 5 video ihlali = uygunluk kaybı; toplam 5 hesap ihlali = kalıcı uygunsuzluk.** Üstteki §2.3'teki "doğrulanmadı" notu bu sayfayla **düzeltildi (doğrulandı)**.
+   - **CRP'de AI içeriği yasaklayan bir cümle sayfada yok.** Ama "özgünlük" ve "kalite" ölçütleri AI seri içeriği dolaylı etkiler.
+7. **Kaldırma/hesap kapatma gerekçeleri (AI ile ilgili)** (#12, #13, #16): Etiketsiz gerçekçi AI; yanıltıcı AIGC; izinsiz benzerlik; sahte etkileşim/otomasyon; yasaklı hesabı dolanma. "Seri üretildiği için kanal kapatma" diye bir TikTok kuralı **görmedim** (bilinmiyor).
+
+### D. Ocak 2026 kapatmalar ile resmî kuralların karşılaştırılması
+
+- **Haber özeti (OKUDUM-ÖZET, bu tur arama):** Kapwing raporundan sonra YouTube'un 16 büyük AI kanalını kapattığı/boşalttığı; bir habere göre ~35M abone, ~4,7 milyar görüntüleme; haberde YouTube sözcüsünün "birkaç kanalı spam politikamızı ihlal ettikleri için kapattık" dediği aktarılıyor. Kaynaklar: https://tubefilter.com/2026/01/29/youtube-ai-slop-channel-crackdown-bans/ , https://arynews.tv/youtube-deletes-viral-ai-slop-channels-with-millions-of-subscribers , https://boingboing.net/2026/01/28/slop.html , https://tribune.com.pk/story/2589917/youtube-deletes-47-billion-views-worth-of-ai-spam-videos-in-major-platform-crackdown . **Bu siteler açılamadı; sayfa metni okunmadı.**
+- **Super Cat League:** arama özetinde kaynaklar çelişiyor (biri kanal hâlâ var ama video yok, diğerleri kaldırılmış/boşaltılmış diyor). Önceki ölçüm (mi-B1): @SuperCatLeague 15 abone, Shorts yok (GÖRDÜM), haberdeki kanalla aynı olduğu doğrulanmadı. Durum: **belirsiz**.
+- **Resmî kurallarla uyum (çıkarım, TAHMİN etiketli):** Bu kanalların resmî sayfada yazılı hangi maddeden kapatıldığını YouTube kamuya yazmadı; sayfalar yalnızca madde listesi veriyor. Haberdeki "spam" gerekçesi, Spam Politikası'nın "Otomatik veya sentetik seri üretim" maddesi (#3) ve kapatma sayfasındaki "tek ağır kötüye kullanım (ör. spam)" (#8) ile **tutarlı**. Bu, kanalların bu maddeden kapatıldığının kanıtı değil.
+- **Çıkarım (TAHMİN):** Yüksek hacimli, aynı şablonda (aynı durum, aynı sonuç) AI hayvan/kedi pembe dizisi, resmî metindeki hem "jenerik/şablon" hem "seri üretim" örneklerine yakın. Resmî sayfa "karakter serisi"ni açıkça **izinli** sayıyor; ayrım "her videonun ayrı hikâye/odak/konseptinin olması". Yani risk "AI hayvan karakteri" değil, **şablon + hacim + az insan katkısı**.
+- **Para kazanma kaybı ile kanal kapatma ayrı:** Kapatma = tüm içerik ve gelir gider; yeni kanal açarak dolanmak tüm kanalları riske atar (#8). Bu yüzden "çok kanal, aynı şablon" stratejisi resmî olarak da riskli.
+- **Süre çizelgesi notu (OKUDUM-ÖZET, ikincil, doğrulanmadı):** Üstteki §1.2'de geçen Temmuz 2026 "açıklama"sının tarihi resmî sayfada yok; resmî sayfada okunan "itici içerik" ve "AI personaları" başlıkları ise **AÇILDI**. Sayfanın değişiklik notu yalnızca 15 Temmuz 2025'i gösteriyor, bu başlıkların ne zaman eklendiğini sayfadan çıkaramadım.
+
+### E. Üstteki iddialarda yapılan düzeltmeler
+
+| Üstteki iddia | Durum | Kaynak |
+|---|---|---|
+| §0 "Hiçbir sayfa doğrudan açılamadı" | Düzeltildi: 16 sayfa açıldı | A bölümü |
+| §1.1 Açıklama sorusu "Altered content" | Resmî ad "AI use" | #2 |
+| §1.1 "YouTube etiketi yaratıcı kaldıramaz" | Kısmen: YouTube aracı/C2PA/elle incelenen etiket kaldırılamaz; sistem hatası çoğu durumda değiştirilebilir | #2 |
+| §1.2 itici içerik / AI persona maddeleri (ikincil kaynak) | Resmî sayfada doğrulandı; tarih yok | #1 |
+| §1.3 "Genişletilmiş YPP: 500 abone, 90 günde 3 herkese açık yükleme..." | "3 yükleme" bu sayfalarda yok → doğrulanmadı. 500 abone + 3.000 saat/3M Shorts doğrulandı | #6 |
+| §1.3 "Aktif kanal ayrıntıları tutarsız, doğrulanmadı" | Doğrulandı (1.000 saat / 1M Shorts / 2 uzun veya 5 Short, 90 gün; 1 Şubat 2027) | #6 |
+| §2.2 endorsement ifadesi "çıkarıldı, doğrulanmadı" | Güncel Safety Center metninde yasak olarak geçiyor | #13 |
+| §2.3 CRP ülkeleri, Yunanistan yok "resmî teyit yok" | Resmî Creator Academy sayfası 8 ülke sayıyor, Yunanistan yok | #14 |
+| §2.3 "5 video/30 gün, 5 hesap ihlali, doğrulanmadı" | Doğrulandı | #14 |
+| §2.3 "CRP 8 pazar ... İtalya, İspanya, Kanada resmî değil" | Resmî sayfada da yok | #14 |
+
+### F. Bize uygulanışı (konuşmasız AI hayvan/nesne karakterli kısa animasyon serisi)
+
+1. **Kural:** Karakter dizisi izinli, "aynı durum, aynı sonuç" şablonu para kazanamaz (#1). **Üretim kuralı:** Her bölümde ayrı mikro-hikâye (ayrı kurulum, tırmanış, **farklı bir sonuç**). Konuşmasız seride "aynı şaka, aynı yapı" riski en yüksek olduğundan her bölüm brifine "bu bölüm bir öncekinden hangi olayda ve hangi sonuçta farklı" satırı konur; Bekçi bölüm listesinde art arda 2 bölümün aynı çatıya sahip olmasını RED sayar.
+2. **Kural:** Spam: az değişiklikle yüksek hacimli AI üretim ve aynı müzik/aynı görsellerle tekrar yasak (#3). **Üretim kuralı:** Başlangıçta düşük hacim; günlük sınırı CONFIG.json'a bağlı tut, "bol hacim" deneyi yapma. Aynı karakterle çok kanal (kopya kanal) açılmaz; kapatılan hesabın izinsiz yenisiyle dolanmak tüm kanalları götürür (#8).
+3. **Kural:** Hayvanların abartılı sıkıntı/tehlike içinde olduğu tekrarlı senaryolar ve duygusal manipülasyon formülü para kazanamaz (#1). **Üretim kuralı:** Hayvan/nesne karakteri "kurtarma, acı, ağlama, kayıp" temasına dayandırılmaz; karakter kendi ajansıyla bir hedefin peşinde olur (absürt ama zararsız). Bu, Anayasa 11/22 ile de uyumlu.
+4. **Kural:** "AI ile benzersiz karakter ve anlatıyı görselleştirmek" izinli örnek olarak yazılı (#1). **Üretim kuralı:** Karakter bibliyosu (görünüş, kişilik, ilişkiler, yinelenen ama değişen motifler) ve insan yazımı hikâye omurgası dosyaya yazılır; kanalın "Hakkında" bölümü ve açıklamalar bu özgün karakteri anlatır (incelemeciler bu alanlara bakıyor, #1). Rakip karakteri/kalıbı kopyalanmaz.
+5. **Kural:** Gerçekçi görünmeyen animasyonda YouTube'da açıklama zorunlu değil; TikTok'ta "anime gibi sanatsal stiller" için gerekmiyor (#2, #16). Ama C2PA taşıyan/araçla üretilen içerik otomatik etiketlenir ve bu etiket kaldırılamaz (#2); TikTok etiketi yayından sonra silinemez (#16). **Üretim kuralı:** Stil açıkça stilize (fotogerçekçi değil) tutulur; gerçek kişi/olay/yer taklidi yok. İki platformda da etiket erişimi/geliri düşürmediği yazılı (#2, #16) → şüphede **etiketle**; üretim hattında araçların C2PA ekleyip eklemediği (Higgsfield/Kling çıktıları) TAHMİN, ilk denemede dosya meta verisine bakılarak test edilir.
+6. **Kural:** TikTok CRP'de Yunanistan yok (#14); YouTube eşikleri yeni hesap için 1 Şubat 2027'den sonra 8.000 saat / 20M Shorts (#6). **Üretim kuralı:** Gelir planı bu iki platformdan kısa vadede gelir varsaymaz; gelir kalemi doğrulanmadan (TikTok Studio, YouTube Studio ekranı) bütçeye girmez (Anayasa 9). Para kazanma yokken de strike ve kapatma kuralları geçerlidir.
+7. **Kural:** Shorts payı için aylık 10M nitelikli görüntüleme (1 Şubat 2027'den) (#6, #7). **Üretim kuralı:** YouTube Shorts'u ilk aşamada "talep ve topluluk deneyi" say; gelir hedefini uzun video, sponsor ve ürün gibi platform dışı kalemlere de bağla. Hesap kuruluşu A3 (Bora onayı) olduğundan bu bilgi kurulum kararına girer.
+8. **Kural:** Strike/kapatma için tek bir ağır spam ihlali yetebilir (#8) ve 90 günde 3 strike kapatma getirebilir (#9). **Üretim kuralı:** Her yayın öncesi 5 maddelik kontrol listesi: (a) bu bölüm öncekinden hikâye olarak farklı mı, (b) müzik/görsel şablon tekrarı yok mu, (c) sıkıntı/tehlike teması merkezde değil mi, (d) gerçekçi gerçek kişi/olay yok mu, (e) AI etiketi kararı yazıldı mı. Uyarı alındığında yayın durur, `BLOCKERS.md`'ye yazılır; sahte/ek hesapla dolanma asla (YETKI-MATRISI "Asla").
+
+**Güven:** YouTube kuralları yüksek (resmî sayfalar AÇILDI, tarih sayfada değişken olabilir); TikTok kuralları orta-yüksek (Creator Academy ve Safety Center AÇILDI, support.tiktok.com içeriği gelmedi); Ocak 2026 kapatma nedeni düşük (yalnızca arama özeti, haber sayfaları açılamadı). **Kaynak taraflılığı:** resmî sayfalar platformun kendi beyanıdır; uygulamadaki gerçek yaptırım ölçütleri ve kapatma kararları kamuya yayımlanmış değildir (bilinmiyor).
