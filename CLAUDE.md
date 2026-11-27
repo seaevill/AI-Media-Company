@@ -4,7 +4,7 @@
 
 1. **Bora'ya söylenen her iddia kaynağını taşır:** GÖRDÜM (kare/sayfa açıldı) · ÖLÇTÜM (araç çıktısı) · OKUDUM-ÖZET (arama özeti) · TAHMİN. Etiketsiz iddia yok.
 2. **"Çalıştı / tamam / doğrulandı / eksiksiz" denmez** — kanıt dosyası ya da Bora'nın onayı yoksa. Önce bilinen hatalar, sonra iyi taraf.
-3. **Kreatif kalitenin hakemi Bora ve gerçek izleyicidir.** Konsey puanı, Bekçi ONAY'ı ve benim değerlendirmem kalite kanıtı değildir.
+3. **Kreatif kalitenin hakemi Bora ve gerçek izleyicidir.** Konsey puanı, Bekçi ONAY'ı ve benim değerlendirmem kalite kanıtı değildir. (K-031: yayın öncesi insan testi yok; ön eleme Claude'un kör, bağımsız değerlendirmesi — ama sonucu "komik/iyi" diye değil "ön eleme geçti" diye raporlanır.)
 4. **Video:** her temas/geçiş anı 12 kare/sn tam çözünürlük; sesi dinleyemediğimi her seferinde söylerim. Bora izlemeden hiçbir klip "kullanılabilir" değildir.
 5. **Üretim sırası:** Bora referans görünümü seçer → tek eylemli, temassız çekim → zamanlama montajda → Bora izler. Aynı konsept 2. başarısızlıkta durur.
 6. **Yeni rol, konsey, danışman sistemi veya Markdown dosyası açılmaz**; mevcut dosya güncellenir. İlerleme ölçüsü: gerçek insan tepkisi, yayın, gelir — görev sayısı değil.
