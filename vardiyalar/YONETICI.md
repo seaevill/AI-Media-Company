@@ -7,18 +7,20 @@ ANAYASA.md, sirket/YETKI-MATRISI.md ve CLAUDE.md bu dosyanın üstündedir.
 
 ## 0. Kurulum
 ```
-git clone --depth 50 <REPO_URL> AI-Media-Company && cd AI-Media-Company
+git clone --depth 50 -b main <REPO_URL> AI-Media-Company && cd AI-Media-Company
+git config push.negotiate false
 RUN=$(date -u +%Y%m%d-%H%M)
 ```
 **Kuru koşu:** tetik metni `KURU KOŞU` ile başlıyorsa 1–4. adımlar + kilit kanıtı (eski görünümle ikinci alma denemesi reddedilmeli) yapılır; kilit commit'leri ve `vardiyalar/run-logs/` dışında hiçbir şey yazılmaz; "ne yapardım" cevabı verilir.
 
-## 1. Kilit (aynı anda tek koşucu)
-`scripts/kilit.sh al $RUN`
-- Çıkış 10 (taze LOCK var) → "başka koşu sürüyor" yaz ve DUR.
-- Çıkış 11 (yarışı kaybetti) → DUR.
-- Bayat kilit devralındıysa raporda söyle.
-- Son `limitler.etkilesimli_oturum_sessizlik_dakika` içinde başka biri (kilit/kayıt dalları dışında) `main`'e commit attıysa: "Claude Code aktif – müdahale yok" yaz, kilidi bırak, DUR.
-**Her çıkışta (hata dahil) en son adım:** `scripts/kilit.sh birak $RUN`.
+## 1. Etkileşimli oturum kontrolü (kilitten ÖNCE, salt okuma)
+`main`'de son `limitler.etkilesimli_oturum_sessizlik_dakika` içinde, mesajında `Vardiya-Run:` satırı OLMAYAN bir commit varsa: "Claude Code aktif – müdahale yok" yaz ve DUR (hiçbir şey yazmadan). Vardiya yöneticisinin kendi commit'leri her zaman `Vardiya-Run: <RUN>` satırı taşır. Kuruluş gibi etkileşimli bir oturumun hemen ardından gelen koşunun durması **beklenen davranıştır**.
+
+## 1b. Kilit (aynı anda tek koşucu)
+`bash scripts/kilit.sh al $RUN`
+- **Çıkış kodu 0 değilse DUR.** 10 = taze LOCK var ("başka koşu sürüyor"), 11 = yarışı kaybetti, diğer her kod = kilit hatası (raporla, BLOCKERS'a yaz).
+- Bayat kilit devralındıysa (çıktıda `BAYAT_KILIT_DEVRALINIYOR`) raporda söyle.
+**Kilit alındıysa her çıkışta (hata dahil) en son adım:** `bash scripts/kilit.sh birak $RUN`.
 
 ## 2. Oku (bu sırayla)
 `ANAYASA.md` → `sirket/AJAN-KIMLIGI.md` → `VIZYON.md` → `sirket/YETKI-MATRISI.md` → `vardiyalar/CONFIG.json` → `vardiyalar/DURUM.json` → `vardiyalar/DEVIR-TESLIM.md` → `vardiyalar/BLOCKERS.md` → `hafiza/OGRENILEN-DERSLER.md` (son 10 satır) → seçilen görevin takımının `takim.md`, `kurallar.md`, `defter.md`.
@@ -51,6 +53,7 @@ DÜZELTME GEREKLİ → gerekçeler aynen takıma, en fazla CONFIG `bekci_duzeltm
 - İlgili çıktılar (araştırma, deney, karakter, finans CSV).
 - Ajan çalıştıysa ilgili `takimlar/<takim>/defter.md` dosyasına tek ders; şirket çapında önemliyse `hafiza/OGRENILEN-DERSLER.md`.
 - `vardiyalar/run-logs/<RUN>.md`: okunan dosyalar, seçici çıktısı, çağrılan ajanlar, Bekçi kararı, kaynak kullanımı.
+- Her commit mesajı `Vardiya-Run: $RUN` satırı içerir.
 - Uzak repo varsa: kayıt dalı `kayit/<RUN>` → PR; Bekçi ONAY + `dogrula.py` temiz → birleştir. Korunan dosya içeren PR birleştirilmez, Bora'ya bırakılır.
 
 ## 8. Devir teslim ve rapor

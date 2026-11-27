@@ -168,14 +168,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "in_progress",
+      "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/"
       ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T12:25:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -193,14 +193,16 @@
       "beklenen_cikti": "produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md",
       "basari_kriteri": "Kısa dikey video için 3+ model, tahmini kredi",
       "azami_maliyet": "0 kredi",
-      "gercek_maliyet": null,
+      "gercek_maliyet": "0 kredi",
       "deneme": 0,
-      "durum": "queued",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md"
+      ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T12:20:00Z",
       "sonraki_guvenli_adim": "balance + models_explore + estimate_video_cost",
       "surum": 1
     },

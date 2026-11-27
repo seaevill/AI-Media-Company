@@ -4,6 +4,7 @@
 #   scripts/kilit.sh al    <RUN>   -> 0: alındı, 10: başka koşu sürüyor, 11: yarışı kaybetti
 #   scripts/kilit.sh birak <RUN>   -> 0: bırakıldı, 12: kilit bu koşunun değil
 #   scripts/kilit.sh durum         -> kilidin son mesajını yazar
+#   13: kilit dalı okunamadı. 0 dışındaki HER kod = DUR.
 # Ortam: KILIT_REMOTE (varsayılan origin), KILIT_DAL (varsayılan lock/medya),
 #        KILIT_BAYAT_DK (varsayılan CONFIG.json > limitler.kilit_bayatlama_dakika)
 set -euo pipefail
@@ -22,8 +23,11 @@ ilk_kurulum() {
   # Dal yoksa boş ağaçlı ilk FREE commit'i oluştur.
   local T; T=$(git hash-object -t tree /dev/null -w)
   local C; C=$(git commit-tree "$T" -m "FREE run=init at=$(simdi_iso) [skip ci]")
-  git push -q "$REMOTE" "$C:refs/heads/$DAL" 2>/dev/null || true
-  getir
+  if ! git push -q "$REMOTE" "$C:refs/heads/$DAL" 2>/tmp/kilit-init.$$; then
+    echo "ILK_KURULUM_PUSH_BASARISIZ (başka koşucu aynı anda kurmuş olabilir): $(cat /tmp/kilit-init.$$)" >&2
+  fi
+  rm -f /tmp/kilit-init.$$
+  getir || { echo "KILIT_DALI_OKUNAMADI" >&2; exit 13; }
 }
 
 komut="${1:-durum}"; RUN="${2:-}"
