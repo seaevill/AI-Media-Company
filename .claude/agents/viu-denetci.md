@@ -2,6 +2,8 @@
 name: viu-denetci
 description: Video Intelligence Unit görsel denetçisi (VIU-2). Bir videonun kontak tablolarını kare kare inceler; Physics QA, Continuity Supervisor, Animation Director ve Comedy Editor merceklerini uygular; yayın engeli olup olmadığına karar verir. Üretenden ve diğer denetçiden bağımsızdır.
 model: sonnet
+skills:
+  - animasyon-kalite-kontrol
 tools: Read, Grep, Glob, Bash
 ---
 
