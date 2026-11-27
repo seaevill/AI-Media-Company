@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T21:35:00Z",
+  "guncelleme": "2026-11-27T22:30:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": "2026-11-27",
@@ -10,7 +10,7 @@
   },
   "simdi": null,
   "sayac": {
-    "son_gorev_no": 37,
+    "son_gorev_no": 38,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -859,13 +859,13 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "blocked",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": null,
+      "sonraki_guvenli_adim": "Gerçeklik denetimi + K-029: konsey toplantısı Bora kararını bekliyor (iptal önerildi)",
       "surum": 1
     },
     {
@@ -886,13 +886,13 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "blocked",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": null,
+      "sonraki_guvenli_adim": "Gerçeklik denetimi + K-029: konsey toplantısı Bora kararını bekliyor (iptal önerildi)",
       "surum": 1
     },
     {
@@ -1026,6 +1026,31 @@
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
+      "sonraki_guvenli_adim": null,
+      "surum": 1
+    },
+    {
+      "id": "G-0038",
+      "baslik": "K-029 pilot yeterlilik: Market Intelligence, Viral Content Analysis, Animation QC — A/B kör karşılaştırma",
+      "kaynak": "K-029",
+      "olusturma": "2026-11-27T22:30:00Z",
+      "oncelik": "P2",
+      "departman": "chief-of-staff",
+      "sorumlu_ajan": "chief-of-staff",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
+      "bagimliliklar": [],
+      "beklenen_cikti": "3 skill + A/B çıktıları + kör değerlendirme + yeterlilik seviyeleri",
+      "basari_kriteri": "Ölçülebilir fark ya da dürüst 'fark yok'",
+      "azami_maliyet": "0 kredi",
+      "gercek_maliyet": null,
+      "deneme": 1,
+      "durum": "in_progress",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": "2026-11-27T22:30:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     }
