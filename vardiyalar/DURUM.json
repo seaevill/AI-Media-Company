@@ -708,16 +708,16 @@
       "departman": "produksiyon-maliyet",
       "sorumlu_ajan": "produksiyon-maliyet",
       "onay_seviyesi": "A2",
-      "onay": null,
+      "onay": "Bora, 2026-11-27, max 35 kredi (K-023)",
       "bagimliliklar": [
         "G-0023"
       ],
       "beklenen_cikti": "2 kısa video + kredi/benchmark kaydı",
       "basari_kriteri": "Bora'nın tepkisi: komik mi?",
-      "azami_maliyet": "önerilen max 35 kredi",
+      "azami_maliyet": "35 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "waiting_owner",
+      "durum": "approved",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
@@ -778,18 +778,6 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0013"
-    },
-    {
-      "id": "K-B11",
-      "soru": "İlk içerik üretimi: iki kısa şaka videosu ('Tıkırtı' ve 'Kapı') + iki karakterin yeniden çizimi için en fazla 35 Higgsfield kredisi (~56 TL) harcanabilir mi?",
-      "secenekler": [
-        "Onay, max 35",
-        "Önce kâğıt üzerinde göster"
-      ],
-      "oneri": "Onay — komediyi en hızlı ve ucuz bu sınar",
-      "maliyet": "≤35 kredi",
-      "geri_alinabilir_mi": false,
-      "ilgili_gorev": "G-0026"
     }
   ]
 }
