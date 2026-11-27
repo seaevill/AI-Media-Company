@@ -15,6 +15,9 @@ FOUNDER — BORA
     │   Creative Director · Character Architect · Scriptwriter · Chaos Director · Storytelling Specialist  (profil)
     ├── PRODUCTION DEPARTMENT ........................ ajan: produksiyon-maliyet
     │   Higgsfield Specialist · Visual Director · Video Editor · Production Engineer  (profil)
+    │   Animation Director · Comedy Editor  (profil, K-027)
+    ├── VIDEO INTELLIGENCE UNIT (K-027) .............. ajan: viu-denetci (2 bağımsız bağlam) + scripts/video_qc.py
+    │   Physics QA · Continuity Supervisor · Animation Director · Comedy Editor merceği — `denetim/VIU-PROTOKOLU.md`
     ├── GROWTH & DISTRIBUTION ........................ (Aşama 1 yayın onayı gelene kadar pasif; kreatif + analitik-gelir içinde profil)
     │   Growth Strategist · Platform Specialist · Community Analyst · Localization Specialist
     ├── MONETIZATION ................................. ajan: analitik-gelir
@@ -45,3 +48,11 @@ Bkz. `sirket/ISE-ALIM-PROTOKOLU.md`. Yeni ajan dosyası açmak A0'dır ama ancak
 ## Gerçek insan gereken yerler
 
 Vergi/şirket kuruluşu, sözleşme, telif/marka tescili hukuki görüşü, gerçek tüketici araştırması (anket/görüşme). Bir AI profili bu sorumlulukları taşıyamaz; gerektiğinde raporda açıkça "gerçek uzman gerekiyor" yazılır.
+
+## K-027 ile eklenen uzmanlıklar (Bora, 2026-11-27) — işe alım protokolü cevapları
+| Rol | Neden gerekli (kanıt) | Somut çıktı | Ne sıklıkta | Kaynak | Başarı ölçütü | Birleştirilebilir mi |
+|---|---|---|---|---|---|---|
+| **Animation Director** | 7 animasyon okunurluk/sahneleme sorunu taşıdı (karanlık, küçük kilit an, kalabalık kadraj) | çekim listesi onayı, VIU-2 merceği | her üretim öncesi ve sonrası | sonnet, 0 kredi | Bora'nın ret oranı ↓ | Prodüksiyonun içinde profil; VIU'da mercek |
+| **Continuity Supervisor** | Kapı v2'de kesme sürekliliği ve prop (çanta, kapı kolu tarafı) hataları | süreklilik kontrol listesi | her video | sonnet, 0 kredi | kaçırılan süreklilik hatası = 0 | VIU merceği |
+| **Physics QA** | İç içe geçme (Bora buldu), menteşe, nesne çoğalması | fizik kontrol listesi | her video | sonnet, 0 kredi | kalibrasyon.csv'de kaçırma oranı ↓ | VIU merceği |
+| **Comedy Editor** | "hiç komik değil": zamanlama modele bırakıldı | kurgu/zamanlama planı, punchline'ın montajda kurulması | her komedi içeriği | sonnet, 0 kredi | Bora + gerçek izleyici "güldüm" oranı | Kreatif ile ortak profil |

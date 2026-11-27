@@ -46,7 +46,8 @@
       "_onaylar": [
         "G-0012: max 80 kredi (Bora, 2026-11-27, K-014)"
       ],
-      "_sayac_kaynagi": "Harcanan kredi ve güncel bakiye yalnızca finans/kredi-kayitlari.csv'de (K-017). Bu dosya sınır ve onay tutar."
+      "_sayac_kaynagi": "Harcanan kredi ve güncel bakiye yalnızca finans/kredi-kayitlari.csv'de (K-017). Bu dosya sınır ve onay tutar.",
+      "uretim_dondurma": "K-027 (2026-11-27): yeni ücretli video üretimi durduruldu; yalnızca Bora kaldırabilir"
     },
     "kling": {
       "onayli_kredi_toplam": 0,
