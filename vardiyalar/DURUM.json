@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T15:00:00Z",
+  "guncelleme": "2026-11-27T17:45:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": "2026-11-27",
@@ -10,7 +10,7 @@
   },
   "simdi": "G-0012",
   "sayac": {
-    "son_gorev_no": 22,
+    "son_gorev_no": 24,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -617,6 +617,56 @@
       "son_calisma": null,
       "sonraki_guvenli_adim": null,
       "surum": 1
+    },
+    {
+      "id": "G-0023",
+      "baslik": "Komedi atölyesi: Üçüncü Kat için gag yapısını yeniden kur (Bora: 'hiç komik değil'); 5 alternatif şaka yapısı, kâğıt üzerinde insan testi protokolü",
+      "kaynak": "K-016 / K-018",
+      "olusturma": "2026-11-27T17:45:00Z",
+      "oncelik": "P5",
+      "departman": "kreatif-direktor",
+      "sorumlu_ajan": "kreatif-direktor",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
+      "bagimliliklar": [],
+      "beklenen_cikti": "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md",
+      "basari_kriteri": "Her gag'ın kurulum–sürpriz–tepki zamanlaması saniye saniye; kaynaklı creator yöntemine bağlı; kredi 0",
+      "azami_maliyet": "0 kredi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "queued",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": null,
+      "surum": 1
+    },
+    {
+      "id": "G-0024",
+      "baslik": "Uluslararası dizi/hesap adı seçimi (K-018): 5–8 aday, çakışma + TikTok/Instagram/YouTube handle müsaitliği (kamuya açık sayfa kontrolü), öneri",
+      "kaynak": "K-016 / K-018",
+      "olusturma": "2026-11-27T17:45:00Z",
+      "oncelik": "P5",
+      "departman": "pazar-istihbarati",
+      "sorumlu_ajan": "pazar-istihbarati",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
+      "bagimliliklar": [],
+      "beklenen_cikti": "istihbarat/pazar-firsatlari/2026-11-27-isim-secimi.md",
+      "basari_kriteri": "Her aday için çakışma ve handle durumu kaynaklı; hesap açılmaz",
+      "azami_maliyet": "0 kredi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "queued",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": null,
+      "surum": 1
     }
   ],
   "bekleyen_kararlar": [
@@ -655,18 +705,6 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0009"
-    },
-    {
-      "id": "K-B9",
-      "soru": "Harcanan kredi ve güncel bakiye CONFIG.json yerine yalnızca finans/kredi-kayitlari.csv'de tutulsun mu? (CONFIG korunan dosya; her harcamada senin onayın gerekir, bu yüzden sayaçlar eskiyor.)",
-      "secenekler": [
-        "Evet, sayaçları CONFIG'den çıkar",
-        "Hayır"
-      ],
-      "oneri": "Evet — CONFIG yalnızca sınırları tutar, sayaçlar CSV'de",
-      "maliyet": "0",
-      "geri_alinabilir_mi": true,
-      "ilgili_gorev": "G-0012"
     }
   ]
 }

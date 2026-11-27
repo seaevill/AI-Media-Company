@@ -56,5 +56,11 @@ Eşik (HİPOTEZ) ≥34/48: **net geçen yok.** Chief of Staff puanıyla Mini ve 
 ## Sınırlar
 Tek örnek, tek değerlendirici, ses dinlenmedi. Hailuo'ya ek olarak başlangıç karesi verildi; girdi eşit değil, kıyas bu yüzden tam adil değil. Sonuç kesin değil; yöntem bilgisidir (Kalite Standartları 11).
 
+## Bora'nın değerlendirmesi (K-016, 2026-11-27)
+- **Komedi: "hiç komik değil."** Test sahnesi bir gag olarak çalışmadı.
+- **Görsel/animasyon fikri: "güzel."**
+- **Ses: "yerinde."** (Ses puanı için tek insan değerlendirmesi: kabul edilebilir; nicel puan verilmedi.)
+Yorum: Sorun model/üretim değil, **senaryo ve zamanlama**. Sonraki kredi harcaması komedi kâğıt üzerinde çözülmeden yapılmamalı.
+
 ## Bütçe sayacı
-Harcanan toplam ve güncel bakiyenin tek kaynağı `finans/kredi-kayitlari.csv` (bu görev: 58,00; bakiye 1.877,39). `CONFIG.json`'daki `harcanan_kredi_toplam`/`bakiye_gozlenen` alanları korunan dosyada olduğu için ajanlar güncelleyemez; bu alanların CONFIG'den çıkarılması Bora'ya önerildi (K-B9).
+Harcanan toplam ve güncel bakiyenin tek kaynağı `finans/kredi-kayitlari.csv` (bu görev: 58,00; bakiye 1.877,39). `CONFIG.json`'daki `harcanan_kredi_toplam`/`bakiye_gozlenen` alanları korunan dosyada olduğu için ajanlar güncelleyemez; bu alanlar Bora onayıyla CONFIG'den çıkarıldı (K-017).

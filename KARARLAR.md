@@ -37,3 +37,6 @@ Her satır: tarih · karar · kaynak · onaylayan. Geçmiş silinmez; değişen 
 | K-013 | Ağ izinleri onaylandı: youtube.com, tiktok.com, trends.google.com, support.google.com, support.tiktok.com, help.instagram.com | Bora, "3-Onaylıyorum", 2026-11-27 (K-B3) |
 | K-014 | G-0012 karakter tutarlılığı benchmark'ı: **en fazla 80 Higgsfield kredisi** (A2) | Bora, "4-Onaylıyorum", 2026-11-27 (K-B4) |
 | K-015 | Higgsfield Ultra: aylık ~4.800 TL, 3.000 kredi (Bora beyanı, "galiba" — kesin değil) → yaklaşık 1,6 TL/kredi. Bora'nın gördüğü bakiye 1.938; araç 1.935,39 okudu | Bora, 2026-11-27 (K-B5) |
+| K-016 | G-0012 test videolarına Bora'nın tepkisi: **"hiç komik değil ama animasyon fikri güzel, ses yerinde."** İlk gerçek insan geri bildirimi (tek kişi, kurucu; izleyici verisi değil) | Bora, sohbet, 2026-11-27 |
+| K-017 | Harcanan kredi ve güncel bakiye CONFIG.json'dan çıkarılır; tek kaynak `finans/kredi-kayitlari.csv`. CONFIG yalnızca sınır/onay tutar | Bora, "3-evet", 2026-11-27 (K-B9) |
+| K-018 | Dizi/hesap adı kararı ekibe devredildi ("uluslararası olunca gözlem ve veri sizin elinizde"). Ekip veriyle seçer, Bora'ya bilgi verir; hesap açma yine A3 | Bora, "4-…ekibe bırakıyorum", 2026-11-27 |
