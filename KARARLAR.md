@@ -47,3 +47,4 @@ Her satır: tarih · karar · kaynak · onaylayan. Geçmiş silinmez; değişen 
 | K-023 | G-0026 ilk içerik üretimi onaylandı: 'Tıkırtı' + 'Kapı' + Tomruk/Cetvel referans yeniden çizimi, **max 35 Higgsfield kredisi** (A2) | Bora, "onaylıyorum", 2026-11-27 (K-B11) |
 | K-024 | Bora geri bildirimi: "Kapı" videosunda vombat kazın içinden geçiyor (görüntü hatası). Klip kullanılamaz kabul edildi; kalite kontrol yöntemi sıklaştırıldı | Bora, sohbet, 2026-11-27 |
 | K-025 | "Kapı" yeniden üretimi onaylandı ("Üret fakat lütfen aynı hataları istemiyorum"); K-023 bütçesi içinde, iki çekim + kurgu | Bora, sohbet, 2026-11-27 (K-B13) |
+| K-026 | Bora'nın "Kapı" v2 değerlendirmesi: **"Rezalet."** G-0026 başarısız kabul edildi. Bora yeni bir üretim planını onaylayana kadar Higgsfield üretimi durduruldu | Bora, sohbet, 2026-11-27 |

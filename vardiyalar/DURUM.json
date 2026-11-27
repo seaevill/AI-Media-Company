@@ -719,16 +719,16 @@
       "azami_maliyet": "35 kredi",
       "gercek_maliyet": "32,5 kredi",
       "deneme": 2,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-G-0026-icerik-sonuc.md",
         "finans/kredi-kayitlari.csv"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "Bekçi ONAY (parti-3 @ 1d503a8) GEÇERSİZ: Bora iç içe geçme hatası buldu (K-024); kalite kontrol açığı",
+      "bekci_karari": "BAŞARISIZ — Bora: 'Rezalet' (K-026). Sonuç veridir; tekrar yok.",
       "son_calisma": "2026-11-27T20:45:00Z",
-      "sonraki_guvenli_adim": "Bora izlemesi + Bekçi (yeni QC yöntemiyle)",
+      "sonraki_guvenli_adim": "Higgsfield üretimi durduruldu; yeni plan Bora onayına",
       "surum": 1
     }
   ],
