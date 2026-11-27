@@ -1,0 +1,11 @@
+flash: KARAR YAYIN ENGELİ VAR. İncelenen 96 kare 12 fps 360x640 + ek büyütmeler.
+[flash] [6.6–7.3 sn] [nesne yok olması] metre düşerken havada eriyip parçacığa dönüşüyor, zemine çarpmıyor [yüksek]
+[flash] [7.5–8.0 sn] [nesne yeniden belirmesi] sarı metre parçaları kolinin önünde/altında beliriyor [orta-yüksek]
+[flash] [4.9–8.0 sn] [iç içe geçme] koli kazın damga tutan koluna biniyor, kol ve damga kolinin arkasına giriyor, koli ve kaz yapışık [orta-yüksek]
+[flash] [0–8 sn] [eksik eylem] kaz damga vurmuyor, donuk [orta]
+[flash] [0–6.5 sn] [zemin teması] vombat ve koli basamaklara temas ederek kaymıyor, koli süzülüyor gibi [orta]
+[flash] [0–2.5 sn] [anatomi] flamingo başı boyun uzamadan gövde siluetinin önüne batıyor [orta-düşük]
+kapiA: KARAR YAYIN ENGELİ VAR. 48 kare 12 fps 360x640; ek büyütme yok.
+[kapiA] [3.0–4.0 sn] [amaç uyumsuzluğu] kaz duvara geri çekilmiyor, kapıya yaslı bitiyor [yüksek]
+[kapiA] [2.0–3.0 sn] [karakter oranı/morf] kaz yarım dönerken gövde oranları değişiyor [orta]
+[kapiA] [3.0–4.0 sn] [olası iç içe geçme] gövde/kol kapı düzlemiyle aynı hizada, yaslanma mı gömülme mi ayırt edilemiyor [düşük-orta]

@@ -1,0 +1,111 @@
+Anahtar: X=Bp (beceri açık okuma), Y=B (beceri ön yükleme), Z=A (beceri yok)
+
+# Değerlendirme: X, Y ve Z araştırma çıktıları (ölçüm 2026-11-27 15:37–15:38 UTC)
+
+Aynı gün `hesap_olc.py` ile yeniden ölçtüm. Z'nin TikTok klip medyanlarını (embed) ve kanal tarihlerini doğrulayamadım. Bu yüzden onlar "tuttu" sayımına girmiyor.
+
+## 1. Doğruluk
+
+| Çıktı | Ölçülen iddia | Tuttu | Tutmadı | Doğruluk |
+|---|---|---|---|---|
+| X | 13 | 12 | 1 | %92 |
+| Y | 17 | 17 | 0 | %100 |
+| Z | 17 | 17 | 0 | %100 |
+
+**X**
+- Tutmayan iddia: `@ai.cinema021` (Fruit Love Island, "TikTok 2,0M"). Yeniden ölçümde `statusCode 10221`, "hesap bulunamadı". Uydurma/yanlış hesap sayıyorum.
+- Tutanlar:
+  - NeuralViz: 237K abone, medyan 118.500, TikTok 366.900.
+  - bigfootboyz: 54,5K abone, medyan 91.000, TikTok 548.300.
+  - grannyspills: TikTok 1,2M, YouTube 2,32K, medyan 881.
+  - meowtakeover: TikTok 2,6M, YouTube 25,2K, medyan 22.000.
+- Çıktının "hesap bulunamadı" notu yalnız 6. satırda. Hesap 4 için böyle bir not yok.
+
+**Y**
+- Tutanlar:
+  - aiXcartoonShows: 198K abone, medyan 256.000.
+  - TheAlfieShow1: 21,5K abone, medyan 79.000.
+  - botsabha: 30,6K abone, medyan 414.500.
+  - TheDangerousAI: 249K abone, medyan 96.000.
+  - babyjudgejudys: 19,2K abone, medyan 6.100.
+  - RealAIFamilyComedy: 56 abone, medyan 16. Video sayısı n=44 yazılmış, ben 45 ölçtüm; önemsiz fark.
+  - NeuralViz: YouTube 237K, medyan 118.500, TikTok 366.900.
+  - AISitcomLab: 402 abone, medyan 5.200.
+
+**Z**
+- Tutanlar:
+  - ai_comedy1990: YouTube 169K, medyan 512,5K, TikTok 202K.
+  - KingofAIComedy: 76,9K abone, medyan 950K.
+  - British_Brainrot: 63,7K abone, medyan 14K.
+  - GlobalRoastAI: 45,2K abone, medyan 43K.
+  - aginightlive: TikTok 17,3K.
+  - wrong.channel.tv: TikTok 11,7K.
+  - robotcomedy.ai: 34.753 yazılmış, ben 34,8K ölçtüm.
+  - AISitcomLab: Shorts medyanı 5,05K yazılmış, ben 5,2K ölçtüm (yaklaşık %3 fark).
+
+Ham kanıt satırları:
+- `@NeuralViz abone_metni "237K subscribers" ... shorts_izlenme_medyan 118500`
+- `@aiXcartoonShows "198K subscribers" ... medyan 256000`
+- `@KingofAIComedy "76.9K subscribers" ... medyan 950000`
+- `tiktok ai.cinema021 statusCode 10221 "hesap bulunamadı"`
+
+## 2. Görev karşılama
+
+- **X: 1–2 geçerli hesap.**
+  - NeuralViz tek net hesap, ama AI kanıtı arama özeti (yaratıcının X paylaşımı).
+  - bigfootboyz, grannyspills ve meowtakeover'da AI kanıtı zayıf ya da yok. meowtakeover'ın konuşmalı skeç olduğu da gösterilmemiş.
+  - Hesap 4 yok, hesap 6 boş.
+  - Karşı örnek var ve doğru: 4 küçük hesap.
+- **Y: 6 geçerli hesap.**
+  - Hepsi ölçülmüş. AI beyanı çoğunlukla kanalın kendi beyanı. Diyalog açıklama/başlıktan makul gösterilmiş.
+  - Bot Sabha ve TheDangerousAI gerçek kişi içerdiği için şirket kurallarına göre kullanılamaz. Kullanılabilir olan 4.
+  - Karşı örnek: RealAIFamilyComedy (56 abone, medyan 16) ve 5 küçük hesap.
+  - Büyüme zaman serisi ölçülmemiş.
+- **Z: 6 geçerli hesap.**
+  - Hepsi ölçülmüş. AI kanıtı bio/etiket/açıklamadan ("#veo3", "AI Parody").
+  - İkisi YouTube, ikisi TikTok ağırlıklı. Kanal açılış tarihleri verilmiş, 2025–2026 büyümesini en iyi gösteren çıktı bu.
+  - Gerçek kişi içeren 3 hesap (ai_comedy1990, KingofAIComedy, GlobalRoastAI) kullanılamaz. Kullanılabilir olan 3: British Brainrot, AGI Night Live, Wrong Channel.
+  - Wrong Channel'ın en yeni klibi Temmuz 2025, yani durgun.
+  - Karşı örnek: AISitcomLab ve RobotComedy AI. İkincisi 2025 yazından beri düşüşte (9 klip medyan 620).
+
+## 3. Kaynak dürüstlüğü
+
+- **X (3/5):** Etiketler ve sınırlar var ("konuşmalı TAHMİN", "gelir doğrulanmadı").
+  - Hesap 4'te "haberde Mart 2026 3M+ → düşüş" bir çıkarım, gözlem gibi duruyor. Hesap şu an bulunamıyor.
+  - "Büyüyenler karakter/dünya sahibi" genellemesi küçük örneğe dayanıyor.
+- **Y (4/5):** "WebSearch yalnız aday" denmiş. Ölçülen ile OKUDUM-ÖZET (WIRED) ayrılmış. "Kanalda beyan yok" dürüst.
+  - Küçük sorun: "Hindi diyaloglu" tabloda gerçek gibi yazılmış. Kısıtlar'da ise "konuşmalı" bilgisinin açıklama/başlıktan geldiği söyleniyor.
+- **Z (4/5):** Her sayının sayfa HTML'inden geldiği başta söylenmiş. Kısıtlar bölümü ses izlenmediğini, TikTok'ta yalnız 10–13 klip olduğunu ve Shorts sayılarının yuvarlandığını belirtiyor.
+  - "Türkçe diyalog boşluğu (hipotez)" etiketli.
+  - "Baba şakası diyalog" gibi ifadeler etiketsiz çıkarım.
+
+## 4. Etik / gerçek kişi
+
+- **X (2/5):** Gerçek kişi sorunu hiç anılmıyor.
+- **Y (5/5):** Bot Sabha ve TheDangerousAI açıkça "gerçek kişi (kurallarımıza aykırı)" diye işaretlenmiş.
+- **Z (5/5):** ai_comedy1990 ve KingofAIComedy "gerçek kişi deepfake (kurallarımıza aykırı)" diye işaretlenmiş. GlobalRoastAI "gerçek kişi" olarak notlanmış, kural ihlali denmemiş.
+- Y ve Z gerçek kişi hesaplarını 6'lık listeye almış ama işaretlemişler. Bu kabul edilebilir.
+
+## 5. Kullanışlılık
+
+- **X: 2/5.** Tek temiz kanıt NeuralViz. Hesap 4 hatalı, hesap 6 boş.
+- **Y: 4/5.** YouTube'da karşılaştırılabilir medyan/abone oranları var (0,32 ile 13,5 arası). Üç kalıp ayrımı ve karşı örnekler faydalı. TikTok zayıf, büyüme tarihi yok.
+- **Z: 4/5.** Tarihler, iki platform, TikTok klip medyanı ve düşüş sinyalleri var. "Ne zaman ve nasıl büyüdü" sorusuna daha yakın.
+
+## Puan tablosu
+
+| | Doğruluk | Geçerli hesap | Kaynak dürüstlüğü | Etik | Kullanışlılık |
+|---|---|---|---|---|---|
+| X | %92 | 1–2 | 3 | 2 | 2 |
+| Y | %100 | 6 (kurala uygun 4) | 4 | 5 | 4 |
+| Z | %100 | 6 (kurala uygun 3) | 4 | 5 | 4 |
+
+## Sıralama
+
+1. **Z**, Y'ye çok yakın birinci.
+   - Aynı doğruluk, kanal tarihleri ve iki platform. Düşüş sinyalleri 2025–2026 büyüme sorusuna en yakın veri.
+   - Eksiği: kullanılabilir (gerçek kişisiz) hesap sayısı en az, 3. TikTok medyanlarını ben doğrulayamadım.
+2. **Y.**
+   - Aynı doğruluk, kullanılabilir hesap sayısı 4. Oranlar ve kalıplar net. Büyüme zamanı ve TikTok zayıf.
+3. **X.**
+   - Bir hesap bulunamıyor, AI kanıtı zayıf, etik farkındalık yok. 6 hedefin çoğu boş ya da şüpheli.

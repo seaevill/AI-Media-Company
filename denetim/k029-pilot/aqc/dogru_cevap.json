@@ -1,0 +1,345 @@
+{
+ "_kural": "Bir hata 'kesin' sayılır: en az iki bağımsız kaynak (Bora, VIU-A, VIU-B, CoS 12fps doğrulama, ffprobe) aynı türü aynı zaman aralığında bildirdiyse. Tolerans ±0.6 sn.",
+ "hatalar": [
+  {
+   "id": "K1",
+   "video": "kapi",
+   "t": [
+    2.4,
+    3.1
+   ],
+   "tur": "iç içe geçme",
+   "tanim": "vombat patisi/kolu kazın ceketi/eliyle birleşiyor",
+   "kaynak": [
+    "Bora (3-5 sn, vombat kazın içinden geçiyor)",
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "K2",
+   "video": "kapi",
+   "t": [
+    3.0,
+    4.8
+   ],
+   "tur": "derinlik/kaybolma",
+   "tanim": "kaz vombatın arkasında kayboluyor; kaz başı açılan kanadın arkasında kalıyor (ters derinlik)",
+   "kaynak": [
+    "Bora",
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "M1",
+   "video": "mini",
+   "t": [
+    0,
+    5.4
+   ],
+   "tur": "fizik/yerçekimi",
+   "tanim": "koli ve vombat basamaklara değmeden havada süzülüyor, kaymıyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "M2",
+   "video": "mini",
+   "t": [
+    6.0,
+    7.3
+   ],
+   "tur": "nesne sürekliliği",
+   "tanim": "şerit metre nedensiz kopuyor/kayboluyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "M3",
+   "video": "mini",
+   "t": [
+    6.4,
+    7.4
+   ],
+   "tur": "kaybolma–belirme",
+   "tanim": "damga kazın elinden kayboluyor, yerde beliriyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "M4",
+   "video": "mini",
+   "t": [
+    4.5,
+    5.3
+   ],
+   "tur": "iç içe geçme (şüpheli)",
+   "tanim": "koli ile kaz gövdesi/eli çakışıyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B (belirsiz)"
+   ],
+   "agirlik": 0.5,
+   "set": "sinav"
+  },
+  {
+   "id": "H1",
+   "video": "hailuo",
+   "t": [
+    4.3,
+    4.6
+   ],
+   "tur": "nesne çoğalması",
+   "tanim": "flamingodan yeni bir koli beliriyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "H2",
+   "video": "hailuo",
+   "t": [
+    4.75,
+    5.5
+   ],
+   "tur": "morf",
+   "tanim": "koli buruşuyor/eriyor, şekil değiştiriyor",
+   "kaynak": [
+    "VIU-A",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "H3",
+   "video": "hailuo",
+   "t": [
+    0,
+    5.9
+   ],
+   "tur": "niyet/hareket yok",
+   "tanim": "vombat ve koli hiç kaymıyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "H4",
+   "video": "hailuo",
+   "t": [
+    0,
+    5.9
+   ],
+   "tur": "teknik",
+   "tanim": "ses kanalı yok",
+   "kaynak": [
+    "ffprobe",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "H5",
+   "video": "hailuo",
+   "t": [
+    2.6,
+    5.9
+   ],
+   "tur": "fizik/anatomi",
+   "tanim": "kaz gövdesi yok / damga gagadan ayrılıp havada asılı",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "H6",
+   "video": "hailuo",
+   "t": [
+    4.3,
+    4.5
+   ],
+   "tur": "nesne sürekliliği",
+   "tanim": "metre kopmak yerine dağılıp kayboluyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "T1",
+   "video": "tikirti",
+   "t": [
+    3.8,
+    7.0
+   ],
+   "tur": "okunurluk",
+   "tanim": "şakanın kilit anı (tıklayan ayak) küçük ve karanlık, okunmuyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B",
+    "CoS",
+    "video_qc parlaklık 40/255"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "T2",
+   "video": "tikirti",
+   "t": [
+    0,
+    8
+   ],
+   "tur": "istenmeyen rakam/süreklilik",
+   "tanim": "komodin saatinde rakam var ve değişiyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "B1",
+   "video": "kapiB",
+   "t": [
+    0.6,
+    1.5
+   ],
+   "tur": "fizik/çakışma",
+   "tanim": "vombat kapının açılma yayında duruyor; kanat fiziksel olarak vombattan geçmeli ama arkasından geçiyor",
+   "kaynak": [
+    "VIU-B",
+    "CoS 12fps doğrulama 2026-11-27"
+   ],
+   "agirlik": 1,
+   "set": "sinav"
+  },
+  {
+   "id": "F1",
+   "video": "flash",
+   "t": [
+    6.6,
+    7.3
+   ],
+   "tur": "nesne sürekliliği",
+   "tanim": "şerit metre havada dağılıp yok oluyor, yere düşmüyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  },
+  {
+   "id": "F2",
+   "video": "flash",
+   "t": [
+    0,
+    8
+   ],
+   "tur": "geometri",
+   "tanim": "merdiven boşluğu geometrisi tuhaf (ortada elmas/mercek biçimli duvar paneli)",
+   "kaynak": [
+    "VIU-A (engel)",
+    "VIU-B (tuhaf, engel değil)"
+   ],
+   "agirlik": 0.5,
+   "set": "yeni"
+  },
+  {
+   "id": "F3",
+   "video": "flash",
+   "t": [
+    0,
+    8
+   ],
+   "tur": "fizik/yerçekimi",
+   "tanim": "koli hafif süzülüyor, basamak teması zayıf",
+   "kaynak": [
+    "VIU-B",
+    "VIU-A (kayma niyeti zayıf)"
+   ],
+   "agirlik": 0.5,
+   "set": "yeni"
+  },
+  {
+   "id": "A1",
+   "video": "kapiA",
+   "t": [
+    2.0,
+    2.6
+   ],
+   "tur": "morf/atlama",
+   "tanim": "kaz ~0.3 sn'de yan profilden öne dönüyor; eller parmaklıdan yumru/eldivene geçiyor",
+   "kaynak": [
+    "VIU-A",
+    "VIU-B"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  },
+  {
+   "id": "A2",
+   "video": "kapiA",
+   "t": [
+    2.5,
+    4.0
+   ],
+   "tur": "niyet",
+   "tanim": "kaz sola/duvara değil kapının önüne geri çekilip kapıya yaslanıyor",
+   "kaynak": [
+    "VIU-A",
+    "CoS"
+   ],
+   "agirlik": 1,
+   "set": "yeni"
+  }
+ ],
+ "yanlis_pozitif_bilinen": [
+  {
+   "video": "kapiB",
+   "iddia": "menteşe yönü ters / kapı ortadan menteşeli",
+   "durum": "YANLIŞ (CoS'un eski iddiası; 12fps doğrulamada menteşe sol ve tutarlı)"
+  }
+ ],
+ "tek_kaynakli_dogrulanmamis": [
+  {
+   "video": "tikirti",
+   "iddia": "battaniye yatak kenarından uzuyor 7.25–7.6 sn",
+   "kaynak": "VIU-A"
+  }
+ ]
+}

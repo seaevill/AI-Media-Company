@@ -1,0 +1,12 @@
+Yöntem: WebSearch yalnız aday; ~370 handle YouTube aramasından; tablo sayıları hesap_olc.py ölçümü, 2026-11-27 15:31–15:35 UTC; medyan Shorts sekmesindeki klipler.
+1 NeuralViz — https://www.youtube.com/@NeuralViz / https://www.tiktok.com/@neuralviz — YT 237K; TT 366.900 (7,6M beğeni, 58 video). YT medyan 118.500 (n=6; 54K–347K; medyan/abone 0,50). Uzaylı karakter "Tigg Talk" konuşma/podcast parodisi. AI kanıtı: WIRED özeti (OKUDUM-ÖZET), kanalda beyan yok. Gelir bilinmiyor.
+2 aiXcartoonShows — https://www.youtube.com/@aiXcartoonShows — YT 198K; medyan 256.000 (n=48; 5.600–4,8M; 1,29). Hindi diyaloglu bebek/çocuk karakter skeçleri. AI kanıtı: kendi beyanı (Gemini + Flow, "AI-generated").
+3 The Alfie Show — https://www.youtube.com/@TheAlfieShow1 — YT 21,5K; medyan 79.000 (n=47; 4.800–1,4M; 3,67). Kızgın İskoç karakter diyalog komedisi. AI kanıtı: kendi beyanı. "Officially Monetised" başlıklı video (GÖRDÜM, başlık).
+4 Bot Sabha — https://www.youtube.com/@botsabha — YT 30,6K; medyan 414.500 (n=32; 4.400–24M; 13,5). Gerçek siyasetçiler okul çocuğu olarak. AI kanıtı: kendi beyanı. Gerçek kişi (kurallarımıza aykırı).
+5 TheDangerousAI — https://www.youtube.com/@TheDangerousAI — YT 249K; medyan 96.000 (n=48; 13K–1,1M; 0,39). Spor yıldızları sahte röportaj. AI kanıtı: kendi beyanı. Gerçek kişi. Kanal 2018, toplam 313.956.939 izlenme.
+6 AI Baby Judge Judy — https://www.youtube.com/@babyjudgejudys — YT 19,2K; medyan 6.100 (n=47; 564–20.000; 0,32). Bebek yargıç skeçleri. AI kanıtı: kendi beyanı.
+Karşı örnek: RealAIFamilyComedy — https://www.youtube.com/@RealAIFamilyComedy — 56 abone, medyan 16 (n=44), Mayıs 2026, 64 video. Ek küçükler: @ToxicBossComedy 66/57, @AIComedyUSA-x9q 2/26, @Pandanita_AI 99/191, @AI_Comedy_Club-v5s 35/32, @AISitcomLab 402/5.200.
+Ek TikTok: @hayes_comedy 21.700, @wrong.channel.tv 11.700, @dailynews973 11.300.
+Kısıtlar: video izlenmedi; "konuşmalı" ve AI bilgisi açıklama/başlıktan; TikTok video başına izlenme yok; büyüme zaman serisi ölçülmedi (TAHMİN); Instagram yok.
+Bulgular: medyan>abone olan küçük kanallar; TikTok karşılığı bulmak zor; üç kalıp (özgün evren / gerçek kişi parodisi / bebek karakter).
+SKILL: pazar-istihbarati-olcum v1

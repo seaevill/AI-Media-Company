@@ -1,0 +1,10 @@
+Ölçüm 2026-11-27 15:34–15:36 UTC, hesap_olc.py. Ses/görüntü izlenmedi; "konuşmalı" TAHMİN. TikTok medyan yok. Instagram yok. Gelir doğrulanmadı.
+1 @NeuralViz YouTube https://www.youtube.com/@NeuralViz — 237K; medyan 118.500 (n=6; 54K–347K); 0,50. TikTok @neuralviz 366.900 (58 video, 7,6M beğeni). AI kanıtı: yaratıcının X paylaşımı "Veo 2" (OKUDUM-ÖZET). Kurgusal yaratık röportaj/podcast.
+2 @bigfootboyz YouTube https://www.youtube.com/@bigfootboyz — 54,5K; medyan 91.000 (n=42; 2.600–3,2M); 1,67; tepe/medyan 35,2. TikTok 548.300 (65 video, 6,0M beğeni). AI kanıtı zayıf (Gumroad/Substack özetleri). Konuşan Bigfoot vlog (monolog olabilir). Biyografide "Bigfoot Cameo" satışı.
+3 @grannyspills TikTok https://www.tiktok.com/@grannyspills — 1,2M (714 video, 16,1M beğeni), açılış 2025-07; YouTube 2,32K, medyan 881 (n=48; 0,38). AI ipucu: blurstudios.ai e-postası. Yaşlı karakter dedikodu (monolog).
+4 @ai.cinema021 (Fruit Love Island) TikTok — 2,0M (39 video, 30,7M beğeni); haberde Mart 2026 3M+ → düşüş. AI kanıtı: haber özetleri. Meyve karakterleri flört parodisi.
+5 @meowtakeover TikTok — 2,6M (405 video, 169,8M beğeni); YouTube 25,2K, medyan 22.000 (n=48; tepe/medyan 95,5). Kategoriye uygunluğu şüpheli (konuşmalı skeç doğrulanmadı).
+6. hesap bulunamadı.
+Karşı örnekler: @FunnyAIComedyshorts 113 abone, medyan 299; @BabyAIToons-en8 6 abone, medyan 3; @aicinema 23,3K abone, medyan 157; @longliveai TT 58,9K.
+Bulgular: platformlar arası büyük fark; tek viral bağımlılığı (Bigfoot 35,2; meowtakeover 95,5); büyüyenler karakter/dünya sahibi.
+SKILL: pazar-istihbarati-olcum v1

@@ -1,0 +1,100 @@
+VIU-2 ANİMASYON KALİTE KONTROL (kör test). Okunan dosyalar: viu-denetci.md ve animasyon-kalite-kontrol SKILL.md. İstenen gibi denetim/VIU-PROTOKOLU.md ve başka denetim, üretim ya da hafıza dosyası açılmadı. Hazır kare tablosu kullanılmadı; kareleri ben çıkardım.
+
+KARELER VE ÇÖZÜNÜRLÜK
+- Genel tarama: her videoda 8 kare/sn, 270 px genişlikte döşeme, tile 8x2. Toplam kare: kapi 64, mini 64, tikirti 64, hailuo 48, kapiB yaklaşık 40. Tablo dosyaları gen_<ad>_<sn>.png.
+- Olay incelemesi: 12 kare/sn. Kareler kaynak çözünürlükten kırpıldı (kırpma kaynak pikselidir; yalnızca döşeme için 200–360 px genişliğe küçültüldü). Toplam yaklaşık 380 kare okundu, hepsi Read ile açıldı.
+- Kaynak çözünürlük: kapi, mini, tikirti, kapiB 720x1280, 24 fps. hailuo 768x1376, 24 fps.
+- video_qc.py (8 fps) çıktısı: /tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/pilot/aqc-Bp/viu_<ad>/
+- Tüm kare dosyaları aynı klasörde (aqc-Bp). Aşağıda yalnızca dosya adı yazıyorum.
+- SES: hiçbirinin sesi dinlenmedi (dinleyemiyorum).
+
+─────────────
+VİDEO: kapi  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 720x1280 (9:16), 8,04 sn video / 8,10 sn ses, 24 fps, ses kanalı VAR (ortalama −28,2 dB; dinlenmedi). video_qc: ani değişim yok, parlaklık 73. Kademeli hatayı yakalamaz, ipucu olarak kullandım.  SES: dinlenmedi
+OLAYLAR İNCELENDİ (hepsi 12 kare/sn):
+- 2,3–4,3 sn vombatın kaza yaklaşması ve kolu tutması (olay_kapi_2.3.png)
+- 3,8–5,8 sn kapının açılması (olay_kapi_3.8.png)
+- 4,0–5,0 sn kazın yüzüne yakın kırpma (olay_kapi_4.0_yuz.png)
+- 5,5–7,5 sn bitiş duruşu (olay_kapi_5.5.png)
+HATALAR:
+- [4,3–4,6 sn] [menteşe yayı çakışması / ters derinlik] Kaz kapının koridor tarafında, elleri kapıya dayalı duruyor. Kapı kanadı sola açılırken kanadın kenarı kazın gözü ve gagası boyunca geçiyor (4,33 sn kanat kenarı gagayı kesiyor, 4,5 sn yüzü ortadan bölüyor, 4,58 sn kaz kanadın arkasında/ötesinde). Çarpışma ya da itilme yok; kaz kanadın içinden geçmiş gibi odaya doğru konum değiştiriyor. [güven: yüksek] [olay_kapi_4.0_yuz.png, olay_kapi_3.8.png]
+- [~2,6–3,3 sn] [derinlik kuşkusu, BELİRSİZ] Vombat yaklaşırken kazın gövdesi ve elleri vombatın arkasında kalıyor, vombat kolu kazın başı önünden knob'a uzanıyor. Kazın kamera tarafındaki durumuyla tutarlı olabilir, ama kazın gövdesinin kapanma düzeni bu karelerden kesin okunmuyor. [güven: düşük] [olay_kapi_2.3.png]
+- 6–8 sn: kaz kapı aralığında vombatın arkasında, elleri havada sabit. İç içe geçme ya da sayı değişimi görmedim.
+NİYET: Gerçekleşen: kaz kapıyı itiyor, vombat soldan gelip kolu çekiyor, kapı açılıyor, vombat kameraya bakıyor. Sorunlu: kaz kapı kanadı yayının içindeyken çarpışmasız kalıyor.
+MONTAJLA ÇÖZÜLEBİLİR: 4,2–4,7 sn arası kesilirse hata görünmez olabilir, ama kapı açılışının kendisi kesilir; kısmi çözüm.   MODEL KAPASİTESİ ÜSTÜNDE: kapı menteşe yayında duran karakter.
+SKILL: animasyon-kalite-kontrol v1
+
+─────────────
+VİDEO: mini  KARAR: YAYIN ENGELİ VAR (güven: orta; ana neden prop bırakma ve süzülen koli, tek başına kesin fizik ihlali değil)
+TEKNİK: 720x1280 (9:16), 8,04 sn video / 8,10 sn ses, 24 fps, ses kanalı VAR (−24,7 dB; dinlenmedi). video_qc: 5,25 sn'de ani değişim (fark 4,15, medyanın 4,2 katı), parlaklık 77,9. Bu an koli kazın seviyesine ulaştığı ana denk geliyor, ışınlanma görmedim.  SES: dinlenmedi
+OLAYLAR İNCELENDİ (12 kare/sn):
+- 1,0–3,0 sn koli ve vombat kayması (olay_mini_1.0_kayma.png)
+- 4,2–6,2 sn koli kazın yanına varması (olay_mini_4.2.png)
+- 5,2–7,2 sn metrenin düşüşü (olay_mini_5.2_metre.png, üst kadraj)
+- 5,5–6,5 sn flamingo/metre kopma anı (olay_mini_5.5_metre.png)
+- 6,4–8,0 sn metrenin yere inmesi ve damga (olay_mini_6.4.png)
+- 6,8–7,8 sn damga eli (olay_mini_6.8_damga.png)
+HATALAR:
+- [~6,9–7,2 sn] [istenmeyen prop bırakma] Kazın elindeki damga düşüyor ve yerde kalıyor. Damga hiçbir şeye basılmıyor, kaz onu sonradan yerden almıyor. Planlanan "kaz damga tutar" sahnesi son 1 sn'de bozuluyor. [güven: yüksek] [olay_mini_6.8_damga.png]
+- [1,0–5,0 sn] [yüzen nesne, süzülme] Koli (üstünde vombat) basamak yüzeyiyle belirgin temas ve gölge göstermeden havada süzülüyor, basamaklara göre sıçrama ya da eğim yok. Hareket tek renkli bir kayma gibi. [güven: orta] [olay_mini_1.0_kayma.png, olay_mini_4.2.png]
+- [~5,9–6,4 sn] [nedensiz kopma] Metrenin üst ucu flamingodan temas ya da çekme olmadan ayrılıyor ve serbest düşüyor. Flamingo ne tutuyor ne çekiyor. Yere inen halka düşen uzunluktan belirgin küçük. [güven: orta] [olay_mini_5.5_metre.png, olay_mini_6.4.png]
+- Vombat 1–8 sn pozunu hemen hiç değiştirmiyor (heykel gibi). Görsel hata saymadım, kayma sahnesinde canlılık eksikliği.
+- Karakter ve prop sayısı: flamingo 1, vombat 1, kaz 1, koli 1, damga 1, metre 1, hiç çoğalma yok.
+NİYET: Gerçekleşen: vombat koli üstünde kayıyor ve kazın yanında duruyor (kazın ayağında/yanında), metre flamingodan ayrılıp iniyor. Zayıf: "metre kopar" kopma gibi görünmüyor, damga kullanılmadan düşüyor.
+MONTAJLA ÇÖZÜLEBİLİR: 6,8 sn sonrası kırpma (damga düşüşü kesilirse), süre kısaltma.   MODEL KAPASİTESİ ÜSTÜNDE: ince esnek nesne (metre) ve prop tutma/bırakma, kayma fiziği.
+SKILL: animasyon-kalite-kontrol v1
+
+─────────────
+VİDEO: hailuo  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 768x1376 (9:16), 5,88 sn, 24 fps, SES KANALI YOK (video_qc uyarısı; ses gerekli mi bilmiyorum, istenirse ayrı engel). Parlaklık 66,1. video_qc 9 ani değişim işaretledi, hepsi aşağıdaki koli olayına denk geliyor.  SES: kanal yok
+OLAYLAR İNCELENDİ (12 kare/sn):
+- 1,9–2,9 sn metre ve damga (olay_hailuo_1.9_damga.png)
+- 4,0–5,9 sn koli ve flamingo (olay_hailuo_4.0.png)
+HATALAR:
+- [~4,8–5,6 sn] [nesne çoğalması + beliriş] Flamingonun gagası/kanadı arasında daha önce var olmayan ikinci bir koli beliriyor (~4,75 sn), düşüyor. Vombatın oturduğu ilk koli yerinde duruyor. İki koli aynı anda var. [güven: yüksek] [olay_hailuo_4.0.png]
+- [~5,3–5,5 sn] [morf] Düşen koli yamuk bir top biçimine (buruşuk kağıt gibi) dönüşüyor, sonra altta tekrar düzgün büyük kutuya geri dönüyor. [güven: yüksek] [olay_hailuo_4.0.png]
+- [~4,0–4,4 sn] [kaybolma] Metre flamingo sol ayağından kopmadan toz/sarı parçacıklara dönüşüp kayboluyor. Kopma yok, parçacıklar ~5,9 sn'ye kadar havada. [güven: yüksek] [olay_hailuo_4.0.png]
+- [~2,4–5,9 sn] [yüzen nesne] Damga kazın gagasından ayrılıp gagadan boşlukla yukarıda havada asılı kalıyor (kaz gagasını yukarı kaldırmış, tutmuyor). [güven: yüksek] [olay_hailuo_1.9_damga.png, olay_hailuo_4.0.png]
+- Vombat 0–5,9 sn boyunca koli üstünde hareketsiz oturuyor, hiç kaymıyor.
+NİYET: Gerçekleşmeyen: vombat koli üstünde kaymıyor (ana eylem yok), koli kazın ayağında durmuyor (düşen koli kaybolup tekrar beliriyor), metre kopmuyor (dağılıyor). Gerçekleşen: flamingo metre sarkıtıyor, kaz damga tutuyor (başta).
+MONTAJLA ÇÖZÜLEBİLİR: ilk ~3,5 sn kırpılabilir, ama sahnenin ana şakası bu videoda yok.   MODEL KAPASİTESİ ÜSTÜNDE: zincir eylem, 3 karakter + ince nesne, prop tutma.
+SKILL: animasyon-kalite-kontrol v1
+
+─────────────
+VİDEO: tikirti  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 720x1280 (9:16), 8,04 sn video / 8,10 sn ses, 24 fps, ses kanalı VAR (dinlenmedi; şakanın "tıkırtı" kısmı sesle taşınıyor, ses doğrulanamadı). video_qc: karanlık uyarısı (parlaklık 40,0/255, eşik 45; eşik HİPOTEZ), 14 ani değişim (kamera/ışık ipucu).  SES: dinlenmedi
+OLAYLAR İNCELENDİ (12 kare/sn):
+- 3,8–5,8 sn ayaklar (olay_tikirti_3.8_ayak.png)
+- 4,4–6,4 sn ayaklar (olay_tikirti_4.4_ayak.png)
+- 0–8 sn saat (3 kare/sn tek tablo, olay_tikirti_saat.png)
+- 6,0–8,0 sn battaniye çekme (olay_tikirti_6.0_battaniye.png)
+HATALAR:
+- [0–8 sn] [istenmeyen rakam değişimi] Başucu saatinin rakamları sürekli değişiyor (okunan sıra: 05, 06, 08, 09 civarı, sonra 00/07). Saat istenmemiş, rakam akışı sahnede kendiliğinden hareket ediyor. [güven: orta-yüksek] [olay_tikirti_saat.png, olay_tikirti_6.0_battaniye.png]
+- [~3,0–6,0 sn] [okunmayan kilit an] "Üçüncüde ses kendi ayağından" şakası görsel olarak okunmuyor. Ayaklar yalnızca ~%9 kadraj yüksekliği (< 1/6), çok karanlık ve ayak bacak hareketi çok ince (kıpırdama sezilmiyor), vombat bakışı ayağa dönük olmasına rağmen vombatın ayağı fark ettiği an yok. [güven: yüksek (okunmama)] [olay_tikirti_3.8_ayak.png, olay_tikirti_4.4_ayak.png]
+- [~6,5–7,5 sn] [hacim değişimi, BELİRSİZ] Battaniye çekilirken gövde altındaki kabarıklık ve ayaklar kısa sürede düzleşiyor, vücut hacmi küçülüyor gibi. Büyük olasılıkla battaniyenin örtmesi, ama vücut şeklini 12 kare/sn'den kesin ayıramadım. [güven: düşük] [olay_tikirti_6.0_battaniye.png]
+- İki uyanma okunuyor (yaklaşık 0,8–1,6 sn ve 2,2–3,5 sn gözler açılıp yukarı bakış). Battaniye çekme açık okunuyor (6,0–7,5 sn).
+NİYET: Gerçekleşen: uyuyan vombat, iki uyanma, battaniyeyi çekme. Gerçekleşmeyen/okunmayan: üçüncü tıkırtının ayaktan geldiği.
+MONTAJLA ÇÖZÜLEBİLİR: yakın kırpma/ışık yükseltme ile ayağı kadrajda büyütmek (yeniden kadraj), saat rakamları maskelenebilir. Kilit an için yeni çekim gerekebilir.   MODEL KAPASİTESİ ÜSTÜNDE: karanlık sahne, küçük ayrıntıya dayalı şaka.
+SKILL: animasyon-kalite-kontrol v1
+
+─────────────
+VİDEO: kapiB  KARAR: YAYIN ENGELİ VAR (güven: orta-yüksek)
+TEKNİK: 720x1280 (9:16), 5,04 sn video / 5,09 sn ses, 24 fps, ses kanalı VAR (−32,8 dB; dinlenmedi). video_qc: 0,75 sn'de ani değişim (fark 8,35), parlaklık 78,8. 0,75 sn kapının açılmaya başladığı ana denk geliyor.  SES: dinlenmedi
+OLAYLAR İNCELENDİ (12 kare/sn):
+- 0,4–2,4 sn kapı açılışı (olay_kapiB_0.4.png)
+- 8 fps genel tablolar 0–4 sn, 4 sn sonrası (gen_kapiB_0/2/4.png)
+HATALAR:
+- [~0,8–1,9 sn] [menteşe yayı çakışması] Vombat kapı kolundayken kapı koridora (kameraya/sola) doğru açılıyor. Kanat vombatın başı ve omzu hizasından geçiyor, bu sırada vombat hareket etmiyor, itilmiyor ve çarpışma yok. Kanat kenarı ~1,3 sn'den sonra vombatın arkasında kalıyor, vombat kanadın önünde. Yani kanat vombatın içinden ya da arkasından geçmiş gibi (skill'in "kapiB B1" tanımıyla aynı tür). [güven: orta-yüksek] [olay_kapiB_0.4.png]
+- [~0,85–0,95 sn] [çift topuz, BELİRSİZ] İki karede kapı kolu iki kez görünüyor (vombatın elindeki ve kanadın kenarındaki). Kanat ve çerçeve topuzunun karışmış olması da mümkün, 12 kare/sn'de net ayıramadım. [güven: düşük] [olay_kapiB_0.4.png]
+- [0–1,5 sn] [istenmeyen parçacık] Kazın etrafında beyaz tüy parçacıkları süzülüyor, istenmemiş ayrıntı, küçük. [güven: orta] [olay_kapiB_0.4.png]
+- Kaz kapı yayının dışında, duvarda duruyor; kaz ile kanat arasında temas ya da iç içe geçme görmedim. Vombat 1,8 sn sonrası dönüp kameraya bakıyor, sayı değişimi yok.
+NİYET: Gerçekleşen: kaz solda duvarda, vombat kolda çekiyor, kapı açılıyor, vombat kameraya bakıyor. Hata: kapı açılırken vombat ile kanat arasında fizik yok.
+MONTAJLA ÇÖZÜLEBİLİR: kapının açılışı (0,8–1,9 sn) kesilirse yalnızca bu hatayı gizler, ama açılma sahnesi bu videoda ana olay; çözmez.   MODEL KAPASİTESİ ÜSTÜNDE: kapı ve menteşe, iki karakterin yolunun kesişmesi.
+SKILL: animasyon-kalite-kontrol v1
+
+─────────────
+GENEL NOTLAR
+- Yukarıdaki ENGEL kararları yapı-fizik gözlemidir. Beşi de "Bora izlemeden yayın kalitesi denmez" kuralı altında; hiçbirini "yayınlanabilir" saymıyorum.
+- Hiçbir videoda 12 kare/sn yakın inceleme yapılamamış bir şüphe bırakmadım; BELİRSİZ işaretli maddeler (kapi derinlik, kapiB çift topuz, tikirti hacim) kendi başlarına karar değiştirmiyor.
+- Ses hiçbir videoda dinlenmedi. hailuo'da ses kanalı yok.
+- Ders kaydı (kalibrasyon.csv) yazılmadı: bu kör testte bağımsız referans bulgum yok ve repo dosyası değiştirmem istenmedi.

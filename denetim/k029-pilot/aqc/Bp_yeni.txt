@@ -1,0 +1,59 @@
+VIU-2 görsel denetim raporu (animasyon-kalite-kontrol v1). Ses DİNLENMEDİ. Bulguların hepsi benim kare okumamdan; hakem Bora (VIU-3).
+
+KULLANILAN YÖNTEM / KARE SAYILARI
+- ffprobe: iki video da 720x1280 (9:16), 24 fps, H.264 + AAC ses kanalı var. flash 8.04 sn (193 kare), kapiA 4.04 sn (97 kare).
+- VIU-1: `python3 -I scripts/video_qc.py --fps 8` (flash: ani değişim 6.00, 6.50, 6.62, 6.75, 6.88, 7.00 sn; ort. parlaklık 73. kapiA: 2.12, 2.25, 2.38 sn; ort. parlaklık 78). Script'in kendi "şüpheli" PNG'lerini AÇMADIM; o anları kendi 12 kare/sn çıkarımımla inceledim.
+- Genel tablo: 4 kare/sn, kare başı 240 px genişlik (flash 32 kare, kapiA 16 kare), ikisi de açıldı.
+- Yakın inceleme: 12 kare/sn, kaynak 720x1280'den bölge kırpması, kare başı 240–450 px genişliğe küçültülmüş. Açtığım tablolar:
+  - flash: alt yarı 3.0–5.0 sn (24 kare), 5.0–7.0 (24), 6.5–8.04 (19); kaz/koli teması 5.2–6.2 (12), 6.1–7.1 (12); metre kopması 6.8–8.0 (15); flamingo üst bölge 0–1 (12), 1–3 (24), 6.5–8.04 (19); sahne üst yarısı 1–3 (24). Toplam yaklaşık 185 kare.
+  - kapiA: 0–1.5 (18), 1.5–3.0 (18), 2.5–4.0 (18), dönüş anı 1.7–2.45 (9), son 2.9–4.0 (14 kare). Toplam yaklaşık 77 kare.
+- Üretilip AÇILMAYAN dosyalar: flash_ust_0/3/6.png, flash_fl_3.png, flash_fl_5.png. Bunlara dayanan bir iddiam yok.
+- Hepsi scratch altında: /tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/pilot/aqc-Bp2/
+
+---
+VİDEO: flash.mp4  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 720x1280, 9:16, 24 fps, 8.04 sn, ses kanalı var (AAC)  SES: dinlenmedi
+OLAYLAR İNCELENDİ:
+- 0–3 sn flamingo + metre çıkışı (12 fps, kırpma)
+- 3–5.2 sn koli inişi (12 fps, alt yarı)
+- 5.2–7.1 sn koli–kaz teması ve damga yakını (12 fps, kırpma)
+- 6.5–8.04 sn metre kopması / düşmesi, koli üstü (12 fps, kırpma)
+- Metre ucu / flamingo gagası 6.5–8 sn (12 fps)
+HATALAR:
+- [6.6–7.4 sn] [kaybolma / morf: metre kopmuyor, dağılıyor] Gagadan sarkan sarı şerit önce gagada kopuk, kara bir parça gibi görünüyor (6.6–6.8). Havadaki bölümü sonra sarı duman/kıvrık ince tel parçalarına dönüşüp solarak kayboluyor (6.8–7.1). Ardından vombatın göğsü ve kolinin önünden sarı bir bant düşüyor (7.1–7.5) ve koli tabanının altında yok oluyor; 7.6 sn'den sonra kadrajda hiç metre yok, yerde yığılmış parça da yok. İstenen "metre kopar" eylemi kopma olarak okunmuyor, "eriyip yok olma" olarak okunuyor. [güven: yüksek] [flash_metre_6.8.png, flash_alt_6.5.png, flash_fl_6.5.png]
+- [5.2–8.04 sn] [temas/destek: koli yüzüyor olabilir] Koli basamakları takip eden bir sıçrama/oturma göstermeden düz bir çizgide kayıyor; tabanın altında gölge/temas izi seçilmiyor. "Merdivenden kayar" ile uyumlu olabilir, ama basamak üstünde durduğu belli değil. [güven: düşük] [flash_alt_5.png, flash_temas_5.2.png]
+- [0–1 sn] [anatomi belirsizliği] Flamingo başı eğiyor; bu sırada boynu görünmüyor, baş koyu gövdenin içine gömülmüş gibi okunuyor, gözlük gövdenin üstünde kalıyor. Bu bir eğilme mi morf mu, 12 fps'te kesin değil. [güven: düşük] [flash_fl_0.png, flash_fl_1.png]
+- Sayım: karakter 3 (flamingo, vombat, kaz) tüm videoda sabit; koli 1; damga 1 (kazın elinde, 0–8 sn). Çoğalma/kaybolma yok, metre hariç.
+- Derinlik: kaz kolinin önünde (kaz ayakları kolinin tabanından daha aşağıda), kazın eli/damgası kolinin sağ kenarının önüne biniyor. Tutarlı, iç içe geçme görmedim (12 fps'te, güven orta).
+- Okunurluk: parlaklık 73/255, kadraj aydınlık; kilit an (metre kopması) kadrajın üst yarısında okunuyor ama sarı ince şerit küçük.
+- İstenmeyen yazı: görmedim (metre üzerindeki ölçek çizgileri dışında).
+NİYET:
+- Gerçekleşen: dikey merdiven boşluğu; üstte gözlüklü flamingo metre sarkıtıyor; ortada vombat koli üstünde merdivenden aşağı iniyor; altta kaz damga tutuyor; koli sonunda kazın yanında (ayak hizası) duruyor.
+- Gerçekleşmeyen / bozuk: "metre kopar" (dağılıp kayboluyor). Kaz damgayı hiç kullanmıyor, yalnız tutuyor (istenen de buydu).
+MONTAJLA ÇÖZÜLEBİLİR: kopma anının (6.6 sn sonrası) kesilmesi mümkün ama hikâyenin kilit anı olduğu için çözmez; 6.6 sn'de bitiren bir kurgu "kopar" eylemini de yok eder.
+MODEL KAPASİTESİ ÜSTÜNDE: ince esnek nesnenin (şerit metre) kopması ve düşmesi (beceri dosyasındaki bilinen zaaf ile örtüşüyor).
+SKILL: animasyon-kalite-kontrol v1
+
+---
+VİDEO: kapiA.mp4  KARAR: YAYIN ENGELİ VAR (güven: orta; engel görsel fizik hatası değil, niyet uyumsuzluğu)
+TEKNİK: 720x1280, 9:16, 24 fps, 4.04 sn, ses kanalı var (AAC)  SES: dinlenmedi
+OLAYLAR İNCELENDİ:
+- 0–1.5 sn kaz kapıyı itiyor (12 fps, kırpma)
+- 1.5–3.0 sn itmeyi bırakma ve dönüş (12 fps, kırpma; 1.7–2.45 ayrıca daha büyük)
+- 2.5–4.0 sn geri çekilme / son poz, kaz–kapı teması (12 fps, kırpma; 2.9–4.0 ayrıca)
+HATALAR:
+- [1.9–4.04 sn] [niyet: geri çekilme yönü] Kaz itmeyi bırakıyor, kolları düşüyor, omuzları çöküyor (1.9–2.4). Ama sola/duvara doğru çekilmek yerine gövdesini çevirip bana göre kapı tarafında kalıyor ve 2.6 sn'den sonra gövdesi kapıya yaslı, başı sola dönük, hareketsiz kalıyor (kaymıyor, yürümüyor). Sola yürüyüş görmedim; konum tahmini kırpma koordinatlarından, ölçüm değil. [güven: orta] [kapiA_olay_2.5.png, kapiA_son_2.9.png]
+- [2.0–4.04 sn] [süreklilik: kaz görünümü kayıyor] Dönüşten sonra gagası koyu turuncu-kahveden soluk pembeye dönüyor, baş daha yassı ve sarkık, ceket kıvrımları ve karın tüyü deseni değişiyor. Işık değişimi de olabilir, ama aynı karakter gibi okunmuyor. Tek başına engel saymıyorum. [güven: orta-düşük] [kapiA_donus_1.7.png, kapiA_son_2.9.png]
+- Kapı: menteşe tarafı kazın solunda/arkasında kapı çerçevesinde; kapı 0–4 sn arasında hiç açılmıyor, kanat/yay çakışması yok. İstenen "kapı açılmaz" gerçekleşti. [güven: yüksek] [kapiA_olay_0.png]
+- 2.12–2.38 sn VIU-1 ani değişim uyarıları: 12 fps'te kesme/ışınlanma değil, gövdenin 3/4 sırtından öne dönmesi sırasında hızlı hareket. Kayıp/çoğalma yok. [güven: orta] [kapiA_donus_1.7.png]
+- Sayım: karakter 1 (kaz); ayak 2, kol 2, anahtar halkası görünür kalıyor (dönüşte yarı gizleniyor). Çoğalma/kaybolma yok.
+- Derinlik/temas: kaz kapının önünde duruyor, ayakları zeminde gölgeli. 0–2 sn gaga ucu ve elleri kapı yüzeyine değiyor, gövde kapı düzlemine girmiyor (12 fps, güven orta). Kapıya yaslı son pozda kolun/sırtın kapı kenarına girip girmediği net değil; belirgin iç içe geçme görmedim.
+- Okunurluk: parlaklık 78/255, kaz kadrajın büyük bölümünü dolduruyor, okunuyor. İstenmeyen yazı yok.
+NİYET:
+- Gerçekleşen: koridorda yalnız kaz; kapıyı itiyor; kapı açılmıyor; kaz pes ediyor (1.9–2.6).
+- Gerçekleşmeyen: "sola, duvara doğru geri çekilir". Kaz kapıdan uzaklaşmıyor, kapıya yaslı bitiyor.
+MONTAJLA ÇÖZÜLEBİLİR: 2.4 sn civarında kesmek "pes etme" anında bitirir, geri çekilme gerekmeden okunur; yani niyet kayması montajla çözülebilir. Görünüm kayması (gaga/baş) 2.4 sn kesmeyle de büyük ölçüde dışarıda kalır.
+MODEL KAPASİTESİ ÜSTÜNDE: yönlü uzun yürüyüş + dönüş sırasında karakter görünümünü sabit tutmak.
+SKILL: animasyon-kalite-kontrol v1
+
+İkinci bağımsız denetçi çalıştırılmadı. Bora izlemeden hiçbir klip "kullanılabilir" değildir.

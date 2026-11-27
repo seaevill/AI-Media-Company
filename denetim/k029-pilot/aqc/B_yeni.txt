@@ -1,0 +1,12 @@
+flash: KARAR YAYIN ENGELİ VAR. 8 fps tam video 64 kare + 12 fps büyütülmüş ek 50 kare.
+flash 6.9–7.9 sn iç içe-nesne Kopan şerit vombat/koli içinden geçip solarak yok oluyor [yüksek]
+flash 0–8 sn eksik-eylem Kaz damga eylemini hiç yapmıyor, donuk [yüksek]
+flash 4.5–8.0 sn yerçekimi Vombat+koli temassız süzülüyor, basamak teması yok [orta]
+flash 6.1–7.5 sn iç içe-nesne Koli kenarı kazın eli/damgasıyla kesişiyor [orta]
+flash 0–1.5 sn süreklilik Flamingo gözlüğü okunmuyor, şerit sarkıtma net değil [orta]
+kapiA: KARAR YAYIN ENGELİ VAR. 8 fps 32 kare + 8/12 fps büyütülmüş 29 kare.
+kapiA 2.3–4.0 sn iç içe-karakter/nesne Kaz gövdesi/kolu/başı kapıya gömülüyor [orta-yüksek]
+kapiA 2.3–4.0 sn sahneleme Kaz sola çekilmiyor, kapıya yaslanıp duruyor, niyet edilen eylem yok [yüksek]
+kapiA 1.9–2.5 sn deformasyon Kol/ceket oranı ani değişiyor [orta]
+kapiA 2.5–3.2 sn ayak kayması Adım çevrimi yok, ayaklar kayıyor [orta]
+(Çıktıda "SKILL: animasyon-kalite-kontrol v1" imza satırı YOK.)

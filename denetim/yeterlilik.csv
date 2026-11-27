@@ -1,0 +1,3 @@
+tarih,ajan,beceri,seviye,kanit,olcum,not
+2026-11-27,pazar-istihbarati,pazar-istihbarati-olcum v1,L1,denetim/k029-pilot/mi/,"kör değerlendirme (sayıları yeniden ölçtü): beceri yok %100 doğruluk 6 hesap; ön yükleme %100 6 hesap; açık okuma %92 1-2 geçerli hesap, 1 yok hesap",Beceri ölçülebilir iyileşme SAĞLAMADI. Beceri-yok koşulu temiz değil (ajan takım defterindeki eski dersleri okuyor). Tek koşu. Sayı ölçme aracı (hesap_olc.py) her koşulda çalıştı: asıl kazanç araç.
+2026-11-27,viral-video-analizi,viral-video-analizi v1,L0 BLOCKED,denetim/k029-pilot/,"YouTube izleme sayfası CAPTCHA, küçük resim erişimi yok, Gemini anahtarı yok",Video içeriğine erişim yok; beceri çağrıldığında doğru biçimde BLOCKED raporu verdi (davranış testi geçti; analiz yeteneği test edilemedi).
