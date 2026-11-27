@@ -149,3 +149,149 @@ Yaşam döngüsü sınıflandırması yapılmadı: veri (zaman serisi) yok. Göz
 Birincil sayfalar: https://www.youtube.com/@NeuralViz · /@BandarApnaDost · /@chloevshistory · /@thedorbrothers · /@tailbitpets · /@meowtakeover · /@grannyspills · /@basincreekretirement · /@infiniteunreality · /@alexey_pigeon · /channel/UCYbvkLfnQS8983p8xj24emQ · /channel/UCBmYV0_-7m0OeryGSeQ72ZQ · /channel/UCJz2R2Uue_u5_SWxnwsTXdA; https://www.tiktok.com/@meowtakeover · @mpminds · @grannyspills · @tailbitpets · @alexey_pigeon · @neuralviz · @yetivloglife · @infiniteunreality · @basincreekretirement · @veo3aimemes · @hashem.alghaili; https://www.youtube.com/oembed (Neural Viz video başlığı doğrulaması).
 
 İkincil/arama: Kapwing AI slop raporu https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/ ; Kapwing Bigfoot https://www.kapwing.com/resources/what-it-takes-to-make-viral-ai-video-content-we-asked-bigfoot/ ; Business Standard (repo Kart 8); The Star https://www.thestar.com.my/lifestyle/entertainment/2026/04/08/ai-generated-fruit-love-island-takes-tiktok-by-storm ; Tubefilter https://tubefilter.com/2026/01/29/youtube-ai-slop-channel-crackdown-bans/ ; IBTimes https://www.ibtimes.co.uk/youtube-cracks-down-ai-generated-content-1800213 ; The Hustle https://thehustle.co/news/how-mans-best-friend-became-mans-favorite-podcaster ; Webull basın bülteni https://www.webull.com/news/15866099234413568 ; Nomusica https://www.nomusica.com/this-ai-made-street-interview-is-so-real-people-cant-believe-its-fake/ ; TechCrunch https://techcrunch.com/2023/02/06/ai-generated-seinfeld-suspended-on-twitch-for-ai-generated-transphobic-jokes/ ; Newswav https://newswav.com/article/ai-generated-sitcoms-are-making-waves-on-tiktok-A2507_rpUYg0 ; CBS araştırması https://www.cbs.dk/en/articles/ai-labels-reduce-social-media-engagement ; PJ Ace X paylaşımı https://x.com/PJaccetturo/status/1931960645345501333 ; Neural Viz WIRED kopyası https://celebsover50.pages.dev/story/the-future-of-ai-media-parody-of-the-apocalypse-guy-named-josh (ikincil kopya); repo: `istihbarat/rakip-analizleri/2026-11-27-ilk-tarama.md`.
+
+## 2026-11-28 ek: konuşmasız AI hayvan pazarı — ölçülmüş (G-0048)
+
+- Görev: G-0048 (A0, kredi 0) · Hazırlayan: pazar-istihbarati · Ölçüm: `python3 -I scripts/hesap_olc.py youtube|tiktok ...`, **2026-11-27 22:12–22:15 UTC** (başlıktaki 11-28 görev tarihidir). Ek sayfa metni okuması: `curl` ile hesapların YT açıklaması / TT bio alanı (aynı saat aralığı).
+- Etiketler: ÖLÇTÜM = araç/curl çıktısı, sayfa metni dahil. OKUDUM-ÖZET = arama özeti (veri değil, ipucu). TAHMİN. **GÖRDÜM hiçbir satırda yok: hiçbir video izlenmedi, ses dinlenmedi.**
+
+**Önce bilinen hatalar ve sınırlar**
+1. "Konuşmasız" sütunu hiçbir hesapta doğrulanmadı (video izlenmedi). Üç hesapta yalnız haber özeti var, kalanı "bilinmiyor".
+2. "AI kanıtı"nın çoğu hesabın kendi beyanı değil, üçüncü taraf haber/blog. En az üç hesapta kanıt zayıf ya da tersi (aşağıda: tailbitpets, officialdivingdog, HasanAi202).
+3. **TikTok sayısı yalnızca embed sayfasındaki son ~10 klibe dayanır** (araç tarafından). Sabitlenmiş klipler araçta **tahmini** (başta en çok 3 klip, ardından daha yeni klip varsa). Araç `en yüksek/medyan` oranını sabitlenmişleri çıkarıp hesaplıyor; sabitlenmişler çoğu hesapta asıl viral klip. Bu yüzden tabloda sabitlenmişlerin izlenmesini ayrı yazdım.
+4. YouTube Shorts sırası garanti değil (araç "genelde en yeni ~30–48"); YT'de sabitleme ayrılamıyor ve tarih okunmuyor.
+5. **Büyüme ölçülemedi.** Elimizde tek kesit var; zaman serisi yok. Hiçbir hesaba "büyüyor" yazılmadı. Eski takipçi sayıları (haber) tarihli/ölçülmemiş.
+6. Yeni aday hedefi (10) tutmadı: WebSearch hesap adı/handle vermedi (bkz. "Yeni adaylar"). Instagram ölçülmedi (kapalı).
+7. Aynı adlı YT/TT sayfalarının aynı kişi olduğu çoğunlukta doğrulanamadı (bkz. "Kimlik notu").
+
+### Durum kuralı (yalnız ölçülebilen veri)
+- **çökmüş:** hesap/içerik ölçümde yok ya da yeni klip yarısının medyanı eski yarının <%5'i (n≥8, sıra varsayımıyla).
+- **durgun:** TT'de en yeni klip 90 günden eski (video kimliğinden tarih, araç) ya da yeni/eski yarı oranı <0,2.
+- **büyüyor:** zaman serisi olmadığı için hiçbir satıra verilemedi.
+- Aksi hâlde **bilinmiyor**. "Aktif" yalnızca "son klip tarihi" olarak yazıldı.
+
+### Ölçüm tablosu
+Sütunlar: hesap (URL) · platform · takipçi/abone · son klip medyanı (n) · medyan/takipçi · en yüksek/medyan (TT'de sabitlenmişsiz) · sabitlenmiş klip izlenmeleri (TT, tahmini) · AI kanıtı · konuşmasız kanıtı · durum. `—` = okunamadı/yok. TT medyanı sabitlenmişleri çıkarır. Takipçi sayıları ölçüm anı; YT abone sayısı yuvarlak (3 anlamlı hane).
+
+| hesap | pl. | takipçi | son klip medyanı | med/takipçi | yüksek/med | sabitlenmiş | AI kanıtı | konuşmasız | durum |
+|---|---|---|---|---|---|---|---|---|---|
+| [@BandarApnaDost](https://www.youtube.com/@BandarApnaDost) | YT | 3.960.000 | 5.750.000 (n=48) | 1,45 | 25,0× | araç ayırmıyor | YT açıklaması: "write original prompts and use AI tools" (hesap beyanı, ÖLÇTÜM-sayfa metni); Kapwing (OKUDUM-ÖZET) | Haber: "no talking" (OKUDUM-ÖZET) | bilinmiyor (tek kesit) |
+| [@BandarApnaDost](https://www.tiktok.com/@BandarApnaDost) | TT | 10 | ölçülemedi | — | — | — | aynı adlı sayfa, kimlik eşleşmesi doğrulanamadı (bkz. kimlik notu) | — | bilinmiyor (klip izlenmesi okunamadı) |
+| [@meowtakeover](https://www.youtube.com/@meowtakeover) | YT | 25.200 | 22.500 (n=48) | 0,893 | 93,3× | araç ayırmıyor | KnowYourMeme "AI Kittens Dancing" (OKUDUM-ÖZET); hesabın kendi beyanı yok | KYM: müzikli (OKUDUM-ÖZET) | bilinmiyor (tek kesit) |
+| [@meowtakeover](https://www.tiktok.com/@meowtakeover) | TT | 2.628.915 | 1.069.250 (n=10) | 0,407 | 2,5× | 108.900.000 / 32.800.000 / 73.100.000 | ↑ aynı hesap | ↑ | bilinmiyor (tek kesit; aktif, son klip 2026-11-27) |
+| [@MPMinds_](https://www.youtube.com/@MPMinds_) | YT | 1.320.000 | 17.500 (n=48) | 0,013 | 10,9× | araç ayırmıyor | KYM/Daily Dot (OKUDUM-ÖZET); hesap beyanı yok | KYM (OKUDUM-ÖZET) | durgun (yeni/eski 0,15) |
+| [@MPMinds_](https://www.tiktok.com/@MPMinds_) | TT | 0 | ölçülemedi | — | — | — | aynı adlı sayfa, kimlik eşleşmesi doğrulanamadı (bkz. kimlik notu) | — | bilinmiyor (klip izlenmesi okunamadı) |
+| [@mpminds](https://www.youtube.com/@mpminds) | YT | 28 | ölçülemedi | — | — | araç ayırmıyor | aynı adlı sayfa, kimlik eşleşmesi doğrulanamadı (bkz. kimlik notu) | — | bilinmiyor (klip izlenmesi okunamadı) |
+| [@mpminds](https://www.tiktok.com/@mpminds) | TT | 1.352.685 | 4.414 (n=10) | 0,003 | 1,4× | 52.100.000 / 51.400.000 | ↑ aynı hesap | ↑ | bilinmiyor (tek kesit; aktif, son klip 2026-10-28) |
+| [@tailbitpets](https://www.youtube.com/@tailbitpets) | YT | 153.000 | 65.500 (n=48) | 0,428 | 58,0× | araç ayırmıyor | **Doğrulanmadı**: bio "Original creator of the viral nervous dog videos", AI demiyor; yalnız Daily Dot yorumcu şüphesi (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@tailbitpets](https://www.tiktok.com/@tailbitpets) | TT | 856.739 | 12.550 (n=10) | 0,015 | 4,0× | 7.500.000 / 36.100.000 / 49.300.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit; aktif, son klip 2026-11-27) |
+| [@officialdivingdog](https://www.youtube.com/@officialdivingdog) | YT | 21 | 384 (n=8) | 18,29 | 10,7× | araç ayırmıyor | **AI kanıtı yok; tersi işaret**: bio "Remembering Chief the Diving Dog 2014-2025" (anma), sabitli klip 2022 tarihli (video kimliğinden) → gerçek köpek hesabı olması muhtemel (TAHMİN) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@officialdivingdog](https://www.tiktok.com/@officialdivingdog) | TT | 154.231 | 5.266 (n=8) | 0,034 | 4,5× | 3.391 / 34.000 / 8.500.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit; aktif, son klip 2026-10-26) |
+| [@pablo.prompt](https://www.youtube.com/@pablo.prompt) | YT | — | ölçülemedi | — | — | araç ayırmıyor | Bio: "AI Video Creator / Educador en AI Videos" (hesap beyanı); hayvan klibi içeriği doğrulanmadı | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@pablo.prompt](https://www.tiktok.com/@pablo.prompt) | TT | 269.595 | 103.000 (n=9) | 0,382 | 15,5× | 8.200.000 / 5.100.000 / 846.400 | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit; aktif, son klip 2026-11-26) |
+| [@cat_tommmy](https://www.youtube.com/@cat_tommmy) | YT | 209 | 50 (n=18) | 0,239 | 200,0× | araç ayırmıyor | Hesap beyanı yok; "AI Cat Stories" haber özeti (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@cat_tommmy](https://www.tiktok.com/@cat_tommmy) | TT | 360.200 | 4.853 (n=10) | 0,013 | 1,5× | 16.800.000 / 7.900.000 / 7.300.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-11-22, 370 gün) |
+| [@chubbycat_1](https://www.youtube.com/@chubbycat_1) | YT | 6 | 29 (n=3) | 4,83 | 1,2× | araç ayırmıyor | Hesap adı "Chubby Cat Ai" (beyan, zayıf); TikTok AI etiketi arama özeti (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | bilinmiyor (n<8) |
+| [@chubbycat_1](https://www.tiktok.com/@chubbycat_1) | TT | 4.911.945 | 4.450.000 (n=10) | 0,906 | 11,8× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-12-11, 351 gün) |
+| [@aibeaststudio](https://www.youtube.com/@aibeaststudio) | YT | — | ölçülemedi | — | — | araç ayırmıyor | Hesap adı "Ai Beast"; bio kurs satıyor (taraflı, beyan zayıf) | bilinmiyor (izlenmedi) | bilinmiyor (klip izlenmesi okunamadı) |
+| [@aibeaststudio](https://www.tiktok.com/@aibeaststudio) | TT | 1.488.305 | 140.200 (n=10) | 0,094 | 27,1× | 34.300.000 / 88.200.000 / 39.600.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | çökmüş (yeni yarı/eski yarı medyan 0,03) |
+| [@storyarcpaws](https://www.youtube.com/@storyarcpaws) | YT | 550.000 | 674.500 (n=48) | 1,23 | 274,3× | araç ayırmıyor | Yalnız Medium özeti (OKUDUM-ÖZET, zayıf); kanal metni AI demiyor | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@storyarcpaws](https://www.tiktok.com/@storyarcpaws) | TT | 2 | 41 (n=1) | 20,50 | 1,0× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (n<8) |
+| [@funntastic_AI](https://www.youtube.com/@funntastic_AI) | YT | 572.000 | 47.000 (n=29) | 0,082 | 2,1× | araç ayırmıyor | NPR: yapımcı kendi beyanı (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@funntastic_AI](https://www.tiktok.com/@funntastic_AI) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@HasanAi202](https://www.youtube.com/@HasanAi202) | YT | 11.900 | 6.300 (n=46) | 0,529 | 603,2× | araç ayırmıyor | Vuela (satıcı blogu, OKUDUM-ÖZET); kanal metni "micro research cameras" diyor, AI demiyor | bilinmiyor (izlenmedi) | çökmüş (yeni yarı/eski yarı medyan 0,01) |
+| [@HasanAi202](https://www.tiktok.com/@HasanAi202) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@asmraiworks](https://www.youtube.com/@asmraiworks) | YT | 4 | 60 (n=3) | 15,00 | 1,4× | araç ayırmıyor | YT açıklaması "ai generated videos"; TT bio "learn how I make these" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (n<8) |
+| [@asmraiworks](https://www.tiktok.com/@asmraiworks) | TT | 172.619 | 580.700 (n=10) | 3,36 | 6,9× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-07-08, 507 gün) |
+| [@impossibleais](https://www.youtube.com/@impossibleais) | YT | — | ölçülemedi | — | — | araç ayırmıyor | Kanıt yok (bio boş); haber (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | bilinmiyor (klip izlenmesi okunamadı) |
+| [@impossibleais](https://www.tiktok.com/@impossibleais) | TT | 170.096 | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | çökmüş (1 video kaldı; TAHMİN: içerik silinmiş) |
+| [@ai.shxdda](https://www.youtube.com/@ai.shxdda) | YT | 39.200 | 9.150 (n=48) | 0,233 | 4,8× | araç ayırmıyor | YT açıklaması "AI artist" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@ai.shxdda](https://www.tiktok.com/@ai.shxdda) | TT | 0 | 3 (n=10) | — | 3,3× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (0 takipçi, 3 izlenme: büyük olasılıkla ilgisiz hesap) |
+| [@SuperCatLeague](https://www.youtube.com/@SuperCatLeague) | YT | 15 | ölçülemedi | — | — | araç ayırmıyor | Guardian/Kapwing (OKUDUM-ÖZET) | bilinmiyor (izlenmedi) | çökmüş (haber: ~3,9M abone, OKUDUM-ÖZET → ölçülen 15 abone, 0 Shorts) |
+| [@SuperCatLeague](https://www.tiktok.com/@SuperCatLeague) | TT | 0 | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (klip izlenmesi okunamadı) |
+| [@aimeowrealm](https://www.youtube.com/@aimeowrealm) | YT | 170 | 983 (n=48) | 5,79 | 35,6× | araç ayırmıyor | YT açıklaması "Where AI meets Imagination" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@aimeowrealm](https://www.tiktok.com/@aimeowrealm) | TT | 8 | 21 (n=5) | 2,62 | 1,6× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (n<8) |
+| [@kittenstoriesdaily01](https://www.youtube.com/@kittenstoriesdaily01) | YT | 846.000 | 2.100 (n=25) | 0,002 | 4,4× | araç ayırmıyor | YT açıklaması "AI-crafted" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@kittenstoriesdaily01](https://www.tiktok.com/@kittenstoriesdaily01) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@catrealmai](https://www.youtube.com/@catrealmai) | YT | 1.380.000 | 9.200 (n=48) | 0,007 | 7,8× | araç ayırmıyor | YT açıklaması "AI videos" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@catrealmai](https://www.tiktok.com/@catrealmai) | TT | 737.732 | 5.904 (n=10) | 0,008 | 3,0× | 24.200.000 / 5.500.000 / 9.000.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-11-21, 371 gün) |
+| [@animalshortssb](https://www.youtube.com/@animalshortssb) | YT | 367.000 | 230 (n=48) | 0,001 | 1,8× | araç ayırmıyor | YT açıklaması "AI-generated animal videos" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@animalshortssb](https://www.tiktok.com/@animalshortssb) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@AiKittenverse](https://www.youtube.com/@AiKittenverse) | YT | 19.500 | 25.000 (n=48) | 1,28 | 3,8× | araç ayırmıyor | YT açıklaması "AI Kitten Verse… AI creativity" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@AiKittenverse](https://www.tiktok.com/@AiKittenverse) | TT | 29.449 | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (klip izlenmesi okunamadı) |
+| [@satisfyingclips50](https://www.youtube.com/@satisfyingclips50) | YT | — | ölçülemedi | — | — | araç ayırmıyor | TT bio "AI ASMR videos using Google's VEO3" (hesap beyanı) | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@satisfyingclips50](https://www.tiktok.com/@satisfyingclips50) | TT | 13.866 | 2.278 (n=10) | 0,164 | 3,6× | 733.900 / 2.100.000 / 6.500.000 | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-07-27, 488 gün) |
+| [@poutyfrenchie](https://www.youtube.com/@poutyfrenchie) | YT | — | ölçülemedi | — | — | araç ayırmıyor | vidIQ (OKUDUM-ÖZET); hesap beyanı yok | bilinmiyor (izlenmedi) | çökmüş (haber: 1,3M abone, OKUDUM-ÖZET → şimdi 404, ÖLÇTÜM) |
+| [@poutyfrenchie](https://www.tiktok.com/@poutyfrenchie) | TT | 1.766 | 5.241 (n=10) | 2,97 | 60,1× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | durgun (son klip 2025-10-18, 405 gün) |
+| [@AIanimalShorts26](https://www.youtube.com/@AIanimalShorts26) | YT | 6 | 1.400 (n=7) | 233,33 | 3,0× | araç ayırmıyor | Kanal adı (beyan zayıf) | bilinmiyor (izlenmedi) | bilinmiyor (n<8) |
+| [@AIanimalShorts26](https://www.tiktok.com/@AIanimalShorts26) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@WildAIShorts](https://www.youtube.com/@WildAIShorts) | YT | 12 | 1.300 (n=17) | 108,33 | 3,8× | araç ayırmıyor | Kanal adı (beyan zayıf) | bilinmiyor (izlenmedi) | çökmüş (yeni yarı/eski yarı medyan 0,01) |
+| [@WildAIShorts](https://www.tiktok.com/@WildAIShorts) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@Yellowchicksss](https://www.youtube.com/@Yellowchicksss) | YT | 3.140.000 | 55.000 (n=31) | 0,018 | 43,6× | araç ayırmıyor | Hesap beyanı yok (açıklama "kids channel… rhymes"); eğitim videosu özetleri (OKUDUM-ÖZET, taraflı) | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@Yellowchicksss](https://www.tiktok.com/@Yellowchicksss) | TT | 0 | ölçülemedi | — | — | — | aynı adlı sayfa, kimlik eşleşmesi doğrulanamadı (bkz. kimlik notu) | — | bilinmiyor (klip izlenmesi okunamadı) |
+| [@wild-alarm](https://www.youtube.com/@wild-alarm) | YT | 713.000 | ölçülemedi | — | — | araç ayırmıyor | YT açıklaması "brought to life through the power of AI" (hesap beyanı) | bilinmiyor (izlenmedi) | bilinmiyor (klip izlenmesi okunamadı) |
+| [@wild-alarm](https://www.tiktok.com/@wild-alarm) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@zero_qq-s4k](https://www.youtube.com/@zero_qq-s4k) | YT | 35.800 | 2.050 (n=48) | 0,057 | 322,9× | araç ayırmıyor | YT açıklaması AI restoran reklamı (hesap beyanı) — **hayvan değil, kapsam dışı** | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit) |
+| [@zero_qq-s4k](https://www.tiktok.com/@zero_qq-s4k) | TT | — | ölçülemedi | — | — | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | hesap bulunamadı (404/10221; bu platformda bu adla yok) |
+| [@savannahrush](https://www.youtube.com/@savannahrush) | YT | — | ölçülemedi | — | — | araç ayırmıyor | aynı adlı sayfa, kimlik eşleşmesi doğrulanamadı (bkz. kimlik notu) | — | bilinmiyor (klip izlenmesi okunamadı) |
+| [@savannahrush](https://www.tiktok.com/@savannahrush) | TT | 725 | 640 (n=10) | 0,883 | 1,5× | — | ↑ aynı hesap | bilinmiyor (izlenmedi) | bilinmiyor (tek kesit; aktif, son klip 2026-11-27) |
+**Kimlik notu (aynı adlı YT/TT eşleşmesi).** Doğrulandı (iki sayfanın kendi metni): MPMinds = TT `@mpminds` + YT `@MPMinds_` (ikisinde de aynı iş e-postası), tailbitpets = TT + YT (aynı bio "Official Home of Rufus & TailBitPets"). **Doğrulanamadı:** meowtakeover TT bio İspanyolca/İngilizce (e-posta meowtakeover@gmail.com) iken YT açıklaması Arapça ("Meowtakeover official account" + "بساس جدة", Cidde kedileri) → farklı sahip olabilir; cat_tommmy, Bandar (TT 10 takipçi), Yellowchicksss (TT sıfır), savannahrush (TT 725 takipçi; haberdeki kanalla aynı olduğu belli değil) da doğrulanamadı. Tablodaki "aynı adlı sayfa" satırları ilgisiz hesap olabilir; istatistiklere girmedi.
+
+### Özet istatistikler (n≥8 klip ve ≥1.000 takipçi şartı; kapsam dışı: officialdivingdog [gerçek köpek hesabı olması muhtemel], zero_qq-s4k [reklam, hayvan değil])
+
+| | YouTube (13 hesap) | TikTok (11 hesap) |
+|---|---|---|
+| Son klip medyanlarının medyanı | **22.500** | **12.550** |
+| medyan/takipçi, hesaplar arası medyan | 0,233 | 0,164 (ASMR 2 hesap hariç 9 hesapta 0,094) |
+| "Sağlıklı" (med/takipçi ≥0,1 **ve** yüksek/med ≤10) | **2/13**: ai.shxdda (39K abone), AiKittenverse (19,5K) | **3/11**: meowtakeover (aktif); asmraiworks ve satisfyingclips50 (ASMR, **ikisi de >480 gün durgun**) |
+| "Tek viral" (yüksek/med >10) | **7/13** (Bandar 25×, meowtakeover-YT 93×, MPMinds_ 10,9×, tailbitpets-YT 58×, storyarcpaws 274×, HasanAi202 603×, Yellowchicksss 44×) | **4/11** sabitlenmişsiz (pablo.prompt 15,5×, chubbycat_1 11,8×, aibeaststudio 27×, poutyfrenchie 60×); **sabitlenmişler dahil 10/11** (yalnız asmraiworks ≤10) |
+| Ne sağlıklı ne tek viral | 4 (funntastic, kittenstoriesdaily01, catrealmai, animalshortssb: hepsinde med/abone ≤0,082) | 4 (mpminds, tailbitpets, cat_tommmy, catrealmai: hepsinde med/takipçi ≤0,015) |
+
+Notlar: "sağlıklı" eşiği kullanıcının tanımıdır. Sabitlenmişler dahil edilince TT'de sağlıklı sayısı 1/11'e düşer ve o da durgundur. Yüksek/medyan >10 eşiği "tek viral" tanımı olarak benim eklememdir (skill'in ≥3 şüphe eşiği ayrıca geçerli).
+
+### Yeni adaylar (WebSearch, ≤10) ve sonuç
+WebSearch hiçbir sorguda doğrulanabilir "konuşmasız AI hayvan" handle listesi vermedi; adlar haber/rehber özetlerinden geldi, handle'ı ben tahmin edip doğrudan sayfada sınadım. **Kullanılabilir ölçüm veren yalnızca 1–2:**
+- **Ölçüldü ve tabloda:** Yellowchicksss (YT 3,14M abone; tutorial özetlerinde "AI chick rescue", açıklama çocuk kanalı → Anayasa 22 riski), wild-alarm (YT 713K abone, AI beyanı var, Shorts izlenmesi okunamadı), zero_qq-s4k (AI reklam kanalı, kapsam dışı).
+- **Bulunamadı (404 / 10221), tabloya girmedi:** la.team.france, the_hamster_rave, dramacatuniverse, meowziqi, chickofhonor (TT'de 0 takipçi/1 video, YT 404), aijestdaily. **Kimlik doğrulanamadı:** savannahrush, AIWildWonders (YT 3 abone, haberdeki ~192K abonelik kanal başka ID), autoscope (YT 56, TT 1,6K), bigyowie (TT 79 takipçi; Kapwing'in 151K'lık hesabı değil).
+- Bu satırlar uydurma değil, ama "pazar örneği" de sayılamaz. Hedef (10 yeni ölçülmüş aday) **karşılanmadı**.
+
+### Başarısız / küçülmüş / kaybolmuş örnekler (hayatta kalma yanlılığı)
+- YT @SuperCatLeague: haber ~3,9M abone (OKUDUM-ÖZET) → ölçülen 15 abone, 0 Shorts (ÖLÇTÜM). YT @poutyfrenchie: haber 1,3M abone → 404 (TT'de 1.766 takipçili aynı adlı hesap var, kimlik ?).
+- TT @impossibleais: 170.096 takipçi, **1 video** (içerik silinmiş olabilir, TAHMİN). TT @satisfyingclips50: sabitlenmiş klipler 6,5M/2,1M/0,7M ama takipçi 13.866, medyan 2.278, son klip 2025-07-27.
+- Abonesi var, izleyicisi yok (YT): kittenstoriesdaily01 846K abone / medyan 2.100 (0,002); animalshortssb 367K / 230 (0,001); catrealmai 1,38M / 9.200 (0,007); Yellowchicksss 3,14M / 55.000 (0,018); MPMinds_ 1,32M / 17.500 (0,013).
+- chubbycat_1: 4,9M takipçi, son klip medyanı 4,45M (0,906, ölçülen en güçlü klip başı performans) ama **son klip 2025-12-11 (351 gün önce)**; 28 video. Büyük ama 11,5 aydır sessiz.
+- Kimin silindiği/kapatıldığı (platform mu sahibi mi) ölçümle ayrılamıyor.
+
+### 5 ders (her biri hesap sayısıyla)
+1. **Takipçi sayısı izleyici sayısı değildir.** Ölçülen 24 hesap-platform çiftinin 9'unda med/takipçi <0,02 (YT 5/13, TT 4/11). Takipçisi >500K olan 13 çiftte (YT 7, TT 6) "sağlıklı" tanımını geçen yalnız 1 (TT meowtakeover). Kanıt: ÖLÇTÜM, 24 çift.
+2. **Büyük görünen sonuçların çoğu tek viral klibe dayanıyor; TikTok'ta bu sabitlenmiş klipte saklı.** YT'de 7/13, TT'de sabitlenmişler dahil 10/11 hesap yüksek/medyan >10. TT'de sabitlenmişsiz oran medyanı 4,0×, sabitlenmişli 629×. Örn. mpminds: sabitlenmiş 52,1M ve 51,4M, son 10 klibin medyanı 4.414. Kanıt: ÖLÇTÜM; "sabitlenmiş" araç tahmini (TAHMİN katmanı).
+3. **Hesapların yarısından fazlası sessizleşmiş.** TT'de 11 hesaptan 6'sında son klip >90 gün önce (chubbycat_1 351 gün, cat_tommmy 370, catrealmai 371, satisfyingclips50 488, asmraiworks 507, poutyfrenchie 405). Aktif 5: meowtakeover, mpminds, tailbitpets, pablo.prompt, aibeaststudio. Kanıt: tarih video kimliğinden (araç), embed örneği en yeni klipleri veriyor varsayımıyla (meowtakeover'da doğrulandı); neden bilinmiyor.
+4. **Platformlar arası aktarım ölçülen çiftlerde yok, yönü de tek değil.** Kimliği doğrulanmış 2 çift: MPMinds (TT 1,35M takipçi / son klip medyanı 4.414; YT 1,32M abone / 17.500) ve tailbitpets (TT 857K / 12.550; YT 153K / 65.500): ikisinde de YT'nin klip başı medyanı TT'den yüksek. "TT 2,63M vs YT 25,2K" (meowtakeover) farkı ise kimliği doğrulanamayan çifte dayanıyor. Kanıt: ÖLÇTÜM, 2 doğrulanmış çift (az); TT medyanı yalnız 10 klip.
+5. **"AI + konuşmasız" etiketi çoğu hesapta kanıtsız.** Tabloda adı geçen hesaplardan, hesabın kendi beyanı olan 12 (Bandar, asmraiworks, ai.shxdda, aimeowrealm, kittenstoriesdaily01, catrealmai, animalshortssb, AiKittenverse, satisfyingclips50, pablo.prompt, wild-alarm, zero_qq-s4k) ve hesap adında "AI" geçen 4 (chubbycat_1, aibeaststudio, AIanimalShorts26, WildAIShorts); tailbitpets, storyarcpaws, HasanAi202, officialdivingdog, cat_tommmy'de beyan yok; officialdivingdog'da anma bio'su ve 2022 tarihli sabitlenmiş klip var (gerçek köpek, TAHMİN). Konuşmasız: 0 hesap GÖRDÜM. Kanıt: ÖLÇTÜM (bio metni), sayılar bu listeyle sınırlı.
+
+### Önceki iki rapor (G-0030 ana rapor + k029 pilotları) ile karşılaştırma
+
+| Önceki bulgu | Sonuç | Dayanak |
+|---|---|---|
+| "TikTok hesaplarında medyan ölçülemedi" (pilot sınırı) | **Giderildi** | 11 TT hesabında n≥8 (bu ek) |
+| Takipçi ≠ izlenme (MPMinds 0,013, catrealmai 0,007, kittenstories 0,002, animalshortssb 0,0006) | **Doğrulandı**, TT'ye de genişledi | YT sayıları aynı gün yeniden ölçüldü, uyuştu; TT: mpminds 0,003, cat_tommmy 0,013, catrealmai 0,008, tailbitpets 0,015 |
+| En yüksek/medyan 25–603× (Bandar 25, meowtakeover-YT 95, storyarcpaws 274, HasanAi202 603) | **Doğrulandı** (93,3×, 25,0×, 274,3×, 603,2×) ve TT'de sabitlenmişlerle daha da büyük | tek viral bağımlılığı |
+| "HasanAi202 çökmüş (TAHMİN)" | **Kısmen doğrulandı**: yeni klip yarısı/eski yarı = 0,01; TT'de hesap yok. Sıra varsayımı ve yeni klip yaşı yanlılığı kalıyor | n=46 |
+| "TikTok'ta format YouTube'dan çok daha iyi" (meowtakeover TT 2,63M vs YT 25K; pilot ders 1) | **Kısmen çürütüldü / belirsiz**: kimliği doğrulanan 2 çiftte YT klip başı medyanı TT'den yüksek; meowtakeover eşleşmesi doğrulanamadı | bkz. ders 4 |
+| "Tek platforma bakarak karar verilmemeli" | **Destekleniyor** (iki platform ölçmek farkı gösterdi) | — |
+| "Platform riski gerçek (Super Cat League sıfırlandı)" | **Ölçüm yeniden doğruladı** (15 abone, 0 Shorts), neden hâlâ OKUDUM-ÖZET; Pouty Frenchie YT 404 | — |
+| "tailbitpets = gerçekçi AI köpek" (G-0030 satır 6) | **Doğrulanamadı**: bio yaratıcıyı "viral nervous dog videos'un orijinal yaratıcısı" diye tanıtıyor, AI demiyor; AI kanıtı tek haber şüphesi. G-0030'daki "fotogerçekçi insan-dışı AI karakter en büyük ölçek" çıkarımı bu hesapta AI kanıtı olmadan duruyor | ders 5 |
+| "officialdivingdog = AI olimpiyat atlama akımı hesabı" (pilot yedek aday) | **Çürütüldü (TAHMİN düzeyinde güçlü)**: anma bio'su, 2022 sabitlenmiş klip | bio + video kimliği tarihi |
+| "funntastic_AI durgun (572K, medyan 47K, 0,08)" | **Sayı doğrulandı** (47.000; 0,082); "büyümüyor/düşüyor" yargısı zaman serisi olmadığı için hâlâ TAHMİN. TT'de hesap yok (10221) doğrulandı | n=29 |
+| "impossibleais 1 video / satisfyingclips50 viral takipçiye dönmedi" | **Doğrulandı** (1 video; 13.866 takipçi, medyan 2.278) | — |
+| "Sağlıklı: Bandar 25×, AiKittenverse 3,8×" (pilot ders 2) | **Düzeltme:** Bandar tanıma göre sağlıklı değil (25×>10); AiKittenverse ve ai.shxdda sağlıklı ama küçük (<40K) | tablo |
+| "Mat/soluk 3D için pazar kanıtı yok" (G-0030 §8) | **Bu ölçüm konuyla ilgili değil** (stil ölçülmedi) | — |
+
+### Araştırma kısıtları
+- TikTok embed örneği ~10–15 klip; sabitlenmişler tahmini; takipçi dışı etkileşim (paylaşım, tamamlama) ölçülemez. Gelir hiçbir hesap için hesaplanmadı (rakip özel verisi yok).
+- YouTube Shorts tarih/sabitleme vermiyor; sıralama varsayım.
+- Instagram/Facebook ölçülmedi. Videolar izlenmedi; AI etiketi (TikTok) klip düzeyinde araçta okunmuyor.
+- Kapwing, KYM, Daily Dot, NPR, vidIQ, Medium, FluxNote, Vuela, Deevid gibi kaynakların bir bölümü taraflı (araç/kurs satıcısı) ve yalnız özetle okundu.
+- aibeaststudio ve asmraiworks bio'larında kurs/eğitim satışı var (taraflı hesaplar; kendi başarılarını pazarlıyor olabilirler).
+
+SKILL: pazar-istihbarati-olcum v1
