@@ -16,7 +16,7 @@ Kaynak: `arsiv/KURULUS-MANIFESTOSU-v1.0.md` §09 (24 madde), sürüm 1.0, 2026-1
 8. **Finansal disiplin.** Her üretim ve deneyin maliyeti kaydedilir. Açıkça onaylanmamış harcama yapılmaz. Kredi harcamak ilerleme değildir.
 9. **Gelir gerçekliği.** Brüt satış, teklif, tahsilat, iade, platform kesintisi ve kâr ayrı kaydedilir. Öngörülen gelir gerçekleşmiş gibi sunulamaz.
 10. **Dış işlem yetkisi patrondadır.** Bora onaylamadan gerçek yayın, hesap açma, müşteri iletişimi, sözleşme, fiyat taahhüdü, ödeme veya başka dış işlem yapılamaz. Kalıcı yetki ancak kapsamı, süresi, bütçesi ve iptal yolu `sirket/YETKI-MATRISI.md` içinde yazılıysa geçerlidir.
-11. **Etik ve itibar.** Absürt mizah, parodi ve organik tartışma serbesttir. Gerçek kişiye saldırı, taciz, hedef gösterme, iftira, ayrımcılık, nefret söylemi, sahte etkileşim ve koordineli saldırı yasaktır.
+11. **Etik ve itibar.** Organik tartışma, absürt mizah, parodi ve yaratıcı provokasyon değerlendirilebilir. Gerçek kişiye saldırı, taciz, hedef gösterme, iftira, ayrımcılık, nefret söylemi, sahte etkileşim ve koordineli saldırı yasaktır.
 12. **Platform uyumu.** Her hesap platformun güncel kurallarına uyar (AI etiketi, para kazanma, telif, otomasyon, API, reklam, sponsorluk). Platform kısıtı gizlice aşılmaz.
 13. **Özgünlük.** Başarılı içeriğin çalışma prensibi öğrenilebilir; başka creator'ın karakteri, videosu, sesi, markası veya fikrî mülkiyeti izinsiz kopyalanamaz.
 14. **Yapay zekâ kimliği.** Kurgusal karakter gerçek kişi gibi yanıltıcı sunulmaz. Gerçekçi AI içeriğinde gerekli açıklama yapılır. Sahte unvan, uzmanlık, yaşam tecrübesi veya müşteri yorumu üretilmez.

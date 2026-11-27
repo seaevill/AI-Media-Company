@@ -19,7 +19,7 @@ SIR_DESENLERI = [r"sk-[A-Za-z0-9]{20,}", r"ghp_[A-Za-z0-9]{20,}", r"github_pat_[
                  r"eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}", r"-----BEGIN [A-Z ]*PRIVATE KEY-----",
                  r"(?i)(password|api_key|secret|token)\s*[=:]\s*['\"][^'\"\s]{8,}",
                  r"AKIA[0-9A-Z]{16}", r"xox[baprs]-[A-Za-z0-9-]{10,}"]
-KORUNAN = [re.compile(p) for p in [r"^ANAYASA\.md$", r"^sirket/", r"^takimlar/[^/]+/kurallar\.md$", r"^denetim/BEKCI-KURALLARI\.md$"]]
+KORUNAN = [re.compile(p) for p in [r"^ANAYASA\.md$", r"^sirket/", r"^takimlar/[^/]+/kurallar\.md$", r"^denetim/BEKCI-KURALLARI\.md$", r"^vardiyalar/CONFIG\.json$", r"^\.claude/agents/bekci\.md$", r"^scripts/dogrula\.py$", r"^denetim/ONAY-PROTOKOLU\.md$"]]
 SAYI_YASAK = re.compile(r"\b\d+\s*(saatte|saat\s*bir|dakikada)\b", re.I)
 
 

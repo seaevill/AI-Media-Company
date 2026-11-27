@@ -14,3 +14,7 @@
 6. Araştırma kısıtları bölümü (erişilemeyen siteler, 403'ler).
 
 **Çıktı sonrası:** Bekçi denetimi; `defter.md`'ye tek ders.
+
+## Erken sinyal kontrol listesi (manifesto §18 — her trend taramasında tek tek işaretlenir)
+1. Küçük hesaplarda anormal performans · 2. Bağımsız hesaplarda tekrarlanan başarı · 3. Büyüme ivmesi (hız, toplam değil) · 4. Platformlar arası geçiş · 5. Yorumlarda tekrar eden talep (devam, aynı karakter) · 6. Remix ve varyasyonlar · 7. Arama davranışı değişimi · 8. Yüksek ilgi + düşük rekabet · 9. Yeni aracın üretim maliyetini düşürmesi · 10. Kültürel yayılma (farklı ülke/kitle) · 11. Doygunluk belirtileri · 12. Ticari fırsat belirtileri (yeni sponsor, ürün, affiliate).
+Hiçbiri tek başına gelecek popülerliği garanti etmez; her trend için lehte ve aleyhte kanıt birlikte yazılır.

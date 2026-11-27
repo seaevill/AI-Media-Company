@@ -18,7 +18,7 @@ Bakiye: 1.935,39 kredi, plan Ultra (`balance`, 2026-11-27). Ücretsiz/"unlim" ha
 Görsel (karakter referansı, kapak): GPT Image 2.6 1k düşük kalite **0,75**; Nano Banana 2 1k **1,5** (çizgi/karikatür karakter için önerilen).
 
 ## Çıkarımlar (hipotez — kalite henüz test edilmedi)
-1. **En pahalı ile en ucuz arasında ~14 kat fark var.** Varsayılan modeli kullanmak klip başına 56 kredi; aynı süre bütçe modellerinde 4–8 kredi. Kalite farkı, özellikle absürt/stilize formatlarda yeterli olabilir — **kanıtlanmadı**.
+1. **Saniye başına en pahalı (7,0) ile en ucuz (0,67) arasında ~10,5 kat fark var** (Bekçi düzeltmesi: önceki '14 kat' farklı süreli klipleri kıyaslıyordu). 8 saniyelik klip varsayılan modelde 56 kredi, 8 sn bütçe modellerinde (Seedance 2.0 Mini, Grok Lite) 8 kredi = 7 kat. Kalite farkı, özellikle absürt/stilize formatlarda yeterli olabilir — **kanıtlanmadı**.
 2. Kabaca bütçe: 1.935 kredi ≈ 34 adet varsayılan-model klibi **veya** ≈ 240 adet bütçe-model klibi (başarısız üretimler hariç). Başarısız oran bilinmiyor.
 3. Bu nedenle ilk ücretli adım "deney" değil **benchmark** olmalı: aynı kısa sahne (tek karakter, tek mekân) 3 modelde, birer kez → ~4 + 8 + 56 = **~68 kredi**. Ölçüt: kullanılabilir saniye başına kredi + karakter tutarlılığı (`benchmark.csv`).
 4. Karakter tutarlılığı için referans görsel (≈1–2 kredi) + referans destekli video modeli (Seedance 2.0 Mini) en ucuz yol görünüyor.

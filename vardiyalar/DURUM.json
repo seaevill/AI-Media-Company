@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T12:00:00Z",
+  "guncelleme": "2026-11-27T13:10:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": null,
@@ -22,15 +22,15 @@
       "oncelik": "P1",
       "departman": "chief-of-staff",
       "sorumlu_ajan": "chief-of-staff",
-      "onay_seviyesi": "A0",
-      "onay": "A0",
+      "onay_seviyesi": "A4",
+      "onay": null,
       "bagimliliklar": [],
       "beklenen_cikti": "Çekirdek dosyalar + testler",
       "basari_kriteri": "Testler yeşil, dogrula.py TEMİZ, Bekçi ONAY",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "review",
+      "durum": "waiting_owner",
       "en_erken": null,
       "ilgili_dosyalar": [
         "ANAYASA.md",
@@ -38,9 +38,9 @@
         "scripts/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
+      "bekci_karari": "İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517): 14 korunan dosya (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) yalnızca Bora onaylar",
       "son_calisma": null,
-      "sonraki_guvenli_adim": null,
+      "sonraki_guvenli_adim": "Bora ANAYASA.md ve YETKI-MATRISI.md'yi okuyup onaylar; madde 1 ve 10'daki genişletmeleri kabul/ret",
       "surum": 1
     },
     {
@@ -66,7 +66,7 @@
         "vardiyalar/BLOCKERS.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
+      "bekci_karari": "Bekçi denetimi kapsamı dışında (ortam gözlemi); CLAUDE.md tablosu",
       "son_calisma": null,
       "sonraki_guvenli_adim": null,
       "surum": 1
@@ -87,14 +87,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/kaynaklar/REFERANS-VIDEOLAR.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": null,
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517)",
+      "son_calisma": "2026-11-27T13:10:00Z",
       "sonraki_guvenli_adim": "İçerik erişilemedi; G-0009 ağ izni sonrası",
       "surum": 1
     },
@@ -113,15 +113,15 @@
       "basari_kriteri": "Her iddia URL+tarih",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
+      "deneme": 1,
       "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/platform-analizleri/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": null,
+      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
+      "son_calisma": "2026-11-27T13:10:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -141,14 +141,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/creator-arastirmalari/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": null,
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517)",
+      "son_calisma": "2026-11-27T13:10:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -167,15 +167,15 @@
       "basari_kriteri": "Kategori başına başarısız örnek; kısıtlar yazılı",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
+      "deneme": 1,
       "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T12:25:00Z",
+      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
+      "son_calisma": "2026-11-27T13:10:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -194,15 +194,15 @@
       "basari_kriteri": "Kısa dikey video için 3+ model, tahmini kredi",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": "0 kredi",
-      "deneme": 0,
+      "deneme": 1,
       "durum": "review",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T12:20:00Z",
+      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517); düzeltmeler uygulandı, yeniden denetim bekliyor",
+      "son_calisma": "2026-11-27T13:10:00Z",
       "sonraki_guvenli_adim": "balance + models_explore + estimate_video_cost",
       "surum": 1
     },
@@ -381,13 +381,13 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": null,
-      "sonraki_guvenli_adim": "Zaman hassas: 1 Şubat 2027 iddiası platform seçimi kararını etkiler",
+      "bekci_karari": "Bekçi örneklemiyle doğrulandı (arama özeti, denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517)",
+      "son_calisma": "2026-11-27T13:10:00Z",
+      "sonraki_guvenli_adim": "Resmi sayfa ağ izni açılınca tam metinle teyit",
       "surum": 1
     },
     {

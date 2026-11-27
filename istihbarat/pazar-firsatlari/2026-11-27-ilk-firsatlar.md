@@ -9,7 +9,7 @@
 1. **Araç değil karakter sahibi ol.** Araç kaynaklı formatlar (Bigfoot vlog, cam meyve, bebek podcast) birkaç ayda tükendi. Para kazanan ya da IP'ye dönüşenler (Meow Ziqi, Italian brainrot, Gossip Goblin) karakter ve dünya üzerine kurulu.
 2. **Açıkça kurgu ol.** Gerçek sanılan AI (Basin Creek, kanguru, TailBitPets) önce izlenme, sonra tepki aldı. Stilize ve AI olduğu belli bir dünya daha güvenli. AI etiketini her zaman koy.
 3. **Tek hesap ve tek platform bir arıza noktası.** Fruit Love Island 15 günde kapandı; Ocak 2026'da 35 milyon aboneli 16 kanal silindi. Baştan çoklu platform, yedek arşiv ve kendi kanalın (e-posta/topluluk) olmalı.
-4. **Para platform fonundan değil marka/lisans/merch'ten geliyor.** Çinli operatörün kendi beyanına göre 150 milyonluk viral bile küçük bir gelir getiriyor. Doğrulanmaya en yakın gelirler marka anlaşmaları (Maltin, Meow Ziqi), AdSense uzun format (Davis, kısmen doğrulanmış) ve merch (Basin Creek'in mağazası var, satışı bilinmiyor).
+4. **Para platform fonundan değil marka/lisans/merch'ten geliyor.** Çinli operatörün kendi beyanına göre 150 milyonluk viral bile küçük bir gelir getiriyor. Gelir kanıtının tamamı beyan veya üçüncü taraf aktarımı; bağımsız doğrulanmış gelir yok. En güçlü beyanlar: marka anlaşmaları (Maltin beyanı, Meow Ziqi SCMP aktarımı), AdSense uzun format (Davis beyanı, Fortune kayıtları gördüğünü yazıyor). Basin Creek'in yalnızca mağaza bağlantısı var, satış bilinmiyor.
 5. **Şablon tekrarından kaç.** YouTube'un "generic/repetitive" kategorisi ve küme bazlı kapatmalar, her bölümün belirgin biçimde farklı olmasını gerektiriyor. Yazar sesi şart.
 
 ---

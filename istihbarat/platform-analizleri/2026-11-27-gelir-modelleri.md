@@ -31,7 +31,7 @@
 | 7 | Facebook Creator Fast Track | Bilinmiyor | Başka platformda 100K+ / 1M+ takipçi | 3 ay boyunca ayda $1.000 / $3.000 garantili | RESMİ |
 | 8 | Instagram Gifts | Var (listede) | 5K takipçi, 18+ | Gelir verisi bilinmiyor | — |
 | 9 | Marka işbirliği (sponsorlu video) | Var (platformdan bağımsız) | Kitle + marka güveni | Ajans fiyat tabloları (bkz. 2.3) | RAPOR |
-| 10 | Affiliate (Amazon.de/.it, ajans ağları, TikTok Shop) | Amazon ve ağlar var. TikTok Shop Yunanistan'da yok | Programa göre değişir | Bilinmiyor | — |
+| 10 | Affiliate (Amazon.de/.it, ajans ağları, TikTok Shop) | Amazon ve ağlar var. TikTok Shop Yunanistan'da açılışı teyit edilmedi (kaynaklar çelişkili) | Programa göre değişir | Bilinmiyor | — |
 | 11 | Dijital ürün (sticker, duvar kağıdı, prompt paketi, e-kitap, Gumroad) | Var | Yok | Bilinmiyor | — |
 | 12 | Karakter lisansı (marka maskotu, reklam yüzü, IP satışı) | Var | Tanınmış karakter | Aitana López örneği (bkz. 2.4) | İDDİA / RAPOR |
 | 13 | Merch (print-on-demand) | Var | Sadık kitle | Bilinmiyor | — |
@@ -96,9 +96,9 @@
 Sıra, Yunanistan'da **doğrulanmış erişime**, **düşük eşiğe** ve **kural riskine** göre kuruldu. Bütçe ve sıklık sayıları `vardiyalar/CONFIG.json`'da tutulur. Burada sadece sıra var.
 
 1. **Temel (para beklemeden): YouTube Shorts + Instagram Reels + TikTok + Facebook Reels'te aynı karakter dünyası, ama her platforma ayrı ve özgün kurgu.** Amaç kitle ve karakter tutarlılığı. Etiket ve vergi kaydı ilk günden. Instagram Trial Reels ile kanca testi yap. YouTube'da başlık ve küçük resim A/B testi sadece uzun videoda var.
-2. **YouTube YPP'yi hedefle (birinci platform geliri):** Yunanistan'da doğrulanmış tek güçlü yol. 1 Şubat 2027'de eşik 20M Shorts / 8.000 saate çıkıyor ve yeni şartların 31 Ocak 2027'ye kadar kabulü gerekiyor. Bu tarih, YouTube'a öncelik vermek için bir neden. Shorts'u uzun videoya yönlendiren bir yapı kur (uzun video RPM'i çok daha yüksek).
+2. **YouTube YPP'yi hedefle (birinci platform geliri):** Yunanistan'da doğrulanmış tek güçlü yol. 1 Şubat 2027'de yeni başvuru eşiği 20M Shorts / 8.000 saate çıkıyor (Bekçi örneklemle doğruladı, arama özeti). 31 Ocak 2027 mevcut üyelerin yeni şartları kabul son günüdür, eşik tarihi değil. Hesabımız yokken ~65 günde 1.000 abone + 10M Shorts görüntülemesine ulaşmak **gerçekçi varsayılmamalı**; bu tarih acele nedeni değil, 2027 sonrası daha yüksek eşiği planlama nedenidir. Shorts'u uzun videoya yönlendiren bir yapı kur (uzun video RPM'i çok daha yüksek).
 3. **Dijital ürün ve affiliate (eşiksiz, hemen test edilebilir):** Karakter sticker veya duvar kağıdı paketi, affiliate linkleri. Her linki açıkça "reklam / affiliate" diye işaretle. Küçük kitlede bile dönüşüm verisi verir.
-4. **Instagram Gifts ve YouTube fan funding** (5K takipçi / 500 abone eşiğinden sonra): Küçük ama doğrulanmış gelir.
+4. **Instagram Gifts ve YouTube fan funding** (5K takipçi / 500 abone eşiğinden sonra): Küçük gelir; programın Yunanistan'da varlığı kaynaklı, bizim için gelir tutarı bilinmiyor.
 5. **Marka işbirliği** (yaklaşık 10K+ etkileşimli kitleden sonra): Önce Yunan ve AB'deki küçük markalar. Paid partnership etiketi + AI açıklaması + yazılı sözleşme (AI karakter kullanım hakları, süre, bölge). Fiyat için tablo 2.3'ü kıyas olarak kullan.
 6. **Meta programları (Content Monetization / Fast Track):** Professional Dashboard'dan ilgi formunu erkenden doldur. Davet gelirse ek gelir. Yunanistan durumu bilinmediği için plana bel bağlanmamalı.
 7. **Lisans ve merch:** Karakter tanınır olduktan sonra (tekrar eden izleyici, isimle arama). Maskot lisansı ve print-on-demand.

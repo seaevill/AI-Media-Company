@@ -47,7 +47,7 @@ Eylül–Kasım 2026 için arama dizininde hesap bazlı haber çok azdı. Bu dö
 - **Araştırma tarihi:** 2026-11-27
 - **Hesap yaşı:** Küme Şubat 2026 sonunda doğdu
 - **Takipçi:** küme düzeyinde yok
-- **Görülen en yüksek içerik:** Fruit Love Island'ın 20 bölümü toplam ~300 milyon izlenme (The Star / Khaleej Times, Nisan 2026)
+- **Görülen en yüksek içerik:** Fruit Love Island'ın ~20 bölümü (kaynaklar 20 ile 22 arasında çelişiyor) toplam ~300 milyon izlenme (The Star / Khaleej Times, Nisan 2026)
 - **Tipik performans:** bilinmiyor
 - **Yayın sıklığı:** Günlük bölüm yayınlayan hesaplar var
 - **Karakter kullanımı:** Evet, isimli tekrar eden karakterler
@@ -320,7 +320,7 @@ Eylül–Kasım 2026 için arama dizininde hesap bazlı haber çok azdı. Bu dö
 - **Video süresi:** kısa
 - **Açılış türü:** Gerçekçi "belgesel" kare
 - **Paylaşılma/yorumlanma hipotezi:** Gerçek sanılması; ifşadan sonra hayal kırıklığı ve tartışma
-- **Gelir modeli:** **doğrulanmış (mağaza var):** Hesap, 29,99 dolarlık markalı tişört satan bir hediyelik eşya mağazasına link veriyor (PolitiFact). Satış hacmi bilinmiyor.
+- **Gelir modeli:** **iddia/bilinmiyor (yalnızca mağaza bağlantısı görüldü; satış verisi yok):** Hesap, 29,99 dolarlık markalı tişört satan bir hediyelik eşya mağazasına link veriyor (PolitiFact). Satış hacmi bilinmiyor.
 - **Bilinmeyenler:** Sora uygulaması kapandıktan sonra (Mart 2026) hesabın devam edip etmediği
 - **Kaynaklar:** https://www.uniladtech.com/social-media/tiktok-fans-heartbroken-truth-viral-basin-creek-retirement-account-636977-20251107 (2025-11-07); https://dailydot.com/basin-creek-retirement-home ; https://politifact.com/video/charmed-by-a-video-of-what-appears-to-be-halloween/
 - **Güven:** orta
@@ -462,7 +462,7 @@ Eylül–Kasım 2026 için arama dizininde hesap bazlı haber çok azdı. Bu dö
 - **Video süresi:** 1–3 dk bölümler
 - **Açılış türü:** Melodram kancası
 - **Paylaşılma/yorumlanma hipotezi:** Uygulama içi ödeme hunisi
-- **Gelir modeli:** **sektör düzeyinde doğrulanmış uygulama içi gelir.** Owl & Co/Holywater, Çin dışı dikey video ekonomisinin 2026'da 150 milyar dolar olacağını tahmin ediyor; mikro-drama uygulamalarının payı 4 milyar dolar (TheWrap). Bu rakamlar AI satıcısı kaynaklı tahminler.
+- **Gelir modeli:** **sektör tahmini (satıcı kaynaklı, doğrulanmamış):** Owl & Co/Holywater, Çin dışı dikey video ekonomisinin 2026'da 150 milyar dolar olacağını tahmin ediyor; mikro-drama uygulamalarının payı 4 milyar dolar (TheWrap). Bu rakamlar AI satıcısı kaynaklı tahminler.
 - **Bilinmeyenler:** küçük stüdyo için dağıtım erişimi
 - **Kaynaklar:** https://www.thewrap.com/industry-news/industry-trends/microseries-economy-report-2026-ai-verticals/ ; https://yourstory.com/2026/05/china-ai-generated-short-drama-market-2026 ; https://www.caixinglobal.com/2026-08-07/analysis-ai-fuels-chinese-micro-drama-boom-in-us-as-regulators-circle-102472290.html (2026-08-07)
 - **Güven:** orta (sektör verisi; satıcı kaynaklı tahminler)
@@ -486,7 +486,7 @@ Eylül–Kasım 2026 için arama dizininde hesap bazlı haber çok azdı. Bu dö
 - **Video süresi:** kısa
 - **Açılış türü:** Fayda vaadi
 - **Paylaşılma/yorumlanma hipotezi:** Kaydetme/paylaşma (faydalı ipucu)
-- **Gelir modeli:** **iddia, kısmen doğrulanmış:** Son birkaç ayda ayda "altı haneli" gelir, gelirin %100'ü marka anlaşmalarından, 100'ü aşkın anlaşma (Business Insider birinci şahıs yazısı, 30 Temmuz 2026). İkincil bir site BI'ın bunu belgelerle doğruladığını söylüyor; bunu kendimiz teyit edemedik.
+- **Gelir modeli:** **iddia (yaratıcının kendi beyanı; bağımsız doğrulama bizce yapılamadı):** Son birkaç ayda ayda "altı haneli" gelir, gelirin %100'ü marka anlaşmalarından, 100'ü aşkın anlaşma (Business Insider birinci şahıs yazısı, 30 Temmuz 2026). İkincil bir site BI'ın bunu belgelerle doğruladığını söylüyor; bunu kendimiz teyit edemedik.
 - **Kaynaklar:** https://dnyuz.com/2026/07/30/i-left-college-to-be-an-ai-content-creator-for-older-adults-now-i-make-six-figures-a-month-from-brand-deals-heres-how/ (2026-07-30); https://www.netinfluencer.com/maverick-maltin-is-running-a-multi-channel-media-business-from-one-creator-account/
 - **Güven:** orta
 - **Bizim için ders:** 2026'da kısa videoda büyük para platform fonlarından değil, marka anlaşmalarından geliyor. Bu da kitlenin markalar için "güvenli ve hedeflenebilir" olmasını gerektiriyor.
@@ -509,7 +509,7 @@ Eylül–Kasım 2026 için arama dizininde hesap bazlı haber çok azdı. Bu dö
 - **Video süresi:** uzun (uyku içeriği)
 - **Açılış türü:** —
 - **Paylaşılma/yorumlanma hipotezi:** Paylaşılmak için değil, arka planda çalmak için
-- **Gelir modeli:** **kısmen doğrulanmış:** Davis ayda 40–60 bin dolar gelir ve ~6.500 dolar gider beyan ediyor. Fortune, analitik ekran görüntülerini ve AdSense ödeme kayıtlarını incelediğini yazıyor (30 Aralık 2025). "Yılda 700 bin dolar" bir yıllıklaştırma tahmini.
+- **Gelir modeli:** **iddia, üçüncü tarafça incelenmiş (Fortune kayıtları gördüğünü yazıyor; birincil kaynak tarafımızdan okunamadı):** Davis ayda 40–60 bin dolar gelir ve ~6.500 dolar gider beyan ediyor. Fortune, analitik ekran görüntülerini ve AdSense ödeme kayıtlarını incelediğini yazıyor (30 Aralık 2025). "Yılda 700 bin dolar" bir yıllıklaştırma tahmini.
 - **Kaynaklar:** https://fortune.com/2025/12/30/ai-slop-faceless-youtube-accounts-adavia-davis-user-generated-content/ (2025-12-30); https://www.contentgrip.com/faceless-youtube-income-evidence/
 - **Güven:** orta
 - **Bizim için ders:** Uzun format AdSense geliri gerçek olabiliyor. Ama Temmuz 2026'dan sonra YouTube'un "generic/repetitive" kuralı tam olarak bu modeli hedefliyor. Davis'in kendisi de bu pencerenin daraldığını söylüyor.

@@ -30,7 +30,7 @@ Kurucu (Bora, Yunanistan'da yaşıyor, Türk, mesleği nedeniyle zamanı kısıt
 1. Tek görev kuyruğu (JSON) + tek sayı kaynağı (CONFIG.json).
 2. 7 çekirdek rol; profiller ayrı ajan değil.
 3. Konseyler her mahkemede ayrı alt ajan (bağımsızlık için maliyeti kabul).
-4. İlk ücretli adım "deney" değil "model benchmark'ı" (~68 kredi; aynı sahne 3 modelde), çünkü aynı 8 sn klip modele göre 4–56 kredi (14 kat fark).
+4. İlk ücretli adım "deney" değil "model benchmark'ı" (~68 kredi; aynı sahne 3 modelde), çünkü 8 sn klip modele göre 8–56 kredi (7 kat), saniye başına ~10,5 kat fark.
 5. Araştırmanın önerisi: sözsüz, dilden bağımsız, sabit kadrolu karakter serileri; gerçekçi sahte içerik, ünlü benzerliği, şok aldatmacası ve "AI slop" şablon üretimi reddedildi.
 6. Platform: YouTube Shorts Yunanistan'dan para kazanmaya uygun (doğrulanmış); TikTok Creator Rewards Yunanistan'da büyük olasılıkla yok; Meta programları davetle/bilinmiyor. İddia (doğrulanıyor): YouTube YPP eşikleri 1 Şubat 2027'de yükseliyor.
 7. Bütçe önerisi (onaylanmadı): mevcut 1.935 kredinin %10 benchmark, %35 ana deney, %20 küçük testler, %5 radikal, %30 yedek.

@@ -42,7 +42,7 @@
 - **1 Şubat 2027'den itibaren (resmi yardım sayfası):** YPP'ye yeni başvuranlar 1.000 aboneye ek olarak ya **son 365 günde 8.000 nitelikli izlenme saati** ya da **son 90 günde 20M nitelikli Shorts görüntülemesi** gösterecek. Zaten YPP'de olanların üyeliği etkilenmiyor. Ayrıca Shorts Creator Pool'dan ve Premium'dan pay almak için **her ay son 90 günde en az 10M nitelikli Shorts görüntülemesi** gerekecek. Yeni şartların **31 Ocak 2027'ye kadar** Studio'da kabul edilmesi gerekiyor. Fan Funding ve alışveriş eşikleri değişmiyor.
   - Resmi (arama özeti): https://support.google.com/youtube/answer/12843009 ; https://support.google.com/youtube/answer/12504220 ; İkincil: https://www.searchenginejournal.com/youtube-updates-partner-program-terms-shorts-payout-rules/585331/ , https://www.techtimes.com/articles/323954/20260811/youtube-partner-program-doubles-entry-bar-adds-monthly-shorts-earnings-gate.htm (2026-08-11)
   - "Aktif kanal" testinin ayrıntıları (örneğin 90 günde 5 Short) kaynaklar arasında tutarsız, **doğrulanmadı**.
-- **Bizim için anlamı:** Mümkünse YPP'ye **31 Ocak 2027'den önce** (eski eşiklerle) girmek büyük avantaj. Ama 10M/90 gün Shorts havuzu şartı, 2027'den sonra üyeler için de geçerli olacak.
+- **Bizim için anlamı (Bekçi düzeltmesi 2026-11-27):** 31 Ocak 2027 mevcut üyelerin şartları kabul son günü. Yeni bir hesabın o tarihe kadar eski eşikleri (1.000 abone + 10M Shorts/90 gün) geçmesi gerçekçi varsayılmamalı; planlama yeni eşiklere göre yapılmalı. Ama 10M/90 gün Shorts havuzu şartı, 2027'den sonra üyeler için de geçerli olacak.
 - **Yunanistan:** YPP uygunluk listelerinde Yunanistan var (hem standart hem genişletilmiş). Resmi (arama özeti): https://support.google.com/youtube/answer/7101720 , https://support.google.com/youtube/troubleshooter/13536952
 
 ### 1.4 Shorts gelir paylaşımı ve müzik
@@ -191,7 +191,7 @@
 5. **Ticari müzik:** İşletme hesabı ya da ticari içerikte sadece TikTok CML, Meta Sound Collection ve YouTube Audio Library veya Creator Music kullan, ya da lisanslı veya kendi ürettiğimiz müziği. Müzik lisansının ticari ve platform kapsamını yazılı sakla.
 6. **Her işbirliğinde platform etiketini aç** (Paid partnership / Commercial content / YouTube "paid promotion"). Ayrıca videonun içinde ve açıklamada açık bir ibare kullan ("Reklam / Διαφήμιση / Ad"). Affiliate linklerini de aynı şekilde açıkla. Bedava ürünü de işbirliği say.
 7. **Yunanistan'da vergi kaydı ve myData** düzenini platform ödemesi ya da marka geliri gelmeden önce kur.
-8. **YouTube'u önceliklendir:** Yunanistan YPP'de var. Mümkünse **31 Ocak 2027'den önce** eşiği geçmeyi hedefle.
+8. **YouTube'u önceliklendir:** Yunanistan YPP'de var. Eşik planlaması 1 Şubat 2027 sonrası yeni eşiklere göre yapılmalı (önceki 'tarihten önce geç' önerisi Bekçi tarafından gerçekçi bulunmadı).
 9. Uzun video (>1 dk) formatını TikTok'ta değil, para kazanma açısından YouTube ve Facebook'ta düşün (TikTok CRP Yunanistan'da büyük olasılıkla yok).
 10. API'yi sadece resmi ve denetimden geçmiş yollarla kullan. Instagram'da 50 gönderi/24 saat sınırına ve YouTube kotasına uy.
 
