@@ -8,7 +8,7 @@
     "kosu": 1,
     "ajanli_kosu": 2
   },
-  "simdi": "G-0012",
+  "simdi": "G-0026",
   "sayac": {
     "son_gorev_no": 26,
     "son_deney_no": 0
@@ -334,7 +334,7 @@
       "azami_maliyet": "80 kredi",
       "gercek_maliyet": "58,00 kredi (1935,39→1877,39)",
       "deneme": 1,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md",
@@ -342,8 +342,8 @@
         "finans/kredi-kayitlari.csv"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "RED (denetim/audit-logs/2026-11-27-G-0012.md @ 7ad71b3): korunan CONFIG.json değiştirildi; ayrıca puan/ifade düzeltmeleri. Harcama tarafı temiz (58,0 ≤ 80).",
-      "son_calisma": "2026-11-27T17:20:00Z",
+      "bekci_karari": "Düzeltmeler giderildi; İNSAN ONAYI GEREKLİ yalnızca Claude limit sayıları (8/10) için → K-B12 (denetim/audit-logs/2026-11-27-parti-2.md @ f42b8f3)",
+      "son_calisma": "2026-11-27T19:00:00Z",
       "sonraki_guvenli_adim": "Plan: 3 referans görsel + 3 model, planlanan 56,5 kredi, tekrarlar dahil tavan 70, onay tavanı 80 (storyboard dosyası)",
       "surum": 1
     },
@@ -634,14 +634,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T18:25:00Z",
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-parti-2.md @ f42b8f3)",
+      "son_calisma": "2026-11-27T19:00:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -661,14 +661,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "istihbarat/pazar-firsatlari/2026-11-27-isim-secimi.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "Bekçi bekliyor (bir sonraki denetim partisi)",
-      "son_calisma": "2026-11-27T18:10:00Z",
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-parti-2.md @ f42b8f3)",
+      "son_calisma": "2026-11-27T19:00:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
@@ -701,7 +701,7 @@
     },
     {
       "id": "G-0026",
-      "baslik": "İlk içerik üretimi: komedi yapıları Y3 'Tıkırtı' + Y4 'Kapı' (Seedance 2.0 Mini) + Tomruk/Cetvel referanslarının yeniden çizimi",
+      "baslik": "İlk içerik üretimi: 'Tıkırtı' (8 sn) + 'Kapı' (8 sn), Seedance 2.0 Mini + Tomruk referansı yeniden çizimi (Cetvel bu iki yapıda gerekmiyor)",
       "kaynak": "G-0023 / K-022",
       "olusturma": "2026-11-27T18:35:00Z",
       "oncelik": "P2",
@@ -716,15 +716,15 @@
       "basari_kriteri": "Bora'nın tepkisi: komik mi?",
       "azami_maliyet": "35 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
-      "durum": "approved",
+      "deneme": 1,
+      "durum": "in_progress",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
       ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T19:00:00Z",
       "sonraki_guvenli_adim": "Bora: 'G-0026 onay, max 35 kredi'",
       "surum": 1
     }
@@ -778,6 +778,19 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0013"
+    },
+    {
+      "id": "K-B12",
+      "soru": "'Claude sınırsız' talimatınla günlük ajanlı vardiya sınırını 4→8, koşu başına alt ajan sınırını 6→10 yaptım. Bu sayılar uygun mu?",
+      "secenekler": [
+        "Uygun",
+        "Daha yüksek",
+        "Daha düşük"
+      ],
+      "oneri": "Uygun — yine de iş yoksa sistem durur",
+      "maliyet": "Claude kullanımı",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0012"
     }
   ]
 }
