@@ -102,3 +102,7 @@ Tahminler `produksiyon/model-testleri/2026-11-27-maliyet-kesfi.md` (gerçek fatu
 - "3/C" kodu kurguda eklenir; modelin yazı üretimine güvenilmez.
 - Damga ikonu (halka + anahtar deliği) küçük detay: 720p'de okunmazsa K8 yakın plan eklenir (ek klip = ek kredi, onay gerekir).
 - Cetvel'in "X" jesti iki kanat çaprazı: modelin anatomisinde zor olabilir; K4 başarısızsa alternatif: tek kanat "hayır" sallama (jest ayrı bir Bible kararı, Chief'e danışılır).
+
+
+## Uygulama notu (2026-11-27, G-0012 sonrası)
+Hailuo 2.3-fast ayrı referans görsel kabul etmediği için üç referanstan bir başlangıç karesi üretildi (+1,5 kredi; gerçek toplam 58,0). Bu sapma harcamadan önce bu dosyaya yazılmalıydı (Bekçi notu).

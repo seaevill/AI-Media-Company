@@ -2,7 +2,7 @@
 
 Onay: Bora, 2026-11-27, max 80 kredi (K-014). Plan: `produksiyon/storyboard/2026-11-27-ucuncu-kat-b1.md` §3 (Bekçi ONAY @ 8f4548a).
 **Gerçek harcama: 58,00 kredi** (bakiye 1.935,39 → 1.877,39; tahminlerle birebir). Tekrar yapılmadı. ≈ 93 TL (~1,6 TL/kredi beyanına göre).
-**Plan sapması:** Hailuo 2.3-fast ayrı referans görsel kabul etmiyor, yalnızca başlangıç karesi alıyor → üç referansla bir başlangıç karesi üretildi (+1,5 kredi). Planlanan 56,5 → gerçek 58,0; 70 iç tavanının ve 80 onayının altında.
+**Plan sapması (harcamadan önce plan dosyasına yazılmadı — Bekçi notu; bundan sonra sapma önce plana yazılır):** Hailuo 2.3-fast ayrı referans görsel kabul etmiyor, yalnızca başlangıç karesi alıyor → üç referansla bir başlangıç karesi üretildi (+1,5 kredi). Planlanan 56,5 → gerçek 58,0; 70 iç tavanının ve 80 onayının altında.
 
 ## Üretimler (Higgsfield iş kimlikleri; medya repoda değil)
 | Kalem | Model | Kredi | İş kimliği |
@@ -37,7 +37,7 @@ Onay: Bora, 2026-11-27, max 80 kredi (K-014). Plan: `produksiyon/storyboard/2026
 | Biçim (9:16, ≥6 sn) | geçti | geçti | geçti (sınırda) |
 | **Kullanılabilir saniye başına kredi** | **1,0** | **5,0** | — (kullanılamaz) |
 
-Eşik (HİPOTEZ) ≥34/48: Mini ve Flash ancak sesten tam puan alırlarsa eşiğe **tam** ulaşıyor; yani **net geçen yok, ikisi sınırda**. Hailuo kaldı.
+Eşik (HİPOTEZ) ≥34/48: **net geçen yok.** Chief of Staff puanıyla Mini ve Flash ancak sesten tam puan alırlarsa eşiğe ulaşıyor; **Bekçi'nin bağımsız puanıyla (Mini ≈26–27, Flash ≈24–25 / 42) ses tam puan alsa bile ikisi de eşiğin altında** (`denetim/audit-logs/2026-11-27-G-0012.md`). Hailuo kaldı. Puanlar arasındaki fark tek değerlendiricinin sınırını gösteriyor; en zayıf karakter iki değerlendirmede de Cetvel (flamingo küçük, S boyun/gözlük okunmuyor).
 
 ## Gözlemler
 - Mini ve Flash neredeyse aynı kompozisyonu ve kimlikleri üretti; ayırt edici fark görülmedi → **aynı sonuç için 5 kat fiyat farkı.**
@@ -46,12 +46,15 @@ Eşik (HİPOTEZ) ≥34/48: Mini ve Flash ancak sesten tam puan alırlarsa eşiğ
 - Hailuo başlangıç karesinin üç katlı kompozisyonunu korudu ama nesne sürekliliği çöktü (koli çoğaldı, flamingo uçtu/deforme oldu) ve ses üretmedi.
 - Başlangıç karesi (Nano Banana 2, 1,5 kredi) kompozisyonu en iyi tutan çıktı oldu → **ilk kare + referans** birlikte kullanılırsa Seedance'in kamera sorunu çözülebilir (hipotez).
 
-## Karar önerisi (Bora onayı gerekmez; sonraki A2 için girdi)
-1. Varsayılan üretim modeli: **Seedance 2.0 Mini** (1,0 kredi/sn). Flash yalnızca Mini'nin başaramadığı bir sahnede, gerekçeyle.
+## Karar önerisi (madde 1–2 yön gösterir; madde 3–4 yeni A2 onayı gerektirir)
+1. Üretim modeli **adayı: Seedance 2.0 Mini** (gözlenen maliyet 1,0 kredi/sn; eşiği geçmedi, ama Flash'tan kötü değil — iki değerlendirmede de Mini ≥ Flash). Flash için 5 kat fiyatı haklı çıkaracak bir fark görülmedi.
 2. Hailuo 2.3-fast bu format için kullanılmaz (ses yok, fizik bozuk).
 3. Sonraki ucuz test (≤ 10 kredi, yeni A2 gerekir): Mini'ye referanslar + başlangıç karesi birlikte → kamera/kompozisyon tutuyor mu?
-4. Tomruk referansı yeniden çizilmeli (daha yuvarlak, daha "vombat", kulak çentiği belirgin) — 1,5 kredi.
+4. Tomruk ve Cetvel referansları yeniden çizilmeli (Tomruk: daha yuvarlak, daha "vombat", kulak çentiği; Cetvel: kadrajda büyük, S boyun ve gözlük okunur) — ~3 kredi, **yeni A2 gerekir**.
 5. Ses puanı için videolar bir insan tarafından dinlenmeli (Bora ya da ileride gerçek izleyici testi).
 
 ## Sınırlar
-Tek örnek, tek değerlendirici, ses dinlenmedi. Sonuç kesin değil; yöntem bilgisidir (Kalite Standartları 11).
+Tek örnek, tek değerlendirici, ses dinlenmedi. Hailuo'ya ek olarak başlangıç karesi verildi; girdi eşit değil, kıyas bu yüzden tam adil değil. Sonuç kesin değil; yöntem bilgisidir (Kalite Standartları 11).
+
+## Bütçe sayacı
+Harcanan toplam ve güncel bakiyenin tek kaynağı `finans/kredi-kayitlari.csv` (bu görev: 58,00; bakiye 1.877,39). `CONFIG.json`'daki `harcanan_kredi_toplam`/`bakiye_gozlenen` alanları korunan dosyada olduğu için ajanlar güncelleyemez; bu alanların CONFIG'den çıkarılması Bora'ya önerildi (K-B9).

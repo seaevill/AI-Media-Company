@@ -334,7 +334,7 @@
       "azami_maliyet": "80 kredi",
       "gercek_maliyet": "58,00 kredi (1935,39→1877,39)",
       "deneme": 1,
-      "durum": "review",
+      "durum": "needs_revision",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md",
@@ -342,7 +342,7 @@
         "finans/kredi-kayitlari.csv"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
+      "bekci_karari": "RED (denetim/audit-logs/2026-11-27-G-0012.md @ 7ad71b3): korunan CONFIG.json değiştirildi; ayrıca puan/ifade düzeltmeleri. Harcama tarafı temiz (58,0 ≤ 80).",
       "son_calisma": "2026-11-27T17:20:00Z",
       "sonraki_guvenli_adim": "Plan: 3 referans görsel + 3 model, planlanan 56,5 kredi, tekrarlar dahil tavan 70, onay tavanı 80 (storyboard dosyası)",
       "surum": 1
@@ -655,6 +655,18 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0009"
+    },
+    {
+      "id": "K-B9",
+      "soru": "Harcanan kredi ve güncel bakiye CONFIG.json yerine yalnızca finans/kredi-kayitlari.csv'de tutulsun mu? (CONFIG korunan dosya; her harcamada senin onayın gerekir, bu yüzden sayaçlar eskiyor.)",
+      "secenekler": [
+        "Evet, sayaçları CONFIG'den çıkar",
+        "Hayır"
+      ],
+      "oneri": "Evet — CONFIG yalnızca sınırları tutar, sayaçlar CSV'de",
+      "maliyet": "0",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0012"
     }
   ]
 }

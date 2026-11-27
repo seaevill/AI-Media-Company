@@ -36,10 +36,10 @@
     "genel_harcama_yetkisi": false,
     "higgsfield": {
       "plan_gozlenen": "ultra",
-      "bakiye_gozlenen": 1877.39,
-      "bakiye_tarihi": "2026-11-27 (G-0012 sonrası)",
+      "bakiye_gozlenen": 1935.39,
+      "bakiye_tarihi": "2026-11-27",
       "onayli_kredi_toplam": 80,
-      "harcanan_kredi_toplam": 58.0,
+      "harcanan_kredi_toplam": 0,
       "deney_basina_varsayilan_azami": null,
       "_not": "Her A2 onayı deney bazında azami kredi içerir. Önerilen dağılım finans/BUTCE.md'de; onaylanana kadar 0.",
       "plan_aylik_ucret_try_beyan": 4800,
