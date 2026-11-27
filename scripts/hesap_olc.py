@@ -8,16 +8,22 @@ Kullanım:
 Çıktı: her hesap için JSON — ölçüm zamanı (UTC), URL, HTTP kodu, okunan ham alanlar ve
 türetilen değerler. YouTube: abone metni + Shorts sekmesindeki ilk N klibin izlenmesi
 (medyan, en düşük, en yüksek, aykırı değer oranı). TikTok: statusCode (0 = var,
-10221 = yok), takipçi, beğeni, video sayısı. Giriş, CAPTCHA veya bot korumasına takılırsa
-"engel" alanına yazar ve AŞMAZ.
+10221 = yok), takipçi, beğeni, video sayısı (profil sayfası, yuvarlanmış + statsV2'de tam
+sayı) ve embed sayfasındaki (https://www.tiktok.com/embed/@hesap) son kliplerin izlenmesi
+(playCount): medyan, en düşük, en yüksek, en yüksek/medyan. Giriş, CAPTCHA veya bot
+korumasına takılırsa "engel" alanına yazar ve AŞMAZ.
 Sınır: YouTube Shorts sekmesindeki sıralama ve kapsam garanti değildir (genelde en yeni
-~30 klip). TikTok'ta video başına izlenme bu yöntemle okunmaz.
+~30 klip). TikTok embed sayfası ~10-15 klip verir; başta sabitlenmiş (pinned) klipler olabilir
+— sabitleme bayrağı yok, tarih (video kimliğinden) sırasına bakılarak TAHMİN edilir ve
+"son klip" istatistiğinden çıkarılır. Profil sayfasında video listesi boş gelir (itemList: []);
+/embed/v2/<id> sayfası veri taşımaz (yalnız JS kabuğu).
 """
 import json
 import re
 import statistics
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 
 UA = "Mozilla/5.0"
@@ -70,21 +76,95 @@ def youtube(handle):
     return s
 
 
+def gomulu_json(html, script_id):
+    m = re.search(rf'<script id="{script_id}"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except ValueError:
+        return None
+
+
+def tiktok_profil_ayikla(govde):
+    """Profil HTML'inden statusCode + hesap sayıları (eski alan adları korunur)."""
+    def al(alan):
+        m = re.search(rf'"{alan}":(\d+)', govde)
+        return int(m.group(1)) if m else None
+    s = {"statusCode": al("statusCode")}
+    s["durum"] = {0: "hesap var", 10221: "hesap bulunamadı"}.get(s["statusCode"], "bilinmiyor")
+    if s["statusCode"] == 0:
+        s.update({"takipci": al("followerCount"), "begeni_toplam": al("heartCount"), "video_sayisi": al("videoCount")})
+        if s["takipci"] is None:
+            s["engel"] = "sayılar gömülü veride yok (giriş/bot koruması olabilir; aşılmadı)"
+        m = re.search(r'"statsV2":\{"followerCount":"(\d+)"', govde)
+        if m:
+            s["takipci_tam"] = int(m.group(1))
+    return s
+
+
+def video_tarihi(vid):
+    """TikTok video kimliğinin üst 32 biti yükleme anının Unix saniyesidir."""
+    try:
+        return datetime.fromtimestamp(int(vid) >> 32, timezone.utc).date().isoformat()
+    except (ValueError, OverflowError, OSError):
+        return None
+
+
+def tiktok_embed_ayikla(html, handle):
+    """embed/@hesap HTML'inden klip listesi + izlenme özeti. Ham medya adresleri alınmaz."""
+    durum = gomulu_json(html, "__FRONTITY_CONNECT_STATE__")
+    if durum is None:
+        return {"engel": "embed sayfasında gömülü veri yok (CAPTCHA/bot koruması ya da yapı değişti; aşılmadı)"}
+    veri = (durum.get("source", {}).get("data", {}) or {}).get(f"/embed/@{handle}")
+    if not veri:
+        return {"engel": "embed verisinde hesap düğümü yok (yapı değişti olabilir)"}
+    if veri.get("isError"):
+        return {"embed_hata_kodu": veri.get("errorCode")}
+    klipler = [{"id": v.get("id"), "tarih": video_tarihi(v.get("id")), "izlenme": v.get("playCount")}
+               for v in veri.get("videoList") or [] if isinstance(v.get("playCount"), int) and not v.get("privateItem")]
+    # Sabitlenmiş tahmini: baştaki (en çok 3) klip, kendisinden sonra gelen daha yeni bir klip varsa.
+    sabit = 0
+    while sabit < min(3, len(klipler) - 1) and int(klipler[sabit]["id"]) < max(int(k["id"]) for k in klipler[sabit + 1:]):
+        sabit += 1
+    s = {"embed_klipler": klipler, "sabitlenmis_tahmin": [k["id"] for k in klipler[:sabit]]}
+    son = [k["izlenme"] for k in klipler[sabit:]]
+    s["video_n"] = len(son)
+    if son:
+        med = statistics.median(son)
+        s.update({"video_izlenme_medyan": int(med), "video_en_dusuk": min(son), "video_en_yuksek": max(son),
+                  "en_yuksek_medyana_orani": round(max(son) / med, 1) if med else None,
+                  "video_izlenmeler": son, "son_klip_tarih_araligi": [klipler[-1]["tarih"], klipler[sabit]["tarih"]]})
+    else:
+        s["not"] = "embed sayfasında izlenme sayısı olan klip yok"
+    return s
+
+
 def tiktok(handle):
     handle = handle.lstrip("@")
     url = f"https://www.tiktok.com/@{handle}"
     govde, kod, nihai = getir(url)
     s = {"platform": "tiktok", "hesap": "@" + handle, "url": url, "olcum_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
          "http": kod, "kaynak_turu": "GÖRDÜM (platform sayfası, gömülü veri)"}
-    def al(alan):
-        m = re.search(rf'"{alan}":(\d+)', govde)
-        return int(m.group(1)) if m else None
-    s["statusCode"] = al("statusCode")
-    s["durum"] = {0: "hesap var", 10221: "hesap bulunamadı"}.get(s["statusCode"], "bilinmiyor")
-    if s["statusCode"] == 0:
-        s.update({"takipci": al("followerCount"), "begeni_toplam": al("heartCount"), "video_sayisi": al("videoCount")})
-        if s["takipci"] is None:
-            s["engel"] = "sayılar gömülü veride yok (giriş/bot koruması olabilir; aşılmadı)"
+    s.update(tiktok_profil_ayikla(govde))
+    if s["statusCode"] == 10221:
+        return s
+    eurl = f"https://www.tiktok.com/embed/@{handle}"
+    egovde, ekod, _ = getir(eurl)
+    if ekod.startswith("5"):  # gözlenen: ara sıra geçici 500; tek tekrar (engel aşma değil)
+        time.sleep(3)
+        egovde, ekod, _ = getir(eurl)
+    s["embed_url"], s["embed_http"] = eurl, ekod
+    if ekod.startswith("5"):
+        s["embed_hata"] = f"embed sayfası sunucu hatası {ekod} (2 deneme; geçici olabilir)"
+        return s
+    e = tiktok_embed_ayikla(egovde, handle)
+    if "engel" in e:
+        s["embed_engel"] = e.pop("engel")
+    s.update(e)
+    takipci = s.get("takipci_tam") or s.get("takipci")
+    if s.get("video_izlenme_medyan") is not None and takipci:
+        s["medyan_izlenme_takipci_orani"] = round(s["video_izlenme_medyan"] / takipci, 3)
     return s
 
 
