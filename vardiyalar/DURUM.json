@@ -1092,7 +1092,7 @@
    "departman": "chief-of-staff",
    "sorumlu_ajan": "chief-of-staff",
    "bagimliliklar": [],
-   "gercek_maliyet": null,
+   "gercek_maliyet": "0 kredi",
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
@@ -1106,11 +1106,12 @@
    "beklenen_cikti": "denetim/k029-pilot/tekrar/ + kör puanlama",
    "basari_kriteri": "Ölçülebilir fark ya da dürüst 'fark yok'",
    "azami_maliyet": "0 kredi",
-   "durum": "in_progress",
+   "durum": "review",
    "ilgili_dosyalar": [
+    "denetim/k029-pilot/tekrar/",
     "denetim/yeterlilik.csv"
    ],
-   "sonraki_guvenli_adim": "test setini ve A koşulunun okuyabileceği dosyaları sabitle"
+   "sonraki_guvenli_adim": "Bora raporu okur; Bekçi denetimi"
   }
  ],
  "bekleyen_kararlar": [

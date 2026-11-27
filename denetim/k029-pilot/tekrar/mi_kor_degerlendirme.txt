@@ -1,0 +1,62 @@
+Anahtar: S=B2 (beceri), T=A2 (beceri yok), U=A1 (beceri yok), V=B1 (beceri)
+
+## Kör puanlama: mi_S, mi_T, mi_U, mi_V
+
+Yalnızca 4 dosyayı açtım. Ölçümleri 2026-11-27 17:56–17:58 UTC arasında `hesap_olc.py` ile yeniden aldım (ÖLÇTÜM). Hiçbir videoyu izlemedim.
+
+**Doğruluk:** Dört çıktıda da yeniden ölçtüğüm iddiaların **hepsi tuttu (%100)**. Kabaca S 35/35, T 32/32, U 22/22, V 35/35. Sayıların çoğu birebir aynı, örneğin Bandar 3,96M / 5,75M / 25,0; HasanAi202 603,2; tailbitpets 856,7–856,9K. Var/yok iddiaları da doğru çıktı: @poutyfrenchie 404, @funntastic_AI TikTok 10221, @HasanAi202 TikTok 10221, @SuperCatLeague 15 abone ve 0 Shorts. V'nin "FUNTASTIC YT 60,4K, Shorts boş" iddiası @FUNTASTICYT için doğru. Ama bu yanlış kanal: S ve U'nun ölçtüğü asıl kanal @funntastic_AI (572K).
+
+| | S | T | U | V |
+|---|---|---|---|---|
+| 1. Doğruluk | %100 | %100 | %100 | %100 |
+| 2. Geçerli hesap (katı / zayıf / geçersiz) | **2** / 4 / 0 | 1 / 3 / 2 | 1 / 4 / 1 | **2** / 4 / 0 |
+| 3. Kaynak dürüstlüğü (1–5) | **5** | 3 | 4 | 3 |
+| 4. Karşı örnek (1–5) | 3 | **4** | 4 | 3 |
+| 5. Fayda (1–5) | **4** | 3 | **4** | 3 |
+
+**Gerekçeler (alıntıyla):**
+
+- **S**
+  - Katı geçerli 2 hesap:
+    - Bandar: Kapwing kaynağı, "No talking haberde geçiyor".
+    - MPMinds: "Wordless slayt… (OKUDUM-ÖZET)".
+  - Zayıf 4 hesap:
+    - meowtakeover: "Konuşma durumu bilinmiyor".
+    - TailBitPets: "Zayıf… yorumcu şüphesi".
+    - FUNTASTIC: NPR kanıtı güçlü ama konuşmasızlık bilinmiyor.
+    - ai.shxdda: tek kaynak satıcı blogu.
+  - Dürüstlük:
+    - Büyümeyi açıkça "en iyi ihtimalle TAHMİN" diye etiketliyor.
+    - Kimliği doğrulanmamış handle'ları "kimlik?" diye işaretliyor.
+    - FUNTASTIC için "Büyümüyor" diyor.
+    - Tek etiketsiz çıkarım: "kitle soğumuş görünüyor".
+  - Karşı örneklerin çoğu (impossibleais, satisfyingclips50) hayvan karakteri değil, ASMR.
+- **T**
+  - "Konuşmasız" sütunu yok. Görevin temel ölçütü olduğu halde yalnız Bandar için kaynak veriyor.
+  - Geçersiz 2 hesap:
+    - @AiKittenverse: "yalnızca kanal adı".
+    - @aibeaststudio: "Hesap adı 'Ai Beast'". Bu bilgi OKUDUM-ÖZET diye etiketlenmiş, yanlış etiket.
+  - "sıfırlanma ÖLÇTÜM" deniyor. Oysa 15 aboneli handle'ın 3,9M'lik kanalla aynı olduğu doğrulanmamış; çıkarım ölçüm gibi sunulmuş.
+  - Güçlü tarafı karşı örnekler:
+    - HasanAi202 603 kat.
+    - Abonesi olup izlenmesi olmayan 3 kanal (catrealmai 0,007), hepsi ölçülmüş.
+    - Eksik: bu üç kanalın AI kanıtı verilmemiş.
+- **U**
+  - En açık itiraf bunda: "Altı hesabın hepsini sağlam biçimde bulamadım. Tam uyan 2 hesap var."
+  - Aracın "GÖRDÜM" etiketini doğru biçimde ÖLÇTÜM'e çeviriyor.
+  - Bandar için konuşmasızlık kaynağı vermiyor. Bu yüzden katı geçerli hesap yalnız meowtakeover ("müzikli, konuşmasız").
+  - asmraiworks'ü kendisi "karakter yok" diye işaretliyor (geçersiz).
+  - Ders 1'de "en az üçü silindi" diyor. Kanıtın bir kısmı tahmin edilen adreslerin 404 vermesi; abartılı.
+  - Pouty Frenchie karşı örneği iyi: vidIQ'ya göre 1,3M abone vardı, bugün 404 (ÖLÇTÜM).
+- **V**
+  - Aracın çıktısına "GÖRDÜM" diyor. CLAUDE.md tanımına göre bu ÖLÇTÜM olmalı.
+  - Ders 3'te "Fruit Love Island büyüdükten sonra kapatıldı ya da silindi" diyor. Oysa kendi ölçümü hesabın 2,0M takipçiyle açık olduğunu gösteriyor; çelişki derse taşınmış.
+  - "YouTube'un Temmuz 2026 kuralı" tarihi şüpheli. Bilinen politika güncellemesi Temmuz 2025'te (TAHMİN).
+  - FUNTASTIC'te yanlış kanalı ölçüp hesabı listeden düşürmüş.
+  - cat_tommmy "tam animasyon değil, slayt"; bunu kendisi belirtmiş.
+  - Üç TikTok hesabının AI kanıtı satıcı bloguna dayanıyor.
+  - Karşı örneklerden AIanimalShorts26 (6 abone) ve WildAIShorts (12 abone) başarısızlıktan çok yeni açılmış hesap.
+
+**Sıralama:** S > U > V ≈ T. V'yi T'nin önüne koymamın nedeni, T'nin yalnızca adına bakarak iki hesabı "büyüyen" listesine alması ve konuşmasızlık ölçütünü atlaması. Toplamda ikisi neredeyse eşit.
+
+**Sınırlar:** Yeniden ölçümü orijinal ölçümlerden yalnızca birkaç dakika sonra yaptım. Bu yüzden doğruluk puanı çıktıları birbirinden ayırmıyor, asıl fark kanıt kalitesinde. Kaynak makaleleri açmadım. Konuşmasızlık ve AI kanıtını yalnızca çıktıların kendi beyanına göre puanladım; hiçbir videoyu izlemedim, sesini dinleyemem.
