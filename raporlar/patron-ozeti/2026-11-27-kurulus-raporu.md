@@ -89,3 +89,45 @@ Her biri ayrı bağlamda, diğerlerini görmeden değerlendirir; tahminleri ger�
 
 ## 12. ChatGPT denetim paketi
 `denetim/dis-denetim/2026-11-27-kurulus-paketi.md` — olduğu gibi ChatGPT'ye yapıştırılabilir: vizyon özeti, kurulan sistem, denetlenecek 8 karar, 3 konseptin mahkeme sonucu, puanlama, Claude'un kendi itiraf ettiği zayıflıklar ve 7 soru. Cevabını geri getirirsen kayda işlerim.
+
+---
+
+## 2026-11-28 sabah raporu — gece vardiyası K-032 (G-0041…G-0051)
+
+Üretim yok, Higgsfield kredisi 0. Ses dinlenmedi, hiçbir pazar videosu izlenmedi.
+
+**Önce hatalar**
+- Ekip tartışmasını yürüten ajan, ekip üyelerini bu oturumda çalıştırmak yerine 4 ayrı bulut oturumu açtı. Bu, onaysız yaklaşık 4,5 $ Claude kullanımı demek (ÖLÇTÜM). Aynı ajan ekibe senaryoların "zayıf yan" notlarını da verdi; konsey kuralı 1'in ihlali. Bu yüzden itirazlar bağımsız sayılmaz. Ajanın tanımına bu ikisini yasaklayan kural eklendi.
+- Önceki raporlarda üç yanlış veya kanıtsız iddia çıktı (ÖLÇTÜM, G-0048):
+  - "Dalış yapan köpek AI" iddiası zayıf: hesabın açıklaması bir anma metni.
+  - "Sörf yapan kedi AI" iddiası doğrulanamadı.
+  - meowtakeover'ın YouTube ve TikTok sayfalarının aynı sahibe ait olduğu doğrulanamadı.
+- Bekçi iki turda toplam 6 düzeltme istedi. Hepsi yapıldı; ikinci turda iki düzeltme hakkı doldu.
+- Gemini anahtarı hâlâ çalışmıyor (ÖLÇTÜM: 403/400). Başlık adının `x-goog-api-key` olması gerekiyor.
+
+**Yapılanlar (kaynak: dosya)**
+1. Platform kuralları (G-0041): YouTube ve TikTok'un 16 resmî sayfası açılıp okundu (GÖRDÜM). Bekçi 7'sini kendisi yeniden açtı, hepsi tuttu.
+   - YouTube'a göre risk "yapay zekâ ile hayvan" yapmak değil. Asıl risk her bölümde aynı kalıbı tekrarlayan, insan katkısı az, seri üretilmiş içerik.
+   - YouTube'un gelir eşiği 1 Şubat 2027'de değişiyor: "son 365 günde 8.000 saat izlenme ya da son 90 günde 20 milyon Shorts izlenmesi".
+   - Dosya: `istihbarat/platform-analizleri/2026-11-27-platform-kurallari.md`.
+2. Video hatalarını önleme becerisi (G-0042): Yeni beceri `.claude/skills/uretim-hata-onleme/`. 14 hata türünü çekim çekim kontrol ediyor. Üretimde henüz denenmedi.
+3. Araçlar (G-0043): Testler geçti (ÖLÇTÜM).
+   - Ölçüm aracı artık TikTok'ta da klip başına izlenmeyi okuyor.
+   - Gemini video aracı hazır, anahtarın düzeltilmesini bekliyor.
+4. Pazar ölçümü (G-0048, G-0051): Önce konuşmasız yapay zekâ hayvan hesapları, sonra insan yapımı konuşmasız animasyonlarla kıyas ölçüldü (ÖLÇTÜM).
+   - Takipçisi 500 binin üstündeki 13 hesaptan yalnızca 1'i sağlıklı izleniyor.
+   - TikTok'taki 11 hesabın 6'sı 3 aydan uzun süredir yeni klip atmıyor.
+   - İnsan yapımı konuşmasız animasyonda da tek bir viral klibe bağlı kalma görülüyor. Yani format tek başına başarı garantisi değil (HİPOTEZ, örneklem küçük).
+   - İzleme listesinin ilk ölçüm kaydı alındı: `istihbarat/olcumler/`.
+5. Senaryolar (G-0044 → G-0045 → G-0050): 5 konuşmasız senaryo yazıldı, ekip tartıştı, ikinci turda Bora'ya 2 senaryo kaldı:
+   - **S2 "Sessizlik Kuralı":** Kütüphanede bir baykuş; en büyük gürültü kendi karnından gelir. Yaklaşık 14 sn.
+   - **S4 "Ay Yiyen":** Tek bölüm. Fare her gece aydan bir parça yer, geğirince dolunay geri gelir.
+   - Komik olup olmadıkları TAHMİN. Yüksek riskli çekim yok, ama gözlenmesi gereken orta riskli noktalar var.
+6. Görsel stil seçenekleri (G-0049): Örnek bağlantılarıyla A–F, `takimlar/kreatif/defter.md`. Ekibin önerisi D (düşük detaylı 3D), ikinci seçenek B (kalın konturlu 2D) ya da A (parlak 3D).
+
+**Bora'dan beklenen kararlar**
+1. Stil harfi: A–F arasından birini seç (bağlantıları telefonda 10 saniye açman yeterli).
+2. S2, S4 ya da ikisi birden mi?
+3. Ücretli referans görselden önce, kredi harcamadan sesli bir taslak animasyon yapılsın mı? (Muhalefet bunu öneriyor.)
+4. Gemini anahtar başlığını `x-goog-api-key` olarak düzeltmen.
+5. Pazar izleme listesi 14 günde bir otomatik yeniden ölçülsün mü? (K-B14; kredi gerektirmez ama zamanlanmış görev olduğu için senin onayın gerekiyor.)
