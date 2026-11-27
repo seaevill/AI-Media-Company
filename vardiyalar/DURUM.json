@@ -332,14 +332,18 @@
       "beklenen_cikti": "Üretim + benchmark + kredi kaydı",
       "basari_kriteri": "Kullanılabilir video, onaylı sınır içinde",
       "azami_maliyet": "80 kredi",
-      "gercek_maliyet": null,
+      "gercek_maliyet": "58,00 kredi (1935,39→1877,39)",
       "deneme": 1,
-      "durum": "in_progress",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md",
+        "produksiyon/model-testleri/benchmark.csv",
+        "finans/kredi-kayitlari.csv"
+      ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": "2026-11-27T16:50:00Z",
+      "son_calisma": "2026-11-27T17:20:00Z",
       "sonraki_guvenli_adim": "Plan: 3 referans görsel + 3 model, planlanan 56,5 kredi, tekrarlar dahil tavan 70, onay tavanı 80 (storyboard dosyası)",
       "surum": 1
     },

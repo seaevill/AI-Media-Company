@@ -1,1 +1,8 @@
 tarih,gorev_id,deney_id,arac,model,islem,tahmini_kredi,gercek_kredi,basarili,uretim_kimligi,onay_ref,not
+2026-11-27,G-0012,,higgsfield,nano_banana_2(nano_banana_flash),referans_gorsel_tomruk,1.5,1.5,evet,5dd7fd90-16b1-4022-9d94-627af25bb4f8,K-014,
+2026-11-27,G-0012,,higgsfield,nano_banana_2(nano_banana_flash),referans_gorsel_cetvel,1.5,1.5,evet,04e8e740-bdab-4829-9398-70d63d740fae,K-014,
+2026-11-27,G-0012,,higgsfield,nano_banana_2(nano_banana_flash),referans_gorsel_anahtar,1.5,1.5,evet,acf5ff3e-7d37-41bf-929f-d4f3beaa26f0,K-014,
+2026-11-27,G-0012,,higgsfield,nano_banana_2(nano_banana_flash),hailuo_baslangic_karesi,1.5,1.5,evet,efdb2c48-be26-4e76-99e4-c711059e7556,K-014,plan sapması: Hailuo yalnız start_image alıyor
+2026-11-27,G-0012,,higgsfield,seedance_2_5_flash,video_8sn_720p_ses,40,40,evet,918c8ec7-5d20-42cd-ac83-efb6cca8f58b,K-014,
+2026-11-27,G-0012,,higgsfield,minimax_hailuo(2.3-fast),video_6sn_768,4,4,evet(teknik)/hayir(kalite),336158d9-f948-4669-86e1-d9e43528a025,K-014,ses yok; nesne sürekliliği bozuk
+2026-11-27,G-0012,,higgsfield,seedance_2_0_mini,video_8sn_720p_ses,8,8,evet,828f339f-6be2-420b-bea1-dc942bd8bf3d,K-014,bakiye 1935.39->1877.39 = 58.00 toplam
