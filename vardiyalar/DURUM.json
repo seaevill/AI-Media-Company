@@ -690,14 +690,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 2,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/2026-11-27-unit3c-pilot.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T20:00:00Z",
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-parti-3.md @ 1d503a8)",
+      "son_calisma": "2026-11-27T20:20:00Z",
       "sonraki_guvenli_adim": "G-0023 bulguları gelince senaryo",
       "surum": 1
     },
@@ -719,16 +719,16 @@
       "azami_maliyet": "35 kredi",
       "gercek_maliyet": "22 kredi",
       "deneme": 1,
-      "durum": "review",
+      "durum": "needs_revision",
       "en_erken": null,
       "ilgili_dosyalar": [
         "produksiyon/model-testleri/2026-11-27-G-0026-icerik-sonuc.md",
         "finans/kredi-kayitlari.csv"
       ],
       "ilgili_pr": null,
-      "bekci_karari": null,
-      "son_calisma": "2026-11-27T19:45:00Z",
-      "sonraki_guvenli_adim": "Bora: 'G-0026 onay, max 35 kredi'",
+      "bekci_karari": "Bekçi ONAY (parti-3 @ 1d503a8) GEÇERSİZ: Bora iç içe geçme hatası buldu (K-024); kalite kontrol açığı",
+      "son_calisma": "2026-11-27T20:20:00Z",
+      "sonraki_guvenli_adim": "Kapı yeniden üretim (yollar kesişmesin) ~9,5 kredi, K-023 kalanı 13 — Bora'ya soruldu",
       "surum": 1
     }
   ],
@@ -794,6 +794,18 @@
       "maliyet": "Claude kullanımı",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0012"
+    },
+    {
+      "id": "K-B13",
+      "soru": "'Kapı'yı karakterlerin yolları kesişmeyecek şekilde (kaz menteşe tarafında, vombat kol tarafından gelir) bir kez yeniden üreteyim mi? ~9,5 kredi; onayladığın 35'in kalan 13'ünden.",
+      "secenekler": [
+        "Evet",
+        "Hayır, önce başka şaka"
+      ],
+      "oneri": "Evet — yapı tuttuysa tek hata yüzünden fikri kaybetmeyelim",
+      "maliyet": "~9,5 kredi (K-023 içinde)",
+      "geri_alinabilir_mi": false,
+      "ilgili_gorev": "G-0026"
     }
   ]
 }
