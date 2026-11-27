@@ -1,0 +1,4 @@
+{
+  "_aciklama": "VIU analiz önbelleği (K-028 Görev 4). Anahtar: platform:video_kimligi veya sha256:<dosya özeti>. Kayıt varsa aynı video yeniden analiz edilmez. Ayrıntı denetim/viu/analizler/<anahtar>.json",
+  "analizler": []
+}
