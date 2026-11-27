@@ -9,14 +9,14 @@ Bilgi sınıfı: aşağıdaki her şey **hipotez**. Hiçbir video izlenmedi; Bor
 ## 0. Pazar kanıtı bağı (yeni iddia yok, v2/komedi dosyalarından devralındı)
 - Talep sinyali: `istihbarat/trend-radari/2026-11-27-trend-radari.md` #21 (sözsüz tekrar eden karakterli AI fiziksel komedi) ve #12 (sabit kadrolu AI sitkom); `istihbarat/pazar-firsatlari/2026-11-27-ilk-firsatlar.md` Hipotez 2; rakip örnek Kart 8 (sözsüz iki sabit karakter; videoları görülmedi, şaka/hikâye yapısı kopyalanmadı).
 - Yöntem (kaynaklı, güç etiketleri creator dosyasındaki gibi; sayfalar tam okunmadı): Ryan Trahan (§1.4, seri hedefi + sözsüz ilerleme göstergesi + karakterin kaybedebileceği şey; güç ZAYIF/ORTA) → "nokta sayacı" ve Tomruk'un uykusu; Neural Viz (§2.1, tek evren + senaryo/storyboard atlanmaz; WIRED GÜÇLÜ, bağlantı ayna siteden ZAYIF) → bu belge. Khaby/Zach King satırları komedi dosyasından.
-- **Sınır:** "Hikâyeli uzun kurgu kısa videoda daha iyi tutar" iddiası Bora'nın K-020 yönlendirmesidir, **pazar kanıtı değildir**. Pilot bu yüzden bir deneydir: aynı filmin 2 kesiti kısa video olarak, bütünü ayrı ölçülür (§5).
+- **Sınır:** "Hikâyeli uzun kurgu kısa videoda daha iyi tutar" iddiası Bora'nın K-020 yönlendirmesidir, **pazar kanıtı değildir**. Pilot bu yüzden bir deneydir: aynı filmin 2 kesiti kısa video olarak, bütünü ayrı ölçülür (§6).
 
 ## 1. Logline ve neden izlenir
 
 **Logline (tek cümle):** Gece vardiyasının son kolisi, apartmanda var olmayan bir daireye gelir; bitkin vombat kurye teslim edemez, yine de kolisini kapının olması gereken yere özenle bırakır, ertesi akşam kendi kapısında ilk kez ona gelen bir koli bulur.
 
 **Merak sorusu (ilk 2 sn):** Koridorun sonunda, kolisi elinde duran vombatın baktığı duvarda **kapı büyüklüğünde soluk bir dikdörtgen** var; solunda "bir noktalı" ve "iki noktalı" kapılar. *Üçüncü kapı nerede?* (hipotez: sayma ve eksik olanı bulma dilden bağımsız bir kancadır; test edilmedi).
-**Neden bitirilir:** (1) kolinin kime gittiği sorusu 81 sn'ye yayılıyor ama her 15–20 sn'de bir ödül var (mini şaka, asıl şaka, ipucu, duygu); (2) Tomruk'un tek isteği uyku ve ona hiç koli gelmemesi; izleyici bir şey için kök salıyor (Trahan profil sorusu 3); (3) yanıt **ses** ile geliyor (Bora "ses yerinde").
+**Neden bitirilir:** (1) kolinin kime gittiği sorusu 81 sn'ye yayılıyor ama her 15–20 sn'de bir ödül var (mini şaka, asıl şaka, ipucu, duygu); (2) Tomruk'un tek isteği uyku ve ona hiç koli gelmemesi; izleyici bir şey için kök salıyor (Trahan profil sorusu 3); (3) yanıt **ses** ile geliyor (*hipotez:* ses cevabı taşır; Bora'nın "ses yerinde" yorumu K-016 test klibi içindi, hook/hikâye sesi için kanıt değildir).
 
 ## 2. Kısa şablon (Mahkeme alanları)
 - Kategori / format: sözsüz hikâyeli mikro-film, dikey 9:16, 81 sn, stilize mat 3D (K-020), müzik yok.
@@ -96,7 +96,7 @@ Başlangıç karesi sayısı 13; ancak S01/S03/S11/S13 aynı koridor kompozisyon
 
 ## 5. Kredi tahmini (hepsi **tahmin**, A0'da harcama yok)
 
-Formül (görev tanımı): çekim sayısı × başlangıç karesi 1,5 + Seedance 2.0 Mini 1 kredi/sn + yeniden üretim varsayımı. Girdiler: `produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md` (Mini: 8 sn = 8 kredi gerçek; Nano Banana 2 görseli 1,5 gerçek). **Doğrulanmayanlar:** 8 sn dışındaki Mini sürelerinde (4, 5, 6, 7 sn) 1 kredi/sn **varsayımdır** (komedi dosyası §4 aynı notu taşıyor); en düşük süre ve süre seçenekleri bilinmiyor. Montaj/sesli eklemelerin (kurgu, "3/C"/başlık, ek ses) maliyeti **bilinmiyor** (araç/plan yok); hesaba **dahil değil**. Karakter referanslarının yeniden çizimi (G-0012 öneri #4: Tomruk + Cetvel, 1,5 + 1,5; Anahtar mevcut) ayrı "ortak" kalemdir.
+Formül (görev tanımı): çekim sayısı × başlangıç karesi 1,5 + Seedance 2.0 Mini 1 kredi/sn + yeniden üretim varsayımı. Girdiler: `produksiyon/model-testleri/2026-11-27-G-0012-benchmark-sonuc.md` (Mini: 8 sn = 8 kredi gerçek; Nano Banana 2 görseli 1,5 gerçek). **Doğrulanmayanlar:** 8 sn dışındaki Mini sürelerinde (4, 5, 6, 7 sn) 1 kredi/sn **varsayımdır** (komedi dosyası §4 aynı notu taşıyor); en düşük süre ve süre seçenekleri bilinmiyor. Montaj/sesli eklemelerin (kurgu, "3/C"/başlık, ek ses) maliyeti **bilinmiyor** (araç/plan yok); hesaba **dahil değil**. Karakter referansları: **Tomruk referansı G-0026'da yeniden çizildi** (iş `ca914790-492c-478a-8661-d786d13c4ec7`, `finans/kredi-kayitlari.csv`, K-023); bu yüzden aşağıdaki "Ortak" kaleminde **Tomruk çift sayılmaz** (önceki taslakta 1,5 / 3,0 / 4,5 olarak vardı, çıkarıldı). "Ortak" yalnız **Cetvel** (G-0012 #4, yeniden çizilmedi; 1,5) içerir; Anahtar mevcut.
 
 Yeniden üretim varsayımı (**tahmin, ölçülmedi, benchmark verisi yok**): taban = her şey ilk denemede; orta = başlangıç karesi 2 deneme, video 3 deneme (komedi dosyasındaki "3 deneme" gibi); kötü = başlangıç karesi 3, video 5 deneme (v2 §9'daki üst uç gibi).
 
@@ -105,39 +105,53 @@ Yeniden üretim varsayımı (**tahmin, ölçülmedi, benchmark verisi yok**): ta
 |---|---:|---:|---:|
 | Başlangıç karesi: 13 × 1,5 | 19,5 | 39,0 | 58,5 |
 | Video (Mini): 81 sn × 1 | 81,0 | 243,0 | 405,0 |
-| Ortak: Tomruk + Cetvel referans (3,0) | 3,0 | 6,0 | 9,0 |
-| **Toplam** | **103,5** | **288,0** | **472,5** |
+| Ortak: yalnız Cetvel referansı (1,5; Tomruk G-0026'da çizildi, sayılmaz) | 1,5 | 3,0 | 4,5 |
+| **Toplam** | **102,0** | **285,0** | **468,0** |
 
-### B) En ucuz anlamlı sürüm: "Kesit 1 — Üçüncü Kapı" (5 çekim, 27 sn: S01 + S02 + S03 + S09 + S13)
+### B) En ucuz deneme sürümü ("anlamlı" iddiası hipotezdir, bkz. §6): "Kesit 1 — Üçüncü Kapı" (5 çekim, 27 sn: S01 + S02 + S03 + S09 + S13)
 | Kalem | Taban | Orta | Kötü |
 |---|---:|---:|---:|
 | Başlangıç karesi: 5 × 1,5 | 7,5 | 15,0 | 22,5 |
 | Video (Mini): 27 sn × 1 | 27,0 | 81,0 | 135,0 |
-| Ortak: yalnız Tomruk referansı (1,5; Cetvel ve Anahtar yok) | 1,5 | 3,0 | 4,5 |
-| **Toplam** | **36,0** | **99,0** | **162,0** |
+| Ortak: yok (Tomruk referansı G-0026'da çizildi; Cetvel ve Anahtar yok) | 0,0 | 0,0 | 0,0 |
+| **Toplam** | **34,5** | **96,0** | **157,5** |
 
-Neden bu sürüm "anlamlı": hook (soluk kapı), mini şaka (S03), duygusal an (S09) ve seri ipucu (S13) var; **ana şaka (S05–S06) ve komik tepkiyi test eden Kesit 2'si yok**. Doğrusal "ilk 30 sn" (S01–S06 = 33 sn) seçilmedi: çözümsüz biter, duygu ve ipucu yok. S02 sabit kare olarak kurguda yapılırsa video 23 sn'ye (S02'nin 4 sn'si düşer) ve tabana ~4 kredi daha az inebilir (taban ~32,0; varsayım).
+Neden bu sürüm seçildi (**hipotez**, "anlamlı" kanıtlanmış değil): hook (soluk kapı), mini şaka (S03), duygusal an (S09) ve seri ipucu (S13) var; **ana şaka (S05–S06) yok**. **Eksik bağlam (bilinen):** S09 duygusu S05–S08 olmadan geliyor, izleyici kolinin teslim edilemediğini görmeden "hizalı bırakma"yı yalnız ima olarak okuyabilir; S13 ipucunun karşılığı (S11–S12, koli/iki vuruş) yok, nokta tek başına gizem mi kafa karışıklığı mı bilinmiyor. Bu kesit "tek başına anlaşılır" diye **sunulmuyor**; tam da bunu test eder (§6). Doğrusal "ilk 30 sn" (S01–S06 = 33 sn) seçilmedi: çözümsüz biter, duygu ve ipucu yok. S02 sabit kare olarak kurguda yapılırsa video 23 sn'ye (S02'nin 4 sn'si düşer) ve tabana ~4 kredi daha az inebilir (taban ~30,5; varsayım).
 
 ### C) Kısa kesitler birlikte (Kesit 1 + Kesit 2): 8 çekim, 45 sn
-Kesit 2 = S05 + S06 + S07 (3 çekim, 18 sn): başlangıç karesi 4,5 + video 18 = **22,5 taban**; Cetvel yok; Tomruk ortak kalem Kesit 1 ile paylaşılır. Kesit 1 + 2 birlikte hesabı:
+Kesit 2 = S05 + S06 + S07 (3 çekim, 18 sn): başlangıç karesi 4,5 + video 18 = **22,5 taban**; Cetvel yok; ortak kalem yok (Tomruk G-0026'da çizildi). **Kesit 2'nin S05–S06 şakası, G-0026 "Kapı" (komedi dosyası Y4; csv `0bc0bd88-50ee-4209-b819-df05ab18a647`, Anahtar + Tomruk, kapıyı iter/çeker, tepki) ile aynı şakadır** (bkz. §6). Kesit 1 + 2 birlikte hesabı:
 
 | Kesit 1 + 2 (8 çekim, 45 sn) | Taban | Orta | Kötü |
 |---|---:|---:|---:|
 | Başlangıç karesi 8 × 1,5 = 12 (× 1 / 2 / 3) | 12,0 | 24,0 | 36,0 |
 | Video 45 sn (× 1 / 3 / 5) | 45,0 | 135,0 | 225,0 |
-| Ortak (Tomruk 1,5, × 1 / 2 / 3) | 1,5 | 3,0 | 4,5 |
-| **Toplam** | **58,5** | **162,0** | **265,5** |
+| Ortak (yok; Tomruk G-0026'da çizildi) | 0,0 | 0,0 | 0,0 |
+| **Toplam** | **57,0** | **159,0** | **261,0** |
 
-Bakiye (G-0012 sonrası) 1.877,39 kredi (`finans/kredi-kayitlari.csv`); K-022 gereği **A2 onayı, azami kredi ve deney bazında Bora**. Bu rakamlar talep değildir. Öneri: ilk adım Kesit 1 (taban 36, orta 99, kötü 162); "iç tavan" önerisi 100 kredi (hipotez), aşılırsa durulur.
+Güncel bakiye ≈ **1.855,39** kredi (başlangıç 1.935,39 − harcanan 80,00; csv: G-0012 58,00 + G-0026 22,00 = 6,0 görsel + 16,0 video; G-0026 klipleri "bekliyor"; 2026-11-27). K-022 gereği **A2 onayı, azami kredi ve deney bazında Bora**; K-023 yalnız G-0026 (35 kredi) içindir, bu pilot için onay **yok**. Bu rakamlar talep değildir. Öneri: ilk adım Kesit 1 (taban 34,5, orta 96,0, kötü 157,5). **Tavan ve kötü senaryo tutarlılığı:** önerilen iç tavan 100 kredi orta senaryoyu (96,0) karşılar, **kötü senaryoyu (157,5) karşılamaz**; bu bilerek yazılır: harcama 100'e ulaşırsa **üretim durur, kalan çekim yapılmaz ve Bora'ya dönülür** (kötü senaryo için ek tavan istenmez, kötü senaryo "planlanan" değil "durulan" durumdur).
 
-## 6. Kısa video uyarlaması (platform içeriği, ≤ 30 sn, bağımsız)
+## 6. Kısa video uyarlaması (platform içeriği, ≤ 30 sn) ve keşif karşılaştırması
 
 Platform kuralı: aynı videoyu birden çok hesaba yüklemek yok, platform başına tek resmî hesap ve **platforma özel kurgu** (v2 §1 madde 9; `istihbarat/platform-analizleri/2026-11-27-platform-kurallari.md`). Yayın A3 (Bora). Bu belge yayın önermez, yalnız kesitleri tanımlar.
 
-- **Kesit 1 — "Üçüncü Kapı" (≈ 27 sn):** S01 → S02 → S03 → S09 → S13. Açılış: soluk kapı. Deney sorusu (hipotez): hikâye kancası + duygu + ipucu, kısa formatta **tamamlanma süresini** ve **yorum** ("kim cevap veriyor?") ne kadar çekiyor? Kapanış başlığı "Unit 3C" (isim, A3 öncesi handle kontrolü yok).
-- **Kesit 2 — "İtme Çekme" (≈ 18 sn):** S05 → S06 → S07. Saf komedi (Y4 yapısı); tek başına okunur (kolinin sebebi gerekmez; S07'de Anahtar'ın havada kalan damgası seri ipucudur).
+- **Kesit 1 — "Üçüncü Kapı" (≈ 27 sn):** S01 → S02 → S03 → S09 → S13. Açılış: soluk kapı. Keşif sorusu (hipotez): hikâye kancası + duygu + ipucu, **bağlamsız** izlenince tamamlanma ve yorum ("kim cevap veriyor?") çekiyor mu? **Bilinen eksik bağlam:** S05–S08 yok (teslimatın başarısızlığı görülmez), S11–S12 yok (ipucunun karşılığı yok). "Bağımsız anlaşılır" iddiası **test edilmedi**; hipotezdir. Kapanış başlığı "Unit 3C" (isim, A3 öncesi handle kontrolü yok).
+- **Kesit 2 — "İtme Çekme" (≈ 18 sn):** S05 → S06 → S07. **Bu kesitin S05–S06 şakası G-0026 "Kapı" ile aynıdır** (Y4, Anahtar itme / Tomruk çekme / tepki). Karar: farklılaştırmıyoruz, **"Kapı" sonucuna bağlıyoruz:** Kesit 2 için harcama talebi ancak G-0026 "Kapı" klibi (csv: bekliyor) izlenip kâğıt/insan gözüyle değerlendirildikten sonra yapılır; "Kapı" işe yaramazsa Kesit 2 elenir, işe yararsa Kesit 2 "Kapı"nın uzun bağlamlı hali olarak yazılır (yeni veri sayılmaz, aynı şakanın tekrarıdır). S05–S06 tek başına okunması **hipotezdir**; **S07 tek başına okunmaz:** damganın "kayıt yok" anlamı boş etikete (S02, :60) ve önceki çekimlere bağlıdır, "kolinin sebebi gerekmez" iddiası düşürüldü. S07 bağlamsız yalnız "damga havada kaldı" jesti taşır.
 - **Bütün film (81 sn):** ayrı bir sürüm olarak (YouTube/TikTok'un kabul ettiği uzunlukta; platform süre sınırları bu belgede **doğrulanmadı**).
-- **Karşılaştırma tasarımı (hipotez, yayından önce yazıldı; Kalite 10–11):** tek ana değişken = **format** (hikâyeli 27 sn vs saf komedi 18 sn). Başarı = ölçülebilir gerçek veri (tamamlanma %, 72 s). Örneklem tek hesapta küçük; "yatırım kararı" için yetersiz; bu bir eğilim deneyidir (Anayasa 7: tek viral video kalıcı talep değildir).
+
+### Karşılaştırmanın adı: **keşif amaçlı karşılaştırma, kontrollü deney değildir**
+Kesit 1 ve 2 birden fazla değişkende farklıdır: süre (27 vs 18 sn), çekim sayısı (5 vs 3), karakter (yalnız Tomruk vs Tomruk + Anahtar), ton (hüzünlü-gizem vs saf komedi), içerik (hook, duygu, ipucu vs şaka, tepki), kurgu. Bu yüzden "tek ana değişken = format" **iddia edilmez**; fark çıkarsa nedeni ayrıştırılamaz. Çıkan sonuç yalnız *eğilim ve fikir üretmek* içindir (Anayasa 7; Kalite 11).
+**Tek değişkenli alternatif (bu pilotta uygulanmıyor, öneri):** aynı süre ve çekim sayısında yalnız "ipucu/duygu var - yok" farkı olan iki kesit gerektirir; ek üretim ve kredi demektir, bu aşamada istenmez.
+
+### Yayından önce yazılan sayısal kriterler (**taslak, tüm eşikler hipotez**; kalibre değil, kaynağı yok, Bora/Bekçi onayı ve gerçek veriyle güncellenir)
+Ölçek: tek hesap, 72 saat penceresi (24 s ara bakış), gösterim sayısı n.
+| Kriter | Kesit 1 (hikâye) | Kesit 2 (komedi) |
+|---|---|---|
+| **Geçerli veri** | n ≥ 500 gösterim (72 s) | aynı |
+| **Başarı** | sonuna kadar izleme ≥ %30 **ve** her 1.000 gösterimde ≥ 2 yorum | sonuna kadar izleme ≥ %45 |
+| **Başarısızlık** | sonuna kadar izleme < %15 | sonuna kadar izleme < %25 |
+| **Sonuçsuz** | n < 500 (karar yok, tekrar yayın yok) | aynı |
+| **Durdurma** | 24. saatte n < 100 ise ikinci kesit yayınlanmaz; platform uyarısı, AI/telif/etik bayrağı ya da nefret/taciz yorumu varsa içerik kaldırılır; Bora'dan yeni onay gelmeden ikinci kesit yok | aynı |
+Karşılaştırma kuralı: iki kesitte de n ≥ 500 ve tamamlanma farkı ≥ 10 puan ise yalnız "eğilim" yazılır; aksi halde "fark yok / bilinmiyor". Kesit 1 başarısızsa tam film (A tablosu) için harcama talep edilmez; Kesit 1 başarılı ama Kesit 2 değilse tek veriyle hikâye kararı verilmez (örneklem tek hesap, kesin sonuç yok, Anayasa 7). Ölçütler **yayından önce** sabittir, sonuç görüldükten sonra değiştirilmez. Yayın A3 olduğundan eşikler Bora'ya yayın talebiyle birlikte sunulur.
 
 ## 7. Riskler
 - **Çocuksu algı (yüksek):** küçük kutu, yastık, "tatlı" sahne stilize hayvan + mat 3D ile çocuk içeriğine kayabilir; YouTube "çocuklara özel" sınıflaması riski v2 §11'de sürüyor. Önlem: mat palet, gece ışığı, müzik yok, yorgun yetişkin; S12 yastık **değiştirilebilir** (daha nötr bir nesne: kurşun-gri battaniye parçası ya da boş bir anahtar). Yastığın "çocuk" kodu **hipotez**, test edilmedi.
@@ -149,8 +163,8 @@ Platform kuralı: aynı videoyu birden çok hesaba yüklemek yok, platform baş�
 - **Hak ve etik:** gerçek marka/kişi yok; gerçek dışı sahne haber olarak sunulmaz; AI açıklaması planlı ("AI-generated animated characters. Fiction."); çocuk hedefli değil; çakışma: bu senaryoya özgü tarama yapılmadı.
 
 ## 8. BORA'YA 2 SORU
-1. **Ton:** Bu senaryo komediyi tek ana şakaya (kapı) indirip "hüzünlü-sıcak gizem" yönüne gidiyor ("güzel bir hikâye", K-020). Sizin istediğiniz bu mu, yoksa daha çok komik (Kesit 2 gibi, hikâye hafif) mi?
-2. **İlk adım ve tavan (A2):** İlk deney olarak yalnız **Kesit 1** (taban ~36, orta ~99, kötü ~162 kredi; azami tavan ister misiniz: ~100?) mı, yoksa önce bu senaryoyu **kâğıt testi** (Bora + 3 kişi, 0 kredi) için mi kullanalım? Higgsfield'da temkinli olduğumuz için kâğıt testi önerim (Kesit 1 + 2'den ana şakanın hangisinin daha çok güldüreceğini ayırır).
+1. **Ton:** Bu senaryo komediyi tek ana şakaya (kapı) indirip "hüzünlü-sıcak gizem" yönüne gidiyor ("güzel bir hikâye", K-020). Sizin istediğiniz bu mu, yoksa daha çok komik (Kesit 2 gibi, hikâye hafif; not: Kesit 2'nin şakası zaten G-0026 "Kapı") mi?
+2. **İlk adım ve tavan (A2):** İlk deney olarak yalnız **Kesit 1** (taban ~34,5, orta ~96, kötü ~157,5 kredi; azami tavan ~100 öneriyoruz: orta senaryoyu karşılar, kötü senaryoyu karşılamaz, 100'de durulur ve size dönülür; onaylar mısınız?) mı, yoksa önce bu senaryoyu **kâğıt testi** (Bora + 3 kişi, 0 kredi) için mi kullanalım? Higgsfield'da temkinli olduğumuz için kâğıt testi önerim (Kesit 1 + 2'den ana şakanın hangisinin daha çok güldüreceğini ayırır).
 
 ## 9. Kanıt bağlantısı ve sınırlar
 - Pazar: trend radarı #21, #12; fırsat Hipotez 2; Kart 8 (videosu görülmedi).
