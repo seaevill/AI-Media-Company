@@ -690,12 +690,14 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "queued",
+      "durum": "review",
       "en_erken": null,
-      "ilgili_dosyalar": [],
+      "ilgili_dosyalar": [
+        "toplantilar/gundem/2026-11-27-unit3c-pilot.md"
+      ],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": "2026-11-27T18:25:00Z",
+      "son_calisma": "2026-11-27T19:20:00Z",
       "sonraki_guvenli_adim": "G-0023 bulguları gelince senaryo",
       "surum": 1
     },

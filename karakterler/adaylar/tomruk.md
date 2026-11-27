@@ -60,3 +60,7 @@ Bağlı gündem: `toplantilar/gundem/2026-11-27-ucuncu-kat-v2.md` (v1 `...-ucunc
 | Tarih | Deney | İçerik | 72s sonuç | Not |
 |---|---|---|---|---|
 | — | henüz yok | henüz yok | henüz yok | henüz yok |
+
+
+## Üretim notu (2026-11-27, G-0026)
+Yeni referans: Higgsfield iş `ca914790-492c-478a-8661-d786d13c4ec7` (yuvarlak gövde, yassı geniş burun, tek çanta). **Kulak çentiği iki denemede de üretilmedi** → güvenilir görsel çapa değil; tutarlılık puanında çıkarılabilir (Bora/kreatif kararı).

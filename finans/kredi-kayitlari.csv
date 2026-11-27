@@ -6,3 +6,9 @@ tarih,gorev_id,deney_id,arac,model,islem,tahmini_kredi,gercek_kredi,basarili,ure
 2026-11-27,G-0012,,higgsfield,seedance_2_5_flash,video_8sn_720p_ses,40,40,evet,918c8ec7-5d20-42cd-ac83-efb6cca8f58b,K-014,
 2026-11-27,G-0012,,higgsfield,minimax_hailuo(2.3-fast),video_6sn_768,4,4,evet(teknik)/hayir(kalite),336158d9-f948-4669-86e1-d9e43528a025,K-014,ses yok; nesne sürekliliği bozuk
 2026-11-27,G-0012,,higgsfield,seedance_2_0_mini,video_8sn_720p_ses,8,8,evet,828f339f-6be2-420b-bea1-dc942bd8bf3d,K-014,bakiye 1935.39->1877.39 = 58.00 toplam
+2026-11-27,G-0026,,higgsfield,nano_banana_2(nano_banana_flash),tomruk_yeniden_cizim_1,1.5,1.5,kısmen (çift çanta),7eab0d77-1672-4e3f-8c5f-0bf5371b2cc3,K-023,
+2026-11-27,G-0026,,higgsfield,nano_banana_2(nano_banana_flash),tomruk_yeniden_cizim_2_duzeltme,1.5,1.5,evet (kulak çentiği yok),ca914790-492c-478a-8661-d786d13c4ec7,K-023,
+2026-11-27,G-0026,,higgsfield,nano_banana_2(nano_banana_flash),tikirti_baslangic_karesi,1.5,1.5,evet,77771b04-70ca-433e-b945-16a17227e0bb,K-023,
+2026-11-27,G-0026,,higgsfield,nano_banana_2(nano_banana_flash),kapi_baslangic_karesi,1.5,1.5,evet,a56dab76-3f0b-47f4-acdd-ccaf0b1a13fb,K-023,
+2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,tikirti_8sn_720p_ses,8,8,bekliyor,97c7b1cb-a6cb-4ad8-9e7e-391c995123af,K-023,
+2026-11-27,G-0026,,higgsfield,seedance_2_0_mini,kapi_8sn_720p_ses,8,8,bekliyor,0bc0bd88-50ee-4209-b819-df05ab18a647,K-023,
