@@ -25,7 +25,7 @@ Durum (2026-11-27): **Ücretli üretim, gerçek yayın, dış iletişim veya yen
 
 | # | Kapsam | Platform/hesap | Bütçe | Başlangıç–bitiş | Bekçi şartı | Durdurma | Veren |
 |---|---|---|---|---|---|---|---|
-| — | (henüz yok) | | | | | | |
+| 1 | A2 üretim: Higgsfield (ve Kling) **plan içi kredileri**; görsel, video, ses üretimi ve testler | Higgsfield/Kling hesabı (yayın yok) | Sınırsız plan kredisi. Ek kredi/paket satın alma, otomatik yükleme, yeni abonelik **dahil değil** (nakit = A3). Bakiye 300 kredinin altına düşünce Bora'ya bildirim (durdurmaz). Plan dışı tek iş > 100 kredi ise önce Bora'ya bilgi | 2026-11-27 – Bora iptal edene kadar | Her üretim `finans/kredi-kayitlari.csv`'ye (başarısızlar dahil); her deney/üretim partisi Bekçi denetiminden geçer; gerçek yayın yine A3 | Bora: "kredi yetkisi iptal" ya da bu satırı silmesi | Bora, sohbet, 2026-11-27 (K-019) |
 
 ## Asla (hiçbir onayla değil)
 

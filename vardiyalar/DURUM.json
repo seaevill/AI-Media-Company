@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T17:45:00Z",
+  "guncelleme": "2026-11-27T18:00:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": "2026-11-27",
@@ -10,7 +10,7 @@
   },
   "simdi": "G-0012",
   "sayac": {
-    "son_gorev_no": 24,
+    "son_gorev_no": 25,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -666,6 +666,33 @@
       "bekci_karari": null,
       "son_calisma": null,
       "sonraki_guvenli_adim": null,
+      "surum": 1
+    },
+    {
+      "id": "G-0025",
+      "baslik": "Hikâye odaklı pilot (K-020): Üçüncü Kat dünyasında 60–90 sn'lik tek bir mikro-film — başlangıç, çatışma, duygusal dönüş, son; 3D; Bora'ya senaryo + animatik, sonra üretim",
+      "kaynak": "K-020",
+      "olusturma": "2026-11-27T18:00:00Z",
+      "oncelik": "P5",
+      "departman": "kreatif-direktor",
+      "sorumlu_ajan": "kreatif-direktor",
+      "onay_seviyesi": "A2",
+      "onay": "Bora, 2026-11-27, plan kredisi kalıcı yetki (K-019)",
+      "bagimliliklar": [
+        "G-0023"
+      ],
+      "beklenen_cikti": "senaryo + storyboard + üretilmiş pilot (repo dışında) + benchmark/kredi kaydı",
+      "basari_kriteri": "Bora'nın tepkisi + ileride gerçek izleyici; komedi atölyesi bulgularıyla karşılaştırma",
+      "azami_maliyet": "plan içi (K-019); tek iş >100 kredi ise önce bilgi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "queued",
+      "en_erken": null,
+      "ilgili_dosyalar": [],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": "G-0023 bulguları gelince senaryo",
       "surum": 1
     }
   ],
