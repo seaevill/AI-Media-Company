@@ -223,3 +223,95 @@ Sıralama (yalnızca üretim riski, TAHMİN; komedi değerlendirmesi değil): d�
 **Kural 5 (Bora referans görünümü seçer):** hiçbiri üretime hazır değil; Bora'nın seçmesinden sonra seçilen karakterin referans görseli (A2, Bora onayı + azami kredi) ve tek 4 sn'lik test çekimi gerekir. **Bu bölüm kredi harcamaz, yeni dosya açmaz.**
 **Kaynak/denetim notu:** pazar sayıları pilot tekrar çıktısından (`mi-A2.txt`, `mi-B2.txt`), kimse klip izlemedi; platform bölümü arama özeti. Hiçbir senaryo mahkemeye gönderilmedi ve puanlanmadı; "komik" iddiası yoktur (H-002: mevcut gag yapısı komik değil; bu senaryolar H-002'ye yeniden yazılmış hipotez olarak sınanmalıdır: gerçek insan tepkisi gerekir).
 - 2026-11-28 · G-0044 (5 konuşmasız senaryo) · Bir fikri "model güçlü yanlarına göre" diye yazmadan önce her çekimi 14 sınıfta işaretleyip hangi sınıfın yalnız montajla çözüldüğünü ayırdım; bir dahaki sefere her senaryoda şakanın "tek sürpriz anı"nı önce yazıp (G-0023) risk tablosunu ondan sonra dolduracağım, ayrıca "yerçekimi/desen yüzmesi" gibi modelin test edilmemiş öncüllerini çekim satırında "ilk test" diye işaretleyeceğim.
+
+## 2026-11-28 G-0049: referans görünüm seçenekleri
+
+Durum: **önerildi** (Bora seçimi bekliyor; CLAUDE.md kural 5). Üretim yok, kredi harcanmadı, görsel üretilmedi, mahkemeye gönderilmedi, puanlanmadı.
+**Önce sınırlar:** (1) Hiçbir videoyu izlemedim, hiçbir kare görmedim; stil etiketleri arama özetine/yayıncı tarifine dayanır (GÖRDÜM yok). Bora linkte stili kendi gözüyle doğrulamalı. (2) Sayılar `scripts/hesap_olc.py` ile 2026-11-27 gece ölçüldü (ÖLÇTÜM, tek koşu); "stil" sütunu ise OKUDUM-ÖZET. (3) Örneklerin çoğu insan yapımı: hesap var ve izleniyor demek, yapay zekâ modelinin aynı stili tutarlı üreteceği demek değildir. (4) 2D, kil, kâğıt, low-poly için yapay zekâ komedi hesabında büyük doğrulanmış başarı bulunamadı (G-0030 ile aynı; kanıt yokluğu ≠ imkânsızlık). (5) Aşağıdaki "hata riski" ve "maliyet" yargıları TAHMİN: model bu stillerde bizde hiç denenmedi.
+
+### Bora'nın önceki sözleri (birebir, KARARLAR.md)
+- K-016: "hiç komik değil ama animasyon fikri güzel, ses yerinde." (G-0012 test videoları; görünüm mat/soluk 3D'ydi)
+- K-020: "**3D her zaman daha iyi**" (aynı ifade `external-advisory/STRATEGIC-DEBATES.md`'de de var)
+- K-026: "Rezalet." ("Kapı" v2; G-0026 başarısız)
+Çıkarım (TAHMİN): Bora 3D görünümü sevdi, sorun görünüm değil senaryo/hata (K-016 yorumu, `produksiyon/basarisiz-uretimler/README.md` kök neden 1–4). Ama aynı dosyada kök neden 5: mat/soluk 3D pazar kanıtı olmadan seçilmişti. Yani "3D" ile "bizim mat/soluk 3D'miz" ayrı şeyler: S1 3D'yi tutar, mat/soluk'u bırakır.
+
+### Hata sınıfları kısaltması (`uretim-hata-onleme` 14 sınıf)
+1 iç içe geçme · 2 kaybolma–belirme · 3 nesne çoğalması · 4 morf · 5 yüzen nesne · 6 kapı/menteşe · 7 ince esnek nesne · 8 prop tutma/bırakma · 9 yön/yürüyüş · 10 dönüşte tutarlılık · 11 karanlık/küçük kilit an · 12 yazı/rakam · 13 kamera talimatı · 14 ≥3 karakter. Senaryolar: **S1** Mevsimlik Kurye (kaplumbağa) · **S2** Sessizlik Kuralı (baykuş) · **S3** Ağırlıksız (köstebek) · **S4** Ay Yiyen (fare) · **S5** Bir Adım Geç (bukalemun). Aşağıda seçenekler **A–F**.
+
+### Özet tablo (Bora için)
+| Seçenek | Görünüm | Hata riski (TAHMİN) | En uygun senaryolar | Pazar kanıtı (örnekler) |
+|---|---|---|---|---|
+| **A** Bora'nın önceki 3D tercihi | Yumuşak, parlak, sevimli stilize 3D hayvan | Azaltmaz (hacim fiziği görünür) | S3, S4, S1 | Var (TikTok 3D hayvanlar; Natural Habitat) |
+| **B** Kalın konturlu düz renk 2D | Kalın çizgi, düz renk, gölgesiz | Azaltır (sınıf 4, 11, 12, 2) · kontur titremesi bilinmiyor | S5, S4, S2 | Yapay zekâ için yok; insan yapımı büyük örnek var |
+| **C** Kil / stop-motion görünümü | Kil dokusu, 12 kare/sn "titrek" hareket | Karışık (4, 5 azalır; doku/kayma artar) | S1, S3, S5 | Yapay zekâ için yok; insan yapımı örnek küçük/orta |
+| **D** Düşük detaylı 3D (low-poly) | Az çokgen, düz gölge, dokusuz | Azaltır (12, 11, 4); 1, 5 aynı | S2, S4, S1 | Orta (tek insan yapımı hesap) |
+| **E** Kâğıt kesme / katmanlı diorama | Katmanlı kâğıt, sabit kamera, az hareket | Azaltır (hareket az) ama model "kâğıt"ı 3D'ye çevirebilir | S2, S4, S1 | Zayıf (kanıt bulunamadı, yalnız sanat örnekleri) |
+| **F** Fotogerçekçi insan-dışı | Gerçekçi görünümlü hayvan | Artırır (1, 5, 8 fizik daha görünür) | S2, S4 (tek ifade) | **En güçlü ölçek**; ama etiket/itibar riski |
+
+### A. Bora'nın önceki 3D tercihi: "Parlak stilize 3D hayvan"
+- **Tarif:** yuvarlak, yumuşak ışıklı, sevimli 3D hayvan; mat/soluk yok, "el çizimi hissi" verilebilir; kenar ışığı güçlü.
+- **Hata riski (TAHMİN):** kendiliğinden azaltmaz. 3D'de gövde hacmi var, bu yüzden iç içe geçme (1), yüzen nesne (5) ve kapı/menteşe (6) kanıtlı hatalarımız tam burada oldu (kapi_v1, kapiB, koli). Karanlık sahnede (11) kenar ışığı + parlak renkle okunurluk artabilir ama ölçülmedi. Avantaj: Bora'nın sözüyle uyumlu; G-0012/G-0026'daki modelde kimlik tutarlılığı en iyi bu görünümde ölçüldü (Tomruk 6, Cetvel 5–6, Anahtar 8 / 10; tek değerlendirici).
+- **Senaryo uyumu:** S3 (3D hacimde süzülme okunur; ama yerçekimi öncülü "ilk test"), S4 (3D ay + kenar ışığı), S1. Zayıf: S5 (desen yüzmesi 3D yüzeyde yüksek), S2 (gece ışık).
+- **Örnekler (kamuya açık):**
+  1. https://www.tiktok.com/@meowtakeover (2,6M takipçi; embed son klip medyanı ~1,07M; ÖLÇTÜM 2026-11-27; parlak sevimli yapay zekâ kedi; sözsüz). Link açıldı (HTTP 200).
+  2. https://www.youtube.com/@NaturalHabitatShorts (6,29M abone; Shorts medyanı 4,95M, tepe 27M; ÖLÇTÜM). Stil: 3D hayvan skeçleri, "el çizimi hissi" (OKUDUM-ÖZET: AWN; insan yapımı, Blender; konuşmalı mı bilinmiyor). Stil için en yakın referans.
+  3. https://www.tiktok.com/@mpminds (1,4M takipçi; stilize kedi; ÖLÇTÜM). Uyarı: embed son klip medyanı yalnız ~4,4K, takipçiyle çelişiyor (örnekleme kaydırması olabilir); çocukları ağlatan format itibar sorunu notu var (G-0030 #4). Stil örneği olarak, format örneği olarak değil.
+- **Maliyet etkisi (TAHMİN):** referans görünüm için en ucuz yol zaten bildiğimiz hat: Nano Banana 2 ≈1,5 kredi/görsel (kayıtlı), Seedance 2.0 Mini ≈1 kredi/sn (kayıtlı). Senaryo başına temel ≈ 20–28 kredi; yeniden deneme payı ×1,5–2 (fizik hataları sürerse daha yüksek). Stilin kendisi maliyeti değiştirmez, hata oranı değiştirir.
+
+### B. Kalın konturlu düz renk 2D
+- **Tarif:** kalın siyah kontur, gölgesiz düz renk alanları, az doku; dünya sade fon.
+- **Hata riski (TAHMİN):** morf (4) ve desen yüzmesi azalır çünkü desen yok (S5'te kareli/benekli yüzey yerine düz renk bloğu + tek işaret); karanlık/küçük kilit an (11) azalır çünkü kontur ve düz renk okunur; yazı/rakam (12) azalır çünkü yüzey ayrıntısı yok. **Artırabilecek:** modellerin düz 2D'de kontur kalınlığı titremesi, renk bloğu taşması ve "yarı 3D'ye kayma" yapması olası; bizde hiç test edilmedi (bilinmiyor). İç içe geçme (1) ve kapı (6) 2D'de de olur; düz renkte "içinden geçme" daha az belirgin ama kaybolma (2) daha çok fark edilebilir.
+- **Senaryo uyumu:** S5 (en iyi: renk değişimi blok kesmesiyle zaten tasarlı), S4 (düz ay + silüet), S2 (düz arka plan, göz yakın plan), S1. Zayıf: S3 (düz 2D'de sıfır yerçekimi "süzülme" derinlik vermez).
+- **Örnekler (kamuya açık; insan yapımı, yalnız stil referansı, karakter kopyalanmaz):**
+  1. https://www.youtube.com/@simonscat (6,64M abone; Shorts medyanı 77K, tepe 3M; ÖLÇTÜM). Çizgi/kontur 2D, sözsüz kedi (telifli karakter: yalnız çizgi stili).
+  2. https://www.youtube.com/@AlanBecker (34,5M abone; Shorts medyanı 17M, tepe 75M; ÖLÇTÜM). Sade çizgi 2D (telifli karakterler: yalnız stil). (TikTok'taki @alanbecker 38 takipçili, resmi hesap görünmüyor: kullanma.)
+  3. Yapay zekâ 2D hesabı olarak doğrulanmış büyük örnek bulunamadı; arama yalnızca araç/kurs satan sayfalar (taraflı) verdi, link vermiyorum.
+- **Maliyet etkisi (TAHMİN):** model maliyeti A ile aynı. Hata oranı düşerse yeniden deneme ×1,2–1,5; ama model 2D'yi tutamazsa referansta ek deneme gerekir (görsel başına +1,5 kredi). Net: A'ya yakın ya da biraz ucuz.
+
+### C. Kil / stop-motion görünümü
+- **Tarif:** kil dokulu, hafif parmak izi, 12 kare/sn "titrek" hareket; küçük kilitli diorama.
+- **Hata riski (TAHMİN):** düşük kare hızı ve titreşim stilin parçası olursa küçük morf (4) ve yüzen nesne (5) "stop-motion lafı" gibi okunabilir (ör. S3 süzülme telle asılı gibi). **Gizlemeyecek:** iç içe geçme (1), kayıp-belirme (2) ve kapı (6) kil'de de hata olarak görünür. **Artırabilecek:** kil dokusu/parmak izi kare kare yanıp sönebilir; model kil yerine pürüzsüz 3D'ye kayabilir (kimlik sürekliliği). Çocuk hedefli algı riski (kil = çocuk içeriği; Anayasa 22, kreatif kural 3): ton yetişkin kodlu tutulmalı.
+- **Senaryo uyumu:** S1 (yavaş yürüyüş, mevsim kesmeleri), S3 (süzülme "stop-motion" mantığıyla), S5 (desen titremesi stile yaslanır, ama kareli desen riski yüksek).
+- **Örnekler (kamuya açık):**
+  1. https://www.tiktok.com/@aardmananimations (336,7K takipçi; embed medyanı ~14K, tepe 122K; ÖLÇTÜM). Kil stop-motion; telifli karakterler, yalnız stil. Resmi hesap olduğu doğrulanmadı (OKUDUM-ÖZET yok), Bora kontrol etsin.
+  2. https://www.youtube.com/@Waaber (19,3K abone; Shorts medyanı 6,6K; ÖLÇTÜM). "Sevimli kil videoları" iddiası arama özeti (OKUDUM-ÖZET), kare görülmedi.
+  3. https://www.youtube.com/@TrentShy (630K abone; Shorts sekmesinde yalnız 1 klip ölçüldü; ÖLÇTÜM). "Kil stop-motion, tek klip 18M" iddiası arama özeti; doğrulanmadı.
+  Not: G-0030'a göre kil için yapay zekâ komedi hesabı bulunamadı; satıcı blogları "trend" diyor (taraflı).
+- **Maliyet etkisi (TAHMİN):** model maliyeti aynı; hata/yeniden deneme belirsiz ×1,5–2,5 (test edilmedi). Doku tutarlılığı için referans görsel 2–3 deneme isteyebilir (+3–4,5 kredi).
+
+### D. Düşük detaylı 3D (low-poly)
+- **Tarif:** az çokgenli, düz gölgeli, dokusuz 3D; ışık sade, sahne az nesneli.
+- **Hata riski (TAHMİN):** yazı/rakam (12) ve ince ayrıntı azalır (raf sırtı, saat kadranı, tabela: düz yüzey), karanlık kilit an (11) düz renk bloklarıyla daha okunur, morf (4) azalır (küçük detay yok). **Aynı kalır:** iç içe geçme (1), yüzen nesne (5), kapı (6), yürüyüş (9). Model low-poly'yi "pürüzsüz 3D"ye yumuşatabilir (bilinmiyor).
+- **Senaryo uyumu:** S2 (raflar düz bloklar, ışık sade), S4 (düz ay/çatı), S1 (patika düz). Orta: S5, S3.
+- **Örnekler (kamuya açık):**
+  1. https://www.youtube.com/@Vossadova (19K abone; Shorts medyanı 22K, tepe 739K; ÖLÇTÜM) ve https://www.tiktok.com/@vossadova (112K takipçi, 3,8M beğeni, 94 video; son 13 klip 2,1K–2,6M; ÖLÇTÜM). Low-poly komik hayvan kısa filmleri (OKUDUM-ÖZET; insan yapımı, Blender).
+  2. https://www.youtube.com/@NaturalHabitatShorts (yukarıda; 3D hayvan sade yüzeyler, stil yakınlığı OKUDUM-ÖZET, kare görülmedi).
+  3. Üçüncü örnek bulunamadı (Daily Dweebs ve Greatcorn ayrı hesap sayfasıyla doğrulanamadı: `@DailyDweebs` 3 abone, ilgisiz).
+- **Maliyet etkisi (TAHMİN):** A ile aynı model maliyeti; sade yüzeyler nedeniyle yeniden deneme biraz düşük olabilir (×1,2–1,6).
+
+### E. Kâğıt kesme / katmanlı diorama
+- **Tarif:** dokulu kâğıt katmanlar, düz gölgeler, sabit kamera, hareket yalnız katman kayması/küçük eklem.
+- **Hata riski (TAHMİN):** hareket zaten az olduğundan fizik sınıfları (1, 5, 6, 8) düşer; yazı/rakam düşük; kilit an gözün/başın küçük hareketi. **Risk:** model katmanları kâğıt yerine hacimli 3D gibi hareket ettirebilir; kâğıt kıvrımı/kenar parçası kopabilir (7, 4); sıcak ışıkta kâğıt dokusu "yanıp söner". Çok az hareket = kanca zayıf (S2'de zaten not).
+- **Senaryo uyumu:** S2 (neredeyse sabit), S4 (gökyüzü katmanları), S1 (yatay kayma). S3 ve S5 zayıf.
+- **Örnekler (kamuya açık):**
+  1. https://www.shortoftheweek.com/news/three-animanimals-julia-ocker/ (Animanimals, sözsüz hayvan kısa filmleri; yayın kanalı https://www.youtube.com/@filmbilder: 2M abone, Shorts medyanı 68,5K, tepe 429K, ÖLÇTÜM). Stilin kâğıt olduğu doğrulanmadı (arama özeti medyum adı vermedi), Bora linkten baksın.
+  2. https://www.dragonframe.com/blog/tundra-by-picturesmith-studio/ (Tundra, kâğıt kesme hayvan kısa; sayfa açılmadı, OKUDUM-ÖZET). 
+  3. Yapay zekâ kâğıt-kesme komedi hesabı bulunamadı; pazar kanıtı zayıf (G-0030).
+- **Maliyet etkisi (TAHMİN):** model aynı; hata oranı düşük olabilir ama stilin tutması test edilmedi, ×1,3–2,0. Sadece tek tek kareyi hareketlendirerek (montajda katman kayması) üretimi azaltmak mümkün: potansiyel olarak en ucuz, ama yapay zekâ videosu yerine montaj yöntemi olur (ayrı karar).
+
+### F. Fotogerçekçi görünümlü insan-dışı karakter
+- **Tarif:** gerçek görünümlü hayvan/yaratık, tek ifade; AI etiketi açık.
+- **Hata riski (TAHMİN):** artırır. Gerçekçi görünümde iç içe geçme, yüzen nesne ve el–nesne hataları 3D/2D'den daha çok "yanlış" okunur; kanıtlı bizim hatalarımız bu sınıflardı. **Avantaj:** tek karakter + tek ifade formatında (Rufus, Natural Habitat ölçeği) fizik neredeyse hiç sorun olmaz. **Ek risk:** "gerçek sanılma" itibar sorunu (Basin Creek, Infinite Unreality; G-0030), AI etiketi etkileşimi düşürür, YouTube şablon üretim temizliği.
+- **Senaryo uyumu:** S2 (baykuş göz yakın planı; neredeyse sabit), S4 (tek ifade). Diğerleri fizik gerektirir.
+- **Örnekler (kamuya açık):**
+  1. https://www.youtube.com/@BandarApnaDost (3,96M abone; Shorts medyanı 3,35M; G-0030 ölçümü 2026-11-27; büyük klipler komedi değil duygusal melodram; sözsüz).
+  2. https://www.tiktok.com/@tailbitpets (857K takipçi) ve https://www.youtube.com/@tailbitpets (153K abone; Shorts medyanı 38K, tepe 1,9M; G-0030 ölçümü). Tek ifade + yazılı espri.
+  3. https://www.youtube.com/@NeuralViz (237K abone; konuşmalı mockumentary; insan performansı gerekir, bizim için model değil).
+- **Maliyet etkisi (TAHMİN):** model/kredi aynı; gerçekçi referans için görsel modeli (GPT Image 2.6 0,75 / Nano Banana 2 1,5) ucuz. Yeniden deneme payı en yüksek ×2–3 (gerçekçi fizik hataları). AI etiketi/itibar maliyeti kredi dışı.
+
+### Okuma ve seçim yolu (Bora 2 dakika)
+1. Her seçeneğin 1. linkini telefonda aç, 10 sn bak: "bu görünümde 20 sn'lik bir şey izlerdim" evet/hayır.
+2. Cevap: **bir harf** (A–F) + isteğe bağlı ikinci tercih. Tek harf yeterli; çekim ya da senaryo seçmen gerekmez (kreatif senaryoyu eşleştirir).
+3. Kreatif ajanın görüşü (TAHMİN, Bora'yı bağlamaz): hata önleme açısından **B ve D**, Bora'nın sözü açısından **A** öne çıkıyor; pazar kanıtı yalnızca A ve F'de var. Ucuz sıradaki adım (kural 5): Bora'nın seçtiği 1–2 görünüm için tek karakterde ~1,5 kredilik referans görseli (A2 onayı + azami kredi gerekir; bu görevde yapılmadı) → Bora'nın referansı onaylaması → tek eylemli, temassız çekim.
+
+- 2026-11-28 · G-0049 (referans görünüm seçenekleri) · Stil seçeneği sunarken "hata azaltır" yargısını her stil için ayrı yazıp aynı anda hangi sınıfı gizlemeyeceğini de listeledim ve linklerin stilini görmediğimi baştan işaretledim; bir dahaki sefere stil adayını önce hesap_olc ile ölçüp, linkin stilini doğrulamak için Bora'nın 10 sn bakışını (ya da erişilebilirse video kareleri) şart koşacağım, ve yapay zekâ olmayan insan yapımı örneği "model bu stili tutar" kanıtı sayma.
