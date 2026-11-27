@@ -182,3 +182,45 @@ Bu dersler doğrulanmış video içeriğine değil, genel duruma dayanıyor.
 - https://www.webpronews.com/higgsfield-hits-500-million-run-rate-and-plots-series-b-as-ai-video-ads-take-over-marketing/
 - https://podwise.ai/episodes/2240813
 - https://www.goodreads.com/author_blog_posts/23935425-149-revenue-from-a-1-hour-amazon-product
+
+---
+
+## v2 — transkript doğrulaması (2026-11-27)
+
+**Görev:** G-0009 (A0). **Sonuç: altyazı/transkript ve açıklama kutusuna ERİŞİLEMEDİ. Bu bölümdeki rakam ve içerik hükümlerinin hiçbiri transkriptten doğrulanmış değildir; uydurma yapılmadı.**
+
+### Erişim tablosu
+
+| Video ID | Başlık (oEmbed, kanal Mark Tilbury) | Watch sayfası | videoDetails (açıklama, süre, tarih) | Altyazı (captionTracks) | Hüküm |
+|---|---|---|---|---|---|
+| uy2JLqwiZpU | 7 Passive Income Ideas for 2027 (Up to $1,000/Day) | HTTP 302 → Google "sorry" CAPTCHA sayfası | alınamadı | alınamadı | İçerik bilinmiyor |
+| ZzDRSxx3zgY | I Started Again From Scratch Only Following Claude's Advice | aynı | alınamadı | alınamadı | İçerik bilinmiyor |
+| LlhTEttKcwQ | I Tried The LAZIEST Way to Make Money With AI | aynı | alınamadı | alınamadı | İçerik bilinmiyor (t=558s dahil) |
+
+Denenen: `curl -A "Mozilla/5.0" -H "Accept-Language: en"`, `&hl=en`, `-b "CONSENT=YES+1; SOCS=CAI"`, yönlendirme takibiyle ve takipsiz. Yanıt her seferinde `https://www.google.com/sorry/index?...` yönlendirmesi (bot/CAPTCHA koruması); `www.google.com` proxy tarafından 403 ile reddedildi. Sayfa HTML'i alınamadığı için `ytInitialPlayerResponse` yok. Kurallar gereği (kurallar.md #5, ANAYASA §12) CAPTCHA/bot koruması aşılmadı; altyazı için başka (dolaylı) uç noktalar da denenmedi. Not: oEmbed başlık doğrulaması çalışıyordu, yani engel host düzeyinde değil, watch sayfasındaki bot filtresinde (muhtemelen bu ortamın çıkış IP'si).
+
+### Video başına iş modeli özeti
+
+- **Video 1, 2, 3:** Transkript görülemediği için anlatılan iş modelleri **bilinmiyor**. Başlıklardan çıkan tek şey (HİPOTEZ, içerik değil): V1 bir "fikir listesi" formatı; V2 Claude'dan tavsiye alarak sıfırdan başlama deneyi; V3 AI ile "tembel" gelir deneyi. Önceki bölümdeki üçüncü taraf özetler (7 günlük AI influencer, dijital çalışma kitabı) V3 ile aynı başlığı taşıyan **UOPljFhhig4** için geçerli; LlhTEttKcwQ ile aynı video olup olmadığı hâlâ doğrulanmadı (başlık aynı, ID farklı: yeniden yükleme/kısaltma olabilir, HİPOTEZ).
+- Video 3'te t≈558s (9:18): **bilinmiyor**.
+
+### Rakam doğrulama tablosu
+
+| Rakam | Video | Zaman damgası | Söylenen ifade | Tahsil/iade durumu | Bizim değerlendirmemiz |
+|---|---|---|---|---|---|
+| Reklam ajansı ~1.047 $ gelir | bulunamadı | yok | transkript yok | bilinmiyor | DOĞRULANAMADI. Önceki web taramasında da çıkmadı; kaynağı belirsiz. |
+| ~389 $ araç maliyeti | bulunamadı | yok | transkript yok | bilinmiyor | DOĞRULANAMADI. |
+| 23 satış × 12 $ = 276 $ | LlhTEttKcwQ (varsayım) | yok | transkript yok | bilinmiyor | Yalnız üçüncü taraf özette (UOPljFhhig4) destek var; yaratıcı beyanı, brüt. Bu videoda doğrulanmadı. |
+| Satışların iade edildiği | bulunamadı | yok | transkript yok | bilinmiyor | DOĞRULANAMADI. İçerikte "iade edildi" diye kullanılmaz. |
+
+### Taraflılık sinyalleri
+
+Açıklama kutusu görülemedi, bu yüzden sponsor/affiliate/kurs bağlantıları **bilinmiyor**. Dolaylı (v1 bölümünden, üçüncü taraf): yaratıcının "AI Influencer Cheat Sheet" lead-magnet sayfası ve Higgsfield kullanımı; sponsorluk olup olmadığı doğrulanmadı. Ayrıca bizim Higgsfield kullanıcısı olmamız değerlendirmede ek yanlılık riskidir.
+
+### Bizim için 3 ders
+
+1. Rakamı kaynak videonun zaman damgasıyla doğrulamadan "doğrulanmış" yazma; elimizdeki 1.047/389/276/iade bilgileri şu an yalnızca kurucu notu veya ikinci el özet düzeyinde.
+2. Bu ortamda YouTube watch sayfası bot korumasına takılıyor; transkript için doğru yol kurucunun/Chief of Staff'ın altyazıyı elle dışa aktarıp (yalnızca ilgili dakikalar) bir dosya olarak vermesi veya erişimi olan başka bir ortam. Blokajı aşmaya çalışmak yerine görevi bloke işaretle.
+3. Gelir iddialarında brüt/tahsil/iade/kâr ayrımı (ANAYASA §9) kaynağın söylediği ifadeyle birlikte kaydedilmeli; "ifade" olmadan tahsil durumu yazılamaz.
+
+**BORA'YA SORU:** Üç videonun altyazısını (en azından V3 için 8:30–10:00 ve rakamların geçtiği bölümler) YouTube'dan "transkripti göster → kopyala" ile bir dosyaya yapıştırıp verebilir misin? Ya da bu görev başka bir ağda yeniden denenmeli.

@@ -225,7 +225,7 @@
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 1,
-      "durum": "review",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "toplantilar/gundem/",
@@ -234,8 +234,8 @@
         "karakterler/adaylar/tomruk.md"
       ],
       "ilgili_pr": null,
-      "bekci_karari": "DÜZELTME GEREKLİ (denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6); azınlık aktarımı, hipotez etiketi, yöntem sınırı düzeltildi — yeniden denetim bekliyor",
-      "son_calisma": "2026-11-27T14:05:00Z",
+      "bekci_karari": "ONAY (denetim/audit-logs/2026-11-27-ucuncu-tur-G-0008.md @ e784429)",
+      "son_calisma": "2026-11-27T15:35:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
