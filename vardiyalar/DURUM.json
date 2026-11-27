@@ -4,9 +4,9 @@
   "guncelleme": "2026-11-27T15:00:00Z",
   "son_kosu": null,
   "gunluk": {
-    "tarih": null,
-    "kosu": 0,
-    "ajanli_kosu": 0
+    "tarih": "2026-11-27",
+    "kosu": 1,
+    "ajanli_kosu": 1
   },
   "simdi": null,
   "sayac": {
@@ -254,13 +254,13 @@
       "basari_kriteri": "Başlık, kanal, içerik, rakamlar doğrulandı",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
-      "durum": "queued",
+      "deneme": 1,
+      "durum": "in_progress",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T15:20:00Z",
       "sonraki_guvenli_adim": "Başlıklar doğrulandı; transkript/açıklama ile içerik ve rakam doğrulaması",
       "surum": 1
     },
@@ -518,13 +518,13 @@
       "basari_kriteri": "Mahkeme şartlarının hepsi karşılandı; Bekçi ONAY",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 0,
-      "durum": "queued",
+      "deneme": 1,
+      "durum": "in_progress",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T15:20:00Z",
       "sonraki_guvenli_adim": null,
       "surum": 1
     },
