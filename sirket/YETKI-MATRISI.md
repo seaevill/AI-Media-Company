@@ -1,0 +1,32 @@
+# YETKİ MATRİSİ
+
+Salt okunur. Yalnızca Bora değiştirir. Kaynak: manifesto §09 madde 10/19, §30, §36, §37 "Kuruluş emri".
+Durum (2026-11-27): **Ücretli üretim, gerçek yayın, dış iletişim veya yeni harcama için genel yetki YOKTUR.**
+
+## Onay seviyeleri
+
+| Seviye | Ne kapsar | Kim onaylar | Görevde nasıl yazılır |
+|---|---|---|---|
+| **A0 — Önceden yetkili** | Ücretsiz web araştırması, iç dokümantasyon, fikir/senaryo/storyboard/prompt yazımı, konsey ve mahkeme toplantıları, kuru koşular, analiz, şablon, repo içi düzenleme (Anayasa/sirket/kurallar hariç) | Kuruluş emriyle Bora (2026-11-27) | `"onay": "A0"` |
+| **A1 — Kaynak sınırlı** | Claude kullanımı: vardiya başına en fazla `CONFIG.json > limitler.alt_ajan_kosu_basina` alt ajan; günlük koşu sınırı | CONFIG.json'daki sınırlar | otomatik, sınır aşılırsa dur |
+| **A2 — Ücretli üretim** | Higgsfield/Kling/diğer kredi harcayan her üretim; ücretli araç denemesi | **Bora, deney bazında, azami kredi tutarıyla** | `"onay": "Bora, <tarih>, max <N> kredi"` |
+| **A3 — Dış dünya** | Gerçek yayın, sosyal medya hesabı açma, platforma bağlanma, müşteri/marka/insan ile iletişim, fiyat teklifi, sözleşme, ödeme, ürün yayına alma (Gumroad vb.), uzak repo oluşturma, zamanlayıcı etkinleştirme | **Yalnızca Bora, iş bazında** | `"onay": "Bora, <tarih>, <kapsam>"` |
+| **A4 — Değiştirilemez** | ANAYASA.md, sirket/, takimlar/*/kurallar.md, bütçe sınırları, güvenlik kuralları | Yalnızca Bora, elle | Ajanlar dokunmaz |
+
+## Kurallar
+
+1. Onay alanı boş görev alınmaz. A0 olarak işaretlenemeyecek bir işi ajan A0 diye işaretleyemez.
+2. A2 onayı **azami kredi** içerir. Tahmin onaylı sınırı aşarsa üretim başlamaz; aşım üretim sırasında anlaşılırsa durur ve `finans/kredi-kayitlari.csv`'ye yazılır.
+3. Başarısız üretimler de krediye sayılır.
+4. Bir bağlantının (MCP) var olması yetki değildir. Higgsfield, Kling, Gumroad, Canva, Gmail, Notion, Supabase, Cloudflare, TikTok bağlantıları A2/A3 kapsamındadır; yalnızca **okuma** amaçlı bakiye/model/fiyat sorguları A0'dır.
+5. **Kalıcı yetki** (ör. otomatik yayın) ancak aşağıdaki tabloda bir satır olarak yazılıysa geçerlidir: hesap, platform, içerik kategorisi, Bekçi şartı, sıklık, bütçe, süre, durdurma yolu.
+
+## Kalıcı yetkiler
+
+| # | Kapsam | Platform/hesap | Bütçe | Başlangıç–bitiş | Bekçi şartı | Durdurma | Veren |
+|---|---|---|---|---|---|---|---|
+| — | (henüz yok) | | | | | | |
+
+## Asla (hiçbir onayla değil)
+
+Sahte hesap/bot/satın alınmış etkileşim · sahte yorum veya müşteri · gerçek kişinin yüzü/sesi izinsiz · platform kısıtını, CAPTCHA'yı veya girişi aşma · ALONI veya Two Islands Dallas'a yazma · bu projelerin özel verilerini taşıma · sır/kimlik bilgisini dosyaya yazma.
