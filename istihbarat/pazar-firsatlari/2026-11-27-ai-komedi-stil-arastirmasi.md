@@ -295,3 +295,91 @@ WebSearch hiçbir sorguda doğrulanabilir "konuşmasız AI hayvan" handle listes
 - aibeaststudio ve asmraiworks bio'larında kurs/eğitim satışı var (taraflı hesaplar; kendi başarılarını pazarlıyor olabilirler).
 
 SKILL: pazar-istihbarati-olcum v1
+
+## 2026-11-28 ek: konuşmasız insan yapımı animasyon kıyası (G-0051)
+
+- Görev: G-0051 (A0, kredi 0) · Hazırlayan: pazar-istihbarati · Ölçüm: `python3 -I scripts/hesap_olc.py youtube|tiktok ...`, **2026-11-27 22:27–22:29 UTC** (başlıktaki 11-28 görev tarihidir). Hesap açıklaması/bio okuması: `curl` (aynı saat). Soru: konuşmasız/az konuşmalı, tek şakalı, karakterli kısa animasyon formatı AI olmadan da çalışıyor mu?
+- Etiketler: ÖLÇTÜM = araç/curl çıktısı. OKUDUM-ÖZET = arama özeti (ipucu, veri değil). TAHMİN. **GÖRDÜM hiçbir satırda yok: hiçbir video izlenmedi, ses dinlenmedi.**
+- "Sağlıklı" tanımı G-0048'den aynen: medyan/takipçi >= 0,1 **ve** en yüksek/medyan <= 10. "Tek viral" = en yüksek/medyan > 10. TikTok'ta ikisi de sabitlenmişsiz (araç varsayılanı) ve sabitlenmiş dahil yazıldı.
+
+**Önce bilinen hatalar ve sınırlar**
+1. **"Konuşmasız" kanıtı hiçbir hesapta ölçümle doğrulanmadı.** Hesap beyanı (YT açıklaması/TT bio) hiçbirinde konuşmasızlıktan söz etmiyor (ÖLÇTÜM, 6 YT açıklaması + 3 TT bio okundu). Kiwisburnttoast için yalnız Cartoon Brew arama özeti ("almost no dialogue", OKUDUM-ÖZET). Filmbilder/Animanimals için arama özeti "dialogue-free" (OKUDUM-ÖZET; kanal başka sanatçıların işlerini de gösteriyor, Shorts içeriği izlenmedi). Simon's Cat, Shaun the Sheep, Mr Bean için bu görevde kaynak okumadım: "konuşmasız" genel bilgi, **TAHMİN**. Wikipedia'ya bu ortamda erişilemedi (curl 000). Lazy Square için "konuşmasız mı" bilinmiyor.
+2. **Aday sayısı hedefi (10-15) tutmadı.** WebSearch yalnız birkaç handle verdi; handle'ı tahmin edip körlemesine ölçmedim. Sınanan her tahmin kimlik kontrolüyle (bio/açıklama) tabloya girdi ya da düşürüldü. Ölçülen insan yapımı hesap: 5 resmî-marka satırı + 3 bağımsız hesap (+1 sesli bağımsız, karşılaştırma dışı).
+3. **Bağımsız grup n=3 hesap (YT 3 + TT 1 çift). Bu bir pazar örneklemi değil; ucu ucuna "var/yok" kanıtı.** Üstelik üçü de basın/blog'da çıktığı için bulundu: hayatta kalma yanlılığı güçlü. Küçük/kapanmış insan yapımı konuşmasız hesap için **ölçülebilir aday bulamadım** (bkz. aşağı).
+4. TikTok sayıları embed sayfasındaki son 10-13 klibe dayanır; **aynı dakikada iki okuma farklı örnek verebiliyor** (javadoodles TT medyanı 7.797 ve 24.200). Sabitlenmişler araçta tahmini (TAHMİN katmanı). YT Shorts sıralaması ve tarihi okunamıyor: YT "son klip tarihi" yazılamadı.
+5. Büyüme ölçülemedi (tek kesit). Kimse "büyüyor" diye işaretlenmedi. Gelir hesaplanmadı.
+
+### Ölçüm tablosu
+Sütunlar: hesap (URL) · tür · platform · takipçi/abone · son klip medyanı (n) · min-max (YT) / en yüksek (TT) · med/takipçi · yüksek/med (TT: sabitlenmişsiz → dahil) · son klip tarihi · konuşmasız kanıtı · kimlik/not. Ölçüm zamanları: YT 22:27:29-22:28:22Z, TT 22:27:32-22:29:08Z.
+
+**A. Resmî marka (bilinirlik etkisi var)**
+
+| hesap | tür | pl. | takipçi | medyan (n) | min-max/en yüksek | med/tak. | yüksek/med | son klip | konuşmasız kanıtı | not |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [@simonscat](https://www.youtube.com/@simonscat) | resmî marka | YT | 6,64M | 77.000 (48) | 13.000-3.000.000 | 0,012 | 39,0× | okunamadı | TAHMİN (kaynak okunmadı) | açıklama "animated series... Simon's Cat Shorts" (ÖLÇTÜM) |
+| [@simonscat](https://www.tiktok.com/@simonscat) | resmî marka | TT | 4.338.688 | 9.838 (10) | en yüksek 194.200 | 0,002 | 19,7× → dahil 2.243× (sabitlenmiş 26,8M ve 597.900, TAHMİN) | 2026-11-27 (aralık 11-17..11-27) | TAHMİN | bio "Official TikTok! ... By Simon Tofield", doğrulanmış rozet (ÖLÇTÜM). `@simonscatofficial` TT'de yok (10221) |
+| [@ShaunTheSheepOfficial](https://www.youtube.com/@ShaunTheSheepOfficial) | resmî marka | YT | 14M | 68.000 (47) | 26.000-225.000 | 0,005 | 3,3× | okunamadı | TAHMİN | açıklama "official Shaun the Sheep YouTube channel" (ÖLÇTÜM). `@shaunthesheep` YT'de 404 |
+| [@ShaunTheSheepOfficial](https://www.tiktok.com/@ShaunTheSheepOfficial) | resmî marka | TT | 1.451.350 | **ölçülemedi** | — | — | — | — | TAHMİN | embed sayfası HTTP 400 / hata 10221 (aşılmadı). Bio "Shaun's official TikFlock", doğrulanmış. Aynı adlı `@shaunthesheep` TT'de 35 takipçi, 0 video: ilgisiz |
+| [@mrbean](https://www.youtube.com/@mrbean) | resmî marka, **karma (canlı çekim + animasyon)** | YT | 36,2M | 34.500 (48) | 5.800-176.000 | 0,001 | 5,1× | okunamadı | TAHMİN | açıklama "Official Mr Bean YouTube Channel... classic series... new animated adventures" (ÖLÇTÜM); animasyon payı bilinmiyor |
+| [@mrbean](https://www.tiktok.com/@mrbean) | resmî marka, karma | TT | 7.879.740 | 141.550 (10) | en yüksek 1.200.000 | 0,018 | 8,5× (sabitlenmiş yok) | 2026-11-27 (11-21..11-27) | TAHMİN | bio "official home of Mr Bean on TikTok", doğrulanmış |
+
+**B. Bağımsız / küçük stüdyo (bilinirlik etkisi daha az)**
+
+| hesap | tür | pl. | takipçi | medyan (n) | min-max/en yüksek | med/tak. | yüksek/med | son klip | konuşmasız kanıtı | not |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [@filmbilder](https://www.youtube.com/@filmbilder) | bağımsız stüdyo (Stuttgart), kanal başka sanatçıları da gösterir | YT | 2,0M | 68.500 (26) | 5.000-429.000 | 0,034 | 6,3× | okunamadı | OKUDUM-ÖZET (Animanimals "dialogue-free") | açıklama "studio in Stuttgart... independent films" (ÖLÇTÜM). Handle 3. taraf izleyiciden geldi; kimlik açıklamayla doğrulandı. TT `@filmbilder`: 5 takipçi/5 video/2021, kimlik doğrulanamadı → tabloya girmedi |
+| [@lazysquare](https://www.youtube.com/@lazysquare) | bağımsız tek kişi | YT | 656K | 146.000 (17) | 25.000-9.400.000 | 0,223 | 64,4× | okunamadı | **bilinmiyor** | açıklama "Alex, independent one-person studio... Lazy Square... dark-humor animation" (ÖLÇTÜM; Cartoon Brew özetiyle aynı kişi). TT `@lazysquare` (13 takipçi, 0 video) ve `@lazy_square` (79, 2019) ilgisiz → TT: aday yok |
+| [@kiwisburnttoast](https://www.youtube.com/@kiwisburnttoast) | bağımsız tek kişi | YT | 102K | 165.000 (26) | 25.000-3.200.000 | 1,618 | 19,4× | okunamadı | OKUDUM-ÖZET (Cartoon Brew: "almost no dialogue", pantomim) | açıklama "I do cartoons and comics now". Handle Cartoon Brew URL adından (TAHMİN-türetme) |
+| [@kiwisburnttoast](https://www.tiktok.com/@kiwisburnttoast) | bağımsız tek kişi | TT | 198.098 | 87.350 (10) | en yüksek 201.600 | 0,441 | **2,3×** → dahil 162,9× (sabitlenmiş 15,7M, 4,1M, 1,8M, TAHMİN) | 2026-11-19 (aralık 08-26..11-19) | OKUDUM-ÖZET | bio "Animator art person"; YT ile aynı kişi olduğu **doğrulanamadı** (zayıf: ad eşleşmesi) |
+
+**C. Karşılaştırma dışı (konuşmasız değil, ses/replik çok)**
+
+| hesap | tür | pl. | takipçi | medyan (n) | en yüksek | med/tak. | yüksek/med | not |
+|---|---|---|---|---|---|---|---|---|
+| [@javadoodles](https://www.youtube.com/@javadoodles) | bağımsız | YT | 2,07M | 119.500 (46) | 1.500.000 | 0,058 | 12,6× | açıklama "weird animator... adult language" (ÖLÇTÜM) + AWN: ses/diyalog odaklı (OKUDUM-ÖZET) → konuşmasız grubundan **çıkarıldı** |
+| [@javadoodles](https://www.tiktok.com/@javadoodles) | bağımsız | TT | 1.230.819 | 24.200 (10; ilk okuma 7.797) | 172.100 | 0,020 | 7,1× → dahil 877× (sabitlenmiş 32,8M/10,8M/7,1M, 2022-24, TAHMİN) | örnek okumalar arası kararsız |
+
+**Aday yok / ölçülemedi (uydurma yok):** Pingu resmî (WebSearch resmî handle vermedi; üçüncü taraf "My Pingu TV" vb. resmî değil), Mr Bean Animated ayrı kanal (handle yok), Land of Boggs (BuzzFeed; handle yok), Patrick Smith, Dominic Carola, Sydney the Song Cat, Nutshell Animations (anlatımlı; konuşmasız değil). Danny Casale: YT `@coolmancoffeedan` 404; TT'de aynı adlı hesap 179 takipçi/2 video/2018, kimlik doğrulanamadı → girmedi. Leo_claydreams (Lovart blogu, 89K): YT 404, TT 10221 → yok. Shaun the Sheep TT klip medyanı ve tüm YT son-klip tarihleri okunamadı.
+
+### Başarısız/küçük örnekler (hayatta kalma yanlılığı)
+- Ölçülebilir **küçük ya da kapanmış insan yapımı konuşmasız animasyon hesabı bulunamadı**: bu bir "yok" kanıtı değil, aramamın sınırıdır (WebSearch handle vermedi). Bağımsız grup yalnızca basında çıkanlardan oluştu → iyimser yanlı.
+- Resmî markalarda "zayıf" taraf var: Mr Bean YT 36,2M abone / medyan 34.500 (0,001); Shaun YT 14M / 68.000 (0,005); Simon's Cat TT 4,34M / 9.838 (0,002). Büyük marka büyük takipçiyi izlenmeye çevirmiyor.
+- Simon's Cat TT: 4,3M takipçi, son 10 klip medyanı 9.838; sabitlenmiş klip 26,8M (TAHMİN) tüm tabloyu çarpıtıyor.
+
+### Özet istatistikler (konuşmasız/az konuşmalı insan yapımı: A + B, javadoodles hariç)
+
+| | İnsan yapımı YT | İnsan yapımı TT | AI (G-0048) YT | AI (G-0048) TT |
+|---|---|---|---|---|
+| Ölçülen hesap-platform çifti | 6 (resmî 3, bağımsız 3) | 3 (resmî 2, bağımsız 1); +1 ölçülemedi | 13 | 11 |
+| Son klip medyanlarının medyanı | 72.750 | 87.350 | 22.500 | 12.550 |
+| medyan/takipçi, medyanların medyanı | 0,023 | 0,018 | 0,233 | 0,164 |
+| "Sağlıklı" (>=0,1 ve <=10×) | **0/6** | **1/3** hariç (Kiwisburnttoast); **0/3** sabitlenmiş dahil | 2/13 (%15) | 3/11 hariç (%27); 1/11 dahil |
+| "Tek viral" (>10×) | 3/6 (simonscat, lazysquare, kiwisburnttoast) | 1/3 hariç (simonscat); 2/3 dahil | 7/13 | 4/11 hariç; 10/11 dahil |
+
+**Bilinirlik ayrımı (iki ayrı satır grubu):**
+
+| Grup | n (çift) | medyan/takipçi, medyanların medyanı | Sağlıklı (hariç) | Tek viral (hariç) |
+|---|---|---|---|---|
+| Resmî marka (5 ölçülen) | 5 | **0,005** (0,001-0,018) | 0/5 | 1/5 |
+| Bağımsız (4 ölçülen) | 4 | **0,332** (0,034-1,618) | 1/4 (yalnız Kiwis TT) | 2/4 (YT: lazysquare, kiwisburnttoast) |
+| AI grubu (G-0048) | 24 | YT 0,233 / TT 0,164 | 5/24 | YT 7/13, TT 4/11 |
+
+Okuma (ölçüm ve çıkarım ayrı): (ÖLÇTÜM) Resmî markalarda med/takipçi 0,001-0,018, yani AI grubunun ~30-100 katı altında; ama mutlak klip medyanı (34K-141K) AI grubunun medyanlarından (12K-22K) yüksek. Bağımsız insan yapımlarda med/takipçi AI grubuyla aynı düzeyde ya da üstünde (0,223-1,618; Filmbilder 0,034 hariç). (ÇIKARIM, TAHMİN düzeyi) Büyük markaların düşük oranı, takipçi sayısının eski bilinirlikle/TV geçmişiyle şişmesine ve Shorts/TT kitlesinin abone olmayan izleyiciden oluşmasına bağlı olabilir; ölçüm bunu ayırmıyor.
+
+### Cevap: "Konuşmasız format kendi başına çalışır mı?"
+**Kanıt düzeyi: düşük-orta; "var" yönünde zayıf, "garanti" yönünde değil.**
+1. İnsan yapımı konuşmasız/az konuşmalı animasyon **çalışabiliyor** (ÖLÇTÜM): Kiwisburnttoast TT'de 198K takipçide son klip medyanı 87K (0,441, sabitlenmişsiz 2,3×, son klip 2026-11-19); YT'de 102K abonede 165K (1,6). Lazy Square 656K abonede 146K. Yani format AI olmadan da, küçük hesapta da takipçi dışı erişim alabiliyor. Konuşmasız olduğu bu görevde doğrulanmadı (OKUDUM-ÖZET/bilinmiyor).
+2. **Ama "kendi başına yeter" değil:** aynı gruptaki bağımsızlarda da tek viral örüntüsü var (lazysquare 64×, kiwisburnttoast YT 19×, sabitlenmişler dahil Kiwis TT 163×), 4 çiftin 1'i "sağlıklı" (AI: 5/24). Fark AI grubundan belirgin biçimde iyi değil: bağımsız n=4 ile "AI'dan daha sağlıklı" denemez. Büyük resmî markalar sağlıklı çıkmadı (0/5): format tek başına yetmiyor, **dağıtım ve kitle oranı** belirleyici.
+3. **AI vs insan sorusu:** bu ölçümde AI grubunun "sağlıklı" oranı insan yapımlardan düşük bulunmadı (AI %21, insan 1/9 = %11; n çok küçük). "AI olduğu için çalışmıyor" ya da "insan yapımı olduğu için çalışıyor" iddiasını bu veri **desteklemiyor ve çürütmüyor**.
+
+### Bizim için 3 ders (hepsi HİPOTEZ)
+1. **Medyan/takipçi, markanın gücünü değil formatın erişimini ölçer; bizim hesaplar bilinirlik avantajı olmadan başlayacak.** Bu yüzden başarı ölçütü olarak bağımsızların (0,2-1,6) ve AI grubunun medyanını (0,16-0,23) kullan; resmî markaları (0,001-0,018) hedef olarak alma. İlk 10 klipte medyan/takipçi >=0,1 ve yüksek/medyan <=10 (sabitlenmişsiz) aynı eşiği önceden yazılı başarı kriteri yap.
+2. **Tek sabitlenmiş viral klibe yaslanma; sistemi "medyan klip"e kur.** Kiwis TT'de sabitlenmişsiz 2,3× ama dahil 163×; Simon's Cat 2.243×. Konuşmasız tek şaka formatında bile hesabın gerçek sağlığı sabitlenmişsiz medyanda okunur. Test planında "sabitlenmiş yok, her klip aynı ağırlıkta" ölç.
+3. **Format kanıtlandı sayılmasın: en yakın doğrulama bağımsız, tek kişili, YouTube+TikTok'ta ayrı ayrı ölçülen hesaplar (Kiwisburnttoast, Lazy Square), ve bunların konuşmasızlığı doğrulanmadı.** Bora'nın izlemesiyle hangi klibin gerçekten sözsüz ve tek şakalı olduğu netleşmeden "konuşmasız format = kanıtlı" yazma. Sonraki ölçüm adımı: bu iki hesabın son 10 klibini izleyip (Bora/görüntü erişimi gerekir) sözsüz/tek şaka oranını say; handle'sı belli 5+ küçük bağımsız hesap eklemek için Bora'dan aday listesi iste.
+
+### Araştırma kısıtları
+- WebSearch yalnız birkaç handle verdi; Pingu, Mr Bean Animated, Land of Boggs, Patrick Smith, Dominic Carola, Sydney the Song Cat, Danny Casale (doğrulanamadı) ölçülemedi. Wikipedia/haber siteleri bu ortamda açılmadı.
+- Instagram ölçülmedi. Videolar izlenmedi, ses dinlenmedi. YT Shorts tarihi/sabitleme okunamıyor. TikTok embed örneği 10-13 klip, okumalar arası kararsız. Shaun the Sheep TT embed hatası (aşılmadı).
+- Takipçi dışı etkileşim, izlenme süresi, gelir bilinmiyor; gelir hesaplanmadı. Handle kaynakları: TikTok newsroom (simonscat), British Comedy Guide ve TikTok/Aardman duyuruları (Shaun), vidIQ (mrbean), 3. taraf izleyici (filmbilder), Cartoon Brew (lazysquare, kiwisburnttoast adları).
+
+SKILL: pazar-istihbarati-olcum v1
