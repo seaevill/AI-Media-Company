@@ -1,0 +1,7 @@
+Kapsam: tam video 8 fps 288px (279 kare) + şüpheli anlar 12 fps 432–480px kırpma (84 kare). Tam çözünürlük kullanılmadı.
+kapi: BELİRSİZ. [3.8–6.0] kapı kanadı vombatın süpürme yayında, kanat vombatın arkasından geçiyor [orta]; [3.8–4.6] kol kenar geçişi, kanat kasadan ayrı yüzer [düşük]; [2.5–4.5] vombat kolu kazın kolu/eli üzerine biniyor, kaz gövdesi kısmen eriyor/gizleniyor [düşük]; [3.0–4.6] kaz poz değiştirerek vombat arkasına ışınlanıyor [orta]; [0–4.0] kaz itmiyor, yaslanıyor [orta]; [5.0–8.0] kameraya bakış okunuyor, son 2 sn donuk.
+kapiB: BELİRSİZ. [1.6–3.2] vombat kanat yayında, kanat arkasından çiziliyor, kesişim olasılığı [orta]; [3.0–5.0] kanat kasadan kısa/havada [düşük]; [0–1.2] uçuşan tüyler [düşük]; [2.6–4.0] dönüşte kafa/gövde oranı değişiyor [düşük].
+mini: ENGEL VAR. [0–5.3] koli basamağa temassız süzülüyor [orta]; [3.6–5.0] koli kazın gagasına/boynuna değiyor, belirsiz geçiş [orta]; [6.0–7.3] metre kopup vombat başının önünden/içinden geçiyor [orta]; [7.3–8.0] damga elden düşüp yerde beliriyor [orta].
+hailuo: ENGEL VAR. [3.5–5.9] ikinci koli beliriyor, şekil değiştirip buruşuyor [yüksek]; [0–2.0] damga şekil değiştiriyor, yazı/rakam beliriyor [yüksek]; [3.5–5.0] flamingo kanatları anormal uzuyor, deformasyon [yüksek]; [0–4.0] vombat kaymıyor, metre kopmuyor, damga basılmıyor [yüksek]; [0–5.9] kaz kadrajda yarım [yüksek].
+tikirti: BELİRSİZ. saat rakamları değişiyor [orta]; yüzdeki kırmızı ışık tutarsız [orta]; iki uyanış okunuyor; [3.5–5.5] ayak oyunu fark edilmiyor [orta]; sahne karanlık.
+[satır kaldırıldı: koşul bilgisi]

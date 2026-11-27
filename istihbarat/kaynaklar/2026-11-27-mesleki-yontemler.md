@@ -212,7 +212,7 @@ Etiketler: **AÇILDI** = sayfayı curl ile indirip metnini okudum (2026-11-27 ot
 **E6. Fizik zayıflığı: kasa (conservation), nesne kalıcılığı, menteşe**
 - YÖNTEM: Fizik benchmarkları modellerin momentum/kütle korunumunda, menteşe/kapı gibi kısıtlı hareketlerde ve nesne kalıcılığında zayıf kaldığını gösteriyor; "gerçekçi görünüyor" fiziği kanıtlamıyor. Pratik sonuç: fizik bağımlı etkileşim (kayma, kopma, kapı) modele güvenilmeden tasarlanır; imkânsızsa kesmeyle ya da statik kareyle verilir.
 - KAYNAK: VideoPhy-2, arXiv 2503.06800 https://arxiv.org/abs/2503.06800 — ÖZET (en iyi model zor altkümede %32,6 [v1]; momentum/kütle korunumunda zayıf) · Physics-IQ arXiv 2501.09038 ve VideoPhy 2406.03520 — ÖZET (bölüm 1.1 ve 1.3'te zaten var) · PhyGenBench arXiv 2410.05363 — ÖZET (model büyütmek/istem mühendisliği dinamik hatayı çözmüyor)
-- BİZE UYGULANIŞI: "Çekimi yeniden yaz" eşiği: koli kayması, şerit metre kopması, kapı açılması tek başına yüksek risk; bizim kanıtlarımız (koli süzüldü 4/4 kör çıktıda, metre yok oldu) bunu destekliyor. Bunlar aracın gerçek kanıtı değil, tasarım tercihidir.
+- BİZE UYGULANIŞI: "Çekimi yeniden yaz" eşiği: koli kayması, şerit metre kopması, kapı açılması tek başına yüksek risk; bizim kanıtlarımız (koli süzüldü: tekrar testinde 4 kör çıktının 2'si net hata, 2'si şüphe olarak yazdı, metre yok oldu) bunu destekliyor. Bunlar aracın gerçek kanıtı değil, tasarım tercihidir.
 
 **E7. Karakter sayısı ve kimlik kilidi**
 - YÖNTEM: Kimlik anchor'ı (referans görsel) kullan; çok karakterli sahnede "tam N kişi, tekrar yok" kilidi; iki karakter yakın etkileşimde kimlik bulanması kesişim noktasında görünür, en zor çekim önce test edilmeli.

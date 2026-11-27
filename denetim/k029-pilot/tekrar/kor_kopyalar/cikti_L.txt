@@ -1,0 +1,34 @@
+## Animasyon kalite kontrolü: flash.mp4 ve kapiA.mp4
+
+**Sonuç:** İki videoda da yayın engeli var. Sesi dinleyemiyorum; ses hakkında söyleyebildiğim tek şey ölçüm sonucu.
+
+Kareler şurada: /tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/tekrar/aqc-?/ (flash12/ ve kapi12/ klasörlerinde 12 kare/sn tam çözünürlük; flash_end_sheet.png, breaksheet.png, kapisheet.png, kapidoor.png, kapicmp.png özet sayfaları).
+
+**Teknik bilgi (ÖLÇTÜM):**
+- Her iki video 720x1280, 24 kare/sn ve ses kanalı var.
+- **flash:** 8,06 sn; ortalama ses -23,3 dB, en yüksek -1,3 dB.
+- **kapiA:** 4,10 sn; ortalama ses -25,2 dB, en yüksek -3,1 dB.
+
+### flash.mp4 — YAYIN ENGELİ VAR
+
+| Zaman | Tür | Açıklama | Güven |
+|---|---|---|---|
+| 6,67–7,00 sn | Kaybolma | Metre koptuktan sonra üst parça düşmüyor. Yarı saydamlaşıp havada eriyor, 7,0 sn'de tamamen yok oluyor. Flamingonun gagasındaki metre ucu da kopma anında kayboluyor. (GÖRDÜM) | Yüksek |
+| 6,92–7,33 sn | Yok olup yeniden belirme, iç içe geçme | Sarı şerit vombatın kafasının içine giriyor ve kayboluyor. Ardından 7,25–7,9 sn arasında vombatın gövdesinin ve kolinin önünde yeniden beliriyor. (GÖRDÜM) | Orta-yüksek |
+| 0–6,5 sn | Yüzen nesne | Koli merdivenden "kaymıyor", basamaklara çarpmadan ve eğilmeden düz bir şekilde süzülüyor. Kamera yaklaştıkça yalnızca büyüyor. Basamakla temas karelerde okunmuyor. (GÖRDÜM, yorumu TAHMİN) | Orta |
+| 6,0–8,0 sn | Kilit an zayıf | Kopma anı uzak ve küçük, iyi okunmuyor. Koli kazın "ayak dibine" değil, yanına geliyor. Damga kullanılmıyor (istemde de kullanım yok). (GÖRDÜM) | Orta |
+
+İstemle uyan kısımlar (GÖRDÜM): flamingo gözlüklü; kaz damgayı baştan sona tutuyor; ikinci bir kaz yok, kaz çoğalmıyor; ekranda yazı yok.
+
+### kapiA.mp4 — YAYIN ENGELİ VAR
+
+| Zaman | Tür | Açıklama | Güven |
+|---|---|---|---|
+| 2,6–4,1 sn | Eylem istemle uyuşmuyor | Kaz sola, duvara doğru geri çekilmiyor. Dönüp sırtını kapıya yaslıyor ve sağda, kapının önünde kalıyor. İstenen kilit an (pes edip sola çekilme) hiç yok. (GÖRDÜM) | Yüksek |
+| 2,08–2,25 sn | Morf | Kapının alt panelleri kare kare şekil ve konum değiştiriyor; kazın elinin yanında panel sınırı kayıyor. (GÖRDÜM, kapidoor.png) | Orta |
+| 2,25–2,67 sn | Ani dönüş, morf | Kaz yaklaşık yarım saniyede 180° dönüp kameraya bakıyor. Gövde ve boyun bu sırada şekil değiştiriyor. (GÖRDÜM) | Orta |
+| 0–2,0 sn | Küçük risk | İtme var, kapı açılmıyor (istemle uyumlu). Gaga kapıya çok yakın ama içine girdiğini net görmedim. (GÖRDÜM) | Düşük |
+
+Ekranda yazı yok, karakter çoğalması yok (GÖRDÜM).
+
+**Not:** Bu benim değerlendirmem, kalite kanıtı değil. Bora izlemeden hiçbir klip kullanılabilir sayılmaz.

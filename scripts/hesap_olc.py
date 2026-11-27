@@ -51,7 +51,7 @@ def youtube(handle):
     url = f"https://www.youtube.com/{handle}/shorts"
     govde, kod, nihai = getir(url)
     s = {"platform": "youtube", "hesap": handle, "url": url, "olcum_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-         "http": kod, "kaynak_turu": "GÖRDÜM (platform sayfası)"}
+         "http": kod, "kaynak_turu": "ÖLÇTÜM (araç, platform sayfası)"}
     if "sorry" in nihai or "consent." in nihai:
         s["engel"] = f"yönlendirme: {nihai} (aşılmadı)"
         return s
@@ -145,7 +145,7 @@ def tiktok(handle):
     url = f"https://www.tiktok.com/@{handle}"
     govde, kod, nihai = getir(url)
     s = {"platform": "tiktok", "hesap": "@" + handle, "url": url, "olcum_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-         "http": kod, "kaynak_turu": "GÖRDÜM (platform sayfası, gömülü veri)"}
+         "http": kod, "kaynak_turu": "ÖLÇTÜM (araç, platform sayfası, gömülü veri)"}
     s.update(tiktok_profil_ayikla(govde))
     if s["statusCode"] == 10221:
         return s

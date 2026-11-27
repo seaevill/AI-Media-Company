@@ -31,8 +31,8 @@ Kapı v3: Çekim 1 kapalı kapı, kaz kadrajda tek, "sola bakar"; Çekim 2 vomba
 
 ## 8. Kötü örnek (bizim gerçek hatalarımız)
 - **kapi_v1:** tek 8 sn'de kapı + 2 karakter, yollar kesişti → vombat kazın içinden geçti (iç içe geçme; Bora yakaladı).
-- **kapiA:** "kaz duvara gider" dendi, kapıya çekildi → sahne yönü kilidi yoktu. **kapiB:** kapı menteşesi tutarsız (yayda karakter vardı).
-- **mini/flash:** 3 karakter + ince metre + koli kayması + kamera talimatı tek klipte → koli süzüldü, metre yok oldu, dönüşte morf.
+- **kapiA:** "kaz duvara gider" dendi, kapıya çekildi → sahne yönü kilidi yoktu. **kapiB:** vombat kapının açılma yayında duruyordu; kanat fiziksel olarak vombattan geçmeliyken arkasından geçti (menteşe kendisi tutarlıydı — eski "menteşe ters" iddiası yanlıştı).
+- **mini/flash:** 3 karakter + ince metre + koli kayması + kamera talimatı tek klipte → koli süzüldü, metre yok oldu. (Dönüşte morf ayrı bir klipte: kapiA, kaz yandan öne dönerken.)
 - **hailuo:** aynı sahne ucuz modelde → koli çoğaldı, flamingo deforme, ses yok. Ders: sorun model fiyatı değil, tasarımdı.
 
 ## 9. Doğrulama

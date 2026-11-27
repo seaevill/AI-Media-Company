@@ -1,0 +1,49 @@
+Animasyon kalite kontrol raporu  İki videoda da yayını engelleyen hata var.
+
+Kare dosyaları şu klasörde: /tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/tekrar/aqc-?/
+
+```
+VİDEO: flash  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 720x1280 (9:16), 24 fps, 8,06 sn, ses kanalı VAR (ort. -23,3 dB, sessiz bölüm yok), ort. parlaklık 73/255  SES: dinlenmedi (dinleyemiyorum)
+OLAYLAR İNCELENDİ:
+ - genel tablo 8 kare/sn, 0–8 sn (flash_genel_0-4.png, flash_genel_4-8.png)
+ - kolinin merdivende inişi 2–4 sn, 12 kare/sn, kırpma (olay_flash_3.0_kayma.png)
+ - koli–basamak teması 0,5–2,5 ve 4,3–6,3 sn, 12 kare/sn, kırpma (olay_flash_1.5_kutu_temas.png, olay_flash_5.3_kutu_temas.png)
+ - metrenin kopması / iniş 5,6–8 sn, 12 kare/sn, kırpma (olay_flash_6.6_kopma.png, olay_flash_7.4_son.png)
+ - flamingo ve metre 5,8–7,8 sn, 12 kare/sn, kırpma (olay_flash_6.6_flamingo.png)
+ - tam çözünürlük tek kare: 3,0 ve 7,95 sn
+HATALAR:
+- [6,6–7,6 sn] [kaybolma] . Metre gagaya yakın yerden kopuyor, sonra düşmüyor: sarı parçacıklara dağılıp havada eriyor. 7,6 sn'den sonra yerde ya da kolinin üstünde metre parçası yok; flamingonun gagasında da kalan uç yok. [güven: yüksek] [olay_flash_6.6_kopma.png, olay_flash_6.6_flamingo.png, flash_kare_7.95.png]
+- [7,1–7,5 sn] [ters derinlik / iç içe geçme] . Kopmadan önce metre vombatın başının arkasında. Dağılan parçalar ise vombatın gövdesinin ve yeleğinin ÖNÜNDEN geçip kolinin içine doğru iniyor. [güven: orta-yüksek] [olay_flash_7.4_son.png, 2. satır son kareler]
+- [0–6,5 sn] [yüzen nesne şüphesi] (kriter yüzen nesne; kesinleşirse ). Koli basamak basamak düşmüyor, eğilmiyor, sarsılmıyor: hep dik ve düz, asansör gibi pürüzsüz iniyor. Alt kenarı basamak kenarlarına paralel, merdivenin eğimini izlemiyor. Altında koyu bir şerit var, ama gerçek temas mı belirsiz. [güven: orta] [olay_flash_3.0_kayma.png, olay_flash_5.3_kutu_temas.png, flash_kare_3.0.png]
+- [0–6,6 sn] [niyet / prop] . Flamingonun elinde bir metre kutusu yok: şerit doğrudan gagadan çıkıyor. Alt ucu vombatın başının tepesine bağlanıyor; yani metre koliye ya da bir şeyi ölçmeye değil, vombatın kafasına bağlı. [güven: yüksek] [flash_kare_3.0.png]
+- [6,6 sn] [okunurluk] . Kilit an olan kopma kadrajın en üstünde, gaganın dibinde oluyor. Şerit 720 piksel genişlikte yaklaşık 6–8 piksel; telefonda kopma anı zor fark edilir. Eşik varsayımdır (HİPOTEZ). [güven: orta] [olay_flash_6.6_flamingo.png]
+- [tüm video] Flamingo baştan sona hareketsiz; kopmaya tepki vermiyor. Kaz da damgayı tutuyor ama kullanmıyor; damga istem gereği yalnızca tutuluyor.
+NİYET: Gerçekleşen: dikey merdiven boşluğu, gözlüklü flamingo şeridi sarkıtıyor, vombat kolinin üstünde iniyor, kazın elinde damga var, metre kopuyor, koli kazın dibinde duruyor. Kusurlu: "kayma" fiziksel değil (süzülme), metre kopup eriyor, metre kutusu yok.
+MONTAJLA ÇÖZÜLEBİLİR: Klibi kopmadan hemen önce (yaklaşık 6,5 sn) kesip kopma sonrasını ayrı bir çekimle vermek. Kolinin inişi hızlandırılarak süzülme izlenimi azaltılabilir, ama yok edilemez.
+MODEL KAPASİTESİ ÜSTÜNDE: Ince esnek nesnenin (şerit metre) gerçekçi kopup düşmesi; kayma ve yerçekimi; 3 karakterli zincir eylem. Bunların hepsi .
+```
+
+```
+VİDEO: kapiA  KARAR: YAYIN ENGELİ VAR
+TEKNİK: 720x1280 (9:16), 24 fps, 4,04 sn, ses kanalı VAR, ort. parlaklık 78/255  SES: dinlenmedi (dinleyemiyorum)
+OLAYLAR İNCELENDİ:
+ - genel tablo 8 kare/sn, 0–4 sn (kapiA_genel.png)
+ - kaz kapıyı itiyor 0–2 sn, 12 kare/sn, kırpma (olay_kapiA_1.0_bas_kapi.png; kırpma yanlış bölgeye düştü, yerine tam çözünürlük kapiA_kare_0.5.png ile bakıldı)
+ - dönüş ve geri çekilme 1,3–3,3 sn, 12 kare/sn, kırpma (olay_kapiA_2.3_donus.png)
+ - dönüş anı 1,9–2,65 sn, 24 kare/sn, kırpma (olay_kapiA_2.2_donus_24fps.png); video_qc bu aralıkta (2,12–2,38 sn) ani değişim işaretledi
+ - son kare tam çözünürlük 4,0 sn (kapiA_kare_4.0.png)
+HATALAR:
+- [2,4–4,0 sn] [ana eylem yok] . Kaz sola, duvara doğru geri çekilmiyor. Dönüyor, sağa ve geriye doğru kayıyor, sırtını KAPIYA yaslayıp duruyor. Son karede kapının önünde. İstenen "geri çekilme" gerçekleşmedi. [güven: yüksek] [kapiA_kare_4.0.png, olay_kapiA_2.3_donus.png]
+- [2,1–2,5 sn] [morf / ayak kayması] . Kaz yaklaşık 0,4 sn'de yandan görünümden tam karşıdan görünüme dönüyor, ama adım atmıyor: ayaklar yerden kalkmadan yerinde dönüyor. Gaga ve kafa bu sırada kısalıp yeniden uzuyor. [güven: orta] [olay_kapiA_2.2_donus_24fps.png, 2.–3. satır]
+- [2,2–2,6 sn] [prop konum sıçraması] . Anahtarlık başta kemerin ön-ortasında sallanıyor. Dönüş sonrasında kazın sağ kalçasında (izleyiciye göre sol) duruyor. Gövdenin dönüşüyle açıklanamayan bir yer değişimi. [güven: düşük-orta] [olay_kapiA_2.2_donus_24fps.png]
+- [0–2 sn] Gaga ucu kapı yüzeyine değiyor; içine geçme görmedim (tam çözünürlükte temas gibi duruyor). Kapı menteşesi solda ve kanat hiç açılmıyor; menteşe yayı çakışması yok. Kapı açılmıyor; bu istemle uyumlu. [güven: orta] [kapiA_kare_0.5.png]
+NİYET: Gerçekleşen: koridor, kaz kapıyı itiyor, kapı açılmıyor, kazın pes etme ifadesi var. Gerçekleşmeyen: sola, duvara doğru geri çekilme; tersine kapıya yaslanıyor.
+MONTAJLA ÇÖZÜLEBİLİR: 0–2,1 sn (itme ve açılmama) kullanılabilir bir parça olabilir; geri çekilme ayrı bir çekimle verilmeli.
+MODEL KAPASİTESİ ÜSTÜNDE: Yön belirten hareket ("sola"), dönme sırasında adım atma, kapı ile etkileşim. Kapı ve menteşe .
+```
+
+Notlar:
+- Bunlar tek denetçinin bulguları.
+- Ses iki videoda da dinlenmedi; yalnızca ses kanalının var olduğu ölçüldü.
+- Kalibrasyon dosyasına yazmadım.

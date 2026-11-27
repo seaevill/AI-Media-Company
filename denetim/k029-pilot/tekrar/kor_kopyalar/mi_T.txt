@@ -1,0 +1,58 @@
+## Pazar araştırması: konuşmasız, AI üretimi hayvan karakterli kısa video hesapları
+
+**Önce eksikler:**
+- Hiçbir klibi izlemedim, sesini de dinleyemedim. "Konuşmasız" ve "gerçek kişi yok" bilgileri benim gözlemim değil, haber ve arama özetinden geliyor. Bora birkaç klip izleyip doğrulamalı.
+- Bu araçla TikTok'ta video başına izlenme okunmuyor. TikTok hesapları için medyan ve oran yok; yalnızca takipçi, beğeni ve video sayısı var.
+- Shorts sekmesinde kliplerin hangi sırayla geldiği garanti değil. "İlk sıradakiler en yenileri" varsayımı TAHMİN.
+- **Nesne karakterli** (meyve, eşya) uygun bir hesap bulamadım. Aramalar yalnızca araç satıcılarının blog yazılarını getirdi. Listedeki 6 hesabın hepsi hayvan.
+- Bulduğum en güçlü AI kanıtı haberlerden geliyor. İki hesap için kanıt zayıf (tabloda işaretli).
+
+Bütün ölçümler 2026-11-27, 17:53–17:55 UTC arasında `hesap_olc.py` ile alındı (ÖLÇTÜM).
+
+### Büyüyen 6 hesap
+
+| # | Hesap | Abone / takipçi (ÖLÇTÜM) | Son ~48 Shorts medyanı (ÖLÇTÜM) | En yüksek / medyan (ÖLÇTÜM) | AI kanıtı ve kaynağı | Gerçek kişi |
+|---|---|---|---|---|---|---|
+| 1 | [YouTube @BandarApnaDost](https://www.youtube.com/@BandarApnaDost) | 3,96 milyon | 5,75 milyon | 144 milyon / 5,75 milyon = **25 kat** | Kapwing'in AI slop raporu ve [Business Standard](https://www.business-standard.com/technology/tech-news/india-youtube-bandar-apna-dost-channel-global-ai-video-charts-slop-content-125123100396_1.html), [IBTimes](https://www.ibtimes.com/indian-ai-monkey-channel-bandar-apna-dost-pulls-425m-ai-slop-floods-youtube-3793922) haberleri: en çok izlenen tamamen AI kanalı. Bir habere göre diyalog yok, maymun ve Hulk benzeri bir karakter var (OKUDUM-ÖZET) | Haberlerde gerçek kişi geçmiyor (OKUDUM-ÖZET) |
+| 2 | [YouTube @storyarcpaws](https://www.youtube.com/@storyarcpaws) | 550 bin | 674,5 bin | 185 milyon / 674,5 bin = **274 kat** | Zayıf: yalnızca bir Medium yazısı ([kaynak](https://medium.com/@manqa06/i-ranked-the-44-most-watched-ai-videos-on-youtube-4eca0f9b187f)) AI kedi hikâyesi kanalı olarak anıyor (OKUDUM-ÖZET) | Bilinmiyor |
+| 3 | [YouTube @AiKittenverse](https://www.youtube.com/@AiKittenverse/shorts) | 19,5 bin | 25 bin | 96 bin / 25 bin = **3,8 kat** | Zayıf: yalnızca kanal adı ("Ai Kitten") | Bilinmiyor |
+| 4 | [TikTok @chubbycat_1](https://www.tiktok.com/@chubbycat_1) | 4,9 milyon takipçi; 23 milyon beğeni; 28 video | Ölçülemedi | Ölçülemedi | Arama özetine göre videolarda TikTok'un "AI-generated" etiketi var. Kasım 2025 tarihli klipler 2,2–2,7 milyon beğeni almış (OKUDUM-ÖZET) | Bilinmiyor; kedi drama formatı |
+| 5 | [TikTok @aibeaststudio](https://www.tiktok.com/@aibeaststudio) | 1,5 milyon takipçi; 13,1 milyon beğeni; 87 video | Ölçülemedi | Ölçülemedi | Hesap adı "Ai Beast"; 2025 tarihli bir "fat cat" klibi yaklaşık 1,3 milyon beğeni almış (OKUDUM-ÖZET) | Bilinmiyor |
+| 6 | [TikTok @tailbitpets](https://www.tiktok.com/@tailbitpets) | 856,7 bin takipçi; 44,7 milyon beğeni; 588 video | Ölçülemedi | Ölçülemedi | [Dexerto](https://www.dexerto.com/tiktok/tiktoks-most-wholesome-cat-account-is-actually-ai-3304422/) videolarda AI izleri saydı; [Daily Dot](https://dailydot.com/tailbitpets-surfing-cat-stairs)'a göre yorumcular AI olduğunu iddia ediyor. Hesap kabul etmiş değil (OKUDUM-ÖZET). Gerçekçi görünümlü, yani izleyiciyi yanıltma riski var | Bilinmiyor |
+
+**Büyüme kanıtı:**
+- **tailbitpets:** Dexerto Ocak 2026'da 38 bin takipçi yazmış (OKUDUM-ÖZET). Bugün 856,7 bin (ÖLÇTÜM), yani yaklaşık 22 kat. Listedeki en net büyüme kanıtı bu.
+- **Bandar Apna Dost:** Aralık 2025 haberlerinde 2,7 milyon abone (OKUDUM-ÖZET). Bugün 3,96 milyon (ÖLÇTÜM).
+- **Diğer dört hesap:** Önceki bir sayı bulamadım. "Büyüyor" demem yalnızca 2025–2026 tarihli içeriğe ve yüksek medyana dayanıyor (TAHMİN).
+- **storyarcpaws:** İlk sıradaki klipler 300–900 bin, listenin sonlarındakiler milyonlarca izlenmiş. Yani şu an yavaşlıyor olabilir (TAHMİN).
+
+**Yedek aday:** [TikTok @officialdivingdog](https://www.tiktok.com/@officialdivingdog): 154,2 bin takipçi, 274 video (ÖLÇTÜM). 2025'teki AI "hayvan olimpiyat atlaması" akımının hesabı (OKUDUM-ÖZET).
+
+### Başarısız karşı örnekler
+
+1. **[YouTube @SuperCatLeague](https://www.youtube.com/@SuperCatLeague):**
+   - Guardian Ağustos 2025'te 3,9 milyon abone yazmış ve kanalı en hızlı büyüyen AI kanalları arasında saymış (OKUDUM-ÖZET).
+   - Bugün sayfada **15 abone ve 0 Shorts** var; iki kez ölçtüm (ÖLÇTÜM).
+   - Haberlere göre YouTube 2026 başında "spam ve aldatıcı içerik" gerekçesiyle AI slop kanallarını temizledi; Super Cat League'in videoları kaldırıldı ([ARY News](https://arynews.tv/youtube-deletes-viral-ai-slop-channels-with-millions-of-subscribers)) (OKUDUM-ÖZET).
+   - Kanalı silen YouTube mu, sahibi mi, kesin değil.
+2. **[YouTube @HasanAi202](https://www.youtube.com/@HasanAi202):**
+   - Bir araç satıcısının blogu ([Vuela](https://vuela.ai/blog/ai-animal-video-14-million-views-ai-generated)) Şubat 2026'da açılan bu kanalı "14,5 milyon izlenme" diye örnek göstermiş (OKUDUM-ÖZET).
+   - Bugün 11,9 bin abone var. Medyan 6.300, en yüksek klip 3,8 milyon, yani medyanın **603 katı** (ÖLÇTÜM).
+   - İlk sıradaki 6 klip yalnızca 43–590 izlenmiş. Sıralama en yeniden eskiye ise kanal çökmüş demektir (TAHMİN).
+3. **Abonesi var, izleyicisi yok** (hepsi ÖLÇTÜM):
+
+   | Kanal | Abone | Shorts medyanı | Medyan izlenme / abone |
+   |---|---|---|---|
+   | [@catrealmai](https://www.youtube.com/@catrealmai) | 1,38 milyon | 9.200 | 0,007 |
+   | [@kittenstoriesdaily01](https://www.youtube.com/@kittenstoriesdaily01) | 846 bin | 2.100 | yaklaşık 0,002 |
+   | [@animalshortssb](https://www.youtube.com/@animalshortssb) | 367 bin | 230 | yaklaşık 0,0006 |
+
+### 3 ders
+
+1. **Abone sayısı başarı ölçüsü değil, son kliplerin izlenme medyanı ölçüsü.** Yukarıdaki üç kanal yüz binlerce aboneye rağmen klip başına birkaç bin izlenme alıyor. Bandar Apna Dost'ta medyan abone sayısını geçiyor (kat sayı 1,45). Kanıt düzeyi: ÖLÇTÜM (6 kanal). Neden böyle olduğu TAHMİN.
+2. **Tek viral klip kanal kurmaz.** HasanAi202'de oran 603 kat, storyarcpaws'ta 274 kat; iki kanalda da patlamadan sonra gelen klipler zirvenin çok altında kalıyor. Sağlıklı görünenlerde oran düşük ve medyan dengeli: Bandar 25 kat, AiKittenverse 3,8 kat. Kanıt düzeyi: oranlar ÖLÇTÜM, "sonrası düşük" yorumu sıralama varsayımına dayanan TAHMİN.
+3. **Seri üretilen AI hayvan içeriğinin en büyük riski platformun kendisi.** 3,9 milyonluk Super Cat League bir temizlikte sıfırlandı. Gerçekçi görünüp AI olduğunu saklayan hesaplar (tailbitpets) hem yorumlarda hem basında "sahte" diye ifşa ediliyor. Kanıt düzeyi: sıfırlanma ÖLÇTÜM, nedeni OKUDUM-ÖZET. Bundan bizim için çıkan sonuç (AI olduğunu açıkça etiketlemek, kendi karakterimiz, seri üretim değil) TAHMİN.
+
+**Sonraki adım:** Bora, tablodaki 1, 2, 4 ve 6 numaralı hesaplardan 2–3'er klip izleyip gerçekten konuşmasız olduklarını ve gerçek kişi içermediklerini onaylamalı. Nesne karakterli örnek istenirse ayrı bir arama gerekiyor; bu turda bulamadım.
+
+Hiçbir repo dosyası açılmadı ve değiştirilmedi. Yalnızca `scripts/hesap_olc.py` çalıştırıldı.

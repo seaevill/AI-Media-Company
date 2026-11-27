@@ -23,3 +23,5 @@ Yan üretimler (görseller): 3 karakter referansı (G-0012), Tomruk yeniden çiz
 5. Görsel stil (mat 3D, soluk renk) pazar kanıtı olmadan, mahkemede "yetişkin kodlu" görünsün diye seçildi (teşhis 6) — doğrulandı: araştırma dosyalarında bu estetiğe ait başarı kanıtı yok.
 6. Aynı konsepte art arda üretim (teşhis 7): Kapı üç kez üretildi.
 7. Kalite çıtası kurucuya önceden onaylatılmadı; "çalıştı" kararı zayıf denetimle verildi (bizim ek teşhisimiz).
+
+- 2026-11-28 düzeltme (Bekçi G-0046): #7 kapiB satırındaki "menteşe yönü tutarsız / kapı ortadan menteşeli gibi döner" iddiası YANLIŞ (12 kare/sn doğrulamada menteşe sol ve tutarlı; denetim/k029-pilot/aqc/dogru_cevap.json). Gerçek hata: vombat kanadın açılma yayında duruyor, kanat arkasından geçiyor (B1).

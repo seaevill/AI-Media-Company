@@ -1053,7 +1053,7 @@
     ".claude/skills/"
    ],
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "DÜZELTME GEREKLİ → düzeltildi 2026-11-28",
    "son_calisma": "2026-11-27T23:59:00Z",
    "sonraki_guvenli_adim": "Bora raporu okur; ikinci tekrar koşusu ve temiz (defter okumayan) A koşulu ile tekrar; Gemini anahtarı gelirse viral-video-analizi testi",
    "surum": 1
@@ -1075,7 +1075,7 @@
    "id": "G-0039",
    "baslik": "Gemini API anahtarı (ücretsiz) + kendi küçük video analiz aracımız; viral-video-analizi ve VIU testi",
    "onay_seviyesi": "A1",
-   "onay": "Bora K-030",
+   "onay": "A1",
    "beklenen_cikti": "scripts/gemini_video.py + 3 referans videoda analiz + kare kontrolüyle doğrulama",
    "basari_kriteri": "Gemini zaman damgalarından 3'ü karelerle tutar; sonuç yeterlilik.csv'ye",
    "azami_maliyet": "0 (ücretsiz katman)",
@@ -1083,7 +1083,8 @@
    "ilgili_dosyalar": [
     "denetim/VIU-METODOLOJI.md"
    ],
-   "sonraki_guvenli_adim": "Anahtar kaydedildi ama 'Authorization: Bearer' başlığıyla gidiyor; Google 403 PERMISSION_DENIED (ÖLÇTÜM 2026-11-27). Bora ortam ayarlarında Network secrets'ta başlığı x-goog-api-key yapmalı."
+   "sonraki_guvenli_adim": "Anahtar kaydedildi ama 'Authorization: Bearer' başlığıyla gidiyor; Google 403 PERMISSION_DENIED (ÖLÇTÜM 2026-11-27). Bora ortam ayarlarında Network secrets'ta başlığı x-goog-api-key yapmalı.",
+   "onay_kaynagi": "Bora K-030"
   },
   {
    "kaynak": "K-030",
@@ -1096,13 +1097,13 @@
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "DÜZELTME GEREKLİ → düzeltildi 2026-11-28",
    "son_calisma": "2026-11-28T00:10:00Z",
    "surum": 1,
    "id": "G-0040",
    "baslik": "K-029 pilot temiz tekrar: defter okumayan A koşulu, her koşul 2 tekrar, yeni (sızıntısız) test seti",
    "onay_seviyesi": "A0",
-   "onay": "Bora K-030",
+   "onay": "A0",
    "beklenen_cikti": "denetim/k029-pilot/tekrar/ + kör puanlama",
    "basari_kriteri": "Ölçülebilir fark ya da dürüst 'fark yok'",
    "azami_maliyet": "0 kredi",
@@ -1111,7 +1112,8 @@
     "denetim/k029-pilot/tekrar/",
     "denetim/yeterlilik.csv"
    ],
-   "sonraki_guvenli_adim": "Bora raporu okur; Bekçi denetimi"
+   "sonraki_guvenli_adim": "Bora raporu okur; Bekçi denetimi",
+   "onay_kaynagi": "Bora K-030"
   },
   {
    "kaynak": "K-032",
@@ -1122,13 +1124,13 @@
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "ONAY",
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
-   "durum": "in_progress",
+   "durum": "completed",
    "ilgili_dosyalar": [],
    "sonraki_guvenli_adim": null,
    "id": "G-0041",
@@ -1136,7 +1138,8 @@
    "sorumlu_ajan": "pazar-istihbarati",
    "baslik": "Platform kuralları: YouTube/TikTok AI, tekrarlı/özgün olmayan içerik ve para kazanma kuralları — resmî yardım sayfaları doğrudan okunarak",
    "beklenen_cikti": "istihbarat/platform-analizleri/2026-11-27-platform-kurallari.md güncellemesi",
-   "basari_kriteri": "her kural AÇILDI kaynaklı; bize etkisi"
+   "basari_kriteri": "her kural AÇILDI kaynaklı; bize etkisi",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1147,13 +1150,13 @@
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "DÜZELTME GEREKLİ → düzeltildi 2026-11-28",
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
-   "durum": "in_progress",
+   "durum": "review",
    "ilgili_dosyalar": [],
    "sonraki_guvenli_adim": null,
    "id": "G-0042",
@@ -1161,7 +1164,8 @@
    "sorumlu_ajan": "produksiyon-maliyet",
    "baslik": "AI video hatalarını önleme yöntemleri araştırması + 'uretim-hata-onleme' becerisi (çekim tasarımı kontrol listesi)",
    "beklenen_cikti": ".claude/skills/uretim-hata-onleme/SKILL.md + mesleki-yontemler eki",
-   "basari_kriteri": "7 başarısız üretimimizin her hatası için önleyici kural; kaynaklı"
+   "basari_kriteri": "7 başarısız üretimimizin her hatası için önleyici kural; kaynaklı",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1172,13 +1176,13 @@
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "ONAY",
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
-   "durum": "in_progress",
+   "durum": "completed",
    "ilgili_dosyalar": [],
    "sonraki_guvenli_adim": null,
    "id": "G-0043",
@@ -1186,7 +1190,8 @@
    "sorumlu_ajan": "chief-of-staff",
    "baslik": "Araç iyileştirme: hesap_olc.py TikTok video başına izlenme; Gemini video analiz aracı iskeleti (anahtar düzelince çalışır)",
    "beklenen_cikti": "scripts/ + tests/",
-   "basari_kriteri": "testler geçer; gerçek ölçümle doğrulanır"
+   "basari_kriteri": "testler geçer; gerçek ölçümle doğrulanır",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1201,7 +1206,7 @@
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
    "durum": "in_progress",
    "ilgili_dosyalar": [],
@@ -1211,7 +1216,8 @@
    "sorumlu_ajan": "kreatif-direktor",
    "baslik": "Konuşmasız, model güçlü yanlarına göre tasarlanmış (tek eylem, temassız) 5 kurgu senaryo; pazar ve platform risk bulgularına dayalı",
    "beklenen_cikti": "takimlar/kreatif/defter.md",
-   "basari_kriteri": "Bora seçebileceği 5 senaryo; her biri hata-önleme kontrol listesinden geçmiş"
+   "basari_kriteri": "Bora seçebileceği 5 senaryo; her biri hata-önleme kontrol listesinden geçmiş",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1226,7 +1232,7 @@
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
    "durum": "in_progress",
    "ilgili_dosyalar": [],
@@ -1236,7 +1242,8 @@
    "sorumlu_ajan": "konsey-koordinatoru",
    "baslik": "Ekip tartışması: 5 senaryo üzerine konseylerden fikir/itiraz (karar dayanağı değil, kural 8)",
    "beklenen_cikti": "takimlar/konsey/defter.md",
-   "basari_kriteri": "azınlık görüşleri alıntılı"
+   "basari_kriteri": "azınlık görüşleri alıntılı",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1247,13 +1254,13 @@
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
-   "bekci_karari": null,
+   "bekci_karari": "1. tur tamam; düzeltmeler uygulandı, 2. tur gerekirse",
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
-   "durum": "in_progress",
+   "durum": "completed",
    "ilgili_dosyalar": [],
    "sonraki_guvenli_adim": null,
    "id": "G-0046",
@@ -1261,7 +1268,8 @@
    "sorumlu_ajan": "bekci",
    "baslik": "Bekçi denetimi: G-0038, G-0040 ve gece çıktıları",
    "beklenen_cikti": "takimlar/bekci/defter.md",
-   "basari_kriteri": "ONAY/DÜZELTME/RED"
+   "basari_kriteri": "ONAY/DÜZELTME/RED",
+   "onay_kaynagi": "Bora K-032"
   },
   {
    "kaynak": "K-032",
@@ -1276,7 +1284,7 @@
    "son_calisma": "2026-11-27T22:05:00Z",
    "surum": 1,
    "onay_seviyesi": "A0",
-   "onay": "Bora K-032",
+   "onay": "A0",
    "azami_maliyet": "0 kredi",
    "durum": "in_progress",
    "ilgili_dosyalar": [],
@@ -1286,7 +1294,8 @@
    "sorumlu_ajan": "chief-of-staff",
    "baslik": "Sabah 08:00 (TR) Bora raporu",
    "beklenen_cikti": "raporlar/patron-ozeti/2026-11-27-kurulus-raporu.md ek bölüm + sohbet",
-   "basari_kriteri": "kısa, etiketli, önce hatalar"
+   "basari_kriteri": "kısa, etiketli, önce hatalar",
+   "onay_kaynagi": "Bora K-032"
   }
  ],
  "bekleyen_kararlar": [
