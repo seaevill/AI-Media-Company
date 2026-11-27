@@ -37,7 +37,16 @@ Kurucu (Bora, Yunanistan'da yaşıyor, Türk, mesleği nedeniyle zamanı kısıt
 8. Zamanlayıcı, uzak repo kurulup kurucu onaylayana kadar kapalı.
 
 ## D. İlk 3 içerik konsepti
-(→ `toplantilar/kararlar/` İçerik Mahkemesi tutanağı tamamlanınca bu bölüm güncellenir.)
+Araştırmadan çıkan 6 hipotezden kreatif ekip 3 konsept seçti; 4 konsey ayrı bağlamlarda, birbirini görmeden değerlendirdi:
+
+| Konsept | Ne | Skor (0–100) | Karar |
+|---|---|---:|---|
+| **Üçüncü Kat** | Sözsüz, yetişkin kodlu apartman sitkomu: vombat kurye, flamingo muhasebeci, kaz yönetici; her bölüm tek fiziksel çatışma; yeri değişen gizemli "3/C" kolisi bağlayıcı | 60,9 | Ana aday, "geliştir": özgünlük zayıf (5/10), her bölüm aynı şakayla bitiyor → YouTube "tekrarlı içerik" riski. Önce kredisiz animatik, sonra ~80 kredilik karakter tutarlılığı testi |
+| **Kayıp Eşya Bürosu** | Güve memur, kaybolan eşyalar arşivinde; yazar sesli mini evren (%10 radikal kova) | 57,6 | Kredisiz pilot; metin kartı açılışı ve izleyici oylaması kaldırıldı (sıfır takipçiyle oy anlamsız) |
+| **Dağ Kileri** | Porsuk usta + kaplumbağa çırak, sözsüz "cozy" kiler/ASMR dizisi | 50,4 | Düşük öncelik: paylaşılma 3,7/10, yorum 3,0/10, "AI slop" algısı |
+
+Hiçbiri 65 eşiğini (test edilmeye değer) geçmedi. Reddedilen formatlar: meyve/obje pembe dizisi (doymuş + şiddet alt türü), gerçekçi sahte hayvan klipleri, konuşan AI influencer, tarih POV, ASMR cam meyve, şok/korku aldatmacası.
+**ChatGPT'ye özel soru:** Bu üçünün de "geliştir" çıkması konsept üretiminin zayıf olduğunu mu, yoksa puanlamanın fazla temkinli olduğunu mu gösteriyor?
 
 ## E. Puanlama (deneysel)
 İlk 2 sn dikkat %20 · paylaşılma %20 · izlenmeyi sürdürme %15 · yorum/tartışma %10 · özgünlük %10 · düşük maliyet %10 · seri potansiyeli %10 · gelire dönüşme %5. 80+ öncelikli deney adayı. Bekçi veto'su puandan bağımsız.
