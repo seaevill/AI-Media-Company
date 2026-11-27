@@ -5,13 +5,13 @@ Kaynak: manifesto §23, §27. **Genel harcama yetkisi yok** (Bora, 2026-11-27). 
 ## Bilinen durum (gözlem, 2026-11-27)
 | Kalem | Değer | Kaynak | Not |
 |---|---|---|---|
-| Higgsfield planı | Ultra | Higgsfield MCP `balance`, 2026-11-27 | Plan aylık ücreti: **bilinmiyor** (Bora'dan) |
+| Higgsfield planı | Ultra; aylık ~4.800 TL, 3.000 kredi (**Bora beyanı, kesin değil**) → ~1,6 TL/kredi | Higgsfield `balance` + Bora, 2026-11-27 (K-015) | Plan ücreti kesinleşince güncellenecek |
 | Higgsfield kredi bakiyesi | 1.935,39 | aynı | Manifestodaki eski görüntüyle aynı; yenilenme tarihi bilinmiyor |
 | Hareket kontrolü ücretsiz hakları | bilinmiyor (eski gözlem: 3) | — | Üretim öncesi yeniden kontrol |
 | Claude aboneliği | bilinmiyor | — | ALONI ve diğer projelerle paylaşılıyor; yeni şirket onları engellememeli |
 | Harcanan kredi | 0 | finans/kredi-kayitlari.csv | |
 
-**Kredi ≠ para.** Kredinin parasal değeri = plan ücreti ÷ aylık kredi (ücretsiz haklar ve ek paket fiyatı ayrı). Plan ücreti bilinmeden kredi başına € hesaplanmaz.
+**Kredi ≠ para.** Kredinin parasal değeri = plan ücreti ÷ aylık kredi (ücretsiz haklar ve ek paket fiyatı ayrı). Yaklaşık değer (beyana dayalı): **~1,6 TL/kredi**; yani 8 kredilik bir klip ~13 TL, 56 kredilik bir klip ~90 TL, 80 kredilik benchmark ~128 TL. Kullanılmayan kredinin devredip devretmediği bilinmiyor.
 
 ## Önerilen dağılım (ÖNERİ — Bora onaylamadan harcama yetkisi değildir)
 Eski reklam-stüdyosu dağılımı (%80 müşteri / %15 portföy / %5 influencer) artık geçerli değil. AI Media önceliğine göre öneri, mevcut 1.935 kredi için:

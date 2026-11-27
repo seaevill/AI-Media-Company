@@ -5,7 +5,7 @@
   "saat_dilimi": "Europe/Athens",
   "zamanlayici": {
     "durum": "pasif",
-    "durum_notu": "Bora onayı (A3) ve uzak repo kurulmadan etkinleştirilmez. ALONI dersi: repo kaynağı eklenmemiş zamanlanmış görev repoya 403 alıyor.",
+    "durum_notu": "Uzak repo var (K-011). Etkinleştirme ayrı A3 onayı bekliyor.",
     "aralik_saat": 3,
     "cron_onerisi": "CRON_TZ=Europe/Athens 7 */3 * * *",
     "yogun_mod": null
@@ -38,12 +38,21 @@
       "plan_gozlenen": "ultra",
       "bakiye_gozlenen": 1935.39,
       "bakiye_tarihi": "2026-11-27",
-      "onayli_kredi_toplam": 0,
+      "onayli_kredi_toplam": 80,
       "harcanan_kredi_toplam": 0,
       "deney_basina_varsayilan_azami": null,
-      "_not": "Her A2 onayı deney bazında azami kredi içerir. Önerilen dağılım finans/BUTCE.md'de; onaylanana kadar 0."
+      "_not": "Her A2 onayı deney bazında azami kredi içerir. Önerilen dağılım finans/BUTCE.md'de; onaylanana kadar 0.",
+      "plan_aylik_ucret_try_beyan": 4800,
+      "plan_aylik_kredi_beyan": 3000,
+      "kredi_basina_try_yaklasik": 1.6,
+      "_onaylar": [
+        "G-0012: max 80 kredi (Bora, 2026-11-27, K-014)"
+      ]
     },
-    "kling": { "onayli_kredi_toplam": 0, "_not": "Bağlantı bu oturumda bağlanamadı/denenmedi." },
+    "kling": {
+      "onayli_kredi_toplam": 0,
+      "_not": "Bağlantı bu oturumda bağlanamadı/denenmedi."
+    },
     "nakit_harcama_onayli_eur": 0
   },
   "modeller": {

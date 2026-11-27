@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T14:05:00Z",
+  "guncelleme": "2026-11-27T15:00:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": null,
@@ -10,7 +10,7 @@
   },
   "simdi": null,
   "sayac": {
-    "son_gorev_no": 21,
+    "son_gorev_no": 22,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -23,14 +23,14 @@
       "departman": "chief-of-staff",
       "sorumlu_ajan": "chief-of-staff",
       "onay_seviyesi": "A4",
-      "onay": null,
+      "onay": "Bora, 2026-11-27, kuruluş belgeleri (K-012)",
       "bagimliliklar": [],
       "beklenen_cikti": "Çekirdek dosyalar + testler",
       "basari_kriteri": "Testler yeşil, dogrula.py TEMİZ, Bekçi ONAY",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "waiting_owner",
+      "durum": "completed",
       "en_erken": null,
       "ilgili_dosyalar": [
         "ANAYASA.md",
@@ -39,7 +39,7 @@
       ],
       "ilgili_pr": null,
       "bekci_karari": "İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-kurulus-denetimi.md @ d7d8517): 14 korunan dosya (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) yalnızca Bora onaylar; ikinci tur: ANAYASA m.11 manifestoya döndürüldü, dogrula.py koruma listesi genişletildi — yine İNSAN ONAYI GEREKLİ (denetim/audit-logs/2026-11-27-ikinci-tur.md @ f75fff6)",
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T15:00:00Z",
       "sonraki_guvenli_adim": "Bora ANAYASA.md ve YETKI-MATRISI.md'yi okuyup onaylar; madde 1 ve 10'daki genişletmeleri kabul/ret",
       "surum": 1
     },
@@ -248,20 +248,20 @@
       "departman": "pazar-istihbarati",
       "sorumlu_ajan": "pazar-istihbarati",
       "onay_seviyesi": "A0",
-      "onay": null,
+      "onay": "A0",
       "bagimliliklar": [],
       "beklenen_cikti": "REFERANS-VIDEOLAR.md v2",
       "basari_kriteri": "Başlık, kanal, içerik, rakamlar doğrulandı",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "waiting_owner",
+      "durum": "blocked",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": "Bora: youtube.com ağ izni veya video başlık/açıklama metni",
+      "sonraki_guvenli_adim": "Ağ izni onaylandı (K-013); ortam değişikliği uygulanınca queued",
       "surum": 1
     },
     {
@@ -273,19 +273,19 @@
       "departman": "chief-of-staff",
       "sorumlu_ajan": "chief-of-staff",
       "onay_seviyesi": "A3",
-      "onay": null,
+      "onay": "Bora, 2026-11-27, repo seaevill/AI-Media-Company (K-011)",
       "bagimliliklar": [],
       "beklenen_cikti": "Repo + ilk push",
       "basari_kriteri": "Yerel geçmiş uzakta",
       "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "waiting_owner",
+      "durum": "in_progress",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
-      "son_calisma": null,
+      "son_calisma": "2026-11-27T15:00:00Z",
       "sonraki_guvenli_adim": "Bora repoyu açıp bu ortama ekler",
       "surum": 1
     },
@@ -325,16 +325,16 @@
       "departman": "produksiyon-maliyet",
       "sorumlu_ajan": "produksiyon-maliyet",
       "onay_seviyesi": "A2",
-      "onay": null,
+      "onay": "Bora, 2026-11-27, max 80 kredi (K-014)",
       "bagimliliklar": [
         "G-0019"
       ],
       "beklenen_cikti": "Üretim + benchmark + kredi kaydı",
       "basari_kriteri": "Kullanılabilir video, onaylı sınır içinde",
-      "azami_maliyet": "önerilen max 80 kredi",
+      "azami_maliyet": "80 kredi",
       "gercek_maliyet": null,
       "deneme": 0,
-      "durum": "proposed",
+      "durum": "approved",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
@@ -564,10 +564,37 @@
       "departman": "chief-of-staff",
       "sorumlu_ajan": "chief-of-staff",
       "onay_seviyesi": "A4",
-      "onay": null,
+      "onay": "Bora, 2026-11-27, K-012 kapsamında (koruma listesi genişletmesi onaylandı; ek dosyaların eklenmesi G-0022)",
       "bagimliliklar": [],
       "beklenen_cikti": "Bora kararı",
       "basari_kriteri": "Karar KARARLAR.md'de",
+      "azami_maliyet": "0",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "completed",
+      "en_erken": null,
+      "ilgili_dosyalar": [
+        "scripts/dogrula.py"
+      ],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": "Bora ile G-0001 onayında birlikte",
+      "surum": 1
+    },
+    {
+      "id": "G-0022",
+      "baslik": "dogrula.py koruma listesine gorev_sec.py, kilit.sh, mahkeme_skor.py, tests/, .claude/commands/ ekle",
+      "kaynak": "denetim/audit-logs/2026-11-27-ikinci-tur.md",
+      "olusturma": "2026-11-27T15:00:00Z",
+      "oncelik": "P6",
+      "departman": "chief-of-staff",
+      "sorumlu_ajan": "chief-of-staff",
+      "onay_seviyesi": "A4",
+      "onay": null,
+      "bagimliliklar": [],
+      "beklenen_cikti": "KORUNAN listesi",
+      "basari_kriteri": "Bora onayı",
       "azami_maliyet": "0",
       "gercek_maliyet": null,
       "deneme": 0,
@@ -579,69 +606,34 @@
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": null,
-      "sonraki_guvenli_adim": "Bora ile G-0001 onayında birlikte",
+      "sonraki_guvenli_adim": null,
       "surum": 1
     }
   ],
   "bekleyen_kararlar": [
     {
-      "id": "K-B1",
-      "soru": "Kuruluş belgelerini (ANAYASA, sirket/, kurallar.md, BEKCI-KURALLARI) onaylıyor musun? Anayasa madde 1'e 'kaynağı gösterilemeyen sayı çıktıya girmez' eklendi; madde 10'a 'hesap açma' ve 'ödeme' açıkça eklendi.",
-      "secenekler": [
-        "Onaylıyorum",
-        "Şu maddeleri değiştir: ..."
-      ],
-      "oneri": "Onay (eklemeler manifestonun ruhunu daraltıyor, genişletmiyor)",
-      "maliyet": "0",
-      "geri_alinabilir_mi": true,
-      "ilgili_gorev": "G-0001"
-    },
-    {
-      "id": "K-B2",
-      "soru": "GitHub'da private 'AI-Media-Company' reposunu açıp bu ortama ekler misin? (Bu ortamın GitHub tokeni repo oluşturamıyor.)",
-      "secenekler": [
-        "Açtım, ekledim",
-        "Başka ad kullan"
-      ],
-      "oneri": "Aç — şu an tüm şirket hafızası silinebilir bir bulut konteynerinde",
-      "maliyet": "0",
-      "geri_alinabilir_mi": true,
-      "ilgili_gorev": "G-0010"
-    },
-    {
-      "id": "K-B3",
-      "soru": "Ortamın ağ ayarlarında youtube.com, tiktok.com, trends.google.com, support.google.com, support.tiktok.com, help.instagram.com izinli olsun mu?",
+      "id": "K-B6",
+      "soru": "Zamanlanmış vardiya yöneticisi (her 3 saatte bir, günde en fazla 4 ajanlı koşu) etkinleştirilsin mi?",
       "secenekler": [
         "Evet",
-        "Hayır, WebSearch yeter"
-      ],
-      "oneri": "Evet — araştırmanın tamamı şu an arama özetlerine dayanıyor",
-      "maliyet": "0",
-      "geri_alinabilir_mi": true,
-      "ilgili_gorev": "G-0009"
-    },
-    {
-      "id": "K-B4",
-      "soru": "G-0012 karakter tutarlılığı benchmark'ı için en fazla 80 Higgsfield kredisi harcanabilir mi? (bakiyenin ~%4'ü; G-0019 storyboard'u bitince)",
-      "secenekler": [
-        "Onay, max 80 kredi",
         "Henüz değil"
       ],
-      "oneri": "Onay — sonraki tüm kredi kararları bu ölçüme dayanacak",
-      "maliyet": "≤80 kredi",
-      "geri_alinabilir_mi": false,
-      "ilgili_gorev": "G-0012"
+      "oneri": "Evet, ama ilk hafta günlük ajanlı koşu sınırı 2",
+      "maliyet": "Claude kullanım limiti (ALONI ile paylaşılıyor)",
+      "geri_alinabilir_mi": true,
+      "ilgili_gorev": "G-0011"
     },
     {
-      "id": "K-B5",
-      "soru": "Higgsfield Ultra planının aylık ücreti ve kredi yenilenme tarihi nedir?",
+      "id": "K-B7",
+      "soru": "dogrula.py koruma listesine kilit/seçici/skor betikleri, testler ve komutlar da eklensin mi?",
       "secenekler": [
-        "(serbest)"
+        "Evet",
+        "Hayır"
       ],
-      "oneri": "Bilgi gerekli: kredi başına € hesabı yapılamıyor",
+      "oneri": "Evet",
       "maliyet": "0",
       "geri_alinabilir_mi": true,
-      "ilgili_gorev": "G-0007"
+      "ilgili_gorev": "G-0022"
     }
   ]
 }

@@ -7,7 +7,7 @@ ANAYASA.md, sirket/YETKI-MATRISI.md ve CLAUDE.md bu dosyanın üstündedir.
 
 ## 0. Kurulum
 ```
-git clone --depth 50 -b main <REPO_URL> AI-Media-Company && cd AI-Media-Company
+git clone --depth 50 -b main https://github.com/seaevill/AI-Media-Company AI-Media-Company && cd AI-Media-Company
 git config push.negotiate false
 RUN=$(date -u +%Y%m%d-%H%M)
 ```

@@ -28,3 +28,12 @@ Her satır: tarih · karar · kaynak · onaylayan. Geçmiş silinmez; değişen 
 | M-007 | Manifestodaki klasör ağacının yalnızca aktif bölümleri açıldı; kalanlar ROADMAP'te | "Yüzlerce boş dosya yaratma" (§08) | 2026-11-27 |
 | M-008 | Bekçi kararları `denetim/audit-logs/`'a SHA ile yazılır (uzak repo olunca PR yorumu da) | Madde 18, §31 | 2026-11-27 |
 | M-009 | Medya dosyaları repoya girmez (`.gitignore` + `dogrula.py`) | §08 | 2026-11-27 |
+
+## Bora'nın 2026-11-27 (kuruluş raporu sonrası) kararları
+| # | Karar | Kaynak |
+|---|---|---|
+| K-011 | Uzak repo: https://github.com/seaevill/AI-Media-Company (private, Bora açtı) | Bora, sohbet, 2026-11-27 (K-B2) |
+| K-012 | Kuruluş belgeleri **onaylandı**: ANAYASA (madde 1 ve 10'daki eklemeler dahil), sirket/, takımların kurallar.md dosyaları, BEKCI-KURALLARI, ONAY-PROTOKOLU ve dogrula.py koruma listesinin genişletilmesi | Bora, "2-Onaylıyorum", 2026-11-27 (K-B1) |
+| K-013 | Ağ izinleri onaylandı: youtube.com, tiktok.com, trends.google.com, support.google.com, support.tiktok.com, help.instagram.com | Bora, "3-Onaylıyorum", 2026-11-27 (K-B3) |
+| K-014 | G-0012 karakter tutarlılığı benchmark'ı: **en fazla 80 Higgsfield kredisi** (A2) | Bora, "4-Onaylıyorum", 2026-11-27 (K-B4) |
+| K-015 | Higgsfield Ultra: aylık ~4.800 TL, 3.000 kredi (Bora beyanı, "galiba" — kesin değil) → yaklaşık 1,6 TL/kredi. Bora'nın gördüğü bakiye 1.938; araç 1.935,39 okudu | Bora, 2026-11-27 (K-B5) |
