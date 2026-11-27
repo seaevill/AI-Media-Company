@@ -179,3 +179,56 @@ Kaynak türleri: resmî belge · akademik makale · uygulayıcı röportajı · 
 ## Açık kalan işler
 - arxiv.org, openaccess.thecvf.com, backlothelp.netflix.com, ads.tiktok.com, developers.tiktok.com ağ izninde değil; açılırsa ÖZET maddeleri AÇILDI'ya çevrilebilir (özellikle PhyGenEval katmanları, BrokenVideos/GenVID kategori listeleri, Netflix hata kodları).
 - Consensus bu oturumda ücretsiz planla çalıştı; tam metin alıntısı yok.
+
+## 2026-11-28 ek: AI video hata önleme yöntemleri (G-0042)
+
+Etiketler: **AÇILDI** = sayfayı curl ile indirip metnini okudum (2026-11-27 oturumu) · **ÖZET** = yalnızca WebSearch özeti. Çoğu kaynak satıcı (vendor) blogu: kendi ürününü satıyor, bağımsız ölçüm değil. **Bulunamayan:** iç içe geçme/kapı-menteşe/prop bırakma için doğrudan kaynak bulunamadı (aramada yalnızca genel "basit tut, kes" önerisi); bu sınıflarda dayanak bizim kendi hatalarımız (`produksiyon/basarisiz-uretimler/README.md`). Resmî Kling/Runway/MiniMax/Veo-best-practice sayfaları ağ nedeniyle açılmadı (arxiv, runway, minimax, kling, nofilmschool, videomaker: proxy 403 / bağlantı yok).
+
+**E1. Tek eylem, tek kamera hareketi**
+- YÖNTEM: Kısa klipte tek ana kamera hareketi ve tek özne eylemi; çok yönlü kamera ve ani yön değişimi kaçınılır, enerji gerekiyorsa kurgu ritmiyle verilir. Çok olay gerekiyorsa ayrı çekim üretip kurguda birleştir.
+- KAYNAK: Higgsfield, "How to Avoid Distortions in AI Videos: 10 Tips" (2026-07-18) https://higgsfield.ai/blog/how-to-avoid-distortions-ai-videos — AÇILDI (vendor) · Wavespeed Kling özeti (bir kamera hareketi, özne eylemi, bitiş) — ÖZET (sayfa 403) · MiniMax/Hailuo rehber özetleri (veed.io, kapwing; tek ana kamera + tek eylem) — ÖZET
+- BİZE UYGULANIŞI: Çekim listesinde her çekim tek eylem + sabit kamera; mini/flash/hailuo sahnesi (3 karakter + metre + koli + kamera) bu kuralı çiğnemişti.
+
+**E2. Yazıyı başlangıç/son uç kareyle ve "yok" kilitleriyle sabitle**
+- YÖNTEM: İlk kare (image-to-video) klibin açılış karesi sayılır; Veo/Seedance ilk-son kare girdisi iki ucu sabitler, uçlar arası fark büyüdükçe model ara hareketi daha çok uydurur. İstemde "no logos, no readable text" ve "only these two people exist" gibi sayı/kimlik kilitleri kullanılır.
+- KAYNAK: Google Cloud Veo 3.1 rehberi (2025-10-16) https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1 — AÇILDI (ilk-son kare özelliği, olumsuz istemi "yok" diye değil istenen betimleyerek yazma) · Higgsfield Seedance 2.5 prompt rehberi https://higgsfield.ai/blog/seedance-2-5-prompting-guide — AÇILDI (örneklerde "No logos, no readable text", "Only these two people exist", "member-count lock", "STILLNESS LOCK", "Screen direction never flips"; sayfa tarihi görülmedi) · Google Cloud Vertex AI ilk-son kare sayfası — ÖZET (fark büyüdükçe uydurma)
+- BİZE UYGULANIŞI: Her çekim istemine "N karakter, X kadrajda yok, yön sola" kilidi; yazı gerektiren nesneler (saat, etiket) boş üretilir, kurguda eklenir (mevcut storyboard "3/C" kuralıyla aynı yön).
+
+**E3. Çok çekimde bir şeyi değiştir; sert kesme (hard cut) ile böl**
+- YÖNTEM: Çekimler arasında yalnız bir değişken (yer ya da açı ya da ışık) değişir; model tarafında çok çekimli istemler "Shot 1/Shot 2 … Hard cut" biçiminde yazılır; mekân tanımı belirsizse çekimler arası kayar.
+- KAYNAK: Higgsfield distorsiyon rehberi (madde 8, 9, 10: tek değişken, kısa klip + ilk/son kare zinciri, en zor çekimi önce dene) — AÇILDI (vendor) · Higgsfield Seedance 2.5 rehberi ("vague location is the most common reason a multi-shot sequence starts drifting") — AÇILDI · Runway Seedance 2.5 rehberi (Shot 1, 2, 3 sırası; sabit kalacakları sonda yaz) — ÖZET
+- BİZE UYGULANIŞI: Storyboard çekimleri tek değişkenle ilerler; en riskli çekim (iki karakterin yakın olduğu) ilk ve tek başına test edilir, bu da `takim.md` adım 4'teki "en ucuz tek test" ile uyumludur.
+
+**E4. Hareketi başlangıç ve bitiş pozisyonuyla tarif et; el/yüz hatası için yüzü doldurma, çerçevele**
+- YÖNTEM: "Koşuyor" yerine başlangıç ve bitiş vücut/el pozisyonu yazılır; el hareketi için gerçek pozisyonun referans görseli eklenir; eller kıyafet/battaniye içinde gizlenebilir (Seedance örnek istemlerinde "Hands hidden inside the blanket"); el ve yüz ayrıntısı prompt'un ilk satırında, ikincil ayrıntılardan önce yazılır. Aşırı yüklü prompt'ta ilk bozulan el ve yüzdür.
+- KAYNAK: Higgsfield, "Why AI Video Still Gets Hands and Faces Wrong" (2026-07-24) https://higgsfield.ai/blog/ai-video-hands-faces — AÇILDI (vendor) · Higgsfield Seedance 2.5 rehberi (örnek istem) — AÇILDI · hackernoon/magichour/dreamina "elleri kadraj dışına al" önerileri — ÖZET
+- BİZE UYGULANIŞI: Prop tutma/bırakma: prop elde başlar, elde biter; el gerektirmeyen çözüm (prop zaten masada/yerde) tercih; kanat/pati + damga gibi küçük ayrıntı ayrı yakın plan çekim.
+
+**E5. Kesmeyle gizleme: cut on action, tepki/insert çekimi**
+- YÖNTEM: Hareket sürerken kesmek geçişi izleyiciye fark ettirmez (hareketli öğeler iki çekimde aynı konumda olmalı). Düzeltilemeyen bir geçiş/temas anı tepki çekimi, kadraj dışı ya da kısa insert ile gizlenir; üretimde "birden çok vuruşlu sekansı ayrı çekimlerle üretip montajda birleştir".
+- KAYNAK: Wikipedia, "Cutting on action" https://en.wikipedia.org/wiki/Cutting_on_action — ÖZET (arama özeti; sayfa açılmadı) · Adobe "What is continuity editing" — ÖZET · Dreamina/Capcut, elser.ai "fix bad AI video shot" özetleri (tepki çekimi, iki karelik insert) — ÖZET
+- BİZE UYGULANIŞI: Karakterlerin fiziksel teması modelden istenmez; temas çekim A'da (kaz kapıya doğru), tepki çekim B'de (vombat), "çarpma/geçme" sesle ve kesmeyle verilir (kapi_v1 iç içe geçmesinin tasarımsal karşılığı).
+
+**E6. Fizik zayıflığı: kasa (conservation), nesne kalıcılığı, menteşe**
+- YÖNTEM: Fizik benchmarkları modellerin momentum/kütle korunumunda, menteşe/kapı gibi kısıtlı hareketlerde ve nesne kalıcılığında zayıf kaldığını gösteriyor; "gerçekçi görünüyor" fiziği kanıtlamıyor. Pratik sonuç: fizik bağımlı etkileşim (kayma, kopma, kapı) modele güvenilmeden tasarlanır; imkânsızsa kesmeyle ya da statik kareyle verilir.
+- KAYNAK: VideoPhy-2, arXiv 2503.06800 https://arxiv.org/abs/2503.06800 — ÖZET (en iyi model zor altkümede %32,6 [v1]; momentum/kütle korunumunda zayıf) · Physics-IQ arXiv 2501.09038 ve VideoPhy 2406.03520 — ÖZET (bölüm 1.1 ve 1.3'te zaten var) · PhyGenBench arXiv 2410.05363 — ÖZET (model büyütmek/istem mühendisliği dinamik hatayı çözmüyor)
+- BİZE UYGULANIŞI: "Çekimi yeniden yaz" eşiği: koli kayması, şerit metre kopması, kapı açılması tek başına yüksek risk; bizim kanıtlarımız (koli süzüldü 4/4 kör çıktıda, metre yok oldu) bunu destekliyor. Bunlar aracın gerçek kanıtı değil, tasarım tercihidir.
+
+**E7. Karakter sayısı ve kimlik kilidi**
+- YÖNTEM: Kimlik anchor'ı (referans görsel) kullan; çok karakterli sahnede "tam N kişi, tekrar yok" kilidi; iki karakter yakın etkileşimde kimlik bulanması kesişim noktasında görünür, en zor çekim önce test edilmeli.
+- KAYNAK: Higgsfield distorsiyon rehberi (madde 3, 10) — AÇILDI (vendor) · Higgsfield Seedance 2.5 rehberi ("member-count lock, exactly four, never five, never duplicated") — AÇILDI
+- BİZE UYGULANIŞI: ≥ 3 karakter tek çekimde = "yeniden yaz" (kendi benchmark'ımızda 3 karakter, 3 modelde de bozuldu).
+
+**E8. Ses ve zamanlama montajda**
+- YÖNTEM: Veo 3.1 rehberi diyalog/SFX/ortam sesini istemde ayrı satır olarak ister; Seedance rehberi sesi "en son, tek kural" olarak yazar (örn. "No music, no discernible dialogue"). Zamanlama ve şakanın vuruşu modele değil kesme noktasına bağlanır.
+- KAYNAK: Veo 3.1 rehberi (SFX/Ambient noise satırları) — AÇILDI · Higgsfield Seedance 2.5 rehberi (AUDIO bölümü) — AÇILDI
+- BİZE UYGULANIŞI: Şakanın kilit anı görselden çok sesle ve kesmeyle taşınır; ses her raporda "dinlenmedi" etiketiyle kalır (kural 4).
+
+### Test (TAHMİN, üretimle test edilmedi): `produksiyon/storyboard/2026-11-27-ucuncu-kat-b1.md` klip B ve test sahnesi
+
+| Çekim (eski) | ÖNCE (eski, tek klip) | SONRA (yeniden tasarım) |
+|---|---|---|
+| B klip K5–K7 7 sn: oturan Tomruk + kayan koli + 3 karakter yukarıdan + metre kopuyor | iç içe geçme Y (3 karakter, koli üstünde); yüzen nesne Y (koli kayması); ince esnek Y (metre kopar uçar); karakter sayısı Y; kilit an O; morf O | **B1** (3 sn): sabit kamera, Tomruk koli üstünde oturur, koli hareketsiz, eğim yok (yüzen nesne D, çoğalma D) · **B2** (3 sn): yalnız Anahtar alt kat, dikey bakış, damgayı kaldırır (1 karakter) · **B3** insert (2 sn): Cetvel korkuluk, metre sarkık ve sabit (kopma yok); kopma sesi + kurguda kesme; "koli kayıyor" = ses + iki kare arası kesme |
+| K8–K9 (Anahtar damga, Tomruk yürür) | prop tutma O (damga havada); yön O (sırt kamerada yürüme); dönüş O | damga zaten kanatta, hareketsiz; Tomruk yürümez: kamera önden, Tomruk durur, kesme sonrası merdivende |
+| K10 etiket | yazı Y ("3/C") | boş etiket üret, kurguda ekle (zaten öyle) |
+| **Toplam** | Y: 4, O: 5 | Y: 0, O: 2 (karakter sayısı tek, kilit an O: küçük damga → yakın plan çekim) |
