@@ -1,0 +1,175 @@
+Anahtar: sinav P=Bp (beceri açık okuma), Q=B (ön yükleme), R=A (beceri yok); yeni U=Bp, V=A, W=B
+
+Kör puanlama. Yalnızca cevap anahtarını ve 6 çıktı dosyasını okudum (ÖLÇTÜM değil, OKUDUM: elle eşleştirme). Toplam ağırlık sinav setinde 14,5, yeni sette 4.
+
+Kenar durumlarında iki ayrı karar verdim. Bunları ayrıca not ediyorum:
+- **M3 (mini damga):** P ve R olayı "damga düşüyor / yere bırakıyor" diye tarif ediyor. Anahtardaki tür ise "kaybolma–belirme". Katı puanda bunu MISS saydım ama yanlış pozitif saymadım. Esnek puanda P için HIT, R için HALF verdim.
+- **Düşük güven:** "[düşük]" etiketini BELİRSİZ ile eşdeğer saydım (HALF). Precision hesabında HALF'ı 0,5 isabet olarak saydım.
+
+## SINAV SETİ
+
+### P
+| id | sonuç | alıntı |
+|---|---|---|
+| K1 | MISS | 2,6–3,3 sn'de yalnızca derinlik kuşkusu var, birleşme yok |
+| K2 | HIT | "[4,3–4,6] menteşe yayı çakışması / ters derinlik… kaz kanadın arkasında" |
+| M1 | HIT | "Koli… temas… göstermeden havada süzülüyor" |
+| M2 | HIT | "[~5,9–6,4] nedensiz kopma" |
+| M3 | MISS (katı) / HIT (esnek) | "damga düşüyor ve yerde kalıyor" |
+| M4 | MISS | — |
+| H1 | HIT | "ikinci bir koli beliriyor (~4,75 sn)" |
+| H2 | HIT | "[~5,3–5,5] morf… buruşuk kağıt" |
+| H3 | HIT | "hiç kaymıyor" |
+| H4 | HIT | "SES KANALI YOK" |
+| H5 | HIT | "Damga… havada asılı" |
+| H6 | HIT | "Metre… toz/sarı parçacıklara dönüşüp kayboluyor" |
+| T1 | HIT | "[okunmayan kilit an]" |
+| T2 | HIT | "saatinin rakamları sürekli değişiyor" |
+| B1 | HIT | "[~0,8–1,9] menteşe yayı çakışması… kanat vombatın içinden ya da arkasından" |
+
+- **Recall:** 12/14,5 = 0,83 (esnek 0,90)
+- **Yanlış pozitif:** 3, hepsi (c) tipi:
+  - tikirti battaniye hacmi (BELİRSİZ; tek kaynaklı battaniye iddiasıyla aynı değil)
+  - kapiB çift topuz (BELİRSİZ)
+  - kapiB tüy parçacıkları
+- **Precision:** 12/15 = 0,80
+- **Karar / ses:** Beş videoya da ENGEL kararı verdi, beşi de doğru. "Hiçbirinin sesi dinlenmedi" diyor. hailuo'da ses kanalı yok diyor. Menteşe yanlış pozitifini tekrarlamıyor.
+
+### Q
+| id | sonuç | alıntı |
+|---|---|---|
+| K1 | HALF | "vombat kolu kazın kolu/eli üzerine biniyor… [düşük]" |
+| K2 | HIT | "[3.0–4.6] kaz… vombat arkasına ışınlanıyor [orta]" |
+| M1 | HIT | "[0–5.3] koli basamağa temassız süzülüyor" |
+| M2 | MISS (katı) / HIT (esnek) | "metre kopup vombat başının önünden/içinden geçiyor" (tür: içinden geçme, "nedensiz kopma" değil) |
+| M3 | HIT | "damga elden düşüp yerde beliriyor" |
+| M4 | HALF | "[3.6–5.0] koli kazın gagasına/boynuna değiyor, belirsiz geçiş" |
+| H1 | HIT | "ikinci koli beliriyor" |
+| H2 | HIT | "şekil değiştirip buruşuyor" |
+| H3 | HIT | "vombat kaymıyor" |
+| H4 | MISS | Ses kanalından hiç söz etmiyor |
+| H5 | MISS (katı) / HALF (esnek) | "kaz kadrajda yarım" (kadraj sorunu, gövde yokluğu değil) |
+| H6 | MISS | "metre kopmuyor" diyor, dağılmayı söylemiyor |
+| T1 | HIT | "ayak oyunu fark edilmiyor" |
+| T2 | HIT | "saat rakamları değişiyor" |
+| B1 | HIT | "[1.6–3.2] vombat kanat yayında, kanat arkasından çiziliyor" (±0,6 ile örtüşüyor) |
+
+- **Recall:** 9,75/14,5 = 0,67 (esnek 0,78)
+- **Yanlış pozitif:** 12, hepsi (c) tipi:
+  - kapi'de 4: kanat vombatın arkasından geçiyor, kanat kasadan ayrı yüzüyor, kaz itmiyor, son 2 sn donuk
+  - kapiB'de 3: kanat kısa/havada, tüyler, kafa/gövde oranı
+  - mini'de 1: metre vombatın içinden geçiyor
+  - hailuo'da 3: damgada yazı/rakam beliriyor, flamingo kanatları uzuyor, kaz kadrajda yarım
+  - tikirti'de 1: kırmızı ışık
+- **Precision:** 10/22 = 0,45
+- **Karar / ses:**
+  - kapi, kapiB ve tikirti için BELİRSİZ dedi. Üçünde de anahtarda kesin hata olduğu için bu kararlar yanlış.
+  - mini ve hailuo için ENGEL dedi, doğru.
+  - Sesin dinlenmediğini söylemiyor. hailuo'da ses kanalı yok demiyor.
+
+### R
+| id | sonuç | alıntı |
+|---|---|---|
+| K1 | HIT | "[2.83–3.00] vombat pençesi kazın elleriyle birleşiyor gibi" |
+| K2 | HIT | "[4.25–4.75] kapı kanadı kazın başının bölgesinden geçiyor" (3,0–4,0 sn'deki "örtülme, kabul edilebilir" ifadesini ayrıca reddetmiş) |
+| M1 | HIT | "[0–5] koli basamağa temassız süzülüyor" |
+| M2 | HIT | "metre nedensiz kopuyor" |
+| M3 | MISS (katı) / HALF (esnek) | "kaz damgayı yere bırakıyor (yumuşak düşüş) [düşük]" |
+| M4 | HALF | "kaz göğsünden geçiyor mu belirsiz [düşük]" |
+| H1 | HIT | "ikinci koli, nesne çoğalması" |
+| H2 | HIT | "koli eriyor/buruşuyor" |
+| H3 | HIT | "vombat kaymıyor" |
+| H4 | MISS | Ses kanalından söz yok |
+| H5 | HIT | "damga gagadan ayrılıp havada asılı" |
+| H6 | HIT | "[4.3–5.0] metre konfetiye dönüşüyor" |
+| T1 | HIT | "ayak tıkırtısı görüntüde yok/okunmuyor" |
+| T2 | HIT | "saat rakamları değişiyor" |
+| B1 | MISS | "kanat kazın omuzuna çok yakın" (karakter yanlış: vombat değil kaz) |
+
+- **Recall:** 11,25/14,5 = 0,78 (esnek 0,81)
+- **Nötr:** tikirti'deki "battaniye… yatak kenarından taşıyor" tek kaynaklı listeyle eşleşiyor, yanlış pozitif saymadım.
+- **Yanlış pozitif:** 12, hepsi (c) tipi:
+  - kapi'de 3: anahtar halkası, son 2 sn donuk, itme–açılma bağı yok
+  - mini'de 2: koli kazın yanında, flamingo donuk
+  - hailuo'da 2: metre kutusu kaybolup beliriyor, metre uzunluğu tutarsız
+  - tikirti'de 2: iki uyanış okunmuyor, tavanda ipucu yok
+  - kapiB'de 3: kaz omzu, momentum, dönüş kaygan
+- **Precision:** 11,5/23,5 = 0,49
+- **Karar / ses:**
+  - kapiB için **ENGEL YOK** dedi. Bu en ağır karar hatası, çünkü anahtarda B1 kesin hata.
+  - kapi, mini ve tikirti için BELİRSİZ dedi, yanlış.
+  - Yalnızca hailuo için ENGEL dedi, doğru.
+  - Sesten de ses kanalından da söz etmiyor. "Menteşe sol, tutarlı" diyerek bilinen yanlış pozitife düşmüyor, bu doğru.
+
+## YENİ SET
+
+### U
+| id | sonuç | alıntı |
+|---|---|---|
+| F1 | HIT | "metre kopmuyor, dağılıyor… solarak kayboluyor" |
+| F2 | MISS | — |
+| F3 | HALF | "koli yüzüyor olabilir [güven: düşük]" |
+| A1 | HALF | "kaz görünümü kayıyor… [orta-düşük]" (2,12–2,38 sn'deki atlamayı "ışınlanma değil" diyerek ayrıca reddetmiş) |
+| A2 | HIT | "sola/duvara doğru çekilmek yerine… kapıya yaslı" |
+
+- **Recall:** 2,75/4 = 0,69
+- **Yanlış pozitif:** 1 (c): flamingo anatomi belirsizliği
+- **Precision:** 3/4 = 0,75
+- **Karar / ses:** İki videoya da ENGEL dedi, doğru. "SES: dinlenmedi" diyor.
+
+### V
+| id | sonuç | alıntı |
+|---|---|---|
+| F1 | HIT | "[6.6–7.3] metre… havada eriyip parçacığa dönüşüyor" (7,5–8,0 sn'deki yeniden belirme iddiasını aynı olayın parçası saydım) |
+| F2 | MISS | — |
+| F3 | HIT | "koli süzülüyor gibi [orta]" |
+| A1 | HIT | "[2.0–3.0] karakter oranı/morf" |
+| A2 | HIT | "kaz duvara geri çekilmiyor, kapıya yaslı bitiyor" |
+
+- **Recall:** 3,5/4 = 0,875
+- **Yanlış pozitif:** 4, hepsi (c) tipi:
+  - koli kazın koluna biniyor
+  - kaz damga vurmuyor (U'ya göre prompt bunu istememiş)
+  - flamingo anatomi
+  - kapiA olası iç içe geçme
+- **Precision:** 4/8 = 0,50
+- **Karar / ses:** İki videoya da ENGEL dedi, doğru. Sesten söz etmiyor.
+
+### W
+| id | sonuç | alıntı |
+|---|---|---|
+| F1 | HIT | "Kopan şerit… solarak yok oluyor [yüksek]" |
+| F2 | MISS | — |
+| F3 | HIT | "Vombat+koli temassız süzülüyor" |
+| A1 | HIT | "1.9–2.5 deformasyon Kol/ceket oranı ani değişiyor" |
+| A2 | HIT | "Kaz sola çekilmiyor, kapıya yaslanıp duruyor" |
+
+- **Recall:** 3,5/4 = 0,875
+- **Yanlış pozitif:** 5, hepsi (c) tipi:
+  - kaz damga yapmıyor
+  - koli kazın eliyle kesişiyor
+  - flamingo gözlüğü okunmuyor
+  - kaz kapıya gömülüyor
+  - ayak kayması
+- **Precision:** 4/9 = 0,44
+- **Karar / ses:** İki videoya da ENGEL dedi, doğru. Sesten söz etmiyor.
+
+Not: "koli kaz eliyle kesişiyor" iddiasını V ve W ikisi de yapıyor. U aynı yere bakıp "tutarlı" demiş. Gerçek bir hata olabilir, ama anahtarda yok.
+
+## SIRALAMA
+
+| Set | Sıra | Recall | Precision | Not |
+|---|---|---|---|---|
+| Sınav | 1. P | 0,83 | 0,80 | Beş kararın beşi doğru, ses ve hailuo ses kanalı notu tam |
+| Sınav | 2. R | 0,78 | 0,49 | kapiB için ENGEL YOK dedi, 4 karar yanlış |
+| Sınav | 3. Q | 0,67 | 0,45 | 3 karar yanlış |
+| Yeni | 1. V | 0,875 | 0,50 | |
+| Yeni | 1. W | 0,875 | 0,44 | |
+| Yeni | 3. U | 0,69 | 0,75 | Precision en yüksek, sesi belirten tek çıktı |
+
+Sınavda P her ölçütte birinci. Yeni sette recall için V ve W önde, precision için U önde. Bu sette tek bir kazanan yok. F2'yi (merdiven geometrisi, ağırlık 0,5) üç çıktının hiçbiri bulmadı.
+
+## SINIRLAR
+1. Anahtarı önceki denetçiler (VIU-A/B, CoS, Bora) kurdu ve anahtar eksiksiz değil. (c) tipi yanlış pozitiflerin bir kısmı gerçek hata olabilir, bu yüzden precision aşağı yanlı. Anahtarı kuran yöntemlere benzeyen çıktılar da avantajlı olabilir.
+2. Her koşul tek kez koşturuldu ve yeni sette yalnız 5 madde, 4 ağırlık var. Bir maddelik fark sıralamayı değiştiriyor, yani istatistiksel güç yok.
+3. Tür eşleştirmesi benim yargım: M3'teki düşme ile kaybolma–belirme farkı, Q'nun M2 ve H5 maddeleri, düşük güveni HALF sayma kararı. Katı ve esnek puan arasındaki fark (P için 0,83'e karşı 0,90) bu yargıların etkisini gösteriyor. Ayrıca hiçbir videoyu görmedim, yalnızca metinleri karşılaştırdım.

@@ -56,6 +56,12 @@ MONTAJLA ÇÖZÜLEBİLİR: <…>   MODEL KAPASİTESİ ÜSTÜNDE: <…>
 SKILL: animasyon-kalite-kontrol v1
 ```
 
+## Hata derecesi (dış kaynak — OKUDUM-ÖZET, sayfa açılamadı)
+Her hataya derece ver: **Blocker** (yayınlanamaz) · **Issue** (düzeltilmeli) · **FYI** (not). Tek Blocker = YAYIN ENGELİ VAR. Hızlı flaş/yanıp sönme ayrı işaretlenir. Kaynak: Netflix Partner Help Center QC sözlüğü; ayrıntı `istihbarat/kaynaklar/2026-11-27-mesleki-yontemler.md`.
+
+## Pilot dersi (K-029, 2026-11-27, `denetim/k029-pilot/aqc/`)
+Bu beceri eğitim setinde iyi sonuç verdi (5 kararın 5'i doğru), ama o videolar beceri metnindeki örneklerdi (sızıntı). Yeni videolarda beceriyle bulunan hata oranı daha düşüktü, yanlış alarm oranı da daha düşüktü; bulunan hatalar ve karar doğruluğu beceri olmadan da aynıydı. Bu yüzden: (1) "güven: düşük" diye işaretlediğin olası hatayı KARARDAN ATMA, Issue olarak yaz; (2) sesin dinlenmediğini ve ses kanalı durumunu her raporda yaz (beceri olmayanlar bunu atladı).
+
 ## Durma koşulları
 Video yok/açılmıyor · ffmpeg yok · kareleri Read ile açamıyorsun → "BLOCKED: <neden>" yaz, tahminle karar verme.
 
