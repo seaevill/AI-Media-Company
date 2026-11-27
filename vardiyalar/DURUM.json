@@ -1,7 +1,7 @@
 {
   "_aciklama": "TEK görev kuyruğu (Anayasa 17). Yalnızca Chief of Staff / vardiya yöneticisi yazar. Alan ve durum tanımları: vardiyalar/YONETICI.md §Görev alanları. Tamamlanan görev yeniden açılmaz; yeni veri gerekirse yeni ID ya da 'surum' artırılır.",
   "surum": 1,
-  "guncelleme": "2026-11-27T18:00:00Z",
+  "guncelleme": "2026-11-27T18:35:00Z",
   "son_kosu": null,
   "gunluk": {
     "tarih": "2026-11-27",
@@ -10,7 +10,7 @@
   },
   "simdi": "G-0012",
   "sayac": {
-    "son_gorev_no": 25,
+    "son_gorev_no": 26,
     "son_deney_no": 0
   },
   "gorevler": [
@@ -674,29 +674,58 @@
     },
     {
       "id": "G-0025",
-      "baslik": "Hikâye odaklı pilot (K-020): Üçüncü Kat dünyasında 60–90 sn'lik tek bir mikro-film — başlangıç, çatışma, duygusal dönüş, son; 3D; Bora'ya senaryo + animatik, sonra üretim",
+      "baslik": "Hikâye odaklı pilot SENARYOSU (K-020): 60–90 sn mikro-film senaryo + storyboard (kredisiz); üretim ayrı A2 görevi",
       "kaynak": "K-020",
       "olusturma": "2026-11-27T18:00:00Z",
       "oncelik": "P5",
       "departman": "kreatif-direktor",
       "sorumlu_ajan": "kreatif-direktor",
-      "onay_seviyesi": "A2",
-      "onay": "Bora, 2026-11-27, kalıcı yetki K-019 (max: plan içi kredi; tek iş >100 kredi önce bilgi)",
+      "onay_seviyesi": "A0",
+      "onay": "A0",
       "bagimliliklar": [
         "G-0023"
       ],
       "beklenen_cikti": "senaryo + storyboard + üretilmiş pilot (repo dışında) + benchmark/kredi kaydı",
-      "basari_kriteri": "Bora'nın tepkisi + ileride gerçek izleyici; komedi atölyesi bulgularıyla karşılaştırma",
-      "azami_maliyet": "plan içi (K-019); tek iş >100 kredi ise önce bilgi",
+      "basari_kriteri": "Senaryo + storyboard Bora'ya sunulur",
+      "azami_maliyet": "0 kredi",
       "gercek_maliyet": null,
-      "deneme": 1,
-      "durum": "in_progress",
+      "deneme": 0,
+      "durum": "queued",
       "en_erken": null,
       "ilgili_dosyalar": [],
       "ilgili_pr": null,
       "bekci_karari": null,
       "son_calisma": "2026-11-27T18:25:00Z",
       "sonraki_guvenli_adim": "G-0023 bulguları gelince senaryo",
+      "surum": 1
+    },
+    {
+      "id": "G-0026",
+      "baslik": "İlk içerik üretimi: komedi yapıları Y3 'Tıkırtı' + Y4 'Kapı' (Seedance 2.0 Mini) + Tomruk/Cetvel referanslarının yeniden çizimi",
+      "kaynak": "G-0023 / K-022",
+      "olusturma": "2026-11-27T18:35:00Z",
+      "oncelik": "P2",
+      "departman": "produksiyon-maliyet",
+      "sorumlu_ajan": "produksiyon-maliyet",
+      "onay_seviyesi": "A2",
+      "onay": null,
+      "bagimliliklar": [
+        "G-0023"
+      ],
+      "beklenen_cikti": "2 kısa video + kredi/benchmark kaydı",
+      "basari_kriteri": "Bora'nın tepkisi: komik mi?",
+      "azami_maliyet": "önerilen max 35 kredi",
+      "gercek_maliyet": null,
+      "deneme": 0,
+      "durum": "waiting_owner",
+      "en_erken": null,
+      "ilgili_dosyalar": [
+        "toplantilar/gundem/2026-11-27-ucuncu-kat-komedi.md"
+      ],
+      "ilgili_pr": null,
+      "bekci_karari": null,
+      "son_calisma": null,
+      "sonraki_guvenli_adim": "Bora: 'G-0026 onay, max 35 kredi'",
       "surum": 1
     }
   ],
@@ -749,6 +778,18 @@
       "maliyet": "0",
       "geri_alinabilir_mi": true,
       "ilgili_gorev": "G-0013"
+    },
+    {
+      "id": "K-B11",
+      "soru": "İlk içerik üretimi: iki kısa şaka videosu ('Tıkırtı' ve 'Kapı') + iki karakterin yeniden çizimi için en fazla 35 Higgsfield kredisi (~56 TL) harcanabilir mi?",
+      "secenekler": [
+        "Onay, max 35",
+        "Önce kâğıt üzerinde göster"
+      ],
+      "oneri": "Onay — komediyi en hızlı ve ucuz bu sınar",
+      "maliyet": "≤35 kredi",
+      "geri_alinabilir_mi": false,
+      "ilgili_gorev": "G-0026"
     }
   ]
 }
