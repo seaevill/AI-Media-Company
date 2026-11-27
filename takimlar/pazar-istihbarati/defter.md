@@ -6,3 +6,4 @@ Olay anlatımı ders değildir. Haftalık denetimde kalıplaşan dersler Bora on
 ## Dersler
 - 2026-11-27 · G-0009 · Bir host'un oEmbed'de açık olması watch sayfasının açık olduğu anlamına gelmez (CAPTCHA yönlendirmesi); transkript gerektiren görevlerde önce tek sayfa testi yapıp, bloke ise hemen "kullanıcı altyazıyı verir" alternatifini öner ve bloke durumu rapora yaz.
 - 2026-11-27 · G-0024 · TikTok her kullanıcı sayfasına HTTP 200 verir; müsaitlik için kod değil gömülü statusCode (10221) ve rastgele kontrol handle'ı kullan, YouTube'da 404 ile 200'ü kontrol adıyla doğrula, Instagram kapalıysa vakit harcama.
+- 2026-11-27 · G-0030 · Üretici tarafında "stil" sorusunu sormadan önce platform bazında sayaç ve ilk 30 klibin medyanını (YouTube /shorts, TikTok statsV2) okuyup tek bir hesabın platformlar arası farkını da ölç: TikTok'ta milyonlar YouTube'da binlerdi, haber sayıları (CreatorDB 2,1M) sayfayla çelişti; tek kaynaktaki toplam takipçiye güvenme.
