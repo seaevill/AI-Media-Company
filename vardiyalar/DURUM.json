@@ -1083,7 +1083,7 @@
    "ilgili_dosyalar": [
     "denetim/VIU-METODOLOJI.md"
    ],
-   "sonraki_guvenli_adim": "Bora anahtarı güvenli forma girer"
+   "sonraki_guvenli_adim": "Anahtar kaydedildi ama 'Authorization: Bearer' başlığıyla gidiyor; Google 403 PERMISSION_DENIED (ÖLÇTÜM 2026-11-27). Bora ortam ayarlarında Network secrets'ta başlığı x-goog-api-key yapmalı."
   },
   {
    "kaynak": "K-030",
