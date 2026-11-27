@@ -1,5 +1,13 @@
 # Referans Videolar — Doğrulama Raporu
 
+> **Güncelleme 2026-11-27 (ağ izni açıldıktan sonra, Chief of Staff):** YouTube oEmbed (resmi) ile başlık ve kanal doğrulandı:
+> | ID | Başlık | Kanal |
+> |---|---|---|
+> | uy2JLqwiZpU | 7 Passive Income Ideas for 2027 (Up to $1,000/Day) | Mark Tilbury |
+> | ZzDRSxx3zgY | I Started Again From Scratch Only Following Claude's Advice | Mark Tilbury |
+> | LlhTEttKcwQ | I Tried The LAZIEST Way to Make Money With AI | Mark Tilbury |
+> Üçü de aynı yaratıcıdan (kişisel finans/girişim içerikleri; kendi ürün ve sponsorluk çıkarı olabilir — taraflılık notu). 23×12 $ rakamının bulunduğu özetler "LAZIEST Way to Make Money With AI" başlığını taşıyordu → büyük olasılıkla video 3 (HİPOTEZ: özetlerdeki ID farklıydı). İçerik ve rakamlar henüz transkriptten doğrulanmadı → G-0009.
+
 Hazırlanma tarihi: 2026-11-27
 Hazırlayan: araştırma ajanı (Claude)
 

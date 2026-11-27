@@ -39,7 +39,7 @@ Bu repo bir şirkettir. Hangi iş olursa olsun önce oku:
 | YouTube / TikTok / Google Trends doğrudan | **Proxy 403** (kabuk ve WebFetch) | Ortam ağ ayarı ya da Bora'dan veri |
 | Zamanlanmış görev | Araç mevcut; **etkin değil** | Uzak repo + Bora onayı gerekli |
 | ChatGPT | Otomatik bağlantı yok | Dış denetim Bora üzerinden |
-
-| 2026-11-27 (güncelleme) | GitHub: **seaevill/AI-Media-Company** bu oturuma push yetkisiyle eklendi; çalışma klasörü `/home/user/ai-media-company` | K-011 |
+| GitHub (güncelleme 2026-11-27) | **seaevill/AI-Media-Company** push yetkisiyle bağlı; klasör `/home/user/ai-media-company` | K-011 |
+| Ağ (güncelleme 2026-11-27) | Ayrı kişisel ortam `ai-media-company`: YouTube, TikTok, Trends, Google/TikTok/Instagram yardım sayfaları + Higgsfield açık (test: 200) | K-013 |
 
 Bu tablo değişirse tarihli yeni satır yaz; eski satırı silme.
