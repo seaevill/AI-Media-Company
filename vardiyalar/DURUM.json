@@ -10,7 +10,7 @@
  },
  "simdi": null,
  "sayac": {
-  "son_gorev_no": 50,
+  "son_gorev_no": 51,
   "son_deney_no": 0
  },
  "gorevler": [
@@ -1375,6 +1375,34 @@
    "ilgili_pr": null,
    "bekci_karari": null,
    "son_calisma": "2026-11-27T22:25:00Z",
+   "sonraki_guvenli_adim": null,
+   "surum": 1
+  },
+  {
+   "id": "G-0051",
+   "baslik": "Konuşmasız insan yapımı kısa animasyon hesapları ölçümü (AI grubuyla kıyas)",
+   "kaynak": "K-032 / G-0045 Muhalefet önerisi",
+   "olusturma": "2026-11-27T22:28:00Z",
+   "oncelik": "P2",
+   "departman": "pazar-istihbarati",
+   "sorumlu_ajan": "pazar-istihbarati",
+   "onay_seviyesi": "A0",
+   "onay": "A0",
+   "onay_kaynagi": "Bora K-032",
+   "bagimliliklar": [
+    "G-0048"
+   ],
+   "beklenen_cikti": "istihbarat/pazar-firsatlari/2026-11-27-ai-komedi-stil-arastirmasi.md eki",
+   "basari_kriteri": "ölçülmüş kıyas; bilinirlik etkisi ayrılmış",
+   "azami_maliyet": "0 kredi",
+   "gercek_maliyet": null,
+   "deneme": 1,
+   "durum": "in_progress",
+   "en_erken": null,
+   "ilgili_dosyalar": [],
+   "ilgili_pr": null,
+   "bekci_karari": null,
+   "son_calisma": "2026-11-27T22:28:00Z",
    "sonraki_guvenli_adim": null,
    "surum": 1
   }
