@@ -1,0 +1,70 @@
+# Brief 2: Fotogerçekçi "absürt sıradan" (telefon videosu görünümü, diyalogsuz)
+
+Ortak çekim dili: elde tutulan telefon, hafif titreme, otomatik pozlama, ev ışığı, kurgusal kesme yok ya da çok az. Ses: ortam sesi + çekenin nefesi/kısa tepki sesi (kelime değil).
+
+---
+
+## Senaryo 2A: "İki Dilimlik Makine"
+
+**Önerme:** İki yuvalı ekmek kızartma makinesi, bir değil on bir dilim kızarmış ekmek fırlatıyor.
+
+**Süre:** ~20 sn, dikey, tek çekim.
+
+| Zaman | Görüntü | Ses |
+|---|---|---|
+| 0–3 sn | Mutfak tezgâhı, sabah ışığı. Sıradan iki yuvalı kızartma makinesi. Bir el iki dilim ekmeği yuvalara koyup kolu indirir. | Klik. |
+| 3–6 sn | Kısa bekleme (montajda sıkıştırılmış). Makine "ding" ile iki dilim fırlatır. Normal. | Ding. |
+| 6–9 sn | Telefonu tutan kişi dilimlere uzanırken makine bir dilim daha fırlatır. | Ding. Çekenin kısa "hı?" nefesi. |
+| 9–15 sn | Bir daha. Bir daha. Dilimler tezgâha düşüp yığılıyor. Kamera hafif geri çekiliyor. Makinenin boyutu değişmiyor, hiçbir şey anormal görünmüyor. | Ding... ding... ding (düzenli ritim). |
+| 15–18 sn | Durur. Sessizlik. Tezgâhta 11 dilim. El yavaşça kolu yeniden indirir. | Klik. |
+| 18–20 sn | Tek bir "ding" ve yuvadan bu sefer hiçbir şey çıkmaz. Kesme. | Ding. |
+
+**Kahkahanın düşmesi gereken yer:**
+- Gülüşün başlangıcı: 6–9 sn, üçüncü dilim. Mekanizma: imkânsızlığın küçük ve sakin başlaması ("hafifçe imkânsız"); izleyici önce kendi gözünü sorguluyor.
+- Asıl kahkaha: 18–20 sn. Mekanizma: geri dönüş beklentisi (tekrar dene → yine fırlatacak) boşa çıkıyor; makine "bitti" gibi davranıyor. Çekenin tepkisiz kalması (kolu yeniden indirmesi) deadpan katman.
+
+**Dürüst zayıflık:** "Sonsuz çıkan nesne" absürd kısa video türünde yaygın; 11 dilimin fiziksel olarak mümkün olmaması (nereden geliyor?) AI üretiminde nesne çoğalması hatası gibi de görünebilir, yani izleyici "bu bir AI hatası" diye okuyup şakayı kaçırabilir.
+
+---
+
+## Senaryo 2B: "Koli Bandı"
+
+**Önerme:** Bir koliyi bantlamak isteyen kişi bandı çekiyor; bant hiç bitmiyor ve rulo hiç incelmiyor, çeken kişi geri geri evden çıkıyor.
+
+**Süre:** ~30 sn, dikey. Çekim: arkadaşın telefonu (çeken kişi başka biri), takip çekimi.
+
+| Zaman | Görüntü | Ses |
+|---|---|---|
+| 0–4 sn | Oturma odası, yerde açık koli. Kişi bant tabancası yerine elde rulo ile bandı çekmeye başlar. | Bandın yırtılma/sökülme sesi. |
+| 4–9 sn | Bant uzar, kişi geri adım atar. Kolinin üstünden geçer. Rulo hâlâ aynı kalınlıkta (yakın plan, net görünmeli). | Sürekli bant sesi. |
+| 9–16 sn | Geri geri koridora çıkar. Kamera takip eder. Bant yerde ince bir çizgi gibi uzanır. | Bant sesi + çekenin bastırılmış gülme nefesi. |
+| 16–23 sn | Kapıdan dışarı, merdiven boşluğu. Bir komşu kapısını açar, bandın üstünden dikkatle adım atar, selam verir gibi başını sallar, gider. | Komşunun ayak sesi. |
+| 23–30 sn | Kişi sonunda durur, dişleriyle bandı koparır, geri dönüp uzun yolu yürür. Son kare: kolinin üstüne o bandın sadece 10 santimlik ucunu yapıştırır. | Kopma sesi. Sessizlik. |
+
+**Kahkahanın düşmesi gereken yer:**
+- Ara gülüş: 16–23 sn, komşunun hiç şaşırmaması. Mekanizma: dünyada tek şaşıran izleyici; normalleştirme absürdü büyütüyor.
+- Asıl kahkaha: 23–30 sn. Mekanizma: bütün emek sonunda gülünç derecede küçük bir kullanım; orantısızlık (büyük süreç / küçük sonuç).
+
+**Dürüst zayıflık:** Brief "telefon videosu, tek eylem" diyor; burada mekân değişimi ve ikinci karakter (komşu) var, yani üretim zorluğu ve süre artıyor. İnce, uzun, esnek nesne (bant) AI video modellerinde kopma/kaybolma riski taşır. Rulonun incelmediğini fark etmek için izleyicinin dikkatli bakması gerekiyor; mobilde kaçabilir.
+
+---
+
+## Senaryo 2C: "Gecikmeli Gölge"
+
+**Önerme:** Biri telefona el sallıyor; duvardaki gölgesi aynı hareketi bir saniye geç yapıyor ve sonunda kendi başına bir şey daha yapıyor.
+
+**Süre:** ~18 sn, dikey, sabit (telefon bir rafa dayalı, ön kamera hissi).
+
+| Zaman | Görüntü | Ses |
+|---|---|---|
+| 0–3 sn | Akşam, salon, tek lamba. Kişi kameraya bakıp el sallar; arkadaki beyaz duvarda gölgesi net. | Oda sesi. |
+| 3–6 sn | Kişi elini indirir. Gölge bir saniye sonra el sallamaya başlar. | — |
+| 6–10 sn | Kişi fark eder, durur, tek parmakla gölgeyi gösterir. Gölge bir saniye gecikmeyle aynı şeyi yapar, yani kendini gösterir. | Kişinin kısa nefesi. |
+| 10–14 sn | Kişi deneme amaçlı hızla zıplar. Gölge bir saniye sonra zıplar. Kişi durur, bekler. | — |
+| 14–18 sn | Gölge kendi başına bir kez daha el sallar, sonra (kişi hareketsizken) yavaşça elini indirir, sanki yakalanmış gibi. Lamba söner. Kesme. | Lamba "tık". |
+
+**Kahkahanın düşmesi gereken yer:**
+- İlk gülüş: 3–6 sn gecikmenin ilk görünmesi. Mekanizma: sıradan fiziğin ufak bir kayması (uncanny ama sevimli).
+- Asıl kahkaha: 14–18 sn. Mekanizma: gölgenin "mekanik gecikme" kuralını bozup karakter kazanması; utangaç/yakalanmış davranış, beklenen kuralın kırılması ve kişileştirme.
+
+**Dürüst zayıflık:** Komedi gölgenin "davranışında" ve AI modelinin bu ince zamanlamayı tutarlı üretmesi çok zor (gölge–beden senkronu). Ton gerilim/korkuya kayabilir; gülmek yerine ürkme tepkisi alma riski yüksek. Lamba sönmesi korku filmi kalıbını güçlendiriyor.

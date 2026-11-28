@@ -1,0 +1,71 @@
+# Brief 3: Uydurma, zararsız bir ürün için TV reklamı parodisi
+
+Tüm ürün ve marka adları uydurmadır.
+
+---
+
+## Senaryo 3A: "SessizPaket" (cips paketi)
+
+**Önerme:** Toplantıda ses çıkarmadan cips yemek için tasarlanmış, hışırdamayan cips paketi; klasik "önce/sonra" tele-satış reklamı kalıbında.
+
+**Süre:** ~35 sn, dikey.
+
+| Zaman | Görüntü | Seslendirme / Diyalog |
+|---|---|---|
+| 0–5 sn | Siyah-beyaz, abartılı "önce" sahnesi: sessiz bir toplantı odası. Bir adam masanın altında cips paketini açmaya çalışıyor. Herkes yavaşça dönüp ona bakıyor. | DIŞ SES (coşkulu): "Bu sizin de başınıza geldi mi?" Paket hışırtısı patlama gibi yüksek. |
+| 5–9 sn | Adam kameraya dönüp umutsuzca ellerini açar. | DIŞ SES: "Artık bitti!" |
+| 9–15 sn | Renkli geçiş, parlak stüdyo. Ürün çekimi: tamamen sıradan görünen paket dönüyor, ışık parlıyor. | DIŞ SES: "Tanıştırayım: SessizPaket! Sıfır hışırtı. Sıfır suçluluk." |
+| 15–23 sn | Aynı toplantı, renkli. Adam paketi açıyor: hiç ses yok. Cipsi ağzına atıyor ve ısırıyor: KITIR sesi odayı sallıyor, bardaklar titriyor. Herkes yine dönüyor. | (Dış ses bir an susuyor.) |
+| 23–28 sn | Dış ses hiç bozulmadan devam ediyor. Ekranda "PAKET" kelimesinin altı çizili. | DIŞ SES: "Paket sessiz. Gerisi size kalmış." |
+| 28–35 sn | Hızlı okunan yasal uyarı, ekran altında küçük yazı. | DIŞ SES (çok hızlı): "SessizPaket cipsin sesini azaltmaz. Kullanıcıların yüzde doksanı toplantıdan çıkarıldı. Muz ile kullanılması tavsiye edilir." |
+
+**Kahkahanın düşmesi gereken yer:**
+- Asıl kahkaha: 15–23 sn, ısırma sesi. Mekanizma: ürünün sorunu yanlış yerde çözmesi (paket sessiz, cips değil); izleyici çözüm beklerken sorunun büyüdüğünü görüyor.
+- İkinci gülüş: 23–28 sn, dış sesin hiç geri adım atmaması (reklamcı inkârı). Üçüncü: hızlı uyarıdaki "muz ile kullanılması tavsiye edilir" (ürünün kendi işlevsizliğini itiraf etmesi).
+
+**Dürüst zayıflık:** Asıl şaka (sessiz paket, sesli cips) ürün adını duyunca tahmin edilebilir; sürpriz zayıf. Yasal uyarı esprisi reklam parodilerinde çok sık kullanılıyor. Ses gagı ağırlıklı olduğundan sessiz izlenen akışta (altyazısız) şaka kaybolur.
+
+---
+
+## Senaryo 3B: "Önceden Solmuş Bitki"
+
+**Önerme:** Bitki öldürmekten bıkanlar için zaten kurumuş halde teslim edilen saksı bitkisi, "asla hayal kırıklığı yaşamayacaksınız" vaadiyle.
+
+**Süre:** ~30 sn, dikey.
+
+| Zaman | Görüntü | Seslendirme / Diyalog |
+|---|---|---|
+| 0–5 sn | Sıcak ışıklı, yumuşak odaklı yaşam tarzı reklamı. Bir kadın pencere önünde kahvesini içiyor, yanında kahverengi, tamamen kurumuş bir bitki. | DIŞ SES (yumuşak, yatıştırıcı): "Hayat zaten yeterince zor." |
+| 5–10 sn | Flashback (gri ton): kadın bir bitkiyi suluyor, bitki ertesi gün sararıyor; başka bir tane, aynısı. Kadın üzgün. | DIŞ SES: "Sevdiniz. Suladınız. Kaybettiniz." |
+| 10–16 sn | Ürün çekimi: kurumuş bitki şık bir kutudan çıkıyor, yaprak döküyor, slow-motion. | DIŞ SES: "Yeni Huzur Bitkisi. Önceden solmuş. Önceden kabullenilmiş." |
+| 16–24 sn | Mutlu "kullanıcı görüşleri": bir adam kameraya: "Üç yıldır bende. Hiç değişmedi." Bir kadın gözleri dolu: "İlk defa bir şeyi öldürmedim." | Kullanıcı görüşleri (kendi sesleri). |
+| 24–30 sn | Son: kadın bitkiye su döküyor, toprak bile emmiyor. Gülümsüyor. Logo. | DIŞ SES: "Huzur Bitkisi. Artık sorun siz değilsiniz." Küçük yazı: "Sulamayın. Gerek yok. Hiç olmadı." |
+
+**Kahkahanın düşmesi gereken yer:**
+- İlk gülüş: 10–16 sn, "Önceden solmuş. Önceden kabullenilmiş." Mekanizma: değer önermesinin tersine çevrilmesi (kusur = özellik) + duygusal reklam tonunun saçma ürünle ciddiyetle kullanılması (ton uyumsuzluğu).
+- Asıl kahkaha: 16–24 sn, "İlk defa bir şeyi öldürmedim." Mekanizma: duygusal kullanıcı görüşü kalıbı, mantıksal olarak yanlış ama karakter için gerçek bir zafer; ciddiyet absürdü taşıyor.
+
+**Dürüst zayıflık:** Ton duygusal-yavaş; ilk 3 saniyede kanca zayıf, dikey akışta kaydırılma riski yüksek. "Ölü bitki" ve "kabullenme" teması bazı izleyicilere hüzünlü/melankolik gelebilir, komedi yerine "ince ironi" düzeyinde kalabilir.
+
+---
+
+## Senaryo 3C: "Kaşık Pro"
+
+**Önerme:** Sıradan bir çorba kaşığı, büyük teknoloji lansmanı tarzında devrim gibi tanıtılıyor.
+
+**Süre:** ~35 sn, dikey.
+
+| Zaman | Görüntü | Seslendirme / Diyalog |
+|---|---|---|
+| 0–4 sn | Siyah zemin, tek spot. Beyaz ışıkta yavaşça dönen sıradan metal kaşık. Minimal elektronik müzik. | (Sadece müzik.) |
+| 4–10 sn | Siyah tişörtlü uydurma tasarımcı karakter (kurgusal, sakin, fısıltıya yakın konuşuyor), beyaz stüdyoda. | TASARIMCI: "Kaşığı yeniden düşünmedik. Kaşığı... yeniden hissettik." |
+| 10–17 sn | Teknik çizim animasyonu: kaşık parçalarına "ayrılıyor" ama sadece tek parça var. Etiket: "Tek parça. Sıfır parça." | DIŞ SES: "Tek parça, uçtan uca bütünleşik tasarım." |
+| 17–24 sn | Özellik listesi, her biri büyük harfle, coşkulu müzikle: "Çorba tutar." "Çay karıştırır." "Hiç güncelleme istemez." | TASARIMCI: "Ve en sevdiğim özelliği: bu taraf." (Kaşığı çeviriyor, arka yüzü.) |
+| 24–30 sn | Fiyat ekranı. Dramatik duraklama. "Kaşık Pro: 1.299 TL." Alt satır: "Kaşık Pro Max (biraz daha büyük): 1.899 TL." | DIŞ SES: "Ön siparişler bugün başlıyor." |
+| 30–35 sn | Son kare: tasarımcı mutfakta çorba içmeye çalışıyor, kaşığı ters tutuyor, çorba dökülüyor. Ciddi yüzle kameraya bakıyor. | TASARIMCI: "Yanlış tutuyorsunuz." |
+
+**Kahkahanın düşmesi gereken yer:**
+- Ara gülüşler: "Kaşığı yeniden hissettik", "Tek parça. Sıfır parça." Mekanizma: lansman jargonu sıradan nesneye uygulanınca ortaya çıkan şişirme (bathos).
+- Asıl kahkaha: 30–35 sn, "Yanlış tutuyorsunuz." Mekanizma: üretici kibirinin kullanıcıyı suçlamasının, kendi hatasına rağmen sürmesi; tasarımcının kendi ürününü kullanamaması (ironi). Pro Max satırı ikinci katman (gereksiz ürün çeşitlendirmesi).
+
+**Dürüst zayıflık:** Teknoloji lansmanı parodisi çok yaygın ve izleyici gerçek bir şirketi/kişiyi çağrıştırabilir; "siyah tişörtlü tasarımcı" görünümü gerçek bir kişiye benzetilme riski taşıyor, kostüm değiştirilmeli. Final esprisi gerçek bir olaya gönderme olarak okunursa marka/kişi çağrışımı brief kuralını zorlar.

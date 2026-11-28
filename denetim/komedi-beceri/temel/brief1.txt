@@ -1,0 +1,85 @@
+# Brief 1: İş yerinde iki karakterli diyalog skeci (İngilizce konuşan izleyici)
+
+Not: Diyaloglar İngilizce (hedef izleyici). Altına Türkçe karşılığı yazıldı. Bunlar eğitim öncesi temel çıktıdır.
+
+---
+
+## Senaryo 1A: "Out of Office"
+
+**Önerme:** Bir çalışan masasında oturuyor ama "izindeyim" otomatik yanıtını yüz yüze, bir makine gibi tekrar ediyor.
+
+**Karakterler:**
+- TOM (30'lar, dosyayla gelen, sabırsız)
+- LENA (30'lar, masasında, kulaklıklı, tamamen ifadesiz)
+
+**Süre:** ~30 sn, dikey, sabit orta plan + iki yakın plan.
+
+| Zaman | Görüntü | Diyalog |
+|---|---|---|
+| 0–3 sn | Tom dosyayla Lena'nın masasına gelir. Lena ekrana bakıyor. | TOM: "Lena, I need your sign-off on this." (Lena, bunu onaylaman lazım.) |
+| 3–8 sn | Lena başını kaldırmadan, düz bir sesle: | LENA: "Thank you for your message. I am currently out of the office until Monday." (Mesajınız için teşekkürler. Pazartesiye kadar ofis dışındayım.) |
+| 8–11 sn | Tom etrafına bakar, masaya, kahve fincanına, Lena'ya. | TOM: "You're... right here." (Sen... tam buradasın.) |
+| 11–16 sn | Lena aynı tonla, aynı kelimelerle: | LENA: "Thank you for your message. I am currently out of the office until Monday." |
+| 16–21 sn | Tom yanından geçen üçüncü kişiyi (KEVIN) kolundan tutup yanına çeker. | TOM: "Kevin. Say something to her." (Kevin. Ona bir şey söyle.) KEVIN: "Hi Lena." |
+| 21–25 sn | Lena, Kevin'e döner: | LENA: "Thank you for your message. I am currently out of the office until Monday." |
+| 25–30 sn | Kevin Tom'a döner, ciddi: | KEVIN: "You shouldn't have replied all." (Herkese yanıtla yapmamalıydın.) — Lena kahvesinden bir yudum alır. Kesme. |
+
+**Kahkahanın düşmesi gereken yer:**
+- Küçük gülüş: 11–16 sn, ikinci tekrar. Mekanizma: dijital bir alışkanlığın (otomatik yanıt) birebir fiziksel dünyaya taşınması; tekrarın kendisi "bot" olduğunu kanıtlıyor.
+- Asıl kahkaha: 25–30 sn, "You shouldn't have replied all." Mekanizma: üçüncü kişi absürdü sorgulamak yerine kuralı kabul edip e-posta görgü kuralıyla Tom'u suçluyor (oyun içinde mantık + yön değiştirme). Üçlü kuralının üçüncü adımı Lena değil Kevin'in cümlesi; beklenen üçüncü tekrar yerine kırılma.
+
+**Dürüst zayıflık:** "Otomatik yanıt" esprisi çok kullanılmış bir ofis klişesi; ilk 5 saniyede izleyici sonu tahmin edebilir. "Reply all" punchline'ı da e-posta kültürünü bilmeyen genç izleyicide düşmeyebilir.
+
+---
+
+## Senaryo 1B: "Quick Question"
+
+**Önerme:** "Hızlı bir sorum var" diye başlayan konuşma, aynı iki kişi aynı pozda kalırken etraflarında günler geçmesine dönüşür.
+
+**Karakterler:**
+- SAM (soruyu soran, elinde kupa)
+- PRIYA (masasında, kibar ama çaresiz)
+
+**Süre:** ~25 sn, dikey, tek sabit açı (kamera hiç kıpırdamıyor; zaman atlaması arka planda).
+
+| Zaman | Görüntü | Diyalog |
+|---|---|---|
+| 0–3 sn | Gündüz, kalabalık ofis. Sam masaya yaslanır. | SAM: "Quick question." (Hızlı bir soru.) PRIYA: "Sure." (Tabii.) |
+| 3–7 sn | Kesme. Aynı poz. Pencere dışı akşam, ofis boşalmış. | SAM: "...so that's the context. Now, the question —" (...bu bağlamdı. Şimdi soru —) |
+| 7–11 sn | Kesme. Gece. Temizlik görevlisi arkalarında yer siliyor. Priya'nın kupası değişmiş. | SAM: "— but before the question, a bit of background." (— ama sorudan önce biraz arka plan.) |
+| 11–16 sn | Kesme. Sabah. Mesai arkadaşları yeniden geliyor, biri Priya'ya doğum günü pastası bırakıyor, mum yanıyor. Priya kıpırdamıyor. | SAM: "Okay. Okay. Here's the question." (Tamam. Tamam. İşte soru.) |
+| 16–20 sn | Sam derin nefes alır. Priya öne eğilir. | SAM: "Do you have a minute?" (Bir dakikan var mı?) |
+| 20–25 sn | Priya'nın yüzü yakın. Mum söner. | PRIYA: "...No." (...Hayır.) Kesme. |
+
+**Kahkahanın düşmesi gereken yer:**
+- Ara gülüşler: her zaman atlamasında arka plan değiştiğinde (görsel tırmanma). Mekanizma: sözlü küçümseme ("quick") ile görsel abartı (günler geçiyor) arasındaki zıtlık.
+- Asıl kahkaha: 16–20 sn, "Do you have a minute?" Mekanizma: tüm bekleyişin sonunda "soru"nun sohbetin başında sorulması gereken nezaket cümlesi çıkması — beklentinin boşa çıkması (anticlimax). Priya'nın "No."su ikinci darbe.
+
+**Dürüst zayıflık:** Zaman atlaması gagı (aynı poz, değişen arka plan) bilinen bir kalıp; asıl yükü kostüm/ışık/figüran değişimleri taşıyor ve AI üretiminde aynı iki kişiyi dört sahnede birebir aynı pozda tutmak zor (kimlik/poz kayması riski). Final repliği zayıf okunursa skeç "uzun bir şakanın kısa sonu" gibi düşebilir.
+
+---
+
+## Senaryo 1C: "Sticky Notes"
+
+**Önerme:** Ortak mutfakta iki çalışan, birbirinin yanında durdukları hâlde yalnızca buzdolabına yapışkan notlarla tartışıyor.
+
+**Karakterler:**
+- MARK (düzen takıntılı)
+- JUNE (yoğurdu yenmiş kişi)
+
+**Süre:** ~35 sn, dikey; buzdolabı kapısı + iki yüz.
+
+| Zaman | Görüntü | Diyalog / Not metni |
+|---|---|---|
+| 0–4 sn | June buzdolabını açar, yoğurdunun yerinde boş kap var. Kapıda not: "SOMEONE ATE MY YOGURT." Kamera yakın. | (Sessiz.) |
+| 4–9 sn | Mark içeri girer, June'un hemen yanında durur. June notun altına yeni not yapıştırır: "That was MY yogurt." (O BENİM yoğurdumdu.) | (Sessiz.) |
+| 9–14 sn | Mark, omuz omuza dururken kendi notunu yazar ve yapıştırır: "It had no name on it." (Üstünde isim yoktu.) | (Sessiz.) |
+| 14–20 sn | Hızlanan ritim: not, not, not. Kapı sarıya boğuluyor. Kısa kesmeler: "It was IMPLIED." / "Labels are not implied." / "Per policy 4.2" | (Sessiz, sadece kalem gıcırtısı.) |
+| 20–27 sn | Not bitiyor. June son bloğu Mark'tan alır. Mark yeni blok için dolaba uzanır, yoktur. İkisi bir an göz göze gelir. Konuşacakları an. | MARK (ağzını açar, durur). |
+| 27–35 sn | Mark cebinden telefonu çıkarır, yazar. June'un telefonu titrer. June bakar, Mark'a döner. Ekranda: "Can we talk?" (Konuşabilir miyiz?) June cevap yazar: "Not in front of the fridge." (Buzdolabının önünde olmaz.) | (Sessiz.) |
+
+**Kahkahanın düşmesi gereken yer:**
+- İlk gülüş: 9–14 sn, Mark yan yana dururken not yazınca. Mekanizma: pasif-agresif iletişimin absürde vardırılması; fiziksel yakınlık ile dolaylı iletişim zıtlığı.
+- Asıl kahkaha: 27–35 sn, not bitince konuşmak yerine mesaja geçmesi ve "Not in front of the fridge." Mekanizma: çözüm beklenirken aynı hatanın bir üst seviyeye taşınması + buzdolabına "üçüncü kişi" gibi davranılması (kişileştirme).
+
+**Dürüst zayıflık:** Brief "diyalog odaklı" istiyordu; bu senaryo diyaloğu yazıya çeviriyor, yani brief'i kısmen esnetiyor. Not metinlerinin dikey ekranda okunması gerekiyor (okuma yükü + AI üretiminde yazı bozulması riski; notlar montajda eklenmeli).
