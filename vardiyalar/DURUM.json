@@ -1648,7 +1648,7 @@
    "bagimliliklar": [],
    "gercek_maliyet": null,
    "deneme": 1,
-   "en_erken": null,
+   "en_erken": "2026-11-30T11:04:00Z",
    "ilgili_pr": null,
    "bekci_karari": null,
    "son_calisma": "2026-11-28T10:00:00Z",
@@ -1658,7 +1658,7 @@
    "onay_kaynagi": "Bora K-036",
    "azami_maliyet": "0 kredi",
    "ilgili_dosyalar": [],
-   "sonraki_guvenli_adim": null,
+   "sonraki_guvenli_adim": "48s ölçüm 2026-11-30 11:04–17:04 UTC; 14g ölçüm 2026-12-12 11:04 UTC (+24s). python3 -I scripts/olcum_toplu.py, sonra scripts/tahmin_karsilastir.py. Tahmin dosyası değiştirilmez.",
    "beklenen_cikti": "",
    "basari_kriteri": "",
    "id": "G-0061",
@@ -1666,7 +1666,7 @@
    "departman": "pazar-istihbarati",
    "sorumlu_ajan": "pazar-istihbarati",
    "baslik": "Trend tahmin kaydı (önceden kayıtlı) + 48 saat / 14 gün karşılaştırma",
-   "durum": "in_progress"
+   "durum": "blocked"
   },
   {
    "kaynak": "K-036",
