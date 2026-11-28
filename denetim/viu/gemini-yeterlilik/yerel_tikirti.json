@@ -1,0 +1,63 @@
+{
+ "ad": "yerel_tikirti",
+ "model": "gemini-3.8-flash",
+ "sure_istek_sn": 127.5,
+ "usage": {
+  "promptTokenCount": 951,
+  "candidatesTokenCount": 393,
+  "totalTokenCount": 1867,
+  "promptTokensDetails": [
+   {
+    "modality": "VIDEO",
+    "tokenCount": 728
+   },
+   {
+    "modality": "TEXT",
+    "tokenCount": 223
+   }
+  ],
+  "thoughtsTokenCount": 523,
+  "serviceTier": "standard"
+ },
+ "cevap": {
+  "sure_sn": 7.0,
+  "karakterler": [
+   {
+    "tanim": "Yatakta yatan animasyon vombat benzeri hayvan",
+    "sayi": 1
+   }
+  ],
+  "olaylar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 7.0,
+    "ne_oluyor": "Karakter yatakta uykusuz bir şekilde gözlerini kırpıp dönmekte, komodindeki dijital saat geri saymaktadır."
+   }
+  ],
+  "gorsel_hatalar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 7.0,
+    "tur": "diğer",
+    "aciklama": "Dijital saatin saniye sayımı düzensiz şekilde atlayarak ilerlemektedir.",
+    "guven": "orta"
+   }
+  ],
+  "ses": {
+   "var_mi": true,
+   "konusma": "yok",
+   "muzik": false,
+   "efektler": [
+    {
+     "t_sn": 0.0,
+     "ne": "İç çekme / horlama benzeri nefes sesi"
+    },
+    {
+     "t_sn": 1.8,
+     "ne": "Mekanik tıklama sesi"
+    }
+   ]
+  },
+  "ekranda_yazi": "Dijital saat ekranında kırmızı LED rakamlar (0:51, 0:49, 0:48, 0:47)"
+ }
+}

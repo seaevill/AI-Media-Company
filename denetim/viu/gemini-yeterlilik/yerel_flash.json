@@ -1,0 +1,74 @@
+{
+ "ad": "yerel_flash",
+ "model": "gemini-3.8-flash",
+ "sure_istek_sn": 236.5,
+ "usage": {
+  "promptTokenCount": 951,
+  "candidatesTokenCount": 584,
+  "totalTokenCount": 2744,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 223
+   },
+   {
+    "modality": "VIDEO",
+    "tokenCount": 728
+   }
+  ],
+  "thoughtsTokenCount": 1209,
+  "serviceTier": "standard"
+ },
+ "cevap": {
+  "sure_sn": 7.0,
+  "karakterler": [
+   {
+    "tanim": "Merdiven sahanlığında ayakta duran, pembe renkli ve uzun bacaklı flamingo benzeri figür",
+    "sayi": 1
+   },
+   {
+    "tanim": "Karton kutunun üzerinde oturan, turuncu yelek ve omuz çantası giymiş vombat benzeri hayvan",
+    "sayi": 1
+   },
+   {
+    "tanim": "Merdivenin dibinde duran, mavi ceketli ve elinde alet tutan kaz figürü",
+    "sayi": 1
+   }
+  ],
+  "olaylar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 6.0,
+    "ne_oluyor": "Üst sahanlıktaki flamingo benzeri figür gagasından sarı bir mezura/şerit uzatırken, vombatın oturduğu koli merdiven basamaklarından aşağı doğru kayar."
+   },
+   {
+    "bas_sn": 6.0,
+    "bit_sn": 7.0,
+    "ne_oluyor": "Koli en alt kata, takım elbiseli kazın yanına ulaşır ve sarı şerit hızla geri çekilir."
+   }
+  ],
+  "gorsel_hatalar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 6.0,
+    "tur": "diğer",
+    "aciklama": "Karton koli, basamakların girintilerine çarpmadan ve sekmeden görünmez pürüzsüz bir rampa üzerinde kayar gibi fizik kurallarına aykırı şekilde ilerliyor.",
+    "guven": "yüksek"
+   },
+   {
+    "bas_sn": 5.8,
+    "bit_sn": 6.8,
+    "tur": "kaybolma",
+    "aciklama": "Sarı şerit alt basamağa ulaştığında geriye doğru çekilirken formu bükülüp aniden yok oluyor.",
+    "guven": "orta"
+   }
+  ],
+  "ses": {
+   "var_mi": false,
+   "konusma": "yok",
+   "muzik": false,
+   "efektler": []
+  },
+  "ekranda_yazi": null
+ }
+}

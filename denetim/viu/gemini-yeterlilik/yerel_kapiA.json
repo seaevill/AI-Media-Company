@@ -1,0 +1,68 @@
+{
+ "ad": "yerel_kapiA",
+ "model": "gemini-3.8-flash",
+ "sure_istek_sn": 162.9,
+ "usage": {
+  "promptTokenCount": 587,
+  "candidatesTokenCount": 408,
+  "totalTokenCount": 1450,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 223
+   },
+   {
+    "modality": "VIDEO",
+    "tokenCount": 364
+   }
+  ],
+  "thoughtsTokenCount": 455,
+  "serviceTier": "standard"
+ },
+ "cevap": {
+  "sure_sn": 3.8,
+  "karakterler": [
+   {
+    "tanim": "Ceket ve kemer takan antropomorfik beyaz kaz",
+    "sayi": 1
+   }
+  ],
+  "olaylar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 1.8,
+    "ne_oluyor": "Kaz kapıya yaslanmış haldeyken dönerek koridora doğru bakar."
+   },
+   {
+    "bas_sn": 1.8,
+    "bit_sn": 3.8,
+    "ne_oluyor": "Kaz sırtını kapıya dayayıp yorgun bir şekilde yere doğru kaykılır."
+   }
+  ],
+  "gorsel_hatalar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 1.2,
+    "tur": "iç içe geçme",
+    "aciklama": "Kazın kanat uçları kapı yüzeyi ile hafifçe iç içe geçmektedir.",
+    "guven": "orta"
+   }
+  ],
+  "ses": {
+   "var_mi": true,
+   "konusma": "yok",
+   "muzik": false,
+   "efektler": [
+    {
+     "t_sn": 0.0,
+     "ne": "Kapı tıkırtısı veya çarpma sesi"
+    },
+    {
+     "t_sn": 2.1,
+     "ne": "Yorgun iç çekme ve nefes sesi"
+    }
+   ]
+  },
+  "ekranda_yazi": null
+ }
+}

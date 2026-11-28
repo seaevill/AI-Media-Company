@@ -1,0 +1,93 @@
+{
+ "ad": "yerel_hailuo",
+ "model": "gemini-3.8-flash",
+ "sure_istek_sn": 190.5,
+ "usage": {
+  "promptTokenCount": 619,
+  "candidatesTokenCount": 579,
+  "totalTokenCount": 1688,
+  "promptTokensDetails": [
+   {
+    "modality": "VIDEO",
+    "tokenCount": 396
+   },
+   {
+    "modality": "TEXT",
+    "tokenCount": 223
+   }
+  ],
+  "thoughtsTokenCount": 490,
+  "serviceTier": "standard"
+ },
+ "cevap": {
+  "sure_sn": 5.3,
+  "karakterler": [
+   {
+    "tanim": "Gözlüklü ve yelekli flamingo",
+    "sayi": 1
+   },
+   {
+    "tanim": "Kutunun üstünde oturan vombat benzeri hayvan",
+    "sayi": 1
+   },
+   {
+    "tanim": "Merdivenin altındaki pelikan/leylek karakter",
+    "sayi": 1
+   }
+  ],
+  "olaylar": [
+   {
+    "bas_sn": 0.0,
+    "bit_sn": 2.8,
+    "ne_oluyor": "Flamingo merdiven boşluğundan aşağı mezura sarkıtır."
+   },
+   {
+    "bas_sn": 2.8,
+    "bit_sn": 4.0,
+    "ne_oluyor": "Mezura kopar/kaybolur, havada kilit simgesi belirir ve flamingo irkilir."
+   },
+   {
+    "bas_sn": 4.0,
+    "bit_sn": 5.3,
+    "ne_oluyor": "Flamingonun gövdesi bozulur, sağ altta aniden bir koli belirir."
+   }
+  ],
+  "gorsel_hatalar": [
+   {
+    "bas_sn": 3.8,
+    "bit_sn": 5.3,
+    "tur": "morf",
+    "aciklama": "Flamingonun gövdesi ve boynu çokgen koli biçimine dönüşerek deforme olur.",
+    "guven": "yüksek"
+   },
+   {
+    "bas_sn": 3.5,
+    "bit_sn": 4.5,
+    "tur": "kaybolma",
+    "aciklama": "Sarkan sarı mezura aniden yok olur.",
+    "guven": "yüksek"
+   },
+   {
+    "bas_sn": 3.0,
+    "bit_sn": 5.3,
+    "tur": "yüzen nesne",
+    "aciklama": "Havada asılı kırmızı kilit simgesi belirir.",
+    "guven": "yüksek"
+   },
+   {
+    "bas_sn": 4.8,
+    "bit_sn": 5.3,
+    "tur": "çoğalma",
+    "aciklama": "Sağ alt köşede boşluktan bir koli aniden belirir.",
+    "guven": "yüksek"
+   }
+  ],
+  "ses": {
+   "var_mi": false,
+   "konusma": "yok",
+   "muzik": "yok",
+   "efektler": []
+  },
+  "ekranda_yazi": "yok"
+ }
+}

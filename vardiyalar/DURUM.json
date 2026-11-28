@@ -1421,14 +1421,16 @@
    "onay": "A0",
    "onay_kaynagi": "Bora K-033",
    "azami_maliyet": "0 kredi",
-   "ilgili_dosyalar": [],
-   "sonraki_guvenli_adim": "BLOCKED 2026-11-28: Gemini 403; Bora başlığı x-goog-api-key yapmalı",
+   "ilgili_dosyalar": [
+    "denetim/viu/gemini-yeterlilik/"
+   ],
+   "sonraki_guvenli_adim": "Bora: ses iddialarını doğrula; anahtarı yenile ve ortam değişkenine koy; sonra yüksek fps + bilinmeyen video testi",
    "id": "G-0052",
    "oncelik": "P0",
    "departman": "chief-of-staff",
    "sorumlu_ajan": "chief-of-staff",
    "baslik": "Gemini bağlantısı + yeterlilik testi (görüntü, ses, hareket, zaman damgası; bulut ve yerel ayrı)",
-   "durum": "blocked",
+   "durum": "review",
    "beklenen_cikti": "",
    "basari_kriteri": ""
   },
@@ -1480,7 +1482,7 @@
    "departman": "pazar-istihbarati",
    "sorumlu_ajan": "pazar-istihbarati",
    "baslik": "30 videoluk tersine mühendislik pilotu (Gemini'ye bağlı)",
-   "durum": "blocked",
+   "durum": "queued",
    "beklenen_cikti": "",
    "basari_kriteri": ""
   },

@@ -19,7 +19,7 @@ from pathlib import Path
 API = "https://generativelanguage.googleapis.com"
 KOK = Path(__file__).resolve().parent.parent
 VIU = KOK / "denetim" / "viu"
-VARSAYILAN_MODEL = "gemini-2.5-flash"
+VARSAYILAN_MODEL = "gemini-3.5-flash"  # 2026-11-28: 2.5 yeni kullanıcıya kapalı (404); 3.8-flash 503 verdi
 
 S, N, I, B = ({"type": t} for t in ("STRING", "NUMBER", "INTEGER", "BOOLEAN"))
 def nesne(**p): return {"type": "OBJECT", "properties": p, "required": list(p)}
@@ -131,7 +131,7 @@ def yukle(yol):
     kod, bas, g = istek(f"{API}/upload/v1beta/files", {"file": {"display_name": Path(yol).name}}, {
         "X-Goog-Upload-Protocol": "resumable", "X-Goog-Upload-Command": "start",
         "X-Goog-Upload-Header-Content-Length": str(boy), "X-Goog-Upload-Header-Content-Type": "video/mp4"})
-    yurl = {k.lower(): v for k, v in bas.items()}.get("x-goog-upload-url")
+    yurl = {k.lower(): v for k, v in bas.items()}.get("x-goog-upload-url") or {k.lower(): v for k, v in bas.items()}.get("x-goog-upload-control-url")
     if kod != 200 or not yurl:
         sys.exit(hata(kod, g))
     kod, _, g = istek(yurl, Path(yol).read_bytes(), {"X-Goog-Upload-Offset": "0", "X-Goog-Upload-Command": "upload, finalize"})
