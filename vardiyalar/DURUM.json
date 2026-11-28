@@ -1606,7 +1606,7 @@
    "onay_kaynagi": "Bora K-036",
    "azami_maliyet": "0 kredi",
    "ilgili_dosyalar": [],
-   "sonraki_guvenli_adim": null,
+   "sonraki_guvenli_adim": "Bora + ChatGPT kör puan (A–D): denetim/komedi-beceri/deney2_kor_paket.txt. Anahtar repoda yok; sha256 c46a629e8f723f22f151d81a5ad414e18f836346cc0322e332e8faca67523728. Kelime ort: beceri 170, beceri yok 198.",
    "beklenen_cikti": "",
    "basari_kriteri": "",
    "id": "G-0059",
@@ -1614,7 +1614,7 @@
    "departman": "kreatif",
    "sorumlu_ajan": "kreatif",
    "baslik": "Komedi becerisi deney 2 (kontrollü, A–D ölçütleri)",
-   "durum": "in_progress"
+   "durum": "blocked"
   },
   {
    "kaynak": "K-036",
