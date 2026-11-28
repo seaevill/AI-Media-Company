@@ -1,0 +1,77 @@
+# Brief 2 — Fotogerçekçi "sıradan absürt" (telefonla çekilmiş gibi, diyalogsuz)
+
+Dikey 9:16, el kamerası titreşimi, doğal ışık, telefon mikrofonu ortam sesi. Her parçada tek sapma; marka, logo, okunabilir yazı yok.
+
+---
+
+## 1. Ekran Koruyucu
+
+**Başlık:** Ekran Koruyucu
+
+**Tek satırlık önerme:** Yeni ekran koruyucunun altındaki tek hava kabarcığı, bastırıldıkça kaçıyor ve sonunda telefondan çıkıp masadaki başka yüzeylere taşınıyor.
+
+**Saniye saniye senaryo (≈25 sn):**
+- 0–2 sn — Kanca: Yukarıdan yakın plan; masada siyah ekranlı bir telefon, ortasında belirgin tek kabarcık. Bir başparmak kabarcığın üstünde bekliyor.
+- 2–7 sn — Zemin: Başparmak kabarcığı kenara doğru sürer; kabarcık kenara gider ve kaybolur. El bir banka kartı alır, ekranı düzler. Tatmin edici, temiz ekran.
+- 7–12 sn — V1 (küçük ölçek): Kart kalkar; kabarcık ekranın tam ortasında yeniden belirir. Başparmak tekrar iter; kabarcık bu kez parmaktan önce kendi kendine kaçar, bir köşeye kayar.
+- 12–18 sn — V2 (sınırı aşma): Kart köşeye bastırır. Kabarcık telefonun kenarından çıkar ve masadaki cam bardak altlığının altına "geçer"; altlığın camında aynı kabarcık. El duraksar. Kamera hafif sallanır (çeken kişi irkildi).
+- 18–23 sn — V3 (en uç sonuç): El altlığı kaldırıp kartla bastırır; kabarcık camdan kayar, masanın yanındaki pencere camına sıçrar ve camın ortasına yerleşir. El kartı bırakır. Kısa boşluk.
+- 23–25 sn — Son: El, yenilmiş, telefonu ters çevirip masaya koyar. Kamera telefona yaklaşır: telefonun arka kamera lensinin üstünde aynı kabarcık. Kesme; açılış karesi (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Ana gülme 14–16 sn: kabarcığın telefondan başka bir cam yüzeye geçtiği an. Zemin herkesin yaşadığı küçük bir aksilik (ekran koruyucu kabarcığı); sapma, kabarcığın "kaçan bir şey" gibi davranması. İlk adım küçük (kendi kendine kayması), sonra kural büyür (yüzey değiştirir), sonra ölçek büyür (pencere).
+- Son vuruş 23–25 sn: lensin üstündeki kabarcık; kişi pes ettiğinde bile kabarcık onu takip ediyor. İhlal: nesnenin fizik kuralını bozması; zararsız çünkü sonuç sadece sinir bozucu, kimse zarar görmüyor ve aksilik izleyiciye yakın/tanıdık.
+
+**Diyalog:** Yok. Ses: kart sürtme sesi, bir kez sert nefes verme, pencereye geçişte tek bir "...hm." (isteğe bağlı, sözcük değil).
+
+**Dürüst zayıflık:** Kabarcık küçük ve saydam; dikey telefonda, hele AI üretiminde, net okunmayabilir ve kaybolma–belirme hatası ile istenen "kaçma" ayırt edilemeyebilir. Ekran koruyucu kabarcığı internet esprisinde çok tanıdık bir zemin, sürpriz büyük ölçüde V2'nin geçişine bağlı.
+
+---
+
+## 2. Otomatik Musluk
+
+**Başlık:** Otomatik Musluk
+
+**Tek satırlık önerme:** Umumi lavaboda sensörlü musluk elleri görmüyor; su hep kişinin az önce terk ettiği ya da hiç durmadığı yerden akıyor.
+
+**Saniye saniye senaryo (≈28 sn):**
+- 0–2 sn — Kanca: Telefon, arkadaşının omzunun üstünden çekiyor. Üç lavabolu sıradan bir umumi tuvalet; kişi ortadaki muslukta ellerini sallıyor, su yok. Yandaki boş musluktan su akıyor.
+- 2–7 sn — Zemin: Kişi yandaki akan musluğa geçer; elini uzattığı anda o durur, az önce bıraktığı ortadaki musluk akmaya başlar.
+- 7–13 sn — V1 (AAB'nin A'ları): Geri döner: ortadaki durur, yeni bıraktığı akar. Bir kez daha, daha hızlı: aynı şey. Kişi kameraya (arkadaşına) bakar.
+- 13–20 sn — V2 (aldatma denemesi, sistem büyür): Kişi iki eliyle iki musluğa birden uzanır. İkisi de durur; arkasındaki duvarda el kurutma makinesi tek başına çalışır, sonra köşedeki sabunluk boşluğa sabun bırakır.
+- 20–25 sn — V3 (en uç sonuç): Kişi pes eder, ıslak olmayan ellerini pantolonuna silip kapıya yürür. Kapı arkasından kapanırken bütün musluklar, kurutucu ve sabunluk aynı anda çalışır, gürültü dolar.
+- 25–28 sn — Son: Kapı yeniden açılır, kişi geri girer; her şey aynı anda susar. Kişi ortadaki muslukta elini sallar; yandaki akar (açılış karesi, döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- İlk gülme 4–6 sn: su "az önce bıraktığı" yerden akınca kuralın kurulması.
+- AAB: iki kez aynı (A, A), üçüncüde kişi iki musluğa birden uzanıp kuralı kırmaya çalışır ve sistem bu kez beklenmedik yerlerden cevap verir (B: kurutucu, sabunluk).
+- Ana gülme 22–24 sn: kişi çıkınca her şeyin birden çalışması; makineler sadece onun yokluğunda "çalışıyor". Son vuruş: geri girince hepsinin susması. İhlal: makinenin insanı görmezden gelmesi; zararsız çünkü herkesin yaşadığı ufak bir sensör aksiliği, sonuç sadece kuru eller.
+
+**Diyalog:** Yok. Ses: musluk akışı, kurutucu uğultusu, çekenin bastırılmış nefesi (isteğe bağlı kısa gülme sesi değil, sadece nefes; montajda karar).
+
+**Dürüst zayıflık:** Tuvalette telefonla çekim bazı izleyicilere ve platform politikalarına rahatsız edici gelebilir; mekân çok temiz, boş ve yansıyan yüzeyler dışında karakter göstermemeli. Üç ayrı musluk ve cihazın sırayla doğru zamanda çalışması AI üretimde zor; muhtemelen ayrı çekimler ve montaj gerektirir, bu da "tek telefon videosu" hissini zayıflatır.
+
+---
+
+## 3. Eş Çorap
+
+**Başlık:** Eş Çorap
+
+**Tek satırlık önerme:** Kurutma makinesinden eksik tek çorabı arayan kişi elini içeri her sokuşunda başka bir tek çorap çıkarıyor; sonunda eşi bulunuyor ama arkasında yüzlerce eşsiz çorap tepesi var.
+
+**Saniye saniye senaryo (≈30 sn):**
+- 0–2 sn — Kanca: Yakın plan: bir el, tek bir çizgili çorap tutuyor ve kameraya gösteriyor; arkada açık kapaklı kurutma makinesi, içi boş görünüyor.
+- 2–7 sn — Zemin: Kişi çorabı katlanmış çamaşır yığınının üstüne bırakır, eğilip makinenin içine elini sokar, tamburu tarar.
+- 7–12 sn — V1 (tek sayı): Bir çorap çıkarır: düz mavi, eşleşmiyor. Omuz silker, yere bırakır, yine elini sokar.
+- 12–18 sn — V2 (sayı büyür): Hızlanan kurgu, aynı açı: kırmızı, puantiyeli, bebek çorabı, uzun yün çorap, bir futbol tozluğu. Yerde yığın büyür, kişinin ayak bileğine kadar.
+- 18–25 sn — V3 (ölçek): Kamera geri çekilir: çamaşır odasının zemini diz boyu farklı tek çoraplarla dolu. Kişi kolunu omzuna kadar makineye sokmuş. Kısa boşluk. Yavaşça çizgili eşi çıkarır.
+- 25–30 sn — Son: Kişi iki çizgili çorabı yan yana tutup zaferle kameraya gösterir (açılış karesinin aynısı, artık iki çorap). Arkada çorap dağı. Kesme; açılış karesi (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- İlk gülme 8–10 sn: yanlış çorap; tanıdık "kaybolan çorap" sorununun tersine dönmesi (makine çorabı yutmuyor, veriyor).
+- Tırmanış sayı ve ölçekle: 1 çorap → hızlı liste (beşinci öğe tozluk, beklentiyi kıran B) → oda dolusu.
+- Ana gülme 25–28 sn: zafer pozu. Kişi sorunu "çözdüğü" için mutlu; arkadaki daha büyük sorunu umursamıyor (karakter sapmayı mantıklı sanıyor). Kanca karesiyle aynı poz, geri çağırma ve döngü. İhlal: makinenin içinin sonsuz olması; zararsız çünkü sonuç sadece dağınıklık.
+
+**Diyalog:** Yok. Ses: kurutucu tamburunun tıkırtısı, kumaş hışırtısı, son karede kısa bir zafer nefesi.
+
+**Dürüst zayıflık:** "Kaybolan tek çorap" en klişe ev esprilerinden biri; izleyici ilk 5 sn'de "biliyorum bunu" diyebilir ve sapma (makinenin çorap vermesi) bu klişeyi yeterince bozmayabilir. Çok sayıda farklı nesnenin elden çıkması AI'da nesne çoğalması ve morf hatasına çok açık.

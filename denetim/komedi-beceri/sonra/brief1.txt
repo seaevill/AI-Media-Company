@@ -1,0 +1,98 @@
+# Brief 1 — İş yerinde iki karakterli, diyaloglu skeç (İngilizce konuşan uluslararası izleyici)
+
+Dikey 9:16. Diyalog İngilizce; açıklamalar Türkçe. Karakterler kurgusal; marka/yazılım adı yok (takvim ve e-posta arayüzü markasız, genel).
+
+---
+
+## 1. Toplantı Daveti
+
+**Başlık:** Toplantı Daveti (The Invite)
+
+**Tek satırlık önerme:** Yan yana oturan iki iş arkadaşından Dana, Kevin'le yaptığı her konuşmayı, Kevin'in kendi konuşma sırası da dahil, takvim davetiyle planlıyor.
+
+**Saniye saniye senaryo (≈30 sn):**
+- 0–2 sn — Kanca: Yakın plan, Kevin'in dizüstü ekranı: bildirim sesi, "Invitation: Coffee? (1 min) — Organizer: Dana". Kamera geri çekilir: Dana tam yanında oturuyor, ona bakmıyor.
+- 2–6 sn — Zemin + sapma: Kevin başını çevirir, Dana'ya bakar. Dana gözünü ekrandan ayırmadan bekler. Kevin "Kabul et"e tıklar. Dana kalkar, iki kahve getirir, birini koyar, oturur.
+- 6–13 sn — V1 (küçük ölçek): Kevin ağzını açar, Dana parmağını kaldırır. Kevin'in ekranı: "Updated: Coffee? — Agenda attached". Kevin eki açar: tek satır "1. Sugar?" Kevin sesli cevap verir. Dana not alır.
+- 13–20 sn — V2 (sosyal bedel): Dana dosya istemek için ağzını açar, durur, yazar. Kevin'in ekranı: "Invitation: Can I borrow your stapler? — Optional attendees: Entire Floor (48)". Arka planda tüm ofiste aynı bildirim sesi; birkaç kafa kalkar. Kevin zımbayı sessizce uzatır.
+- 20–27 sn — V3 (mantığın en uç sonucu): Kevin sonunda dayanamaz, Dana'ya döner: "Dana—" Dana parmağını kaldırır, yazar. Kevin'in ekranı: "Invitation: Kevin talks to Dana (2 min) — Location: Here". Kısa boşluk. Kevin kabul eder. Dana ona döner, ilk kez göz teması, ellerini masada birleştirir, bekler.
+- 27–30 sn — Son: Kevin: "...Hi." Dana başını sallar, ekrana döner. Kevin'in ekranında bildirim sesi: "Meeting notes: Kevin talks to Dana". Bu ses ve ekran açılış karesine bağlanır (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Ana gülme 22–25 sn: "Kevin talks to Dana" daveti. Oyun ("yan yana oturan iş arkadaşı her şeyi takvim daveti ile soruyor") burada kendi mantığının en ucuna gidiyor: Dana artık kendi sorularını değil, Kevin'in konuşmasını planlıyor. Tırmanış sırası: küçük (kahve) → başkalarına bedel (48 kişilik kat) → mantık derinliği (karşı tarafın sözü). Dana geri adım atmıyor, kendini haklı sanıyor (sıradan absürt).
+- İkincil gülme 15–17 sn: tüm kattan aynı anda gelen bildirim sesi (sosyal bedel, ölçek).
+- Son vuruş 28–30 sn: tek kelimelik "Hi." için toplantı notu. İhlal: yüz yüze konuşma normu bozuluyor; zararsız çünkü herkes ofis takvimi bürokrasisini tanıyor, kimse zarar görmüyor.
+
+**Diyalog:**
+- KEVIN (V1, ekrana bakıp, sesli): "...Two. Two sugars."
+- KEVIN (V3): "Dana—"
+- KEVIN (son): "...Hi."
+- (Dana hiç konuşmuyor; bu bilinçli.)
+
+**Dürüst zayıflık:** Komedinin yükü ekrandaki yazılarda; dikey telefonda küçük ekran metni okunmayabilir ve AI video modeli bu yazıları bozar, yani metin montajda grafik olarak eklenmek zorunda. Ayrıca "her şeyi davetle soran iş arkadaşı" fikri ofis mizahında çok işlenmiş bir zemin; V3 yeterince farklı değilse tanıdık gelebilir.
+
+---
+
+## 2. Ofis Dışındayım
+
+**Başlık:** Ofis Dışındayım (Out of Office)
+
+**Tek satırlık önerme:** Masasında oturan Priya, izindeymiş gibi her soruya kendi otomatik "ofis dışındayım" yanıtını yüksek sesle okuyor; Marcus onu kırmaya çalıştıkça ikisi bir otomatik yanıt döngüsüne kilitleniyor.
+
+**Saniye saniye senaryo (≈32 sn):**
+- 0–2 sn — Kanca: Priya masasında, ceketi omzunda, güneş gözlüğü başında, monitöründe tatil plajı duvar kâğıdı; önünde bir kahve. Tamamen buradaymış gibi çalışıyor.
+- 2–8 sn — Zemin + sapma: Marcus gelir: "Hey, can I grab your stapler?" Priya, ekrandan başını kaldırmadan, düz ve tekdüze bir sesle otomatik yanıtı okur.
+- 8–15 sn — V1: Marcus güler, zımbayı kendisi almaya uzanır. Priya, aynı tonda, zımbayı geri çeker ve cümleyi bitirir: "...I will respond upon my return."
+- 15–22 sn — V2 (mantık derinliği): Marcus ciddileşir: acil müşteri sorunu. Priya: "For urgent matters, please contact Marcus." Kısa boşluk. Marcus: "I'm Marcus." Priya, tekdüze: "Thank you for your message." Tam başa döndü.
+- 22–29 sn — V3 (karşı taraf kuralı benimser): Marcus derin nefes alır, kendi gözlüğünü kafasına takar, aynı tonda: "Thank you for your message. I am also out of the office. For urgent matters, please contact Priya." İkisi birbirine bakar. Priya'nın gözü bir an kayar, sonra tonunu bozmaz.
+- 29–32 sn — Son: Masadaki sabit telefon çalar. İkisi aynı anda, tek ağızdan: "Thank you for your message—" Kesme, açılış karesine (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Ana gülme 18–20 sn: "For urgent matters, please contact Marcus." / "I'm Marcus." Otomatik yanıtın gerçek yapısı (acil durumlar için X'e yazın) kendine karşı dönüyor; kurulumda verilen kalıbın ikinci okunuşu (yanıltma).
+- Tırmanış: V1 kişisel küçük bedel (zımba) → V2 iş bedeli (acil müşteri) → V3 karşı tarafın da kurala girmesi, sorun ikiye katlanıyor. Priya hiç geri adım atmıyor (absürt sadakat).
+- Son vuruş 29–32 sn: koro hâlinde otomatik yanıt; sistem artık ikisinin kontrolünden çıktı. İhlal: iş arkadaşına yardım normu; zararsız çünkü ortada sadece zımba ve tanıdık bir e-posta kalıbı var.
+
+**Diyalog:**
+- MARCUS: "Hey, can I grab your stapler?"
+- PRIYA (tekdüze): "Thank you for your message. I am currently out of the office with limited access to email—"
+- PRIYA: "—I will respond upon my return."
+- MARCUS: "Priya. The client's site is down."
+- PRIYA: "For urgent matters, please contact Marcus."
+- MARCUS: "...I'm Marcus."
+- PRIYA: "Thank you for your message."
+- MARCUS (gözlüğü takar, aynı ton): "Thank you for your message. I am also out of the office. For urgent matters, please contact Priya."
+- İKİSİ BİRDEN (telefon çalınca): "Thank you for your message—"
+
+**Dürüst zayıflık:** Kurulumdaki otomatik yanıt cümlesi uzun; 2–8 sn'de çok kelime var ve izleyici esprinin "sesli okunan otomatik yanıt" olduğunu kavramadan kaydırabilir. Oyunculuk tonu (tam tekdüze, hiç göz kırpmayan) tutmazsa skeç "tuhaf iş arkadaşı"na düşer; bu ton yazıyla garanti edilemez.
+
+---
+
+## 3. Sandviç Geri Bildirim
+
+**Başlık:** Sandviç Geri Bildirim (The Feedback Sandwich)
+
+**Tek satırlık önerme:** Yönetici Glen "eleştiriyi iki iltifat arasına koy" tekniğini harfiyen uyguluyor; eleştiriler büyüdükçe iltifatları tükeniyor ve sonunda kötü haberi gerçek bir sandviçin içinde veriyor.
+
+**Saniye saniye senaryo (≈30 sn):**
+- 0–2 sn — Kanca: Yönetici masasında, dosyaların yanında bir somun ekmek ve ekmek bıçağı. Glen gülümseyerek oturuyor. Karşısında Rosa, elinde not defteri.
+- 2–7 sn — Zemin: Glen: "Rosa! Performance review. Love this. Let's go." Rosa gergin.
+- 7–12 sn — V1 (kalıp kurulur): "Great tie. You're late a lot. Great tie." Rosa kendi yakasına bakar; kravat takmıyor. Glen yine de onaylarcasına başını sallar.
+- 12–19 sn — V2 (iltifatlar tükeniyor): Glen kâğıda bakar, yüzü düşer, gülümsemeyi zorlar: "Beautiful handwriting. You deleted the client database. ...Beautiful handwriting." Rosa: "That's the same one." Glen: "It's very beautiful."
+- 19–26 sn — V3 (mantığın en uç sonucu): Glen son kâğıdı çıkarır (zarf). Konuşmaz. Ekmekten iki dilim keser, zarfı araya koyar, kibarca peçeteye sarar, masanın üzerinden iter. Kısa boşluk.
+- 26–30 sn — Son: Rosa sandviçe bakar: "Is this... rye?" Glen, rahatlamış: "You have great taste." Kesme; somunun kalanı açılış karesindeki gibi masada (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Ana gülme 23–26 sn: zarfın gerçek ekmek dilimleri arasına konması. Mecaz ("sandviç geri bildirim") harfiyen gerçekleşiyor; açılıştaki somun (kanca) burada ödeniyor (geri çağırma). Somunun 0. sn'deki tuhaflığı, sandviçi görmeden de okunuyor.
+- Tırmanış AAB: V1 ve V2 sözlü sandviç (A, A), V3 fiziksel sandviç (B). Şiddet de büyüyor: geç kalmak → veri tabanı silmek → (zarfın ima ettiği) işten çıkarma.
+- Son vuruş: "You have great taste." Glen'in zorunlu ilk iltifatı ancak Rosa'nın kendi sorusundan çıkabiliyor. İhlal: kötü haber verme nezaketinin bozulması; zararsız çünkü Glen kötü niyetli değil, sadece kurala aşırı sadık; zarfın içeriği hiç gösterilmiyor.
+
+**Diyalog:**
+- GLEN: "Rosa! Performance review. Love this. Let's go."
+- GLEN: "Great tie. You're late a lot. Great tie."
+- GLEN: "Beautiful handwriting. You deleted the client database. ...Beautiful handwriting."
+- ROSA: "That's the same one."
+- GLEN: "It's very beautiful."
+- ROSA (sandviçe bakarak): "Is this... rye?"
+- GLEN: "You have great taste."
+
+**Dürüst zayıflık:** "Compliment sandwich" İngilizce konuşan ofis çalışanlarında tanıdık ama evrensel değil; terimi bilmeyen izleyici için V3'teki ekmek "neden?" sorusu doğurur ve kurulumda terim hiç sesli söylenmiyor. İşten çıkarma imaları bazı izleyicilere gerçek bir kaygıyı hatırlatıp zararsızlığı zayıflatabilir.

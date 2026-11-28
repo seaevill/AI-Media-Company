@@ -1,0 +1,101 @@
+# Brief 3 — Uydurma, zararsız bir ürün için TV reklamı parodisi
+
+Dikey 9:16. Bütün markalar kurgusal; gerçek reklam, şirket ya da kişi taklidi yok. Ton tamamen ciddi; sapma yalnızca içerikte. Dış ses Türkçe.
+
+---
+
+## 1. KapakKapağı
+
+**Başlık:** KapakKapağı
+
+**Tek satırlık önerme:** Gece yarısı tele-alışveriş reklamı, kavanoz kapağını açmayı kolaylaştıran bir kapağı satıyor; sonra o kapağın kapağını, sonra onun da kapağını.
+
+**Saniye saniye senaryo (≈35 sn):**
+- 0–2 sn — Kanca: Siyah-beyaz, abartılı çaresizlik: bir adam kavanoz kapağını açamıyor, kavanoz elinden kayıp tezgâhta yuvarlanıyor. Tele-alışveriş tipi kırmızı çerçeve.
+- 2–6 sn — Zemin (reklam iskeleti, sorun): Dış ses: "Kavanoz kapakları. Hayat neden bu kadar zor?" Adam kameraya acı çeker gibi bakar.
+- 6–12 sn — Ürün: Renk birden gelir. Gülümseyen sunucu: "İşte KapakKapağı!" Kavanozun kapağına geçen büyük, tırtıklı plastik bir kapak. Adam çevirir, açılır. Yapay seyirci alkışı.
+- 12–19 sn — V1 (sorun geri gelir): Siyah-beyaz yeniden: adam KapakKapağı'nı kavanozdan çıkaramıyor. Dış ses: "KapakKapağı'nı açamıyor musunuz?" Sunucu: "KapakKapağı Kapağı!" Bir boy büyük ikinci kapak, birincinin üstüne.
+- 19–26 sn — V2 (ölçek): Hızlı kesme: kapaklar üst üste, kavanoz artık el kovası büyüklüğünde bir kapak kulesinin altında. Adam iki eliyle direksiyon gibi çeviriyor. Dış ses hızla: "Kapak! Kapak Kapağı! Kapak Kapağı Kapağı! Hepsi bir arada!"
+- 26–31 sn — V3 (en uç sonuç): "Ama durun, dahası var!" Sunucu kumandaya basar: adamın mutfağının tamamının üstüne, tavandan inen dev bir tırtıklı kapak. Kısa boşluk. Kapak dönmeye başlar; tüm mutfak birlikte döner.
+- 31–35 sn — Son: Dış ses, ciddi: "KapakKapağı. Çünkü her kapağın bir kapağı vardır." Son kare: siyah-beyaz, dev kapağın içindeki adam yine küçük kavanozu açamıyor (açılış karesi, döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Ürün kalıbı "var olmayan sorun + etkisiz çözüm"; ama burada çözüm kendi sorununu üretiyor ve reklam her çözümü yeni ürün olarak satıyor. Bu, dünyaya dair fikir: ürünlerin, başka ürünlerin yarattığı sorunları çözmek için satılması.
+- İlk gülme 13–16 sn: "KapakKapağı'nı açamıyor musunuz?" Reklamın kendi kurduğu "çaresiz siyah-beyaz insan" kalıbı kendi ürününe dönüyor.
+- Ana gülme 27–30 sn: dev kapak ve dönen mutfak; ölçek tırmanışının ucu.
+- Son vuruş: slogan hem tele-alışveriş biçimine uygun (ciddi dış ses) hem şaka; son kare açılışa bağlanıyor, yani bütün ürünler hiçbir şey çözmemiş. İhlal: reklamın "çözdüm" vaadi; zararsız çünkü konu bir kavanoz kapağı.
+
+**Diyalog (dış ses ve sunucu):**
+- DIŞ SES: "Kavanoz kapakları. Hayat neden bu kadar zor?"
+- SUNUCU: "İşte KapakKapağı!"
+- DIŞ SES: "KapakKapağı'nı açamıyor musunuz?"
+- SUNUCU: "KapakKapağı Kapağı!"
+- DIŞ SES (hızla): "Kapak! Kapak Kapağı! Kapak Kapağı Kapağı! Hepsi bir arada!"
+- SUNUCU: "Ama durun, dahası var!"
+- DIŞ SES: "KapakKapağı. Çünkü her kapağın bir kapağı vardır."
+
+**Dürüst zayıflık:** Tele-alışverişin siyah-beyaz "çaresiz insan" kalıbı çok parodilenmiş; tanınması kolay ama taze değil. 26–31 sn'deki dönen mutfak V2'den büyük bir sıçrama, "fazla uçuk" olup oyunun kuralından (el kapakları) kopabilir; ayrıca iç içe kapaklar AI üretiminde iç içe geçme hatasına açık.
+
+---
+
+## 2. Ilık Fotokopi
+
+**Başlık:** Ilık Fotokopi
+
+**Tek satırlık önerme:** Lüks parfüm reklamının bütün dili (ağır çekim, deniz, at, fısıltı) kullanılıyor; ama satılan koku "pazartesi sabahı ofiste yeni çıkmış ılık fotokopi".
+
+**Saniye saniye senaryo (≈30 sn):**
+- 0–2 sn — Kanca: Ağır çekim, gün batımında kumsalda koşan bir at; üstünde siyah takım elbiseli bir kadın. Saçlarında rüzgâr, kolunun altında bir dosya.
+- 2–8 sn — Zemin (parfüm reklam dili): Yakın planlar: dalga, ipek kumaş, kadının kapanan gözleri. Fısıltı dış ses, İngilizce aksanlı değil, Türkçe: "Arzu. Özgürlük. Sonsuzluk."
+- 8–14 sn — Sapma: Kadın attan iner, denizin ortasında duran ve ışık saçan bir fotokopi makinesine yürür. Kapağı açar; makinenin yeşil ışığı yüzünü tarar. Çıkan kâğıdı yüzüne tutar, gözleri kapalı, derin bir nefes alır.
+- 14–20 sn — V1 (koku tarifi): Fısıltı: "Toner notaları. Hafif bir sıcaklık. Biraz kâğıt sıkışması." Makineden kısa bir sıkışma sesi; kadın bundan haz duyar gibi başını arkaya atar.
+- 20–26 sn — V2 (ölçek ve sosyal bedel): Bir erkek model sahile gelir, ağır çekimde gömleğini açar; altında boyuna asılı bir personel kartı. Floresan ofis lambaları kumsalın üstünde tek tek yanar. İkisi birbirine yaklaşır, tam öpüşecekken araya biri girip "toplantı odası boş mu" der gibi işaret eder (sessiz, ağır çekim).
+- 26–30 sn — V3 + son: Siyah ekranda ince şişe: içinde sıcak bir A4 kâğıdı rulo hâlinde. Fısıltı: "Ilık Fotokopi. Maison Pazartesi." Son kare: at kumsalda tek başına bekliyor, sırtında artık bir fotokopi makinesi (açılış karesine bağlanır, döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Biçim parodisi: reklam türü ilk 2 sn'de tanınıyor (at, kumsal, ağır çekim). Sapma tek: kokunun "yüce arzu" yerine en sıradan ofis kokusu olması.
+- İlk gülme 11–14 sn: kadının fotokopiyi parfüm gibi koklaması; ciddi oyunculuk ile banal nesne çatışıyor.
+- Ana gülme 16–18 sn: "Biraz kâğıt sıkışması." AAB: iki "parfüm notası" (toner, sıcaklık) kurulum, üçüncüsü ofis arızası.
+- V2: ofis, romantik sahnenin içine girerek tırmanıyor (ölçek); V3 şişenin içindeki kâğıt fiziksel ödeme. Dünyaya dair fikir: lüks reklamların her şeyi arzu nesnesi yapabilmesi. İhlal: parfüm vaadi; zararsız çünkü ürün kurgusal ve kimse kandırılmıyor.
+
+**Diyalog (dış ses, fısıltı):**
+- "Arzu. Özgürlük. Sonsuzluk."
+- "Toner notaları. Hafif bir sıcaklık. Biraz kâğıt sıkışması."
+- "Ilık Fotokopi. Maison Pazartesi."
+
+**Dürüst zayıflık:** Kokuyu görüntüye çeviremiyoruz; "ılık fotokopi kokusu" ancak o anı yaşamış ofis çalışanlarına hitap ediyor, genç ya da ofiste çalışmayan izleyici için zemin boş kalabilir. V2'deki "toplantı odası" araya girişi sessiz ağır çekimde anlaşılmayabilir, kurguyu uzatan zayıf halka bu.
+
+---
+
+## 3. Bildirimsiz
+
+**Başlık:** Bildirimsiz
+
+**Tek satırlık önerme:** İlaç reklamı biçiminde, telefon ekranına yapıştırılan ve bütün bildirimleri kapatan yuvarlak bir çıkartma satılıyor; hızlı okunan "yan etkiler" listesi giderek büyüyor.
+
+**Saniye saniye senaryo (≈35 sn):**
+- 0–2 sn — Kanca: Yakın plan, sürekli titreşen ve ışıklar saçan bir telefon; sahibinin gözleri yorgun. Bildirim sesleri üst üste.
+- 2–7 sn — Zemin (ilaç reklamı iskeleti, sorun): Sakin, güven veren dış ses: "Bildirim yorgunluğu yaşıyor musunuz?" Kadın parkta bankta, telefonu titreşirken iç çekiyor.
+- 7–12 sn — Ürün: "Bildirimsiz ile tanışın." Kadın telefon ekranının ortasına yuvarlak, mat bir çıkartma yapıştırır. Sessizlik. Güneş açar, kuşlar ötmeye başlar, kadın gülümser.
+- 12–17 sn — Mutluluk montajı: Kadın bisiklet sürüyor, köpekle oynuyor, sakin bir kahvaltı. Ekranda tek bir yazı yok; çıkartma telefonda.
+- 17–30 sn — Yan etkiler (aynı sakin ses, giderek hızlanarak; görüntü mutlu kalır):
+  - V1 (17–21 sn): "Bildirimsiz bazı kullanıcılarda 47 cevapsız anne aramasına yol açabilir." (görüntü: kadın gülerek uçurtma uçuruyor)
+  - V2 (21–26 sn): "Arkadaşlarınız öldüğünüzü düşünebilir. Ev sahibiniz kapınızı kırabilir. Doğum gününüzü yalnız geçirmeniz mümkündür." (görüntü: kadın, bir pastayı tek başına mutlu mutlu üflüyor)
+  - V3 (26–30 sn): "Uzun süreli kullanımda kullanıcıların çoğu bir güvercinle derin bir dostluk kurmuştur. Güvercininizle konuşmadan Bildirimsiz'i bırakmayın." (görüntü: kadın bankta bir güvercinle başbaşa, ikisi aynı yöne bakıyor)
+- 30–35 sn — Son: "Bildirimsiz. Sessiz bir hayat, size sorulmadan." Kısa boşluk. İzleyicinin kendi telefonunu taklit eden, ekranın üstünden kayan sahte bir bildirim balonu sesi ve titreşim (görsel olarak açılış karesindeki gibi). Kesme; açılış (döngü).
+
+**Gülmenin düşmesi gereken yer ve neden (mekanizma):**
+- Biçim: ilaç reklamının "mutlu görüntü + hızla okunan yan etki" kalıbı ilk 7 sn'de tanınıyor; parodinin motoru ses ile görüntünün çelişmesi.
+- Tırmanış, yan etkilerde: V1 kişisel/küçük (anne aramaları) → V2 sosyal bedel (arkadaşlar, ev sahibi, yalnız doğum günü) → V3 mantığın ucu (güvercin dostluğu ve "güvercininize danışın" kalıbının "doktorunuza danışın"ın yerine geçmesi).
+- Ana gülme 28–30 sn: "Güvercininizle konuşmadan..." çünkü ilaç reklamının bilinen kapanış cümlesi bozuluyor (yanıltma).
+- Son vuruş: reklamın kendisinin bildirim göndermesi; izleyici "sessizlik" satıldığını unutmadan rahatsız ediliyor. Dünyaya dair fikir: bildirimlerden kurtulmak, insanlardan kurtulmak demek. İhlal: sağlık reklamı ciddiyeti; zararsız çünkü ürün bir çıkartma ve yan etkiler absürt.
+
+**Diyalog (dış ses):**
+- "Bildirim yorgunluğu yaşıyor musunuz?"
+- "Bildirimsiz ile tanışın."
+- "Bildirimsiz bazı kullanıcılarda 47 cevapsız anne aramasına yol açabilir."
+- "Arkadaşlarınız öldüğünüzü düşünebilir. Ev sahibiniz kapınızı kırabilir. Doğum gününüzü yalnız geçirmeniz mümkündür."
+- "Uzun süreli kullanımda kullanıcıların çoğu bir güvercinle derin bir dostluk kurmuştur. Güvercininizle konuşmadan Bildirimsiz'i bırakmayın."
+- "Bildirimsiz. Sessiz bir hayat, size sorulmadan."
+
+**Dürüst zayıflık:** Yan etki bölümü 13 sn boyunca yalnızca metne dayanıyor; ses kapalı izleyen (kısa videoda çok yaygın) için altyazı şart ve hızlı altyazı okunmayabilir. Son kareyi taklit bildirim sesiyle bitirmek platformda "yanıltıcı" ya da sinir bozucu sayılabilir; ayrıca "ölmüş olabilirsiniz" ve "yalnız doğum günü" satırları bazı izleyicilerde zararsızlığı kırabilir.
