@@ -137,6 +137,15 @@ def main():
     for r in sorted(tt, key=lambda r: r["gun"]):
         print(f"{r['hesap']:<20} {r['takipci']:>10} {r['son_klip']} {r['gun']:>4} {r['sikilik']} {r['oran']}")
     print("Spearman(son klip yaşı gün, medyan/takipçi), n=%d: %s" % (len(tt), spearman([r["gun"] for r in tt], [r["oran"] for r in tt])))
+    tf = [r for r in tt if r["sikilik"] is not None]
+    print("Spearman(klip/gun, medyan/takipci), n=%d: %s" % (len(tf), spearman([r["sikilik"] for r in tf], [r["oran"] for r in tf])))
+    for pl in ("YT", "TT"):
+        ok = [r for r in rows if r["platform"] == pl and uygun(r) and r["oran"] is not None]
+        print("Spearman(takipci, medyan/takipci) %s, n=%d: %s" % (pl, len(ok), spearman([r["takipci"] for r in ok], [r["oran"] for r in ok])))
+        b = [r["oran"] for r in ok if r["takipci"] >= 500000]
+        k = [r["oran"] for r in ok if r["takipci"] < 500000]
+        if b and k:
+            print("  medyan oran: >=500K n=%d -> %s ; <500K n=%d -> %s" % (len(b), statistics.median(b), len(k), statistics.median(k)))
     return 0
 
 

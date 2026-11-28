@@ -1436,7 +1436,7 @@
    "kaynak": "K-033",
    "olusturma": "2026-11-28T00:00:00Z",
    "bagimliliklar": [],
-   "gercek_maliyet": null,
+   "gercek_maliyet": "0 kredi",
    "deneme": 0,
    "en_erken": null,
    "ilgili_pr": null,
@@ -1454,7 +1454,7 @@
    "departman": "pazar-istihbarati",
    "sorumlu_ajan": "pazar-istihbarati",
    "baslik": "Pazar araştırması yöntem belgesi + 500K+ hesapların düşük izlenme nedenleri (kaynaklı) + 14 gün/erken trend ölçüm planı (maliyetli)",
-   "durum": "in_progress",
+   "durum": "review",
    "beklenen_cikti": "",
    "basari_kriteri": ""
   },
@@ -1629,6 +1629,11 @@
   {
    "id": "K-B14",
    "soru": "Pazar izleme listesini (istihbarat/olcumler/izleme_listesi.json) 14 günde bir otomatik yeniden ölçen zamanlanmış görev açılsın mı? (0 kredi; zamanlayıcı A3)",
+   "olusturma": "2026-11-28"
+  },
+  {
+   "id": "K-B15",
+   "soru": "Ölçüm planı (G-0053): 14 günde bir genel ölçüm (ilk 2026-12-11) ve 48 saatte bir 14 gün erken trend — zamanlayıcı (A3) mı, elle mi? Her koşu ~30 sn, 0 kredi.",
    "olusturma": "2026-11-28"
   }
  ]

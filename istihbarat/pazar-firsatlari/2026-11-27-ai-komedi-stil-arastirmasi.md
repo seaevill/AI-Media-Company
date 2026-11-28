@@ -383,3 +383,131 @@ Okuma (ölçüm ve çıkarım ayrı): (ÖLÇTÜM) Resmî markalarda med/takipçi
 - Takipçi dışı etkileşim, izlenme süresi, gelir bilinmiyor; gelir hesaplanmadı. Handle kaynakları: TikTok newsroom (simonscat), British Comedy Guide ve TikTok/Aardman duyuruları (Shaun), vidIQ (mrbean), 3. taraf izleyici (filmbilder), Cartoon Brew (lazysquare, kiwisburnttoast adları).
 
 SKILL: pazar-istihbarati-olcum v1
+
+## 2026-11-28 ek: yöntem, nedenler, ölçüm planı (G-0053)
+
+- Görev: G-0053 (A0, kredi 0, karar K-033) · Hazırlayan: pazar-istihbarati · Zamanlayıcı kurulmadı, ölçüm koşulmadı, yeni hesap ölçülmedi; yalnızca mevcut ham veri ve resmî sayfalar okundu.
+- Etiketler: ÖLÇTÜM = araç/betik çıktısı (`scripts/duyarlilik_analizi.py` ham dosyadan) · GÖRDÜM-SAYFA = sayfa açıldı, metin okundu · OKUDUM-ÖZET = arama özeti (açılmadı) · TAHMİN.
+- Yeni araç: `scripts/duyarlilik_analizi.py` (stdlib, ağsız) + `tests/test_duyarlilik.py` (7 test geçti, `python3 -m pytest tests/test_duyarlilik.py`). Tablolardaki "ham" sayılar şu komutla yeniden üretilir: `python3 -I scripts/duyarlilik_analizi.py istihbarat/olcumler/2026-11-27.json g0048`.
+
+**Önce bilinen hatalar ve sınırlar**
+1. **G-0048 ve G-0051'in ham ölçüm dosyaları repoda yok.** Tablolar 22:12-22:15Z (G-0048) ve 22:27-22:29Z (G-0051) ölçümlerinden; elimizdeki tek ham dosya `istihbarat/olcumler/2026-11-27.json` **üçüncü, ayrı bir okuma** (22:31:25-22:31:53Z, izleme listesi başlangıç kesiti). Bu yüzden aşağıdaki duyarlılık analizi ham dosyadaki hesaplarla yapıldı; ham dosyada olmayanlar için rapor tablosundaki sayı kullanıldı ve ayrıca işaretlendi (ham değil).
+2. Ham dosyada G-0048 örnekleminin YT'de 11/13'ü, TT'de 8/11'i var. Eksik: YT Yellowchicksss; YT meowtakeover (bu okumada abone sayısı okunamadı, `abone_yaklasik` boş, ham dosyada yalnız Shorts izlenmesi var); TT catrealmai, satisfyingclips50, poutyfrenchie. G-0051'den ham dosyada yalnız simonscat (YT+TT), lazysquare (YT), kiwisburnttoast (TT) var; Shaun, Mr Bean, Filmbilder, javadoodles, kiwisburnttoast-YT yok.
+3. Hesap başına "bu hesap örnekleme neden girdi" kaydı **tutulmadı** (eksik). Aşağıda yalnızca raporun kendi "AI kanıtı" sütunundan ve bölümlerinden çıkarılabilen kaynaklar var.
+4. Hiçbir video izlenmedi, ses dinlenmedi (GÖRDÜM-VİDEO yok). Bio/açıklama curl okumalarının ham metni saklanmadı.
+
+### 1. Yöntem
+
+**1.1 Örneklem nasıl seçildi (kaynak ve yanlılık).** Rapor metninden çıkarılabildiği kadarıyla:
+- **G-0048 (AI hayvan/nesne, 29 hesap adı, 24 hesap-platform çifti ölçüm şartını geçti):** (a) G-0030 ana raporundaki ve K-029 pilotlarındaki hesaplar (meowtakeover, MPMinds, tailbitpets, Bandar, officialdivingdog vb.); (b) haber/blog/liste özetlerinde adı geçenler: Kapwing (Bandar, SuperCatLeague), KnowYourMeme/Daily Dot (meowtakeover, MPMinds_, tailbitpets), NPR (funntastic_AI), vidIQ (poutyfrenchie), Medium (storyarcpaws), Vuela (HasanAi202); (c) WebSearch'ün handle vermediği adlarda **handle'ı ben tahmin edip sayfada sınadım** (la.team.france, dramacatuniverse vb. 404 çıkıp düştü). kittenstoriesdaily01, catrealmai, animalshortssb, AiKittenverse, ai.shxdda, aimeowrealm, wild-alarm için seçim kaynağı rapora yazılmamış (eksik, yukarıda madde 3).
+- **G-0051 (insan yapımı konuşmasız animasyon, 9 hesap-platform çifti):** TikTok newsroom, British Comedy Guide, Aardman duyuruları, vidIQ, 3. taraf izleyici ve Cartoon Brew (raporun "Handle kaynakları" satırı). Üç bağımsız hesabın üçü de basın/blog'da çıktığı için bulundu.
+- **Hayatta kalma yanlılığı (ÇIKARIM, yön kesin):** her iki örneklem de "haberde/listede çıkmış" hesaplardan kuruldu; yani ya zaten büyümüş ya da ilgi çekmiş hesaplar. Rastgele ya da platform araması temelli örneklem **yok**; arama sonuçlarının hangi hesabı gösterdiği bilinmiyor. Karşı örnek (küçülen/kapanan) yalnızca haber büyük diyen ama ölçümde küçük çıkanlardan geldi (SuperCatLeague, poutyfrenchie, impossibleais, HasanAi202): bu "kapanmış hesap" değil "haberi eski hesap". Özet istatistik şartı (n≥8 klip ve ≥1.000 takipçi) çok küçük hesapları dışladı; bunun sonucu hangi yöne ittiği **bilinmiyor** (küçük hesapların oranı yüksek ama klip sayısı az).
+- Sonuç: bulgular "bu örneklemde" geçerlidir; "AI hayvan pazarının geneli" için kanıt değildir. Güven: orta (sayılar ölçülmüş), düşük (genelleme).
+
+**1.2 "Sağlıklı" ölçütü neden bu eşikler: KEYFİ EŞİK.**
+- `medyan/takipçi ≥ 0,1` ve `en yüksek/medyan ≤ 10`: G-0048'de "sağlıklı" eşiği görev tanımından (kullanıcı tanımı) alındı; **10× eşiğini ben ekledim** ("tek viral" tanımı). İkisi de ampirik olarak türetilmedi, bir literatür eşiği yok. Dayanak yalnızca yöntem fikri: kanalın kendi medyanına göre değerlendirme (`istihbarat/kaynaklar/2026-11-27-mesleki-yontemler.md` §2.5, §2.6: tek viral ortalamayı şişirir; araçlarda taban tanımı standart değil). Skill'in şüphe eşiği ≥3×'tir (SKILL.md), yani iki farklı sayı (skill'de 3, G-0048'de 10) aynı belgede dolaşıyor.
+- **Duyarlılık analizi** (oran eşiği 0,05 / 0,1 / 0,2 × yüksek/medyan eşiği 5 / 10 / 20; filtre n≥8 ve ≥1.000 takipçi). Ham dosyadaki hesaplarla ÖLÇTÜM (YT n=11, TT n=8); rapor tablosundan eklenen 4 hesapla (ham değil, tablo değeri) tam örnekleme (YT 13, TT 11) genişletilmiş sayı yanda:
+
+| Sağlıklı sayısı | YT ham (n=11) | YT tam (13) | TT hariç ham (n=8) | TT hariç tam (11) | TT sabitlenmiş dahil ham (n=8) | TT dahil tam (11) |
+|---|---|---|---|---|---|---|
+| oran 0,05 / yüksek 5 | 3 | 3 | 1 | 2 | 0 | 0 |
+| 0,05 / 10 | 3 | 3 | 2 | 3 | 1 | 1 |
+| 0,05 / 20 | 3 | 3 | 4 | 5 | 2 | 2 |
+| **0,1 / 5** | 2 | 2 | 1 | 2 | 0 | 0 |
+| **0,1 / 10 (kullanılan)** | **2** | **2** | **2** | **3** | **1** | **1** |
+| 0,1 / 20 | 2 | 2 | 4 | 5 | 2 | 2 |
+| 0,2 / 5 | 2 | 2 | 1 | 1 | 0 | 0 |
+| 0,2 / 10 | 2 | 2 | 2 | 2 | 1 | 1 |
+| 0,2 / 20 | 2 | 2 | 4 | 4 | 2 | 2 |
+
+  Tam sütunlara eklenenler (rapor tablosundan, ham değil): Yellowchicksss YT (0,018; 43,6×) hiçbir eşiği geçmez; TT catrealmai (0,008) geçmez; TT poutyfrenchie (2,97; 60,1×) 20× altında bile geçmez; TT satisfyingclips50 (0,164; 3,6×; sabitlenmişli binlerce ×) oran 0,2 hariç sağlıklı, sabitlenmiş dahil hiç sağlıklı değil. Geçenler: YT 0,1/10'da ai.shxdda, AiKittenverse; 0,05'te funntastic_AI (0,082) eklenir. TT hariç 0,1/10'da meowtakeover, asmraiworks (+ satisfyingclips50); 20× eşiğinde chubbycat_1 (11,8×) ve pablo.prompt (15,5×) girer.
+- **Sonuç değişiyor mu?** (ÖLÇTÜM) **Nitel sonuç değişmiyor, niceliği değişiyor.** YT'de sağlıklı sayısı 2-3/13 (oran eşiğine duyarsız, yüksek/medyan eşiğine duyarsız); TT'de oran eşiği 0,05-0,2 aralığında neredeyse hiç değişmiyor (tek istisna satisfyingclips50 0,164), ama **yüksek/medyan eşiğine çok duyarlı**: 5× için 0-2/11, 20× için 2-5/11. Sabitlenmişler dahil edilince hiçbir eşikte 2/11'i geçmez. Yani "çoğu hesap sağlıklı değil" bulgusu üç eşikte de geçerli; "TT'de %27 sağlıklı" gibi tek sayı ise eşiğe bağlı (eşiğe göre %9-45 arası) ve rapor edilirken aralık verilmeli.
+- Aynı duyarlılık "tek viral" sayımı için (yüksek/medyan >t): YT t=3 → 11/13, 5 → 8/13, 10 → 7/13, 20 → 6/13. TT (sabitlenmişsiz, tam 11): 3 → 7, 5 → 5, 10 → 4, 20 → 2. Raporlanan "7/13 ve 4/11" 10× eşiğinin sonucudur.
+- Öneri (TAHMİN): bundan sonra tek eşik yerine 5×/10×/20× üçlüsünü ve sabitlenmişli/sabitlenmişsiz iki sürümü birlikte yaz; eşiği yayından önce yazılı başarı kriteri yapacaksak Bora/ChatGPT onayıyla sabitle (kalite standardı 10).
+
+**1.3 Ölçüm zamanları (UTC, 2026-11-27).**
+
+| Ölçüm | Saat (UTC) | Kaynak |
+|---|---|---|
+| G-0030 ana rapor sayfa okumaları | saat kaydı yok (aynı gün) | rapor §0-§14 |
+| G-0048 (hesap_olc.py) | 22:12-22:15 | G-0048 başlığı |
+| G-0051 YT / TT | 22:27:29-22:28:22 / 22:27:32-22:29:08 | G-0051 ölçüm tablosu |
+| İzleme listesi başlangıç kesiti (ham dosya) | 22:31:25 başladı; ilk hesap 22:31:26, son hesap 22:31:53 (27 hesap-platform) | `istihbarat/olcumler/2026-11-27.json` |
+| Bu görevdeki resmî sayfa okumaları | 2026-11-28 | aşağıda |
+
+Kayıtlı ham dosya: `istihbarat/olcumler/2026-11-27.json` (15 YT + 12 TT, her hesapta `olcum_utc`; TikTok'ta klip kimliği, tarihi, izlenmesi ve sabitlenmiş tahmini; YouTube'da yalnız izlenme listesi, klip kimliği/tarihi yok) ve `istihbarat/olcumler/izleme_listesi.json` (hesap listesi). Aynı kesitin G-0048/G-0051 okumalarıyla uyumu (ÖLÇTÜM): YT medyanları ham dosyada olan 14 hesabın 14'ünde rapor tablolarıyla birebir aynı (ör. Bandar 5.750.000, catrealmai 9.200, lazysquare 146.000); TT'de takipçi ±birkaç yüz oynuyor (meowtakeover 2.628.915 → 2.628.559), medyanlar ≤%0,1 fark (simonscat 9.838 → 9.841) ya da aynı. Sınıflandırmayı değiştiren fark yok; TikTok'ta aynı dakikada iki okumanın örneği değişebiliyor (javadoodles 7.797 vs 24.200, G-0051), bu yüzden tek okumaya yaslanmayın.
+
+### 2. "500K+ takipçili hesaplar neden düşük izleniyor?"
+
+**Önce olgu (ÖLÇTÜM):** "500K+ hesaplar düşük izleniyor" tam doğru değil, karışık. Ham dosyada ≥500K takipçili 11 hesap-platform çiftinde medyan/takipçi: YT Bandar 1,45, storyarcpaws 1,23 (yüksek ama 25× ve 274× tek viral), funntastic_AI 0,082, MPMinds_ 0,013, catrealmai 0,007, kittenstoriesdaily01 0,002; TT chubbycat_1 0,906 (351 gündür sessiz), meowtakeover 0,407, aibeaststudio 0,094, tailbitpets 0,015, mpminds 0,003. Medyanların medyanı: YT ≥500K 0,0475 (n=6) ↔ <500K 0,428 (n=5); TT ≥500K 0,094 (n=5) ↔ <500K 0,382 (n=3). Takipçi sayısı ile oran arasında Spearman: YT −0,23 (n=11), TT +0,02 (n=8) (ÖLÇTÜM; n küçük, anlamlılık testi yapılmadı). Yani büyük hesaplarda daha düşük eğilim YT'de var, TT'de ayırt edilemiyor.
+
+**Resmî platform açıklamaları (GÖRDÜM-SAYFA, 2026-11-28):**
+- YouTube Help "Search & discovery tips" (support.google.com/youtube/answer/11914225, açıldı): "Videos are ranked based on performance and viewer personalization, including their watch and search history." ve "Our system has no opinion about what type of video you make, and doesn't favor any particular format." Dış etkenler: konu ilgisi, **rekabet** ("Even if you have good metrics on your video, you may get fewer impressions if videos from other channels are performing even better.") ve mevsimsellik. Sayfada abone sayısına dağıtım garantisi yok.
+- YouTube Help "Good to know about recommendations" (…/answer/16559651, açıldı): "The Shorts feed … may tune up on the recency of content"; "on the Subscriptions tab, viewers see the videos from the channels they are subscribed to, listed by most recent". Yani abone akışı yalnızca **o aboneliğin bakıldığı yerde** ve yeniliğe göre; Shorts akışı ayrı bir öneri yüzeyi. (…/answer/16089387, açıldı: ana sayfa "a personalized mix of recommendations, subscriptions, and news".)
+- TikTok "Introduction to the TikTok recommendation system" (tiktok.com/transparency/en/recommendation-system, açıldı): For You, her izleyici için "prediction score" ile sıralanır ("an estimate of how likely you are to interact with each of those videos"); sinyaller arasında "Your follow relationships with other people on TikTok" **bir sinyal** olarak sayılıyor, tek belirleyici değil; ayrıca benzerlik kontrolü ve öneri kuralları var.
+- **Açılamayan / yalnız özet:** tiktok.com/creator-academy (HTTP 200 ama içerik JS kabuğu, makale metni okunamadı), support.tiktok.com (kabuk), newsroom.tiktok.com (proxy 403). Şu iki iddia bu yüzden **OKUDUM-ÖZET** (WebSearch özeti), kanıt sayılmaz: "takipçi sayısı sistemin doğrudan girdisi değil", "öneriler genelde son ~90 gündeki videolardan". Bunları resmî sayfa açılınca doğrula.
+- Okuma (ÇIKARIM): iki platformun resmî metni de dağıtımı izleyici başına tahmin/performansa bağlıyor; takipçi sayısı izlenme garantisi vermiyor. Düşük medyan/takipçi oranı bu yüzden "platform bozuk" ya da "içerik kötü" için tek başına kanıt değil. Ancak bu **neden** olduğunu göstermez, yalnızca beklentinin yanlış olduğunu.
+
+**Yayın sıklığı ve son klip tarihi (ham veriden, yalnız TikTok; ÖLÇTÜM):** TikTok klip kimliği yükleme tarihini veriyor (`hesap_olc.video_tarihi`); YouTube'da tarih okunamıyor, bu analiz YT'de yapılamaz.
+
+| TT hesap (G-0048 örneği) | takipçi | son klip (sabitlenmişsiz) | gün (ölçüme göre) | klip/gün* | medyan/takipçi |
+|---|---|---|---|---|---|
+| meowtakeover | 2.628.559 | 2026-11-27 | 0 | 0,69 | 0,407 |
+| tailbitpets | 856.742 | 2026-11-27 | 0 | 1,80 | 0,015 |
+| aibeaststudio | 1.488.311 | 2026-11-27 | 0 | 0,09 | 0,094 |
+| pablo.prompt | 269.609 | 2026-11-26 | 1 | 0,47 | 0,382 |
+| mpminds | 1.352.355 | 2026-10-28 | 30 | 0,09 | 0,003 |
+| chubbycat_1 | 4.911.938 | 2025-12-11 | 351 | 0,43 | 0,906 |
+| cat_tommmy | 360.199 | 2025-11-22 | 370 | 0,02 | 0,013 |
+| asmraiworks | 172.617 | 2025-07-08 | 507 | 0,64 | 3,364 |
+
+\*klip/gün = embed'deki 8-10 sabitlenmişsiz klibin ilk-son arası ortalama sıklığı; örnek ≤13 klip, kaba bir gösterge.
+
+  - Son klip yaşı ile medyan/takipçi: Spearman **+0,22** (n=8): durgun hesapların oranı daha düşük **değil** (chubbycat_1 351 gün sessiz, oran 0,906; asmraiworks 507 gün, 3,36). Not: durgun hesapta medyan, hesap aktifken gelen klipleri gösterir; "bıraktığı için düştü" tezini bu veri desteklemiyor (zaman serisi yok).
+  - Klip/gün ile medyan/takipçi: Spearman **+0,47** (n=8; zayıf, n çok küçük, güvenilir değil). Çok paylaşan tailbitpets (1,8/gün) düşük oran (0,015) gösteriyor; sıklık ile oran arasında net ilişki yok.
+  - Sabitlenmiş/medyan: mpminds sabitlenmişler 52,1M ve 51,4M iken son 10 klip medyanı 4.414 (tablo yukarıda "Önceki rapor" bölümünde): büyük takipçi tabanı eski viral kliplerden geliyor olabilir (HİPOTEZ H2).
+
+**Rakip hipotezler ve bizim veride sınanabilirlik** (hepsi HİPOTEZ; nedensellik kanıtı yok):
+
+| # | Hipotez | Bizim veride sınanır mı? | Mevcut kanıt |
+|---|---|---|---|
+| H1 | Oran mekanik: takipçi birikimli (yıllar), izlenme yalnız son ~10-48 klip; büyük taban oranı düşürür | Kısmen (tek kesit, takipçi-oran ilişkisi) | YT: ≥500K medyan oran 0,0475 vs <500K 0,428 (n=6/5); TT: 0,094 vs 0,382 (5/3); Spearman YT −0,23, TT +0,02 → YT'de yön var, TT'de yok, n küçük |
+| H2 | Takipçi tabanı eski bir viral klibin getirdiği, sonraki içerikle ilgisiz kitle | TT'de kısmen (sabitlenmiş vs son klip medyanı) | mpminds sabitlenmiş 52M, medyan 4,4K; ama aynı veri H1/H8 ile de uyumlu, ayrıştırılamıyor |
+| H3 | Platform dağıtımı takipçiye değil izleyici başına tahmine/performansa bağlı | Hayır (platform içi veri gerekir) | Resmî metin (YT 11914225, TT transparency, GÖRDÜM-SAYFA): takipçi garanti değil |
+| H4 | Yayın sıklığı/durgunluk | TT'de evet, YT'de hayır (tarih yok) | Son klip yaşı Spearman +0,22; klip/gün +0,47 (n=8): destek yok |
+| H5 | İçerik tazeliği/format yorgunluğu: yeni klipler eskiden zayıf | Zaman serisi gerekir; tek kesitte sıra varsayımıyla | HasanAi202, WildAIShorts, aibeaststudio "çökmüş" (yeni/eski yarı <0,05), sıra varsayımı yanlılığı var |
+| H6 | Takipçi kalitesi (pasif, satın alınmış, bot) | Hayır (özel veri; sahte etkileşim tespiti yapılmaz) | Yok; ANAYASA 11 gereği iddia edilmez |
+| H7 | Platform cezası/spam sınıflaması (yeniden üretim temizliği) | Hayır | Yalnız haber özeti (Tubefilter/IBTimes, OKUDUM-ÖZET); SuperCatLeague/poutyfrenchie YT'de küçüldü/yok, **neden bilinmiyor** |
+| H8 | Seçim yanlılığı: haberde çıkan hesaplar viral anında yakalandı, medyana regresyon | Hayır (rastgele örnek yok) | Örneklem kaynağı basın/liste (1.1) |
+| H9 | Ölçüm artefaktı: embed ~10-13 klip, YT Shorts sekmesi sıralaması garanti değil | Evet (tekrar okuma) | javadoodles aynı dakikada 7.797 vs 24.200 |
+
+**"İçerik üretmeyi bırakmış" neden asla uydurulmaz:** sessizliğin nedeni (sahibi bıraktı, klipleri sildi, hesap kısıtlandı, strateji değiştirdi, başka hesaba geçti, ceza yedi) platform sayfasından **ayırt edilemez**; hesaba bakıp "bıraktı/battı" yazmak nedenselliği uydurmak olur (ANAYASA 1; defter G-0048). Yazılabilecek tek şey gözlenen olgudur: "TikTok'ta son klip 2025-12-11 (ölçümden 351 gün önce, kimlikten tarih); sonraki klip yok". Aynı kural "çökmüş" etiketi için de geçerli: sıralama varsayımıyla "yeni yarı medyan/eski yarı medyan <0,05" yalnızca bir oran olarak yazılır, neden yazılmaz. YouTube'da son klip tarihi okunamadığı için "durgun" hiç yazılamaz.
+
+### 3. Ölçüm planı (yalnızca plan; zamanlayıcı etkinleştirilmedi, A3)
+
+**Ölçüm maliyeti (ÖLÇTÜM, 2026-11-27 koşusundan):** 27 hesap-platform çifti (15 YT + 12 TT) = 15 + 24 = **39 HTTP isteği** (YT 1 istek/hesap; TT 2 istek/hesap: profil + embed), 22:31:25-22:31:53Z, yani **~30 saniye**, kredi 0. Hepsi HTTP 200 (CAPTCHA/giriş yok); TikTok embed'de ara sıra geçici 5xx görüldü (araç tek tekrar yapıyor, kuralı aşmıyor); Shaun TT embed HTTP 400 (aşılmadı); Instagram bu ortamda kapalı (403, ölçülmüyor).
+
+| Ölçüm | Amaç | Aralık / süre | Kim yapar | İstek sayısı | Platform engeli riski | Dosya |
+|---|---|---|---|---|---|---|
+| (a) Genel 14 günlük | Mevcut izleme listesinin (27 çift) zaman serisi: takipçi büyümesi, son klip tarihi, medyan değişimi; "büyüyor/çöküyor" için ilk gerçek veri | 14 günde bir (ilk koşu 2026-12-11; baz kesit 2026-11-27 hazır); 3 koşu = ~6 hafta | **Yalnızca betik** yeter: `python3 -I scripts/hesap_olc.py youtube …` + `tiktok …` (0 kredi, ~30-60 sn). Claude yalnızca yorumda gerekir | ~39/koşu | Düşük: düşük hacim, 0 engel gözlendi; engel olursa dur, "ölçülemedi" yaz | `istihbarat/olcumler/<UTC tarih>.json` (mevcut biçim) |
+| (b) Erken trend (küçük/hızlı büyüyen adaylar) | Aday hesabın takipçi hızı ve klip bazlı izlenme ivmesi | 48 saatte bir, 14 gün = 8 okuma (T0, +2g … +14g); bütçe sıkışırsa 3 günde bir = 5 okuma | Betik ölçer; **aday bulma ve kimlik doğrulama Claude ajanı ister** (WebSearch + bio okuma, A0, kredi 0) | 20 aday varsayımıyla ≈ 60/okuma (YT 20 + TT 40), 8 okuma ≈ 480 | Düşük-orta: sık aralık ama düşük hacim; TikTok embed'de aynı dakikada örnek değişkenliği (H9) → yorum payı | `istihbarat/olcumler/erken-trend/<aday-set>-<UTC>.json` (öneri) |
+
+- **Ham veri biçimi:** mevcut dosya `{olcum_basla_utc, youtube:[…], tiktok:[…]}`; hesap_olc.py çıktısı birleştirilerek yazılıyor. Bu birleştirmeyi yapan hazır bir komut **yok** (27 Kasım'da elle yapıldı); ölçüm planı onaylanınca ~20 satırlık bir sarmalayıcı (`scripts/olcum_toplu.py`) yazılmalı (şu an yazılmadı, kapsam dışı). Sorunlar: YT'de klip kimliği/tarihi saklanmıyor (yalnız izlenme listesi) → YT'de "aynı klibin 48 saatte kaç izlenme aldığı" izlenemez; hesap_olc.py YT çıktısına video kimliği eklenmeli (planlı iyileştirme). TikTok'ta klip kimliği var → aynı kimlikle iki okuma arasındaki izlenme farkı doğrudan klip hızıdır (en güvenilir erken trend göstergesi). Takipçi büyümesi için TT'de `takipci_tam` (tam sayı), YT'de yuvarlak abone (3 anlamlı hane; <1.000'de tam) kullanılır.
+- **Zamanlama gerçeği (zamanlayıcıyı etkinleştirmeden):** `vardiyalar/CONFIG.json` zamanlayıcı **pasif** (A3 onayı bekliyor); zamanlanmış görev bir Claude oturumu başlatır (günlük koşu sayacı: `gunluk_kosu_azami` 8), yani "yalnız betik" ölçüm bile bir oturum içinde çalışır; oturum betiği koşar, dosyayı yazar, ayrıca yorum yapmaz. Kredi 0, Claude kullanımı K-022'ye göre sınırsız; amaç gereksiz çalışma yaratmamak (Anayasa 21). Etkinleştirmek için Bora'nın iş bazında A3 onayı gerekir (kapsam: hangi liste, aralık, kaç koşu, durdurma).
+- **Küçük, hızlı büyüyen aday bulma (G-0051'deki "handle bulunamadı" sorunu için):**
+  1. **Handle'ı tahmin etme.** Yalnızca URL'den alınır: WebSearch sonucu `tiktok.com/@handle/video/…` içeriyorsa handle URL'dedir; YouTube'da `youtube.com/oembed?url=<video URL>` yanıtının `author_url` alanı kanal handle'ını verir (ÖLÇTÜM: Rick Astley test videosuyla çalıştı, HTTP 200; yalnız mekanizma testi, aday değil). **TikTok oEmbed bu ortamda yazar alanı döndürmedi** (aynı sorgu `author_unique_id` içermiyor), yani TT'de yalnız URL'deki handle kullanılır.
+  2. **Aday kaynakları (A0):** WebSearch (Reddit/X/Medium/blog'larda "küçük hesap, 1 videoda 1M" gibi paylaşımlar, link içeren), yorumlarda geçen hesaplar, **Bora/ChatGPT'nin verdiği handle listesi** (K-033: ChatGPT CCO; G-0051 sonuç maddesi 3'te zaten "Bora'dan aday listesi iste" denmişti), ölçülen büyük hesapların "bahsedilenler/remix yapanlar" kısmı. Bu aşamadaki sayılar OKUDUM-ÖZET'tir; yalnızca doğrudan ölçüm veriye girer.
+  3. **Giriş kapısı (keyfi eşik, önceden yaz, sonra duyarlılık bak):** ilk ölçümde takipçi ≤50.000, n≥8 klip, son klip ≤30 gün, medyan/takipçi ≥0,1 (sabitlenmişsiz). Büyüme ancak ikinci okumadan sonra söylenir: ≥2 okuma arası takipçi artışı ve aynı klip kimliğinde izlenme artışı; **hiçbir hesaba tek kesitle "büyüyor" yazılmaz** (G-0048 durum kuralı).
+  4. **Başarısız karşı örnek:** her aday setine aynı kapıdan geçemeyen ya da ilk 2 okumada düşen hesaplar da yazılır (hayatta kalma yanlılığı; kural 3). Adayların basında çıkması bir yanlılık kaynağıdır, her sette kaynak türü (basın / sosyal / Bora listesi) hesap başına kaydedilmeli (bu ekin 1. maddesindeki eksik).
+  5. Beklenen sınır: handle verilmezse "aday yok" yazılır (defter G-0048). Küçük hesap sayısı n<5 kalırsa sonuç "ipucu"dur, "kanıt" değil.
+- **Bekçi doğrulaması için:** `python3 -I scripts/duyarlilik_analizi.py istihbarat/olcumler/2026-11-27.json g0048` çıktısı yukarıdaki izgara ve Spearman değerlerini üretir; rastgele 3 hesap `hesap_olc.py` ile yeniden ölçülebilir (±%5 kuralı).
+
+### BORA'YA SORU (tek cümle)
+Ölçüm planındaki 14 günlük ve 48 saatlik koşular için zamanlayıcıyı (A3) hangi aralık ve kaç koşuyla açmamı istersin, yoksa elle mi koşturayım?
+
+### Araştırma kısıtları (bu ek)
+- G-0048/G-0051 ham dosyaları yok (yalnız 22:31 kesiti); duyarlılık tablosunun "tam" sütunları 4 hesap için rapor tablosu değerine dayanır.
+- tiktok.com/creator-academy, support.tiktok.com (JS kabuğu), newsroom.tiktok.com (proxy 403) okunamadı; takipçi-faktörü ve 90 gün iddiaları yalnız arama özeti.
+- Videolar izlenmedi; YT'de klip tarihi/kimliği yok; TT embed örneği ≤13 klip, okumalar arası kararsız; takipçi dışı etkileşim ve gelir bilinmiyor (gelir hesaplanmadı); Instagram ölçülmedi.
+
+SKILL: pazar-istihbarati-olcum v1
