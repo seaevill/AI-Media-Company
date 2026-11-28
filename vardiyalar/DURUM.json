@@ -1424,7 +1424,7 @@
    "ilgili_dosyalar": [
     "denetim/viu/gemini-yeterlilik/"
    ],
-   "sonraki_guvenli_adim": "Bora: ses iddialarını doğrula; anahtarı yenile ve ortam değişkenine koy; sonra yüksek fps + bilinmeyen video testi",
+   "sonraki_guvenli_adim": "Test 2 (10 kare/sn kırpılmış aralık) kota dolduğu için çalışmadı; kota sıfırlanınca tekrar",
    "id": "G-0052",
    "oncelik": "P0",
    "departman": "chief-of-staff",
@@ -1466,7 +1466,7 @@
    "bagimliliklar": [],
    "gercek_maliyet": null,
    "deneme": 0,
-   "en_erken": null,
+   "en_erken": "2026-11-29T08:00:00Z",
    "ilgili_pr": null,
    "bekci_karari": null,
    "son_calisma": null,
@@ -1476,13 +1476,13 @@
    "onay_kaynagi": "Bora K-033",
    "azami_maliyet": "0 kredi",
    "ilgili_dosyalar": [],
-   "sonraki_guvenli_adim": "G-0052",
+   "sonraki_guvenli_adim": "Ücretsiz katman günlük sınırı doldu (ÖLÇTÜM 2026-11-28 ~15:40Z: 3.5/3.6/3.7/3.8-flash ve 3.1-pro 429; yalnız 3.5-flash-lite açık). 1/30 analiz bitti. Kota sıfırlanınca aynı modelle (gemini-3.5-flash) günde ~10–15 video; döngü: scripts/gemini_video.py, önbellek tekrar analiz etmez. Ücretli katman Bora onayı ister (A2).",
    "id": "G-0054",
    "oncelik": "P2",
    "departman": "pazar-istihbarati",
    "sorumlu_ajan": "pazar-istihbarati",
    "baslik": "30 videoluk tersine mühendislik pilotu (Gemini'ye bağlı)",
-   "durum": "queued",
+   "durum": "blocked",
    "beklenen_cikti": "",
    "basari_kriteri": ""
   },

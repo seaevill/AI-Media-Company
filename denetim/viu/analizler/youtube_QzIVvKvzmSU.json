@@ -1,0 +1,103 @@
+{
+ "kaynak": {
+  "url_veya_dosya": "https://www.youtube.com/shorts/QzIVvKvzmSU"
+ },
+ "analiz": {
+  "arac": "gemini_video.py",
+  "model": "gemini-3.5-flash",
+  "tarih": "2026-11-28T15:26:33+00:00",
+  "onbellek_anahtari": "youtube:QzIVvKvzmSU"
+ },
+ "kanca": {
+  "ilk_kare_aciklama": "Şişe üzerindeki tahtada çivilerin yanında dengede duran Fransız bulldog.",
+  "ilk_2sn_olay": "Köpek tek patisini kaldırıp dengede durmaya çalışır.",
+  "metin_var_mi": false,
+  "mekanizma": "absürt görüntü"
+ },
+ "kesmeler": {
+  "liste": [],
+  "kesme_sayisi": 0,
+  "ort_cekim_suresi_sn": 5.0
+ },
+ "sure": {
+  "sure_sn": 5.0,
+  "bolumler": {
+   "kurulum": "Köpek çivili tuzağın arkasındaki denge tahtasında durur.",
+   "gelisme": "Patilerini oynatarak dengesini sabitler.",
+   "surpriz": "Tehlikeli düzeneğe rağmen düşmeden kalır.",
+   "tepki": "İzleyicide gerilim ve şaşkınlık oluşur."
+  }
+ },
+ "ses": {
+  "konusma_var_mi": false,
+  "dil": "yok",
+  "transkript_ozeti": "Konuşma yok, nefes ve hafif gıcırtı sesleri var.",
+  "ses_efektleri": [
+   {
+    "t": 0.5,
+    "ne": "Denge tahtası sallantı sesi"
+   }
+  ],
+  "muzik": "yok"
+ },
+ "karakterler": [
+  {
+   "tanim": "Açık kahverengi Fransız bulldog.",
+   "imza_davranis": "Tek patisini havada tutarak odaklanmak.",
+   "ifade_anlari": [
+    1.5,
+    3.0
+   ]
+  }
+ ],
+ "mizah": {
+  "tur": "Gerilim odaklı absürt durum",
+  "an": 2.0
+ },
+ "surpriz": {
+  "t": 4.0,
+  "ne": "Köpeğin dengesini kaybetmeden durabilmesi.",
+  "kurulumla_baglanti": "Çivilerin yarattığı tehlikeye rağmen olaysız bitmesi."
+ },
+ "paylasim_hipotezi": [
+  {
+   "motivasyon": "Şaşırtıcı ve gerilimli anı arkadaşlarıyla paylaşma.",
+   "dayanak_gozlem": "Köpeğin çivilerin yanında şişe üstünde durması.",
+   "guven": "yüksek"
+  }
+ ],
+ "yorum_hipotezi": "İzleyiciler güvenlik endişesi veya yeteneğe duyulan şaşkınlığı yorumlarda dile getirir.",
+ "uretim_tahmini": {
+  "tur": "gerçek",
+  "olasi_arac": "Akıllı telefon",
+  "cekim_sayisi": 1,
+  "tahmini_kredi_araligi": "0"
+ },
+ "prensipler": [
+  "Yüksek gerilim algısıyla izleme süresini artırma.",
+  "Sıradışı odaklanma becerisini tek çekimde sunma."
+ ],
+ "bizim_icin_fikirler": [
+  {
+   "prensip": "Yüksek gerilim algısıyla izleme süresini artırma.",
+   "ozgun_fikir": "Bir robot kolun kırılabilir yumurtayı engel dolu parkurda taşıması."
+  }
+ ],
+ "_kullanim": {
+  "promptTokenCount": 574,
+  "candidatesTokenCount": 614,
+  "totalTokenCount": 2402,
+  "promptTokensDetails": [
+   {
+    "modality": "VIDEO",
+    "tokenCount": 440
+   },
+   {
+    "modality": "TEXT",
+    "tokenCount": 134
+   }
+  ],
+  "thoughtsTokenCount": 1214,
+  "serviceTier": "standard"
+ }
+}

@@ -1,4 +1,12 @@
 {
   "_aciklama": "VIU analiz önbelleği (K-028 Görev 4). Anahtar: platform:video_kimligi veya sha256:<dosya özeti>. Kayıt varsa aynı video yeniden analiz edilmez. Ayrıntı denetim/viu/analizler/<anahtar>.json",
-  "analizler": []
+  "analizler": [
+    {
+      "anahtar": "youtube:QzIVvKvzmSU",
+      "kaynak": "https://www.youtube.com/shorts/QzIVvKvzmSU",
+      "model": "gemini-3.5-flash",
+      "tarih": "2026-11-28T15:26:33+00:00",
+      "dosya": "denetim/viu/analizler/youtube_QzIVvKvzmSU.json"
+    }
+  ]
 }
