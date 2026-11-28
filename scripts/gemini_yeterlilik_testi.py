@@ -33,7 +33,7 @@ def analiz(part,ad,deneme=0):
     d=json.loads(r); txt=d["candidates"][0]["content"]["parts"][0]["text"]; u=d.get("usageMetadata",{})
     json.dump({"ad":ad,"model":M,"sure_istek_sn":round(time.time()-t,1),"usage":u,"cevap":json.loads(txt)},open(f"{OUT}/{ad}.json","w"),ensure_ascii=False,indent=1)
     print(ad,"ok",u.get("totalTokenCount"))
-V="/tmp/claude-0/-home-user-ai-media-company/536480cd-f5c6-5eb3-b02e-ff88b5f92968/scratchpad/medya/"
+V=os.environ.get("VIDEO_KLASOR","").rstrip("/")+"/"  # yerel MP4 klasörü (medya repoya girmez)
 import os.path
 for ad in ("kapiA","flash","tikirti","hailuo"):
     if os.path.exists(f"{OUT}/yerel_{ad}.json"): continue
