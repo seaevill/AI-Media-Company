@@ -21,6 +21,11 @@
    "test": "alt ajan Higgsfield üretim araçları",
    "sonuc": "yok (yalnız salt-okunur Higgsfield_AI kaldı)",
    "durum": "ENGELLENDİ"
+  },
+  {
+   "test": "2026-11-28 ElevenLabs (yeni bağlantı, ücretli üretim) deny eklendi, Bora onayı 'ekle'",
+   "sonuc": "araçlar oturumdan kaldırıldı; ToolSearch eşleşme yok",
+   "durum": "ENGELLENDİ"
   }
  ],
  "acik_kalanlar": [
