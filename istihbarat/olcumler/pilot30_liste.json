@@ -1,0 +1,2348 @@
+{
+ "meta": {
+  "gorev": "G-0054 hazırlık (K-033 madde 3)",
+  "platform": "YouTube Shorts",
+  "sinif_kurali": "kanal medyanı = kanalın /shorts sayfasında görünen son klip izlenmelerinin medyanı (n kanal_medyan_n; en çok 48); başarılı oran>=3; ortalama 0,5<=oran<=2; başarısız oran<=0,3. Seçim: sınıf başına rastgele (tohum 20261128), kanal başına en çok 4, kanal sayısı 9.",
+  "olcum_araci": "python3 -I scripts/hesap_olc.py (youtube_shorts_ayikla) — izlenme metni sayfada yuvarlanmış (örn. \"54 thousand views\"), gerçek değer değil",
+  "sinirlar": [
+   "izlenme değerleri YouTube sayfasında 2-3 anlamlı basamağa yuvarlanmış; oran ±%5 belirsiz",
+   "tek ölçüm: \"hızlı büyüyen\" ölçülmedi (büyüme için en az 2 ölçüm gerekir); küçük = abone <=100K",
+   "kanal medyanı klibin kendisini de içerir (yanlılık küçük)",
+   "klip yaşı/tarihi okunmadı: eski ve yeni klipler aynı medyanda",
+   "AI üretimi çoğunlukla kanal beyanına dayanır, doğrulanmadı",
+   "HasanAi202 başarısız klipleri POV başlıklı olanlardan seçildi (kanalda POV dışı bunker timelapse klipleri de var)"
+  ],
+  "dislanan_kanallar": {
+   "veopunchlines": "başlıklarda gerçek kişiler (Trump, Steve Irwin, Diddy)",
+   "lore-alive": "açıklama \"people\" parodisi, başlıkta Mike Ditka (gerçek kişi)",
+   "SlopVerse1": "gerçek şarkıcılar (Michael Jackson, 2Pac...)",
+   "grannyspills": "başlıklarda gerçek sporcular (Haaland, Messi)",
+   "Artificialidiots1": "baby politicians (arama özeti, OKUDUM-ÖZET); gerçek siyasetçi şüphesi, doğrulanmadı",
+   "zero_qq-s4k": "restoran reklamı, listedeki kategorilerden değil",
+   "meowtakeover": "kullanılmadı: YT hesabı TikTok ile aynı kişi olmayabilir (G-0048 dersi); gerekirse yedek"
+  },
+  "kanallar": {
+   "HippieComedian": {
+    "abone_metni": "782 subscribers",
+    "medyan": 11000.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:21+00:00",
+    "url": "https://www.youtube.com/@HippieComedian/shorts",
+    "klipler": [
+     {
+      "videoId": "BeeypxHNgsY",
+      "izlenme": 4300
+     },
+     {
+      "videoId": "4gBLobjF7A0",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "UxMojCaoxkw",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "6KBwVLNyys8",
+      "izlenme": 19000
+     },
+     {
+      "videoId": "N5sqC2gsSnc",
+      "izlenme": 3300
+     },
+     {
+      "videoId": "t-f2ZavNg4Y",
+      "izlenme": 33000
+     },
+     {
+      "videoId": "mrGoDrFiMEA",
+      "izlenme": 891
+     },
+     {
+      "videoId": "NR7cop8B1-M",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "5HV29yQnZp8",
+      "izlenme": 141
+     },
+     {
+      "videoId": "XEBdZRQQHqQ",
+      "izlenme": 1400
+     },
+     {
+      "videoId": "wXKRA30dTBg",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "FASTYUk7av8",
+      "izlenme": 287
+     },
+     {
+      "videoId": "k_X99CePyFY",
+      "izlenme": 18000
+     },
+     {
+      "videoId": "c32lJqhBzsw",
+      "izlenme": 20000
+     },
+     {
+      "videoId": "NtW8zyFO3Fs",
+      "izlenme": 1400
+     },
+     {
+      "videoId": "nb3om6QdnIw",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "oGoys4VEVkU",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "hBlNz7qrDIc",
+      "izlenme": 3400
+     },
+     {
+      "videoId": "8PN51X_9ho0",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "GbwdydQtzWM",
+      "izlenme": 30000
+     },
+     {
+      "videoId": "tV20hwrg2DA",
+      "izlenme": 22000
+     },
+     {
+      "videoId": "DeUU6F8tGWw",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "jeo4TjFg5z0",
+      "izlenme": 32000
+     },
+     {
+      "videoId": "Ra01M-g5KxA",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "jhBU2j_idmc",
+      "izlenme": 23000
+     },
+     {
+      "videoId": "GWyGd5S-ODY",
+      "izlenme": 576
+     },
+     {
+      "videoId": "I-_hhcx9Y8U",
+      "izlenme": 2300
+     },
+     {
+      "videoId": "WmloOWuZnFs",
+      "izlenme": 7400
+     },
+     {
+      "videoId": "LBvVfyMzIgM",
+      "izlenme": 10000
+     },
+     {
+      "videoId": "ts8vaKJgKxg",
+      "izlenme": 7700
+     },
+     {
+      "videoId": "BTN74KZXgNY",
+      "izlenme": 15000
+     },
+     {
+      "videoId": "4vON1HgjnOM",
+      "izlenme": 16000
+     },
+     {
+      "videoId": "tkaFQ1XOktY",
+      "izlenme": 35000
+     },
+     {
+      "videoId": "7aV69Ys1qP4",
+      "izlenme": 4200
+     },
+     {
+      "videoId": "CFTLje2hozQ",
+      "izlenme": 13000
+     },
+     {
+      "videoId": "lHw9rfI19no",
+      "izlenme": 15000
+     },
+     {
+      "videoId": "CSoj75hH1yM",
+      "izlenme": 11000
+     },
+     {
+      "videoId": "41232MmMW0g",
+      "izlenme": 12000
+     },
+     {
+      "videoId": "1-4QBBA31t4",
+      "izlenme": 40000
+     },
+     {
+      "videoId": "4QhDS0rLrCw",
+      "izlenme": 36000
+     },
+     {
+      "videoId": "nkVsFDWzNW4",
+      "izlenme": 21000
+     },
+     {
+      "videoId": "54KlXuXuvsI",
+      "izlenme": 16000
+     },
+     {
+      "videoId": "3Jn9jpC63bo",
+      "izlenme": 5800
+     },
+     {
+      "videoId": "BN7H2DpMz2s",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "f0jg_P3f6wk",
+      "izlenme": 502
+     },
+     {
+      "videoId": "aU-M1zNv6ls",
+      "izlenme": 2800
+     },
+     {
+      "videoId": "hT0yfw0ekSA",
+      "izlenme": 11000
+     },
+     {
+      "videoId": "MPmZeA8Btfo",
+      "izlenme": 1400
+     }
+    ]
+   },
+   "basincreekretirement": {
+    "abone_metni": "5.6K subscribers",
+    "medyan": 1450.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:21+00:00",
+    "url": "https://www.youtube.com/@basincreekretirement/shorts",
+    "klipler": [
+     {
+      "videoId": "U6gEa7YnLd0",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "pdvJJ-cveWM",
+      "izlenme": 1400
+     },
+     {
+      "videoId": "Ch-PjGjbcbc",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "R0aRlmAQVhw",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "QGojO_T30jU",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "g0v24em_-D8",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "-Qqc7yI5k4k",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "BRA5khBaYFc",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "oBEcqEwXuvU",
+      "izlenme": 1500
+     },
+     {
+      "videoId": "R_vV5UGNgUs",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "qTzlbbB3F0s",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "BRbGYpOkSqk",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "PF-AEz5AArE",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "tQ7bhJ3Zsjs",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "u7xrNQ1nob8",
+      "izlenme": 2000
+     },
+     {
+      "videoId": "m35GZ2gjEwE",
+      "izlenme": 925
+     },
+     {
+      "videoId": "IZF7129Ay-w",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "APbLo_k_nGs",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "3FC_5KW2U2c",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "KaG46zFcaVg",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "eLHc_4goV4k",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "16l1GMOnzi4",
+      "izlenme": 1200
+     },
+     {
+      "videoId": "YzaeO6HLA4Y",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "8CNg_ajkx3E",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "KINjkilNL7Q",
+      "izlenme": 144
+     },
+     {
+      "videoId": "_zJd3vCb14g",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "WfFWi5ICwYo",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "UtGWX5LbmbI",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "FnglLSer1Sg",
+      "izlenme": 3000
+     },
+     {
+      "videoId": "zxVcr0Ce92k",
+      "izlenme": 5400
+     },
+     {
+      "videoId": "fud9Xued9vY",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "lX2Jj8E_TTA",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "mCXZ0TLlxRs",
+      "izlenme": 3700
+     },
+     {
+      "videoId": "T901KqZwwkY",
+      "izlenme": 2000
+     },
+     {
+      "videoId": "8ZFMhUi0QY8",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "GEBLNMrI2e0",
+      "izlenme": 5800
+     },
+     {
+      "videoId": "dF52uHhVLFs",
+      "izlenme": 2500
+     },
+     {
+      "videoId": "kC8JjYA9JU8",
+      "izlenme": 4000
+     },
+     {
+      "videoId": "rtUQ9-zA3eY",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "j_KiRwyyyQE",
+      "izlenme": 6600
+     },
+     {
+      "videoId": "3Wll0eAdlMA",
+      "izlenme": 3400
+     },
+     {
+      "videoId": "C8maWT-sKfw",
+      "izlenme": 23000
+     },
+     {
+      "videoId": "MgqYskr4gFQ",
+      "izlenme": 4700
+     },
+     {
+      "videoId": "mHlPD20Omoo",
+      "izlenme": 21000
+     },
+     {
+      "videoId": "8DKgUG8ayRo",
+      "izlenme": 178
+     },
+     {
+      "videoId": "bvc0rH3LCZs",
+      "izlenme": 28000
+     },
+     {
+      "videoId": "JoLJRXXrzow",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "XUbJaCdblrw",
+      "izlenme": 1400
+     }
+    ]
+   },
+   "funnyfakecommercials": {
+    "abone_metni": "130 subscribers",
+    "medyan": 523.5,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:21+00:00",
+    "url": "https://www.youtube.com/@funnyfakecommercials/shorts",
+    "klipler": [
+     {
+      "videoId": "XQQRHdp9t1Y",
+      "izlenme": 1200
+     },
+     {
+      "videoId": "7riDfo7Hi4o",
+      "izlenme": 883
+     },
+     {
+      "videoId": "hTEREj2E0bo",
+      "izlenme": 281
+     },
+     {
+      "videoId": "QQen3ppdrbM",
+      "izlenme": 229
+     },
+     {
+      "videoId": "8BX6JsAA9Ek",
+      "izlenme": 628
+     },
+     {
+      "videoId": "ZxJ-0Zt8ZiE",
+      "izlenme": 419
+     },
+     {
+      "videoId": "_M8Bu7VWJpc",
+      "izlenme": 273
+     },
+     {
+      "videoId": "Qx74s1iqGBY",
+      "izlenme": 137
+     },
+     {
+      "videoId": "XMNhaioP0ow",
+      "izlenme": 2300
+     },
+     {
+      "videoId": "Cuehyze7ITw",
+      "izlenme": 401
+     },
+     {
+      "videoId": "iUATrN1k-p0",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "6sL5Vhwm2mw",
+      "izlenme": 2000
+     },
+     {
+      "videoId": "DKONxUhUBgo",
+      "izlenme": 2000
+     },
+     {
+      "videoId": "UVQ7uRpCOsc",
+      "izlenme": 2000
+     },
+     {
+      "videoId": "TpDtYY6qbwg",
+      "izlenme": 153
+     },
+     {
+      "videoId": "CwPPbKg1gB0",
+      "izlenme": 158
+     },
+     {
+      "videoId": "eZ1Nue0RlAo",
+      "izlenme": 1200
+     },
+     {
+      "videoId": "l4twN5YAtzw",
+      "izlenme": 320
+     },
+     {
+      "videoId": "9KgFXAhrFGU",
+      "izlenme": 180
+     },
+     {
+      "videoId": "BiJRi_iEhfw",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "mw_dxTq78S8",
+      "izlenme": 410
+     },
+     {
+      "videoId": "TW7kk8zfpfA",
+      "izlenme": 97
+     },
+     {
+      "videoId": "-qvGmxALFms",
+      "izlenme": 549
+     },
+     {
+      "videoId": "DqN0MGRrfXM",
+      "izlenme": 297
+     },
+     {
+      "videoId": "MTfB4E617po",
+      "izlenme": 264
+     },
+     {
+      "videoId": "NhQTXLjliXo",
+      "izlenme": 435
+     },
+     {
+      "videoId": "bzDZCvGrAMA",
+      "izlenme": 421
+     },
+     {
+      "videoId": "eUjjTyNzI1c",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "PZWW6V5WD2U",
+      "izlenme": 56
+     },
+     {
+      "videoId": "X5x-fuWDJOQ",
+      "izlenme": 760
+     },
+     {
+      "videoId": "W1zi-cr2JQo",
+      "izlenme": 190
+     },
+     {
+      "videoId": "TSRXBqdV2ak",
+      "izlenme": 2200
+     },
+     {
+      "videoId": "mVGZGZJRMsA",
+      "izlenme": 178
+     },
+     {
+      "videoId": "92HWIQIa4X4",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "rn1FiUghTyI",
+      "izlenme": 427
+     },
+     {
+      "videoId": "fEn6Sum1iGc",
+      "izlenme": 415
+     },
+     {
+      "videoId": "MopsT3oXKKA",
+      "izlenme": 2200
+     },
+     {
+      "videoId": "W0aXdzlJXuU",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "BkI_JbWQDQw",
+      "izlenme": 1200
+     },
+     {
+      "videoId": "ZipI41LEy10",
+      "izlenme": 199
+     },
+     {
+      "videoId": "yrYdNyLXxNI",
+      "izlenme": 498
+     },
+     {
+      "videoId": "PILvMV4SqHw",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "s1TlJxt9bko",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "1JuIppPMDOg",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "q6JeZlDEdBA",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "X3LCv5_JdFU",
+      "izlenme": 158
+     },
+     {
+      "videoId": "-U-S1pxOK9U",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "SsRKqw9TpHA",
+      "izlenme": 749
+     }
+    ]
+   },
+   "HasanAi202": {
+    "abone_metni": "11.9K subscribers",
+    "medyan": 5600.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:22+00:00",
+    "url": "https://www.youtube.com/@HasanAi202/shorts",
+    "klipler": [
+     {
+      "videoId": "SH9d5bSCGxM",
+      "izlenme": 73
+     },
+     {
+      "videoId": "DMsJa2JFcRA",
+      "izlenme": 57
+     },
+     {
+      "videoId": "upBxwAlqa_0",
+      "izlenme": 43
+     },
+     {
+      "videoId": "XbmVUygfnj4",
+      "izlenme": 96
+     },
+     {
+      "videoId": "WYD6YSDYBl0",
+      "izlenme": 269
+     },
+     {
+      "videoId": "kM3cvrrSLdg",
+      "izlenme": 427
+     },
+     {
+      "videoId": "mwu1sweH4II",
+      "izlenme": 590
+     },
+     {
+      "videoId": "ogou-MhNbCU",
+      "izlenme": 3600
+     },
+     {
+      "videoId": "70niKf3wbE4",
+      "izlenme": 579
+     },
+     {
+      "videoId": "Jex_llm_6Do",
+      "izlenme": 247
+     },
+     {
+      "videoId": "R4nBQvrz_8A",
+      "izlenme": 291
+     },
+     {
+      "videoId": "56HMHKGSpew",
+      "izlenme": 252
+     },
+     {
+      "videoId": "2L3GMSeaZr4",
+      "izlenme": 187
+     },
+     {
+      "videoId": "HVLXAk4Efkk",
+      "izlenme": 120
+     },
+     {
+      "videoId": "wolm0MqTXoE",
+      "izlenme": 260
+     },
+     {
+      "videoId": "ono0e1DQ_WU",
+      "izlenme": 307
+     },
+     {
+      "videoId": "ElFEbIe1MXg",
+      "izlenme": 208
+     },
+     {
+      "videoId": "DpnXXBjPC6A",
+      "izlenme": 517
+     },
+     {
+      "videoId": "-blpuGNxZQ4",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "w-OqYy1wrs0",
+      "izlenme": 3400
+     },
+     {
+      "videoId": "NDa-ZtTSBwU",
+      "izlenme": 37000
+     },
+     {
+      "videoId": "g6FCM8Vetv8",
+      "izlenme": 19000
+     },
+     {
+      "videoId": "bjOWzF5pw-E",
+      "izlenme": 4400
+     },
+     {
+      "videoId": "5nsS4YcXuD0",
+      "izlenme": 5100
+     },
+     {
+      "videoId": "Q5T0JWFhaTw",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "sNFl26RZ-pQ",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "lzuCb6x4zVY",
+      "izlenme": 4600
+     },
+     {
+      "videoId": "TDpCM9fAjBg",
+      "izlenme": 459000
+     },
+     {
+      "videoId": "Thv9vAYAxCI",
+      "izlenme": 26000
+     },
+     {
+      "videoId": "_Y2md1YU8xg",
+      "izlenme": 7800
+     },
+     {
+      "videoId": "9VZTTAzR3Go",
+      "izlenme": 15000
+     },
+     {
+      "videoId": "_4hAwax-yCk",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "sDSLamvssxY",
+      "izlenme": 13000
+     },
+     {
+      "videoId": "iEQ7K8gWn60",
+      "izlenme": 8000
+     },
+     {
+      "videoId": "nR_avnz-afs",
+      "izlenme": 124000
+     },
+     {
+      "videoId": "lkhMslbsRsA",
+      "izlenme": 7500
+     },
+     {
+      "videoId": "GRuoma9KpKw",
+      "izlenme": 7200
+     },
+     {
+      "videoId": "wM0ocB6CS2Q",
+      "izlenme": 7400
+     },
+     {
+      "videoId": "sDGpOTrNr6A",
+      "izlenme": 32000
+     },
+     {
+      "videoId": "hOXbIM_zj0Q",
+      "izlenme": 5800
+     },
+     {
+      "videoId": "ptX1rN9FRGw",
+      "izlenme": 72000
+     },
+     {
+      "videoId": "tXBLP1ny9Lk",
+      "izlenme": 31000
+     },
+     {
+      "videoId": "Z4ehbUXDwIY",
+      "izlenme": 719000
+     },
+     {
+      "videoId": "pCC56zQgeQ8",
+      "izlenme": 9200
+     },
+     {
+      "videoId": "pqyjsrNozw8",
+      "izlenme": 5400
+     },
+     {
+      "videoId": "3l2QM8JZ30k",
+      "izlenme": 7400
+     },
+     {
+      "videoId": "gUsWk80K4q4",
+      "izlenme": 52000
+     },
+     {
+      "videoId": "tRdg5RA9UWw",
+      "izlenme": 3800000
+     }
+    ]
+   },
+   "AiKittenverse": {
+    "abone_metni": "19.5K subscribers",
+    "medyan": 25000.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:22+00:00",
+    "url": "https://www.youtube.com/@AiKittenverse/shorts",
+    "klipler": [
+     {
+      "videoId": "q-TFGE3PaEI",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "FQ29vIukDTE",
+      "izlenme": 22000
+     },
+     {
+      "videoId": "Yt9ArxF2ESU",
+      "izlenme": 28000
+     },
+     {
+      "videoId": "2EXTKIS1VUI",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "tgtH3NvLnvM",
+      "izlenme": 23000
+     },
+     {
+      "videoId": "fXOzGTGIsms",
+      "izlenme": 96000
+     },
+     {
+      "videoId": "oFMnyWtcSbk",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "rSlbQgtT8JI",
+      "izlenme": 26000
+     },
+     {
+      "videoId": "eN9l5ySnlWA",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "14BJUBzDY4Q",
+      "izlenme": 9600
+     },
+     {
+      "videoId": "TBuk-nHHYr8",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "w-u9TgEuJ6s",
+      "izlenme": 28000
+     },
+     {
+      "videoId": "MWg0FU50FU0",
+      "izlenme": 6700
+     },
+     {
+      "videoId": "Jy6ByGG5z74",
+      "izlenme": 30000
+     },
+     {
+      "videoId": "ngzIjRZgFIY",
+      "izlenme": 31000
+     },
+     {
+      "videoId": "kTnC1S8TUoo",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "jjYvQQ1DRkk",
+      "izlenme": 19000
+     },
+     {
+      "videoId": "-6u1sdtQ6C8",
+      "izlenme": 30000
+     },
+     {
+      "videoId": "krOfF_kMLaQ",
+      "izlenme": 21000
+     },
+     {
+      "videoId": "KAP49k27cNI",
+      "izlenme": 6300
+     },
+     {
+      "videoId": "WE5rwcIuU2M",
+      "izlenme": 2600
+     },
+     {
+      "videoId": "xS7XCCw4SCg",
+      "izlenme": 26000
+     },
+     {
+      "videoId": "oI0hoBvXwxg",
+      "izlenme": 23000
+     },
+     {
+      "videoId": "IqxclLkNwso",
+      "izlenme": 22000
+     },
+     {
+      "videoId": "2YeT35Q5eRE",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "BH9Hs2YoEaQ",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "4w1nnGfyGbA",
+      "izlenme": 26000
+     },
+     {
+      "videoId": "xZQ-UueU2J4",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "7Hg2sSXnaGY",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "o5zAG3Vu3MA",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "0oDIwsNqwP4",
+      "izlenme": 32000
+     },
+     {
+      "videoId": "7pRvgvWQFv4",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "k9lSEuud0U4",
+      "izlenme": 3700
+     },
+     {
+      "videoId": "7__VDY0yNJw",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "9TMjXzvGb0U",
+      "izlenme": 2600
+     },
+     {
+      "videoId": "EA77bkeH1KM",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "deOKK0N42OU",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "RwTV2C1JNig",
+      "izlenme": 12000
+     },
+     {
+      "videoId": "bRaK67c8AB8",
+      "izlenme": 9000
+     },
+     {
+      "videoId": "IIwqEtLFVTs",
+      "izlenme": 31000
+     },
+     {
+      "videoId": "n0BsB14-jCs",
+      "izlenme": 36000
+     },
+     {
+      "videoId": "8vyV2L14ZIA",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "anmf3RYIccg",
+      "izlenme": 35000
+     },
+     {
+      "videoId": "ZC1IctcpDXY",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "FsvnkRzzEXA",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "WzqOIjizRpE",
+      "izlenme": 3200
+     },
+     {
+      "videoId": "oN8OYKgAtHI",
+      "izlenme": 7200
+     },
+     {
+      "videoId": "V-ydW18I1hQ",
+      "izlenme": 8800
+     }
+    ]
+   },
+   "ai.shxdda": {
+    "abone_metni": "39.2K subscribers",
+    "medyan": 9150.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:22+00:00",
+    "url": "https://www.youtube.com/@ai.shxdda/shorts",
+    "klipler": [
+     {
+      "videoId": "tcH9FWrqOvU",
+      "izlenme": 5300
+     },
+     {
+      "videoId": "O2uHeR_6ZsA",
+      "izlenme": 6200
+     },
+     {
+      "videoId": "otCxvPRt9WA",
+      "izlenme": 5900
+     },
+     {
+      "videoId": "9e0cqY5ymaw",
+      "izlenme": 9700
+     },
+     {
+      "videoId": "HYzWrw30qm8",
+      "izlenme": 4200
+     },
+     {
+      "videoId": "yCRogPm7DXg",
+      "izlenme": 5300
+     },
+     {
+      "videoId": "ugRzNMYzIWg",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "vAgxrPYao24",
+      "izlenme": 8600
+     },
+     {
+      "videoId": "k8e-r4SDZOk",
+      "izlenme": 6200
+     },
+     {
+      "videoId": "ds8aR3XmZxE",
+      "izlenme": 5100
+     },
+     {
+      "videoId": "Rw9b6oWSGfA",
+      "izlenme": 9400
+     },
+     {
+      "videoId": "z8MwOYx8rG8",
+      "izlenme": 3900
+     },
+     {
+      "videoId": "4auVLW0UVmw",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "G01_qzQwnlI",
+      "izlenme": 7600
+     },
+     {
+      "videoId": "om26i_HkVGk",
+      "izlenme": 20000
+     },
+     {
+      "videoId": "ik3KZAcNGGk",
+      "izlenme": 5100
+     },
+     {
+      "videoId": "Hm-McHD-TQ4",
+      "izlenme": 3000
+     },
+     {
+      "videoId": "BB4GdkcVWMY",
+      "izlenme": 25000
+     },
+     {
+      "videoId": "ARP4UTvr1Fw",
+      "izlenme": 5200
+     },
+     {
+      "videoId": "pzf3sjJc30s",
+      "izlenme": 11000
+     },
+     {
+      "videoId": "YMA4h4QhWzw",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "MeILvDgSakM",
+      "izlenme": 9300
+     },
+     {
+      "videoId": "ig1NIClAM88",
+      "izlenme": 7100
+     },
+     {
+      "videoId": "ZN6rKqF0RAk",
+      "izlenme": 11000
+     },
+     {
+      "videoId": "IWtDroIk7MY",
+      "izlenme": 10000
+     },
+     {
+      "videoId": "FxHLKHJ4Y4s",
+      "izlenme": 10000
+     },
+     {
+      "videoId": "PhckSl2v2OA",
+      "izlenme": 6400
+     },
+     {
+      "videoId": "Y9PbyrfQ-k4",
+      "izlenme": 44000
+     },
+     {
+      "videoId": "Aca4iS3m4hk",
+      "izlenme": 16000
+     },
+     {
+      "videoId": "sdNsXB62SLs",
+      "izlenme": 8800
+     },
+     {
+      "videoId": "TqG_02HpULA",
+      "izlenme": 13000
+     },
+     {
+      "videoId": "owpJtAxSnJI",
+      "izlenme": 6300
+     },
+     {
+      "videoId": "P6lGlXAmt04",
+      "izlenme": 7100
+     },
+     {
+      "videoId": "pWNC7sR7qw4",
+      "izlenme": 8200
+     },
+     {
+      "videoId": "2p5mTWcQH-I",
+      "izlenme": 8600
+     },
+     {
+      "videoId": "SVKE1rvG5ho",
+      "izlenme": 9100
+     },
+     {
+      "videoId": "RtdA53QwRJ8",
+      "izlenme": 16000
+     },
+     {
+      "videoId": "rRJdvOBQS7Y",
+      "izlenme": 8100
+     },
+     {
+      "videoId": "aU5k3rauYUM",
+      "izlenme": 7200
+     },
+     {
+      "videoId": "MRH-lGWVCG0",
+      "izlenme": 10000
+     },
+     {
+      "videoId": "GxxKrcK-Z-E",
+      "izlenme": 20000
+     },
+     {
+      "videoId": "BfoPOXUzyVQ",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "4g2V4A6--AI",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "fMz7QGYdEiY",
+      "izlenme": 8500
+     },
+     {
+      "videoId": "egqmNbVV9Gs",
+      "izlenme": 9200
+     },
+     {
+      "videoId": "8hPJdxWulmA",
+      "izlenme": 30000
+     },
+     {
+      "videoId": "2JxPv8Fw3wM",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "7xwGXB-z_U4",
+      "izlenme": 30000
+     }
+    ]
+   },
+   "SnackTalesAnimated": {
+    "abone_metni": "2.2K subscribers",
+    "medyan": 1650.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:23+00:00",
+    "url": "https://www.youtube.com/@SnackTalesAnimated/shorts",
+    "klipler": [
+     {
+      "videoId": "q8hFx_6Qzec",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "WFgDQC2NuAk",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "47hPU8QCAws",
+      "izlenme": 40000
+     },
+     {
+      "videoId": "PT1oabC9cEY",
+      "izlenme": 710000
+     },
+     {
+      "videoId": "6ywKnuypoQE",
+      "izlenme": 133000
+     },
+     {
+      "videoId": "r0ZscedYQ1w",
+      "izlenme": 11000
+     },
+     {
+      "videoId": "EZHMXB0lnoQ",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "V5heSjoVDGc",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "A5OnQQiIlKY",
+      "izlenme": 3500
+     },
+     {
+      "videoId": "dKUbK0Pkd_U",
+      "izlenme": 35000
+     },
+     {
+      "videoId": "AHEmiV4uJf8",
+      "izlenme": 664
+     },
+     {
+      "videoId": "VLLImV93h04",
+      "izlenme": 28000
+     },
+     {
+      "videoId": "uOjUHR-ig4I",
+      "izlenme": 4200
+     },
+     {
+      "videoId": "ZOjz48Ava48",
+      "izlenme": 134000
+     },
+     {
+      "videoId": "_HZXZch-9rU",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "pZ3iiV9gctc",
+      "izlenme": 3900
+     },
+     {
+      "videoId": "Ov_L5ap6sjM",
+      "izlenme": 20000
+     },
+     {
+      "videoId": "-EZUOLcltYE",
+      "izlenme": 36000
+     },
+     {
+      "videoId": "PklzpeJQCKM",
+      "izlenme": 507
+     },
+     {
+      "videoId": "V9w2bXuxxxw",
+      "izlenme": 395
+     },
+     {
+      "videoId": "fAEmb7tArQc",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "qro1Y0eauU8",
+      "izlenme": 1500
+     },
+     {
+      "videoId": "4ae4VZj_e5k",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "VyNCLRV9Kpk",
+      "izlenme": 2400
+     },
+     {
+      "videoId": "00l-o_jqRpo",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "VgqM4T6Q4LI",
+      "izlenme": 18000
+     },
+     {
+      "videoId": "1Y1mMULQuok",
+      "izlenme": 8900
+     },
+     {
+      "videoId": "JukVcgLrOek",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "7S56VUft7I0",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "tFtZpHYq2MY",
+      "izlenme": 2200
+     },
+     {
+      "videoId": "WFsTD8s2Sbw",
+      "izlenme": 175
+     },
+     {
+      "videoId": "qUPx9UqaaQA",
+      "izlenme": 263
+     },
+     {
+      "videoId": "8p6jBCZAi94",
+      "izlenme": 247
+     },
+     {
+      "videoId": "DRAPxvzUWps",
+      "izlenme": 764
+     },
+     {
+      "videoId": "XRiH5VFwAd0",
+      "izlenme": 336
+     },
+     {
+      "videoId": "N1qxo4JWZV4",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "EhzC1VG7OrE",
+      "izlenme": 174
+     },
+     {
+      "videoId": "I8l0QiRI6w4",
+      "izlenme": 695
+     },
+     {
+      "videoId": "2xQBXghGJKk",
+      "izlenme": 246
+     },
+     {
+      "videoId": "_F6TGzrMhko",
+      "izlenme": 139
+     },
+     {
+      "videoId": "3Fe3gQ_7oWU",
+      "izlenme": 102
+     },
+     {
+      "videoId": "YZ4Hg9gZJQY",
+      "izlenme": 98
+     },
+     {
+      "videoId": "ah5sFfFWAxg",
+      "izlenme": 170
+     },
+     {
+      "videoId": "0RZCh-ciM4w",
+      "izlenme": 129
+     },
+     {
+      "videoId": "CdJfX-UpeyM",
+      "izlenme": 182
+     },
+     {
+      "videoId": "amZD9C3CTk4",
+      "izlenme": 98
+     },
+     {
+      "videoId": "kJOk_3zy5Z0",
+      "izlenme": 1500
+     },
+     {
+      "videoId": "2aWhHbtwD9A",
+      "izlenme": 99
+     }
+    ]
+   },
+   "AIworldstories-k6h": {
+    "abone_metni": "5.9K subscribers",
+    "medyan": 645.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:24+00:00",
+    "url": "https://www.youtube.com/@AIworldstories-k6h/shorts",
+    "klipler": [
+     {
+      "videoId": "ADyCtwVVGSc",
+      "izlenme": 85
+     },
+     {
+      "videoId": "IaIp_hEF3PM",
+      "izlenme": 149
+     },
+     {
+      "videoId": "paqvAx8FHa4",
+      "izlenme": 210
+     },
+     {
+      "videoId": "a8xl07Y1-Kk",
+      "izlenme": 217
+     },
+     {
+      "videoId": "GC3v4nmu30A",
+      "izlenme": 113
+     },
+     {
+      "videoId": "CtJG216Dams",
+      "izlenme": 147
+     },
+     {
+      "videoId": "f9jJ91vLCj4",
+      "izlenme": 199
+     },
+     {
+      "videoId": "RXWflbbzFv0",
+      "izlenme": 167
+     },
+     {
+      "videoId": "q7dDLZs40QI",
+      "izlenme": 119
+     },
+     {
+      "videoId": "plo9KgVH7-8",
+      "izlenme": 263
+     },
+     {
+      "videoId": "eyk_Rr4scfg",
+      "izlenme": 202
+     },
+     {
+      "videoId": "ADto8FCRIj0",
+      "izlenme": 236
+     },
+     {
+      "videoId": "8MCArjPWPtk",
+      "izlenme": 1000
+     },
+     {
+      "videoId": "eOFl6-Qr0GM",
+      "izlenme": 203
+     },
+     {
+      "videoId": "Uuon_EfMOLs",
+      "izlenme": 193
+     },
+     {
+      "videoId": "Lh5etcRGn0A",
+      "izlenme": 229
+     },
+     {
+      "videoId": "w2LA4LIYzRA",
+      "izlenme": 206
+     },
+     {
+      "videoId": "6kVvSyAtH7M",
+      "izlenme": 200
+     },
+     {
+      "videoId": "blQwWLRLNUw",
+      "izlenme": 302
+     },
+     {
+      "videoId": "TCNpwIy65Qg",
+      "izlenme": 222
+     },
+     {
+      "videoId": "NsN0lheNedQ",
+      "izlenme": 197
+     },
+     {
+      "videoId": "vqEoEAO55U8",
+      "izlenme": 337
+     },
+     {
+      "videoId": "Zvr0Az9RWW8",
+      "izlenme": 969
+     },
+     {
+      "videoId": "__FLNJwOk6o",
+      "izlenme": 1100
+     },
+     {
+      "videoId": "7LD2Adb7stg",
+      "izlenme": 440
+     },
+     {
+      "videoId": "R65d0TeWYYY",
+      "izlenme": 485
+     },
+     {
+      "videoId": "E5vilDPFYe8",
+      "izlenme": 805
+     },
+     {
+      "videoId": "I8dyB-xZM6Q",
+      "izlenme": 226
+     },
+     {
+      "videoId": "svSD5bsjSUQ",
+      "izlenme": 3500
+     },
+     {
+      "videoId": "YhmSkH5Sb9M",
+      "izlenme": 15000
+     },
+     {
+      "videoId": "MeioDur7k6w",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "moYJXeOdoEE",
+      "izlenme": 4500
+     },
+     {
+      "videoId": "kQVri7_9x-s",
+      "izlenme": 24000
+     },
+     {
+      "videoId": "7VP0RiWWc0M",
+      "izlenme": 138000
+     },
+     {
+      "videoId": "sZHT4rXBpoA",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "ALJpANANc8U",
+      "izlenme": 188000
+     },
+     {
+      "videoId": "Ax5TyplnUQ0",
+      "izlenme": 224000
+     },
+     {
+      "videoId": "QTLlUlFc3kc",
+      "izlenme": 491000
+     },
+     {
+      "videoId": "mp_JIp6lB4k",
+      "izlenme": 28000
+     },
+     {
+      "videoId": "fWobBDj_U0w",
+      "izlenme": 9200
+     },
+     {
+      "videoId": "CN_OfrBgQoc",
+      "izlenme": 170000
+     },
+     {
+      "videoId": "Zo5YYxB8Y2U",
+      "izlenme": 85000
+     },
+     {
+      "videoId": "YLHGGAl5mhU",
+      "izlenme": 35000
+     },
+     {
+      "videoId": "7JMeKL6_9uU",
+      "izlenme": 355000
+     },
+     {
+      "videoId": "60fjZPDc7fs",
+      "izlenme": 5800
+     },
+     {
+      "videoId": "WOqCgbbohRk",
+      "izlenme": 5000
+     },
+     {
+      "videoId": "pA5Hn9jmjtQ",
+      "izlenme": 4100
+     },
+     {
+      "videoId": "Hh6EBVjI0tU",
+      "izlenme": 14000
+     }
+    ]
+   },
+   "AIDOGTV-sk": {
+    "abone_metni": "25.2K subscribers",
+    "medyan": 2400.0,
+    "n": 48,
+    "olcum_utc": "2026-11-28T15:16:24+00:00",
+    "url": "https://www.youtube.com/@AIDOGTV-sk/shorts",
+    "klipler": [
+     {
+      "videoId": "SeZygz1xksY",
+      "izlenme": 672
+     },
+     {
+      "videoId": "B4l2mF3f_A0",
+      "izlenme": 423
+     },
+     {
+      "videoId": "HzGRugxpZDM",
+      "izlenme": 358
+     },
+     {
+      "videoId": "-XF-MWgnIk0",
+      "izlenme": 401
+     },
+     {
+      "videoId": "wsCEMV-rEmw",
+      "izlenme": 422
+     },
+     {
+      "videoId": "MbmGeduVxdE",
+      "izlenme": 456
+     },
+     {
+      "videoId": "0-S1muqNWOc",
+      "izlenme": 335
+     },
+     {
+      "videoId": "4VOwPwseihA",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "MzzbDT7nbbk",
+      "izlenme": 1400
+     },
+     {
+      "videoId": "LLkIOwf8doc",
+      "izlenme": 1400
+     },
+     {
+      "videoId": "5CE_cnDHtQc",
+      "izlenme": 2400
+     },
+     {
+      "videoId": "oh664QWi9SM",
+      "izlenme": 6200
+     },
+     {
+      "videoId": "896JnwawgqU",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "B6IGh6UsbsE",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "-U8rfcpTUBs",
+      "izlenme": 43000
+     },
+     {
+      "videoId": "mZdLwymiATY",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "WYFKR2RRz7M",
+      "izlenme": 758
+     },
+     {
+      "videoId": "H37Pgb3IoNY",
+      "izlenme": 1300
+     },
+     {
+      "videoId": "HYK5_H1P-RA",
+      "izlenme": 2800
+     },
+     {
+      "videoId": "QKumStNhSSk",
+      "izlenme": 7700
+     },
+     {
+      "videoId": "3jKHIcc1P0s",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "l546U56eIe8",
+      "izlenme": 2400
+     },
+     {
+      "videoId": "Mdfn69eAnME",
+      "izlenme": 1700
+     },
+     {
+      "videoId": "7BBBq_SZ4_U",
+      "izlenme": 2300
+     },
+     {
+      "videoId": "QzIVvKvzmSU",
+      "izlenme": 3800
+     },
+     {
+      "videoId": "ulfCrLg8Yhc",
+      "izlenme": 9300
+     },
+     {
+      "videoId": "5KfvxSHUPMU",
+      "izlenme": 2500
+     },
+     {
+      "videoId": "pFyP0itp7tA",
+      "izlenme": 2900
+     },
+     {
+      "videoId": "2sxF2Lz91eY",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "zIjjgI8IWzs",
+      "izlenme": 3100
+     },
+     {
+      "videoId": "HwHa0ugu_Ak",
+      "izlenme": 33000
+     },
+     {
+      "videoId": "hvPaH-Z3nPw",
+      "izlenme": 1800
+     },
+     {
+      "videoId": "Gg9xRSeKvn4",
+      "izlenme": 3800
+     },
+     {
+      "videoId": "SHZvpn4wwrU",
+      "izlenme": 1600
+     },
+     {
+      "videoId": "94CX9lj-5IM",
+      "izlenme": 3800
+     },
+     {
+      "videoId": "nsw5zsgDZ4g",
+      "izlenme": 6300
+     },
+     {
+      "videoId": "x2F75BZd6Dk",
+      "izlenme": 2500
+     },
+     {
+      "videoId": "GWnYgGyieSc",
+      "izlenme": 1900
+     },
+     {
+      "videoId": "JgKFuro81y8",
+      "izlenme": 22000
+     },
+     {
+      "videoId": "8WDT52MBJwM",
+      "izlenme": 55000
+     },
+     {
+      "videoId": "rTBgFxy20po",
+      "izlenme": 20000
+     },
+     {
+      "videoId": "As7hPT41iSM",
+      "izlenme": 23000
+     },
+     {
+      "videoId": "Wqksp9cvEiM",
+      "izlenme": 27000
+     },
+     {
+      "videoId": "lid7qHRJn8U",
+      "izlenme": 3100
+     },
+     {
+      "videoId": "wsuj6tVONbc",
+      "izlenme": 2100
+     },
+     {
+      "videoId": "l0DAiZDztk0",
+      "izlenme": 14000
+     },
+     {
+      "videoId": "kGltQ0fwkCw",
+      "izlenme": 29000
+     },
+     {
+      "videoId": "px4MkihsAJk",
+      "izlenme": 36000
+     }
+    ]
+   }
+  }
+ },
+ "videolar": [
+  {
+   "url": "https://www.youtube.com/shorts/4QhDS0rLrCw",
+   "videoId": "4QhDS0rLrCw",
+   "kanal": "@HippieComedian",
+   "abone": 782,
+   "abone_metni": "782 subscribers",
+   "kanal_medyan": 11000,
+   "kanal_medyan_n": 48,
+   "izlenme": 36000,
+   "oran": 3.27,
+   "sinif": "başarılı",
+   "baslik": "Vampire's Top 3 FAVORITE SONGS",
+   "kategori": "diyaloglu kısa komedi",
+   "kategori_kanit": "kanal açıklaması: \"retro comedy made with Veo3 A.I.\" + sabit karakterler/bölüm numaraları (kanal beyanı; GÖRDÜM, kanal sayfası meta açıklaması)",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HippieComedian/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/oGoys4VEVkU",
+   "videoId": "oGoys4VEVkU",
+   "kanal": "@HippieComedian",
+   "abone": 782,
+   "abone_metni": "782 subscribers",
+   "kanal_medyan": 11000,
+   "kanal_medyan_n": 48,
+   "izlenme": 14000,
+   "oran": 1.27,
+   "sinif": "ortalama",
+   "baslik": "Diagnosis: FATAL - The Clown Clinic - Episode 2",
+   "kategori": "diyaloglu kısa komedi",
+   "kategori_kanit": "kanal açıklaması: \"retro comedy made with Veo3 A.I.\" + sabit karakterler/bölüm numaraları (kanal beyanı; GÖRDÜM, kanal sayfası meta açıklaması)",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HippieComedian/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/NR7cop8B1-M",
+   "videoId": "NR7cop8B1-M",
+   "kanal": "@HippieComedian",
+   "abone": 782,
+   "abone_metni": "782 subscribers",
+   "kanal_medyan": 11000,
+   "kanal_medyan_n": 48,
+   "izlenme": 1700,
+   "oran": 0.15,
+   "sinif": "başarısız",
+   "baslik": "WILD Tales from the Bayou!!",
+   "kategori": "diyaloglu kısa komedi",
+   "kategori_kanit": "kanal açıklaması: \"retro comedy made with Veo3 A.I.\" + sabit karakterler/bölüm numaraları (kanal beyanı; GÖRDÜM, kanal sayfası meta açıklaması)",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HippieComedian/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/zxVcr0Ce92k",
+   "videoId": "zxVcr0Ce92k",
+   "kanal": "@basincreekretirement",
+   "abone": 5600,
+   "abone_metni": "5.6K subscribers",
+   "kanal_medyan": 1450,
+   "kanal_medyan_n": 48,
+   "izlenme": 5400,
+   "oran": 3.72,
+   "sinif": "başarılı",
+   "baslik": "You make any friends in the dining room?",
+   "kategori": "insan karakterli skeç",
+   "kategori_kanit": "kanal açıklaması: \"A fictional world made with AI\" huzurevi sakinleri, soru-cevap formatı (kanal beyanı; GÖRDÜM). Karakterlerin gerçek kişi olmadığı kanal beyanına dayanır",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@basincreekretirement/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/mHlPD20Omoo",
+   "videoId": "mHlPD20Omoo",
+   "kanal": "@basincreekretirement",
+   "abone": 5600,
+   "abone_metni": "5.6K subscribers",
+   "kanal_medyan": 1450,
+   "kanal_medyan_n": 48,
+   "izlenme": 21000,
+   "oran": 14.48,
+   "sinif": "başarılı",
+   "baslik": "The hardest part about getting older.",
+   "kategori": "insan karakterli skeç",
+   "kategori_kanit": "kanal açıklaması: \"A fictional world made with AI\" huzurevi sakinleri, soru-cevap formatı (kanal beyanı; GÖRDÜM). Karakterlerin gerçek kişi olmadığı kanal beyanına dayanır",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@basincreekretirement/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/WfFWi5ICwYo",
+   "videoId": "WfFWi5ICwYo",
+   "kanal": "@basincreekretirement",
+   "abone": 5600,
+   "abone_metni": "5.6K subscribers",
+   "kanal_medyan": 1450,
+   "kanal_medyan_n": 48,
+   "izlenme": 1700,
+   "oran": 1.17,
+   "sinif": "ortalama",
+   "baslik": "Donna thought Tax Day was next week 😳",
+   "kategori": "insan karakterli skeç",
+   "kategori_kanit": "kanal açıklaması: \"A fictional world made with AI\" huzurevi sakinleri, soru-cevap formatı (kanal beyanı; GÖRDÜM). Karakterlerin gerçek kişi olmadığı kanal beyanına dayanır",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@basincreekretirement/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/_zJd3vCb14g",
+   "videoId": "_zJd3vCb14g",
+   "kanal": "@basincreekretirement",
+   "abone": 5600,
+   "abone_metni": "5.6K subscribers",
+   "kanal_medyan": 1450,
+   "kanal_medyan_n": 48,
+   "izlenme": 1700,
+   "oran": 1.17,
+   "sinif": "ortalama",
+   "baslik": "Have you ever done a cleanse?",
+   "kategori": "insan karakterli skeç",
+   "kategori_kanit": "kanal açıklaması: \"A fictional world made with AI\" huzurevi sakinleri, soru-cevap formatı (kanal beyanı; GÖRDÜM). Karakterlerin gerçek kişi olmadığı kanal beyanına dayanır",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@basincreekretirement/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/BiJRi_iEhfw",
+   "videoId": "BiJRi_iEhfw",
+   "kanal": "@funnyfakecommercials",
+   "abone": 130,
+   "abone_metni": "130 subscribers",
+   "kanal_medyan": 523,
+   "kanal_medyan_n": 48,
+   "izlenme": 2100,
+   "oran": 4.01,
+   "sinif": "başarılı",
+   "baslik": "TETRIS ... but for DOGS !?! | #Fake #Funny #Commercial #Parody #Tetris",
+   "kategori": "parodi reklam",
+   "kategori_kanit": "kanal açıklaması: \"AI-powered sketch channel turning brands, movies... into unhinged spoofs\"; başlıklarda #Sora #Parody (kanal beyanı; GÖRDÜM). Not: marka/film fikri mülkiyeti parodisi, başlıkta gerçek kişi adı yok",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@funnyfakecommercials/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/yrYdNyLXxNI",
+   "videoId": "yrYdNyLXxNI",
+   "kanal": "@funnyfakecommercials",
+   "abone": 130,
+   "abone_metni": "130 subscribers",
+   "kanal_medyan": 523,
+   "kanal_medyan_n": 48,
+   "izlenme": 498,
+   "oran": 0.95,
+   "sinif": "ortalama",
+   "baslik": "#Drinking #Game - The Board Game! | #Fake #Funny #Commercial #Parody",
+   "kategori": "parodi reklam",
+   "kategori_kanit": "kanal açıklaması: \"AI-powered sketch channel turning brands, movies... into unhinged spoofs\"; başlıklarda #Sora #Parody (kanal beyanı; GÖRDÜM). Not: marka/film fikri mülkiyeti parodisi, başlıkta gerçek kişi adı yok",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@funnyfakecommercials/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/Qx74s1iqGBY",
+   "videoId": "Qx74s1iqGBY",
+   "kanal": "@funnyfakecommercials",
+   "abone": 130,
+   "abone_metni": "130 subscribers",
+   "kanal_medyan": 523,
+   "kanal_medyan_n": 48,
+   "izlenme": 137,
+   "oran": 0.26,
+   "sinif": "başarısız",
+   "baslik": "Capybara on Roller Skates Toy Set Commercial | #Fake #Funny #soraaianimals #Commercial #Parody",
+   "kategori": "parodi reklam",
+   "kategori_kanit": "kanal açıklaması: \"AI-powered sketch channel turning brands, movies... into unhinged spoofs\"; başlıklarda #Sora #Parody (kanal beyanı; GÖRDÜM). Not: marka/film fikri mülkiyeti parodisi, başlıkta gerçek kişi adı yok",
+   "olcum_utc": "2026-11-28T15:16:21+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@funnyfakecommercials/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/sNFl26RZ-pQ",
+   "videoId": "sNFl26RZ-pQ",
+   "kanal": "@HasanAi202",
+   "abone": 11900,
+   "abone_metni": "11.9K subscribers",
+   "kanal_medyan": 5600,
+   "kanal_medyan_n": 48,
+   "izlenme": 24000,
+   "oran": 4.29,
+   "sinif": "başarılı",
+   "baslik": "Secret Life of a Scorpion 🦂 Micro Camera POV #wildlife #epoxyfloor #epoxyfloor #epoxycountertops",
+   "kategori": "AI vlog/POV",
+   "kategori_kanit": "kanal açıklaması: \"micro research cameras mounted on ants, scorpions...\" + başlıklarda \"POV\" (kanal beyanı; GÖRDÜM). AI üretimi açıkça beyan edilmiyor → TAHMİN; kanalda POV dışı \"bunker timelapse\" klipleri de var",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HasanAi202/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/pqyjsrNozw8",
+   "videoId": "pqyjsrNozw8",
+   "kanal": "@HasanAi202",
+   "abone": 11900,
+   "abone_metni": "11.9K subscribers",
+   "kanal_medyan": 5600,
+   "kanal_medyan_n": 48,
+   "izlenme": 5400,
+   "oran": 0.96,
+   "sinif": "ortalama",
+   "baslik": "Mounted Micro Camera on a Scorpion – Inside a Hidden Desert Burrow #deepestcave",
+   "kategori": "AI vlog/POV",
+   "kategori_kanit": "kanal açıklaması: \"micro research cameras mounted on ants, scorpions...\" + başlıklarda \"POV\" (kanal beyanı; GÖRDÜM). AI üretimi açıkça beyan edilmiyor → TAHMİN; kanalda POV dışı \"bunker timelapse\" klipleri de var",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HasanAi202/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/R4nBQvrz_8A",
+   "videoId": "R4nBQvrz_8A",
+   "kanal": "@HasanAi202",
+   "abone": 11900,
+   "abone_metni": "11.9K subscribers",
+   "kanal_medyan": 5600,
+   "kanal_medyan_n": 48,
+   "izlenme": 291,
+   "oran": 0.05,
+   "sinif": "başarısız",
+   "baslik": "White Rabbit POV: Inside a SecretUnderground Burrow #lifeisbutadream #animation #4k #webofdreams",
+   "kategori": "AI vlog/POV",
+   "kategori_kanit": "kanal açıklaması: \"micro research cameras mounted on ants, scorpions...\" + başlıklarda \"POV\" (kanal beyanı; GÖRDÜM). AI üretimi açıkça beyan edilmiyor → TAHMİN; kanalda POV dışı \"bunker timelapse\" klipleri de var",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HasanAi202/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/kM3cvrrSLdg",
+   "videoId": "kM3cvrrSLdg",
+   "kanal": "@HasanAi202",
+   "abone": 11900,
+   "abone_metni": "11.9K subscribers",
+   "kanal_medyan": 5600,
+   "kanal_medyan_n": 48,
+   "izlenme": 427,
+   "oran": 0.08,
+   "sinif": "başarısız",
+   "baslik": "Tiny Camera on a Squirrel | Exploring a Secret Tree Hole 🐿️ POV #SquirrelPOV #Squirrel #AnimalPOV",
+   "kategori": "AI vlog/POV",
+   "kategori_kanit": "kanal açıklaması: \"micro research cameras mounted on ants, scorpions...\" + başlıklarda \"POV\" (kanal beyanı; GÖRDÜM). AI üretimi açıkça beyan edilmiyor → TAHMİN; kanalda POV dışı \"bunker timelapse\" klipleri de var",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@HasanAi202/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/fXOzGTGIsms",
+   "videoId": "fXOzGTGIsms",
+   "kanal": "@AiKittenverse",
+   "abone": 19500,
+   "abone_metni": "19.5K subscribers",
+   "kanal_medyan": 25000,
+   "kanal_medyan_n": 48,
+   "izlenme": 96000,
+   "oran": 3.84,
+   "sinif": "başarılı",
+   "baslik": "World’s Stickiest Track 🔥",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"AI Kitten Verse ... AI creativity and kittens\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AiKittenverse/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/jjYvQQ1DRkk",
+   "videoId": "jjYvQQ1DRkk",
+   "kanal": "@AiKittenverse",
+   "abone": 19500,
+   "abone_metni": "19.5K subscribers",
+   "kanal_medyan": 25000,
+   "kanal_medyan_n": 48,
+   "izlenme": 19000,
+   "oran": 0.76,
+   "sinif": "ortalama",
+   "baslik": "Iceland’s Ghost Highway 👻",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"AI Kitten Verse ... AI creativity and kittens\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AiKittenverse/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/WzqOIjizRpE",
+   "videoId": "WzqOIjizRpE",
+   "kanal": "@AiKittenverse",
+   "abone": 19500,
+   "abone_metni": "19.5K subscribers",
+   "kanal_medyan": 25000,
+   "kanal_medyan_n": 48,
+   "izlenme": 3200,
+   "oran": 0.13,
+   "sinif": "başarısız",
+   "baslik": "🐔 Método Barril 🔥",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"AI Kitten Verse ... AI creativity and kittens\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AiKittenverse/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/2JxPv8Fw3wM",
+   "videoId": "2JxPv8Fw3wM",
+   "kanal": "@ai.shxdda",
+   "abone": 39200,
+   "abone_metni": "39.2K subscribers",
+   "kanal_medyan": 9150,
+   "kanal_medyan_n": 48,
+   "izlenme": 29000,
+   "oran": 3.17,
+   "sinif": "başarılı",
+   "baslik": "part 30 | animals x SUPERHEROES 🦅🇺🇸 #ai #animals #hybrid #midjourney #superhero #viral #trending",
+   "kategori": "meme",
+   "kategori_kanit": "başlıklarda \"countries as ...\", \"superheroes x ...\" serisi + #midjourney (GÖRDÜM); \"meme\" sınıflaması TAHMİN",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@ai.shxdda/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/TqG_02HpULA",
+   "videoId": "TqG_02HpULA",
+   "kanal": "@ai.shxdda",
+   "abone": 39200,
+   "abone_metni": "39.2K subscribers",
+   "kanal_medyan": 9150,
+   "kanal_medyan_n": 48,
+   "izlenme": 13000,
+   "oran": 1.42,
+   "sinif": "ortalama",
+   "baslik": "part 46 | superhero x SUPERHERO 🌀♠️ #ai #marvel #hybrid #midjourney #superhero #viral #trending",
+   "kategori": "meme",
+   "kategori_kanit": "başlıklarda \"countries as ...\", \"superheroes x ...\" serisi + #midjourney (GÖRDÜM); \"meme\" sınıflaması TAHMİN",
+   "olcum_utc": "2026-11-28T15:16:22+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@ai.shxdda/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/Ov_L5ap6sjM",
+   "videoId": "Ov_L5ap6sjM",
+   "kanal": "@SnackTalesAnimated",
+   "abone": 2200,
+   "abone_metni": "2.2K subscribers",
+   "kanal_medyan": 1650,
+   "kanal_medyan_n": 48,
+   "izlenme": 20000,
+   "oran": 12.12,
+   "sinif": "başarılı",
+   "baslik": "The Fox and the Crane Story Told by Grandma 🦊🐦 | Telugu Moral Stories | Grandma Moral Stories | S...",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"Talking AI food characters, funny animated food stories\" (kanal beyanı; GÖRDÜM). Telugu ahlak hikâyeleri; çocuklara yönelik olabilir (Anayasa 22 notu: yalnızca analiz)",
+   "olcum_utc": "2026-11-28T15:16:23+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@SnackTalesAnimated/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/N1qxo4JWZV4",
+   "videoId": "N1qxo4JWZV4",
+   "kanal": "@SnackTalesAnimated",
+   "abone": 2200,
+   "abone_metni": "2.2K subscribers",
+   "kanal_medyan": 1650,
+   "kanal_medyan_n": 48,
+   "izlenme": 1300,
+   "oran": 0.79,
+   "sinif": "ortalama",
+   "baslik": "ఉడుత దాచిన గింజతో ఏమైంది? 🐿️🌱 | Telugu Moral Story | Snack Talesచిన్న గింజ… పెద్ద మార్పు! 🌱🐿️ |",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"Talking AI food characters, funny animated food stories\" (kanal beyanı; GÖRDÜM). Telugu ahlak hikâyeleri; çocuklara yönelik olabilir (Anayasa 22 notu: yalnızca analiz)",
+   "olcum_utc": "2026-11-28T15:16:23+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@SnackTalesAnimated/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/amZD9C3CTk4",
+   "videoId": "amZD9C3CTk4",
+   "kanal": "@SnackTalesAnimated",
+   "abone": 2200,
+   "abone_metni": "2.2K subscribers",
+   "kanal_medyan": 1650,
+   "kanal_medyan_n": 48,
+   "izlenme": 98,
+   "oran": 0.06,
+   "sinif": "başarısız",
+   "baslik": "Hyderabad Food Adventure | Taste of India 🍛Exploring the Flavours of Hyderabad | Taste of India ❤️",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"Talking AI food characters, funny animated food stories\" (kanal beyanı; GÖRDÜM). Telugu ahlak hikâyeleri; çocuklara yönelik olabilir (Anayasa 22 notu: yalnızca analiz)",
+   "olcum_utc": "2026-11-28T15:16:23+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@SnackTalesAnimated/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/V9w2bXuxxxw",
+   "videoId": "V9w2bXuxxxw",
+   "kanal": "@SnackTalesAnimated",
+   "abone": 2200,
+   "abone_metni": "2.2K subscribers",
+   "kanal_medyan": 1650,
+   "kanal_medyan_n": 48,
+   "izlenme": 395,
+   "oran": 0.24,
+   "sinif": "başarısız",
+   "baslik": "The Thirsty Crow Story | Grandma's Stories | Ammamma Babu Telugu Stories",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"Talking AI food characters, funny animated food stories\" (kanal beyanı; GÖRDÜM). Telugu ahlak hikâyeleri; çocuklara yönelik olabilir (Anayasa 22 notu: yalnızca analiz)",
+   "olcum_utc": "2026-11-28T15:16:23+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@SnackTalesAnimated/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/WOqCgbbohRk",
+   "videoId": "WOqCgbbohRk",
+   "kanal": "@AIworldstories-k6h",
+   "abone": 5900,
+   "abone_metni": "5.9K subscribers",
+   "kanal_medyan": 645,
+   "kanal_medyan_n": 48,
+   "izlenme": 5000,
+   "oran": 7.75,
+   "sinif": "başarılı",
+   "baslik": "Potty aa rahi🚽🥔trending funny song😂 #aivideo #cartoon #potty#funny #pottysong #trending#viralshorts",
+   "kategori": "görsel hikâye",
+   "kategori_kanit": "kanal açıklaması: \"cats, animals, objects, food items... AI characters share their stories\" + \"AI Drama Part N\" başlıkları (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIworldstories-k6h/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/8MCArjPWPtk",
+   "videoId": "8MCArjPWPtk",
+   "kanal": "@AIworldstories-k6h",
+   "abone": 5900,
+   "abone_metni": "5.9K subscribers",
+   "kanal_medyan": 645,
+   "kanal_medyan_n": 48,
+   "izlenme": 1000,
+   "oran": 1.55,
+   "sinif": "ortalama",
+   "baslik": "Aloo Aur Nakli Sher | Funny Cartoon Story|🦁🥔#viral #shorts #ai #montagem#mhacommunity #storytelling",
+   "kategori": "görsel hikâye",
+   "kategori_kanit": "kanal açıklaması: \"cats, animals, objects, food items... AI characters share their stories\" + \"AI Drama Part N\" başlıkları (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIworldstories-k6h/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/IaIp_hEF3PM",
+   "videoId": "IaIp_hEF3PM",
+   "kanal": "@AIworldstories-k6h",
+   "abone": 5900,
+   "abone_metni": "5.9K subscribers",
+   "kanal_medyan": 645,
+   "kanal_medyan_n": 48,
+   "izlenme": 149,
+   "oran": 0.23,
+   "sinif": "başarısız",
+   "baslik": "Mirchi Ne Ghar Ujaad Diya😱💔part 4 #cartoon #aianimation#aivideo #shorts #viral#vegetablestory#storia",
+   "kategori": "görsel hikâye",
+   "kategori_kanit": "kanal açıklaması: \"cats, animals, objects, food items... AI characters share their stories\" + \"AI Drama Part N\" başlıkları (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIworldstories-k6h/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/q7dDLZs40QI",
+   "videoId": "q7dDLZs40QI",
+   "kanal": "@AIworldstories-k6h",
+   "abone": 5900,
+   "abone_metni": "5.9K subscribers",
+   "kanal_medyan": 645,
+   "kanal_medyan_n": 48,
+   "izlenme": 119,
+   "oran": 0.18,
+   "sinif": "başarısız",
+   "baslik": "Sachi Mohabbat Ka Imtihan😭❤️ Kaila Ne Kar Diya Kamal😱#Shorts#VegetableStory#LoveStory#EmotionalStory",
+   "kategori": "görsel hikâye",
+   "kategori_kanit": "kanal açıklaması: \"cats, animals, objects, food items... AI characters share their stories\" + \"AI Drama Part N\" başlıkları (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIworldstories-k6h/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/rTBgFxy20po",
+   "videoId": "rTBgFxy20po",
+   "kanal": "@AIDOGTV-sk",
+   "abone": 25200,
+   "abone_metni": "25.2K subscribers",
+   "kanal_medyan": 2400,
+   "kanal_medyan_n": 48,
+   "izlenme": 20000,
+   "oran": 8.33,
+   "sinif": "başarılı",
+   "baslik": "Dog Rescue on the Edge: Real-Life Hero Saves the Day",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"unique, AI-generated animated stories starring heroic dogs, funny bulldogs\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIDOGTV-sk/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/QzIVvKvzmSU",
+   "videoId": "QzIVvKvzmSU",
+   "kanal": "@AIDOGTV-sk",
+   "abone": 25200,
+   "abone_metni": "25.2K subscribers",
+   "kanal_medyan": 2400,
+   "kanal_medyan_n": 48,
+   "izlenme": 3800,
+   "oran": 1.58,
+   "sinif": "ortalama",
+   "baslik": "Dog Acrobat — Don’t Try This at Home, Seriously",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"unique, AI-generated animated stories starring heroic dogs, funny bulldogs\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIDOGTV-sk/shorts"
+  },
+  {
+   "url": "https://www.youtube.com/shorts/-XF-MWgnIk0",
+   "videoId": "-XF-MWgnIk0",
+   "kanal": "@AIDOGTV-sk",
+   "abone": 25200,
+   "abone_metni": "25.2K subscribers",
+   "kanal_medyan": 2400,
+   "kanal_medyan_n": 48,
+   "izlenme": 401,
+   "oran": 0.17,
+   "sinif": "başarısız",
+   "baslik": "This Argument Was Pointless 😆",
+   "kategori": "hayvan/nesne animasyonu",
+   "kategori_kanit": "kanal açıklaması: \"unique, AI-generated animated stories starring heroic dogs, funny bulldogs\" (kanal beyanı; GÖRDÜM)",
+   "olcum_utc": "2026-11-28T15:16:24+00:00",
+   "kaynak": "GÖRDÜM/ÖLÇTÜM: https://www.youtube.com/@AIDOGTV-sk/shorts"
+  }
+ ]
+}
