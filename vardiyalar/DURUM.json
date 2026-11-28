@@ -10,7 +10,7 @@
  },
  "simdi": null,
  "sayac": {
-  "son_gorev_no": 57,
+  "son_gorev_no": 58,
   "son_deney_no": 0
  },
  "gorevler": [
@@ -1561,6 +1561,34 @@
    "durum": "queued",
    "beklenen_cikti": "",
    "basari_kriteri": ""
+  },
+  {
+   "id": "G-0058",
+   "baslik": "Elle ölçüm koşusu #2 (14 gün): python3 -I scripts/olcum_toplu.py",
+   "kaynak": "K-034",
+   "olusturma": "2026-11-28T00:30:00Z",
+   "oncelik": "P2",
+   "departman": "chief-of-staff",
+   "sorumlu_ajan": "chief-of-staff",
+   "onay_seviyesi": "A0",
+   "onay": "A0",
+   "onay_kaynagi": "Bora K-034",
+   "bagimliliklar": [],
+   "beklenen_cikti": "istihbarat/olcumler/<tarih>.json",
+   "basari_kriteri": "ham dosya + ilk zaman serisi karşılaştırması",
+   "azami_maliyet": "0 kredi",
+   "gercek_maliyet": null,
+   "deneme": 0,
+   "durum": "queued",
+   "en_erken": "2026-12-11T00:00:00Z",
+   "ilgili_dosyalar": [
+    "istihbarat/olcumler/"
+   ],
+   "ilgili_pr": null,
+   "bekci_karari": null,
+   "son_calisma": null,
+   "sonraki_guvenli_adim": null,
+   "surum": 1
   }
  ],
  "bekleyen_kararlar": [
@@ -1625,16 +1653,6 @@
    "maliyet": "Claude kullanımı",
    "geri_alinabilir_mi": true,
    "ilgili_gorev": "G-0012"
-  },
-  {
-   "id": "K-B14",
-   "soru": "Pazar izleme listesini (istihbarat/olcumler/izleme_listesi.json) 14 günde bir otomatik yeniden ölçen zamanlanmış görev açılsın mı? (0 kredi; zamanlayıcı A3)",
-   "olusturma": "2026-11-28"
-  },
-  {
-   "id": "K-B15",
-   "soru": "Ölçüm planı (G-0053): 14 günde bir genel ölçüm (ilk 2026-12-11) ve 48 saatte bir 14 gün erken trend — zamanlayıcı (A3) mı, elle mi? Her koşu ~30 sn, 0 kredi.",
-   "olusturma": "2026-11-28"
   }
  ]
 }
