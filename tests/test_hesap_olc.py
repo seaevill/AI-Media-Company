@@ -65,3 +65,14 @@ def test_sabitleme_yoksa_hepsi_sayilir():
             '"videoList":[{"id":"300","playCount":5},{"id":"200","playCount":1},{"id":"100","playCount":3}]}}}}</script>')
     s = ho.tiktok_embed_ayikla(html, "x")
     assert s["sabitlenmis_tahmin"] == [] and s["video_n"] == 3 and s["video_izlenme_medyan"] == 3
+
+
+def test_youtube_shorts_ayikla():
+    html = ('"shortsLockupViewModel":{"entityId":"shorts-shelf-item-WZudu8dXw5k","accessibilityText":"Good Jeans #fyp, 54 thousand views - play Short","onTap":{}}'
+            '"entityId":"shorts-shelf-item-WZudu8dXw5k","accessibilityText":"Good Jeans #fyp, 54 thousand views - play Short"'
+            '"entityId":"shorts-shelf-item-5sJaXXCVov4","accessibilityText":"A, B, 1.2 million views - play Short"'
+            '"entityId":"shorts-shelf-item-abcdefghijk","accessibilityText":"Yeni, 873 views - play Short"')
+    r = ho.youtube_shorts_ayikla(html)
+    assert [x["videoId"] for x in r] == ["WZudu8dXw5k", "5sJaXXCVov4", "abcdefghijk"]
+    assert [x["izlenme"] for x in r] == [54000, 1200000, 873]
+    assert r[1]["baslik"] == "A, B"

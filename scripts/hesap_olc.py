@@ -46,6 +46,22 @@ def sayiya(metin):
     return int(sayi * CARPAN.get(m.group(2) or "", 1))
 
 
+def youtube_shorts_ayikla(govde):
+    """Shorts sekmesi HTML'inden [{videoId, izlenme, baslik}] (sayfadaki sırayla; aynı id bir kez)."""
+    cikti, gorulen = [], set()
+    for vid, metin in re.findall(
+            r'"entityId":"shorts-shelf-item-([\w-]{11})","accessibilityText":"((?:[^"\\]|\\.)*)"', govde):
+        if vid in gorulen:
+            continue
+        m = re.search(r'^(.*), ([\d.,]+(?: thousand| million| billion)?|No) views? - play Short$', metin)
+        if not m:
+            continue
+        gorulen.add(vid)
+        izl = 0 if m.group(2) == "No" else sayiya(m.group(2))
+        cikti.append({"videoId": vid, "izlenme": izl, "baslik": m.group(1)})
+    return cikti
+
+
 def youtube(handle):
     handle = handle if handle.startswith("@") else "@" + handle
     url = f"https://www.youtube.com/{handle}/shorts"
@@ -63,6 +79,7 @@ def youtube(handle):
     s["abone_yaklasik"] = sayiya(abone[0].replace(" subscribers", "")) if abone else None
     izlenmeler = [sayiya(x) for x in re.findall(r'"accessibilityText":"[^"]*?, ([\d.,]+ (?:thousand|million|billion)?\s*views)', govde)]
     izlenmeler = [i for i in izlenmeler if i is not None]
+    s["shorts_klipler"] = youtube_shorts_ayikla(govde)
     s["shorts_n"] = len(izlenmeler)
     if izlenmeler:
         med = statistics.median(izlenmeler)
