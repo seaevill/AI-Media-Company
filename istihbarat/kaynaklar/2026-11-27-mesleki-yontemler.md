@@ -232,3 +232,123 @@ Etiketler: **AÇILDI** = sayfayı curl ile indirip metnini okudum (2026-11-27 ot
 | K8–K9 (Anahtar damga, Tomruk yürür) | prop tutma O (damga havada); yön O (sırt kamerada yürüme); dönüş O | damga zaten kanatta, hareketsiz; Tomruk yürümez: kamera önden, Tomruk durur, kesme sonrası merdivende |
 | K10 etiket | yazı Y ("3/C") | boş etiket üret, kurguda ekle (zaten öyle) |
 | **Toplam** | Y: 4, O: 5 | Y: 0, O: 2 (karakter sayısı tek, kilit an O: küçük damga → yakın plan çekim) |
+
+---
+
+## 2026-11-28 ek: komedi ve kreatif yazım (G-0055)
+
+Hazırlayan: araştırma ajanı (Claude) · Durum: ham kaynak derlemesi, karar dayanağı değil (CLAUDE.md kural 3, 8). Beceri dosyası yazılmadı. `denetim/komedi-beceri/` klasörü açılmadı (kör test).
+
+### Önce bilinen eksikler (okumadan geçme)
+
+- **Sayfa olarak yalnızca 3 resmî YouTube Yardım sayfası AÇILDI** (curl, 2026-11-28). Komedi uygulayıcı sayfalarının (Substack, NBC, NPR, Masterclass, Backstage, Wikipedia, dergiler) **hiçbiri açılamadı**: curl çıktısı bağlantı yok (000), WebFetch `ENOTFOUND` (ÖLÇTÜM; bu alt oturumun ağ izni yalnızca support.google.com/youtube ve youtube.com). Bu nedenle komedi yöntemlerinin tamamı **ÖZET** etiketlidir (WebSearch özeti ya da Consensus kaydı).
+- **Hiçbir kitabın metnini okumadım.** UCB Comedy Improv Manual, Truth in Comedy ve Toplyn kitabı için yalnızca künye (ISBN/yayıncı) arama özetinden; **hangi bölümde ne yazdığını bilmiyorum** — bölüm numarası/sayfa verilmedi, uydurmadım. Kitaplardan gelen her bilgi ikincil kaynağın (blog/eğitmen) özetinden geliyor, kitabın kendisinden değil.
+- Röportaj/video (Seinfeld NYT videosu, ZAZ röportajları, Chris Rock) izlenmedi/okunmadı; içerik arama özeti. Tırnak içi alıntı **yok**; bütün cümleler benim özetimdir.
+- Akademik makalelerin tam metnini okumadım; Consensus kaydı (başlık, yazar, yıl, dergi, özet) ÖZET sayılır. "Timing is Everything" (2026) arXiv ön baskıdır (hakem değerlendirmesi görülmedi).
+- **Bulunamayan:** (a) "misdirection" için adlandırılmış uygulayıcı kaynak (aramada çıkmadı; akademik karşılığı aşağıda); (b) "tek şakanın tekrarı" için doğrudan kaynak; (c) "alts" için yalnızca tanım özeti, biçim/süreç ayrıntısı yok; (d) Mel Brooks'un kendi yöntemi (yalnızca ZAZ özetleri çıktı); (e) Eric Andre.
+- Etiketler: **AÇILDI** = curl ile indirip metni okudum (2026-11-28) · **ÖZET** = arama özeti/veritabanı kaydı. Tarafsızlık: satıcı blogları (vidIQ, 1of10, TubeBuddy, CapCut) kendi ürününü satar; kurs/eğitmen blogları (Hoopla, Will Hines, Toplyn) kendi okulunu/kitabını satar.
+- **Bütün "NASIL TEST EDİLİR" ölçütleri benim önerimdir (HİPOTEZ).** Hiçbiri bu kaynaklarda "komediyi ölçer" diye doğrulanmadı; komedi ölçülemiyor (K-031 dersi). Kör puanlamada **ön eleme** ölçütü olarak kullanılabilir, "komik" kanıtı sayılmaz.
+
+### Kaynak sayımı
+
+AÇILDI: 3 sayfa (YouTube Yardım). ÖZET: yaklaşık 40 URL/kayıt (WebSearch özetleri ~30, Consensus kayıtları 9) + 3 kitap künyesi (okunmadı).
+
+### K1. Skeçin "oyunu" (game of the scene): ilk olağandışı şey
+
+- YÖNTEM: Skeç, önce sıradan bir zemin ("base reality") kurar; zeminden ilk sapan öğe "ilk olağandışı şey"dir; geri kalan skeç bu tek örüntüyü bulup oynamaktır (olay örgüsü ya da bahis değil, olağandışı olanı oynamak). Eğitmen notları, ilk olağandışı şeyi **fazla** olağandışı yapmanın sık hata olduğunu ve acemilerin esprinin peşine erken düştüğünü söylüyor.
+- KAYNAK: M. Besser, I. Roberts, M. Walsh, *The Upright Citizens Brigade Comedy Improvisation Manual*, Comedy Council of Nicea, 2013, ISBN 9780989387804 (künye: WorldCat/AbeBooks arama özeti) — **kitap okunmadı, bölüm bilinmiyor** · ikincil özetler: Will Hines substack ("Teaching Game of the Scene"), Hoopla Improv "A quick guide to Game of the Scene", improv-toolbox "Repeat the first unusual thing", Script Magazine "Improvising Screenplays…Using the Game of the Scene" — hepsi ÖZET (eğitmen/okul tarafı, tarafsız ölçüm değil).
+- BİZE UYGULANIŞI: Her skeç/klip için tek cümle "oyun": "[sıradan durum] + [tek sapma]". Senaryo 3 sn içinde sıradan zemini gösterir, sapma ilk 5 sn içinde belirir; sonraki her an aynı sapmanın tırmanışıdır. AI video tarafında bu zaten "tek eylem, tek sapma" kuralıyla (E1) uyumlu.
+- NASIL TEST EDİLİR (kör puanlama): okuyucu skeci okuyup "oyunu tek cümleyle yaz" der; **3 okuyucudan en az 2'si aynı oyunu yazarsa geçer**; farklı yazarlarsa skeç birden çok fikre dağılmıştır. İkinci ölçüt: sapma ilk üçte birde belirdi mi (evet/hayır).
+
+### K2. Tırmandırma (heightening)
+
+- YÖNTEM: Oyun bulunduktan sonra "bu doğruysa başka ne doğru?" sorusuyla aynı örüntü artan şiddette/mantıkla tekrarlanır; her tekrar bir öncekinden **farklı ve daha büyük**, ama aynı kuraldan çıkar.
+- KAYNAK: Will Hines ("Teaching Game 2: Heighten and Explore"), Funny How ("heighten and explore"), The Free Association ("easy ways to heighten game") — ÖZET (eğitmen blogları). UCB kitabı için yukarıdaki not geçerli: kitabın bu başlıktaki bölümünü okumadım.
+- BİZE UYGULANIŞI: Skeçte en az 3 vuruş; her vuruş bir öncekini bir boyutta (sayı, ölçek, mantık derinliği, sosyal bedel) büyütür; tekrar ama aynı şiddette değil. Video süresi kısa olduğu için "tırmanış" tek kurguda 3 kesme ile verilir.
+- NASIL TEST EDİLİR: vuruşları sırala; **her vuruşun öncekinden daha yüksek mi/farklı mı olduğu** evet/hayır. Aynı şiddette tekrar = "tek şaka tekrarı" hatası (Hata H3).
+
+### K3. Şaka yapısı: kurulum / vuruş; kurulum arızası
+
+- YÖNTEM: Şakanın iki ana öğesi kurulum (setup) ve vuruş (punchline); vuruş kurulumu "ödüllendirir". Chris Rock'a atfedilen gözlem (aktarma): şaka tutmuyorsa genelde seyirci **önermeyi/kurulumu** anlamamıştır; vuruşu değiştirmeden önce kurulum denenir. Joe Toplyn'in çerçevesi: şaka = konu + açı + vuruş; vuruş üretmek için konunun çağrışımlarını bağlamak ve sorular sormak (6 "Punch Line Maker" teknikten ikisi blogda geçiyor).
+- KAYNAK: Funny How, "Chris Rock: It's not working because the audience doesn't understand the premise" — ÖZET (Rock'ın kendi sözü doğrulanmadı, Substack aktarımı); MasterClass "What is a punchline" — ÖZET (satıcı); Joe Toplyn, *Comedy Writing for Late-Night TV*, Twenty Lane Media, 2014, ISBN 978-0-615-95389-2 — **kitap okunmadı**, blog joetoplyn.com özetleri — ÖZET (yazar kitabını satıyor); Script Magazine "Comedy Writing: How to Fix a Broken Joke" — ÖZET.
+- BİZE UYGULANIŞI: Şaka kırık görününce önce kurulum kısaltılır/netleştirilir. Her gag için üç satır: konu, açı, vuruş.
+- NASIL TEST EDİLİR: şakanın "kurulum" ve "vuruş" cümlesini okuyucu ayrı ayrı işaretler; **işaretlenemiyorsa yapı yoktur**. Kurulum, vuruşu anlamak için gerekmeyen cümle içeriyor mu (evet = fazla uzun).
+
+### K4. Üçlü kural (AAB) ve yanıltma
+
+- YÖNTEM: İki benzer öğe örüntüyü kurar, üçüncü kırar (AAB). Tekrar sayısı iki: az olursa örüntü yok, çok olursa (AAAB) kırma gecikir.
+- KAYNAK: Rozin vd., "Documenting and explaining the common AAB pattern in music and humor", *Emotion*, 2006 — https://consensus.app/papers/details/w:8acf310e-31f8-4e7f-b21c-7b711e80d728/ — ÖZET (şaka örnekleminde AAB baskındı, deneyde AB ve AAAB'ye göre en etkiliydi; özet böyle diyor, tam metin okunmadı) · McKeague, "Comedy comes in threes", *Comedy Studies*, 2021 — https://consensus.app/papers/details/w:ba3e4cbe-b501-4bbc-aa13-50cbb594797b/ — ÖZET (kavramsal çerçeve, deneysel değil). **Yanıltma (misdirection):** adlandırılmış uygulayıcı kaynak bulunamadı; akademik karşılığı beklenti-uyumsuzluk-çözüm modeli: Chang vd., *Brain Sciences*, 2023 (fMRI, üç öğeli şakalar; beklenti ve uyumsuzluk evreleri ayrıldı) https://consensus.app/papers/details/w:f0cfbf9d-1541-4546-9447-0ba3a7b44da8/ ; Xie vd., ACL 2021 (kurulum belirsizlik, vuruş şaşırtma) https://consensus.app/papers/details/w:b6d1e23c-b559-4f11-8519-8d6747876837/ — ÖZET.
+- BİZE UYGULANIŞI: Listeleme/tekrar kurgularında iki aynı + bir farklı vuruş; üçüncü öğe ikisinin ima ettiği beklentiyi bozar. Yanıltma: kurulum izleyiciyi tek okumaya götürür, vuruş ikinci okumayı verir (bu yönteme ayrı kaynak yok; hipotez).
+- NASIL TEST EDİLİR: üçlü yapıda iki aynı + bir farklı mı (evet/hayır); okuyucu "3. öğeden önce ne bekledin?" sorusuna yazılı cevap verir, **vuruş o cevaptan farklıysa geçer**, aynıysa tahmin edilebilir.
+
+### K5. Geri çağırma (callback)
+
+- YÖNTEM: Daha önceki şakaya sonradan dönüş; gülme hem ilk şakadan hem dönüşün sürprizinden gelir; kurulum ve vuruşun zamanla ayrılıp sonradan birleşmesi.
+- KAYNAK: Backstage "How to Use Callbacks in Your Comedy" — ÖZET (sayfa açılmadı; sektör yayını) · The Pudding "stand-up" yapı analizi (hakkında özet var, okunmadı).
+- BİZE UYGULANIŞI: Seri bölümlerde (kreatif takım adım 4) bir bölümün tekrar eden öğesi sonraki bölümde dönüş olur; 15-30 sn klip içinde: 1. sn'de gösterilen nesne son sn'de vuruş olur (aynı zamanda döngü, bkz. K10).
+- NASIL TEST EDİLİR: iki an arasında açıkça bağlanan tek öğe var mı; **ikinci kullanım ilk kullanımı bilmeden de çalışıyor mu** (tek başına okunur mu, evet/hayır).
+
+### K6. Masa okuması, punch-up ve "alts"
+
+- YÖNTEM: SNL tipi hafta: Pazartesi fikir toplantısı, Çarşamba tüm yazar/oyuncu/yöneticiyle masa okuması, ardından seçim ve yeniden yazım. Masa okuması **güvenilir tahmin aracı değil**: bir yapımcı "Çarşamba okunan Cumartesi yayınlanandan çok farklı olabilir" diyor; Nate Bargatze'ın en iyi skeci masa okumasında tutmamış, yine de yayına girmiş (başlık özeti). Punch-up: ekip bir taslağı gruplayıp şaka ekler/geliştirir/keser. "Alts": bir satır için birden çok alternatif satır; showrunner seçer (Veep odası anlatımı). Birbiglia, ilk şakalarını komedyen arkadaşlara okutup öneri aldığını söylüyor.
+- KAYNAK: NBC Insider "How do SNL sketches make it on air" ve DGA Quarterly (Bahar 2015) — ÖZET (ikincisi eski, 2015); Cracked, Nate Bargatze başlığı — ÖZET (yalnız başlık/özet); Scriptnotes bölüm 551 ve 688 (John August) — ÖZET (alts tanımı, Birbiglia); Stage32 punch-up atölyesi — ÖZET (satıcı).
+- BİZE UYGULANIŞI: Her gag için en az **3 alternatif satır** yazılır, seçim kör puanlamayla; okuma "tek kişi sesli okur" biçiminde yapılır (yazar kendi okumaz). Masa okuması sonucu "komik kanıtı" değil, yalnızca kırık yer tespitidir (CLAUDE.md kural 8 ile uyumlu).
+- NASIL TEST EDİLİR: aynı gag için 3 alt, isimsiz, sırası karıştırılmış; 3 bağımsız okuyucu birini seçer; **seçimlerin dağılımı** kaydedilir (3'ü de farklı seçtiyse güçlü bir alt yok). Not: örneklem 3, sonuç kesin değil.
+
+### K7. Reklam parodisi yapısı
+
+- YÖNTEM: Gerçek reklam biçiminin dilini/görsel kurallarını doğru kullan (ayrıntı parodiyi satar); ürün kötü olabilir ama skeç **gerçek dünya hakkında bir fikir** söylemeli; "var olmayan sorun + etkisiz çözüm" kalıbı SNL yazım notlarında anılıyor; son cümle hem reklam biçimine uygun hem de şaka olmalı. Tek şaka 2 dakikayı taşımaz: ilerleme (bir şeyin değişmesi) gerekir. ZAZ (Airplane!) örneği: oyuncular komedi içinde olduklarını bilmiyormuş gibi ciddi oynar; dramatik oyuncular seçildi.
+- KAYNAK: No Film School "How to make perfect parody" ve Celtx "How to write a parody" — ÖZET (kurs/yazılım satıcıları) · NPR transkript (1202582056), Salon (2023), AV Club oral history (Airplane!), Total Film — ÖZET (açılmadı; kitap: *Surely You Can't Be Serious*, Macmillan; okunmadı).
+- BİZE UYGULANIŞI: **Kurgusal marka zorunlu** (kreatif kural 1). Format: tanım (30 sn reklam iskeleti: sorun / ürün / kanıt / sloganı) + tek gizli sapma; ciddi ses ve ciddi görsel, sapma yalnız içerikte. AI video: ciddi tonu ışık/ses talimatıyla ver, gerçek dışı sahneyi haber gibi sunma (kalite madde 8).
+- NASIL TEST EDİLİR: okuyucu "bu hangi reklam türünün parodisi?" sorusuna yazılı cevap verir (**tanınmıyorsa biçim zayıf**); "skeç ürün hakkında mı, dünya hakkında mı bir fikir söylüyor?" (tek cümle); son cümle şaka mı (evet/hayır).
+
+### K8. Absürt/sürreal komedi: "sıradan absürt"
+
+- YÖNTEM: Absürt, sıradan durumun mantığına **sadık kalarak** itilir: karakter kendini haklı sanır, geri adım atmaz, hatadan çıkış arayıp daha derine girer. Eleştirmenler *I Think You Should Leave*'in absürtlüğünü günlük hayatın zaten absürt olan yanının aynası sayıyor; Fielder'ın yönteminde fantezi değil, gerçek durumun giderek aşırı uca götürülmesi. Sam Richardson yapıyı "A'dan B'ye, sonra F'ye" diye tarif ediyor (beklenen C yerine sıçrama). Yapım notu: Robinson-Kanin uzun yazıp kesiyor.
+- KAYNAK: The Ringer (2019), Den of Geek, Yahoo, LARB "The Way We Laugh Now", Common Reader (WUSTL) — ÖZET (eleştiri/röportaj, hepsi ikincil; yöntemi yazarların kendisi "kural" diye koymuyor) · Psyche, CBC (Hedberg) — ÖZET.
+- BİZE UYGULANIŞI: Absürt fikir = sıradan bağlam + tek aşırı davranış; karakter davranışı izleyiciye "mantıklı" gelmeli. Fotogerçekçi AI'da "sıradan sahne + tek imkânsız öğe" (tek sapma, K1 ile aynı kural). Marka/kişi taklidi yok (Anayasa 13).
+- NASIL TEST EDİLİR: sapmanın **karakter için mantığını** okuyucu tek cümleyle yazabiliyor mu; tırmanışta karakter geri adım atıyor mu (atıyorsa absürt değil, açıklama). Sapma tek mi (evet/hayır).
+
+### K9. Mizah teorisi: ihlal + zararsızlık
+
+- YÖNTEM: Yeniden yazılmadı: bkz. bu dosyada **3.4** (McGraw & Warren 2010; Warren & McGraw 2016; Franchin 2023). Ek bulgu: Warren vd., "What Makes Things Funny?", *Personality and Social Psychology Review*, 2020 — https://consensus.app/papers/details/w:229d5cad-c50a-4835-a3a1-aee026d79d3b/ — ÖZET: incelemeye göre **şaşırtma ve üstünlük tek başına mizahı mizah olmayandan ayırmıyor**; eşzamanlılık, ihlal ve zararsız değerlendirme ayırıyor.
+- BİZE UYGULANIŞI: Şaşırtma yetmez; fikir **bir ihlal + onu zararsız kılan bir şey** (mesafe, kurgusallık, alternatif norm) taşımalı. Kurgusal karakter/marka zararsızlık sağlar; ağır ihlal (travma, gerçek kişi) zararsızlığı bozar ve Anayasa 11'e de takılır.
+- NASIL TEST EDİLİR: iki ayrı soru: "ne ihlal ediliyor?" ve "neden zararsız?" okuyucu cevap yazar; ikisinden biri boş kalırsa uyarı. **Bu ölçüt gülme ölçmez**, yalnızca yapı kontrolüdür.
+
+### K10. Kısa videoda ilk saniye kancası ve döngü
+
+- YÖNTEM: (a) Resmî: YouTube'da Shorts için "stayed to watch" (Studio, yalnız sahibi görür); retention grafiğinde yükselme = izleyenler o bölümü izliyor/tekrar izliyor/paylaşıyor, düşüş = bırakıyor. (b) Resmî: **31 Mart 2025'ten beri Shorts görüntülemesi, Short'un her başlaması veya tekrarında sayılıyor, en az izleme süresi şartı yok; eski ölçü "Engaged views" adıyla Analytics'te kalıyor** → döngü ham görüntülemeyi şişirir, kalite ölçüsü olarak "engaged views" ve "stayed to watch" kullanılmalı. (c) Satıcı/uygulayıcı tavsiyesi: ilk 1-3 sn'de ödülü ya da net görseli göster, sonu başa bağla (eşleşen kare, ses döngüsü); kaynaklar süre konusunda çelişiyor (1-2 sn / 3 sn); %70-79 "geçer", %80+ "güçlü" gibi eşikler YouTube'dan doğrulanmadı. (d) Akademik zayıf kanıt: TikTok reklam verisinde izleyicilerin çoğu videonun ilk çeyreğinde ayrılıyor (Salminen vd., 2024); 12 kişilik niteliksel çalışma görsel tetikleyici kategorileri (hareket, yüz/göz teması, kontrast, yazı) sıralıyor (Ridha, 2026, düşük güven).
+- KAYNAK: **AÇILDI** (2026-11-28): YouTube Community "A Change to How We Count Views on Shorts" https://support.google.com/youtube/thread/333869549 · "Measure key moments for audience retention" https://support.google.com/youtube/answer/9314415 · "Get started creating YouTube Shorts" https://support.google.com/youtube/answer/10059070 (yalnızca "Get feedback" düğmesinin kanca/tempo analizi yaptığı satırı alakalı). **ÖZET:** vidIQ (Shorts kancaları, döngü), 1of10 analytics, TubeBuddy, CapCut "loop count" (CapCut: döngü sayısının tek başına öneriyi artırdığı platformca söylenmedi) — hepsi satıcı; Consensus: Salminen 2024 https://consensus.app/papers/details/w:e37b87c7-c330-4750-bc44-36aa2b5d9cb2/ , Xiao 2024 (60 satıcı, 2.511 TikTok reklamı: çekim sayısı ve görüntü karmaşıklığı ters-U ilişki) https://consensus.app/papers/details/w:8192b443-9423-41cb-8101-f20b6b6f0f5a/ , Ridha 2026 https://consensus.app/papers/details/w:19b89d35-3070-4a67-bd06-150129779bfd/ . Mevcut 3.7 (kanca ölçümü) tekrar edilmedi.
+- BİZE UYGULANIŞI: Klibin 0-2 sn'sinde sapma/vuruşun görsel ipucu (K1); son kare ilk kareye eşleşir (nesne, ışık, ses seviyesi) → döngü. Başarı ölçüsü: "stayed to watch" ve engaged views (ham görüntüleme değil). Süre normalizasyonu şart (3.7).
+- NASIL TEST EDİLİR (kör, yayın öncesi): sessiz izleme ilk 2 sn'de okuyucuya "ne olacağını/neden bakılacağını tahmin et" (**merak kancası var mı**, evet/hayır); son kare-ilk kare uyumu (kare karşılaştırma, ÖLÇÜM yapılabilir); ses döngüsü: sondaki sessizlik/çatlak (not: ben sesi dinleyemem, bu madde Bora'ya bırakılır). Gerçek hakem yayın sonrası "stayed to watch" olacaktır.
+
+### K11. Zamanlama: vuruştan önce duraklama
+
+- YÖNTEM: 828 profesyonel Çince stand-up performansında zamansal özellikler (vuruş öncesi duraklamaların uzaması, tepe şaşırtma) izleyici beğenisini anlamsal uyumsuzluktan daha çok öngördü; başka bir çalışma canlı komedide tekrarlanan ve sıkı zamanlı materyali haritaladı.
+- KAYNAK: "Timing is Everything: Temporal Scaffolding of Semantic Surprise in Humor", Cognitive Science Society 2026 (arXiv ön baskı) https://consensus.app/papers/details/w:411fae8c-c3f3-4764-8350-feb29e1912b9/ — ÖZET, ön baskı, dil/kültür farkı var (Çince canlı performans, kısa video değil) · Pope vd., *PNAS Nexus*, 2026 https://consensus.app/papers/details/w:76264a27-5590-473d-bab0-7a466c1166eb/ — ÖZET.
+- BİZE UYGULANIŞI: Kurguda vuruştan önce kısa bir boşluk (kesme/sessizlik) denenir; "kaç kare" konusu burada kanıtlanmış değil, **hipotez**. Kuralı Bora izleyerek ayarlar.
+- NASIL TEST EDİLİR: aynı klibin iki montajı (duraklamalı / duraklamasız), tek değişken; kör okuma (yalnız metin değil, **video** gerektirir, Bora izler); kararı kör puan değil gerçek izleyici verir.
+
+### Sık hatalar (başarısız örnek kalıpları)
+
+- **H1. Açıklanan vuruş:** şakayı anlatmak/açıklamak. Kaynak: Substack yazıları ve kısa-yazı rehberleri ("seyirci zekâsına güven") — ÖZET, düşük-orta güven (blog). Test: vuruştan sonra kurulumu tekrar eden ya da "yani şu demek" diyen cümle var mı (evet = hata).
+- **H2. Uzun kurulum:** kurulum meandering/çok iş yaparsa seyirci vuruştan önce kopar; vuruş zayıfsa önce kurulum bakılır (Script Magazine, Funny How, Chuffah — ÖZET). Test: kurulumdaki **vuruşu anlamak için gereksiz** cümle sayısı (hedef 0); kısa videoda kurulum toplamın ilk üçte birini geçmesin (hipotez, kaynaksız eşik).
+- **H3. Tek şakanın tekrarı:** doğrudan kaynak bulunamadı; dayanak K2 (tırmanış gerekir) ve reklam parodisi notu (tek şaka iki dakikayı taşımaz, ilerleme gerekir: No Film School özeti). Aynı vuruşun şiddetini artırmadan tekrarı = hata. Bizim kayıtlarda bu hata ayrıca aranmadı.
+- **H4. Fazla olağandışı ilk adım** (K1, eğitmen özetleri): sapma zeminden kopuk olursa tırmanacak yer kalmaz. Test: sapma zemin ile aynı cümlede anlaşılıyor mu.
+- **H5. Masa okumasını kanıt sanmak:** bkz. K6 (okuma sonucu yayın başarısını öngörmüyor). Bizim kuralımız zaten aynı (CLAUDE.md 3, 8).
+
+### En sağlam 5 yöntem (bizim için, güven sırası ile)
+
+1. **K10 (kanca/döngü ölçüsü):** tek AÇILDI resmî kaynak; ölçü tanımı net (engaged views, stayed to watch). Taktik tavsiyeleri ise satıcı.
+2. **K1 (oyun + ilk olağandışı şey):** üç bağımsız eğitmen özetinde tutarlı; kitap okunmadı; ölçütü (3 okuyucu aynı oyunu yazıyor mu) basit ve test edilebilir.
+3. **K4 (AAB/üçlü kural):** tek hakemli deneysel makale özeti (Rozin 2006) + kavramsal makale; yöntem kısa videoya doğrudan taşınır.
+4. **K9 (ihlal + zararsızlık):** en çok atıf alan akademik çerçeve, 2020 incelemesi var; yalnızca yapı kontrolü, gülme ölçmez.
+5. **K3 (kurulum arızası, kırık şakada önce kurulumu düzelt):** birden çok bağımsız yazar rehberi ve Rock aktarımında hemfikir; kaynaklar ikincil.
+
+(K6/K8/K7 faydalı ama kaynakları ikincil ya da tek yönlü; K11 ön baskı ve kültür farkı nedeniyle en zayıf.)
+
+### Açık kalan işler
+
+- Komedi uygulayıcı sayfalarının açılması için ağ izni (örn. substack, nbc.com, npr.org, scriptmag.com, masterclass.com, backstage.com) ya da Bora'dan metin; açılırsa yukarıdaki ÖZET etiketleri AÇILDI'ya çevrilebilir.
+- Kitaplar için bölüm düzeyinde kaynak: Bora kitabı/alıntıyı verirse işlenir (UCB manual, Truth in Comedy, Toplyn).
+- Bu bölüm yalnızca bilgi; beceri dosyası ve öncesi/sonrası kör test ayrı adım.
