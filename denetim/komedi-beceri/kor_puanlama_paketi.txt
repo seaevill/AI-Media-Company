@@ -1,0 +1,297 @@
+KÖR PUANLAMA PAKETİ — komedi yazımı becerisi testi (G-0055, 2026-11-28)
+
+Ne bu? 18 kısa video senaryosu. Bir kısmı beceri dosyasından ÖNCE, bir kısmı SONRA yazıldı. Hangisinin hangisi olduğu gizli (anahtar ayrı dosyada; puanlamadan önce açma).
+Senaryolar 3 türde: Brief 1 = iş yerinde diyaloglu skeç (İngilizce izleyici), Brief 2 = gerçekçi absürt telefon videosu, Brief 3 = uydurma ürün reklam parodisi.
+
+Nasıl puanlanır (Bora ya da ChatGPT; her senaryo için 1–5):
+ A) Okurken güldüm / gülümsedim mi?
+ B) Bunu bir arkadaşıma gönderir miydim?
+ C) İlk 2 saniyede durup izlemeye devam eder miydim?
+ + Her brief için "en iyi 2 senaryo" numarası.
+Kısa cevap biçimi:  S01 A3 B2 C4 · S02 ... · En iyi: B1 S__ S__, B2 S__ S__, B3 S__ S__
+
+Not: Bu yalnızca metin. Görüntü ve ses yok; komik olup olmadığının asıl testi gerçek izleyicidir.
+
+## S01 — Gecikmeli Gölge
+Brief: 2
+Fikir: Biri telefona el sallıyor; duvardaki gölgesi aynı hareketi bir saniye geç yapıyor ve sonunda kendi başına bir şey daha yapıyor.
+Senaryo:
+- 0–3 sn: Dikey, sabit çekim; telefon bir rafa dayalı, ön kamera hissi. Akşam, salon, tek lamba. Kişi kameraya bakıp el sallar; arkadaki beyaz duvarda gölgesi net. Oda sesi.
+- 3–6 sn: Kişi elini indirir. Gölge bir saniye sonra el sallamaya başlar.
+- 6–10 sn: Kişi fark eder, durur, tek parmakla gölgeyi gösterir. Gölge bir saniye gecikmeyle aynı şeyi yapar, yani kendini gösterir. Kişinin kısa nefesi duyulur.
+- 10–14 sn: Kişi deneme amaçlı hızla zıplar. Gölge bir saniye sonra zıplar. Kişi durur, bekler.
+- 14–18 sn: Gölge kendi başına bir kez daha el sallar, sonra (kişi hareketsizken) yavaşça elini indirir, sanki yakalanmış gibi. Lamba "tık" diye söner. Kesme.
+Diyalog: yok
+
+## S02 — Ofis Dışındayım (Out of Office)
+Brief: 1
+Fikir: Masasında oturan Priya, izindeymiş gibi her soruya kendi otomatik "ofis dışındayım" yanıtını yüksek sesle okuyor; Marcus onu kırmaya çalıştıkça ikisi bir otomatik yanıt döngüsüne kilitleniyor.
+Senaryo:
+- 0–2 sn: Priya masasında, ceketi omzunda, güneş gözlüğü başında, monitöründe tatil plajı duvar kâğıdı; önünde bir kahve. Tamamen buradaymış gibi çalışıyor.
+- 2–8 sn: Marcus gelir: "Hey, can I grab your stapler?" Priya, ekrandan başını kaldırmadan, düz ve tekdüze bir sesle otomatik yanıtı okur.
+- 8–15 sn: Marcus güler, zımbayı kendisi almaya uzanır. Priya, aynı tonda, zımbayı geri çeker ve cümleyi bitirir: "...I will respond upon my return."
+- 15–22 sn: Marcus ciddileşir: acil müşteri sorunu. Priya: "For urgent matters, please contact Marcus." Kısa boşluk. Marcus: "I'm Marcus." Priya, tekdüze: "Thank you for your message." Tam başa döndü.
+- 22–29 sn: Marcus derin nefes alır, kendi gözlüğünü kafasına takar, aynı tonda: "Thank you for your message. I am also out of the office. For urgent matters, please contact Priya." İkisi birbirine bakar. Priya'nın gözü bir an kayar, sonra tonunu bozmaz.
+- 29–32 sn: Masadaki sabit telefon çalar. İkisi aynı anda, tek ağızdan: "Thank you for your message—" Kesme; açılış karesine dönülür.
+Diyalog:
+- MARCUS: "Hey, can I grab your stapler?" (Hey, zımbanı alabilir miyim?)
+- PRIYA (tekdüze): "Thank you for your message. I am currently out of the office with limited access to email—" (Mesajınız için teşekkürler. Şu anda ofis dışındayım ve e-postaya erişimim sınırlı—)
+- PRIYA: "—I will respond upon my return." (—Dönüşümde yanıt vereceğim.)
+- MARCUS: "Priya. The client's site is down." (Priya. Müşterinin sitesi çöktü.)
+- PRIYA: "For urgent matters, please contact Marcus." (Acil durumlar için lütfen Marcus'la iletişime geçin.)
+- MARCUS: "...I'm Marcus." (...Marcus benim.)
+- PRIYA: "Thank you for your message." (Mesajınız için teşekkürler.)
+- MARCUS (gözlüğü takar, aynı ton): "Thank you for your message. I am also out of the office. For urgent matters, please contact Priya." (Mesajınız için teşekkürler. Ben de ofis dışındayım. Acil durumlar için lütfen Priya'yla iletişime geçin.)
+- İKİSİ BİRDEN (telefon çalınca): "Thank you for your message—" (Mesajınız için teşekkürler—)
+
+## S03 — Out of Office
+Brief: 1
+Fikir: Bir çalışan masasında oturuyor ama "izindeyim" otomatik yanıtını yüz yüze, bir makine gibi tekrar ediyor.
+Senaryo:
+- 0–3 sn: Dikey, sabit orta plan. Tom (30'lar, sabırsız) dosyayla Lena'nın (30'lar, kulaklıklı, tamamen ifadesiz) masasına gelir. Lena ekrana bakıyor. Tom: "Lena, I need your sign-off on this."
+- 3–8 sn: Lena başını kaldırmadan, düz bir sesle: "Thank you for your message. I am currently out of the office until Monday."
+- 8–11 sn: Tom etrafına bakar, masaya, kahve fincanına, Lena'ya: "You're... right here."
+- 11–16 sn: Lena aynı tonla, aynı kelimelerle: "Thank you for your message. I am currently out of the office until Monday."
+- 16–21 sn: Tom yanından geçen üçüncü kişiyi (Kevin) kolundan tutup yanına çeker: "Kevin. Say something to her." Kevin: "Hi Lena."
+- 21–25 sn: Lena, Kevin'e döner: "Thank you for your message. I am currently out of the office until Monday."
+- 25–30 sn: Kevin Tom'a döner, ciddi: "You shouldn't have replied all." Lena kahvesinden bir yudum alır. Kesme.
+Diyalog:
+- TOM: "Lena, I need your sign-off on this." (Lena, bunu onaylaman lazım.)
+- LENA: "Thank you for your message. I am currently out of the office until Monday." (Mesajınız için teşekkürler. Pazartesiye kadar ofis dışındayım.)
+- TOM: "You're... right here." (Sen... tam buradasın.)
+- LENA: "Thank you for your message. I am currently out of the office until Monday." (Mesajınız için teşekkürler. Pazartesiye kadar ofis dışındayım.)
+- TOM: "Kevin. Say something to her." (Kevin. Ona bir şey söyle.)
+- KEVIN: "Hi Lena." (Selam Lena.)
+- LENA: "Thank you for your message. I am currently out of the office until Monday." (Mesajınız için teşekkürler. Pazartesiye kadar ofis dışındayım.)
+- KEVIN: "You shouldn't have replied all." (Herkese yanıtla yapmamalıydın.)
+
+## S04 — İki Dilimlik Makine
+Brief: 2
+Fikir: İki yuvalı ekmek kızartma makinesi, bir değil on bir dilim kızarmış ekmek fırlatıyor.
+Senaryo:
+- 0–3 sn: Dikey, tek çekim. Mutfak tezgâhı, sabah ışığı. Sıradan iki yuvalı kızartma makinesi. Bir el iki dilim ekmeği yuvalara koyup kolu indirir. Klik.
+- 3–6 sn: Kısa bekleme (montajda sıkıştırılmış). Makine "ding" ile iki dilim fırlatır. Normal.
+- 6–9 sn: Telefonu tutan kişi dilimlere uzanırken makine bir dilim daha fırlatır. Ding. Çekenin kısa "hı?" nefesi.
+- 9–15 sn: Bir daha. Bir daha. Dilimler tezgâha düşüp yığılıyor. Kamera hafif geri çekiliyor. Makinenin boyutu değişmiyor, hiçbir şey anormal görünmüyor. Ding... ding... ding (düzenli ritim).
+- 15–18 sn: Durur. Sessizlik. Tezgâhta 11 dilim. El yavaşça kolu yeniden indirir. Klik.
+- 18–20 sn: Tek bir "ding" ve yuvadan bu sefer hiçbir şey çıkmaz. Kesme.
+Diyalog: yok
+
+## S05 — Bildirimsiz
+Brief: 3
+Fikir: İlaç reklamı biçiminde, telefon ekranına yapıştırılan ve bütün bildirimleri kapatan yuvarlak bir çıkartma satılıyor; hızlı okunan "yan etkiler" listesi giderek büyüyor.
+Senaryo:
+- 0–2 sn: Yakın plan, sürekli titreşen ve ışıklar saçan bir telefon; sahibinin gözleri yorgun. Bildirim sesleri üst üste.
+- 2–7 sn: Sakin, güven veren dış ses: "Bildirim yorgunluğu yaşıyor musunuz?" Kadın parkta bankta, telefonu titreşirken iç çekiyor.
+- 7–12 sn: "Bildirimsiz ile tanışın." Kadın telefon ekranının ortasına yuvarlak, mat bir çıkartma yapıştırır. Sessizlik. Güneş açar, kuşlar ötmeye başlar, kadın gülümser.
+- 12–17 sn: Kadın bisiklet sürüyor, köpekle oynuyor, sakin bir kahvaltı. Ekranda tek bir yazı yok; çıkartma telefonda.
+- 17–21 sn: Aynı sakin ses, giderek hızlanarak: "Bildirimsiz bazı kullanıcılarda 47 cevapsız anne aramasına yol açabilir." Kadın gülerek uçurtma uçuruyor.
+- 21–26 sn: "Arkadaşlarınız öldüğünüzü düşünebilir. Ev sahibiniz kapınızı kırabilir. Doğum gününüzü yalnız geçirmeniz mümkündür." Kadın bir pastayı tek başına mutlu mutlu üflüyor.
+- 26–30 sn: "Uzun süreli kullanımda kullanıcıların çoğu bir güvercinle derin bir dostluk kurmuştur. Güvercininizle konuşmadan Bildirimsiz'i bırakmayın." Kadın bankta bir güvercinle başbaşa, ikisi aynı yöne bakıyor.
+- 30–35 sn: "Bildirimsiz. Sessiz bir hayat, size sorulmadan." Kısa boşluk. İzleyicinin kendi telefonunu taklit eden, ekranın üstünden kayan sahte bir bildirim balonu sesi ve titreşim (görsel olarak açılış karesindeki gibi). Kesme; açılışa dönülür.
+Diyalog:
+- DIŞ SES: "Bildirim yorgunluğu yaşıyor musunuz?"
+- DIŞ SES: "Bildirimsiz ile tanışın."
+- DIŞ SES: "Bildirimsiz bazı kullanıcılarda 47 cevapsız anne aramasına yol açabilir."
+- DIŞ SES: "Arkadaşlarınız öldüğünüzü düşünebilir. Ev sahibiniz kapınızı kırabilir. Doğum gününüzü yalnız geçirmeniz mümkündür."
+- DIŞ SES: "Uzun süreli kullanımda kullanıcıların çoğu bir güvercinle derin bir dostluk kurmuştur. Güvercininizle konuşmadan Bildirimsiz'i bırakmayın."
+- DIŞ SES: "Bildirimsiz. Sessiz bir hayat, size sorulmadan."
+
+## S06 — Kaşık Pro
+Brief: 3
+Fikir: Sıradan bir çorba kaşığı, büyük teknoloji lansmanı tarzında devrim gibi tanıtılıyor.
+Senaryo:
+- 0–4 sn: Dikey. Siyah zemin, tek spot. Beyaz ışıkta yavaşça dönen sıradan metal kaşık. Minimal elektronik müzik, başka ses yok.
+- 4–10 sn: Siyah tişörtlü uydurma tasarımcı karakter (kurgusal, sakin, fısıltıya yakın konuşuyor), beyaz stüdyoda: "Kaşığı yeniden düşünmedik. Kaşığı... yeniden hissettik."
+- 10–17 sn: Teknik çizim animasyonu: kaşık parçalarına "ayrılıyor" ama sadece tek parça var. Etiket: "Tek parça. Sıfır parça." Dış ses: "Tek parça, uçtan uca bütünleşik tasarım."
+- 17–24 sn: Özellik listesi, her biri büyük harfle, coşkulu müzikle: "Çorba tutar." "Çay karıştırır." "Hiç güncelleme istemez." Tasarımcı: "Ve en sevdiğim özelliği: bu taraf." (Kaşığı çevirip arka yüzünü gösterir.)
+- 24–30 sn: Fiyat ekranı. Dramatik duraklama. "Kaşık Pro: 1.299 TL." Alt satır: "Kaşık Pro Max (biraz daha büyük): 1.899 TL." Dış ses: "Ön siparişler bugün başlıyor."
+- 30–35 sn: Tasarımcı mutfakta çorba içmeye çalışıyor, kaşığı ters tutuyor, çorba dökülüyor. Ciddi yüzle kameraya bakıyor: "Yanlış tutuyorsunuz."
+Diyalog:
+- TASARIMCI: "Kaşığı yeniden düşünmedik. Kaşığı... yeniden hissettik."
+- DIŞ SES: "Tek parça, uçtan uca bütünleşik tasarım."
+- TASARIMCI: "Ve en sevdiğim özelliği: bu taraf."
+- DIŞ SES: "Ön siparişler bugün başlıyor."
+- TASARIMCI: "Yanlış tutuyorsunuz."
+
+## S07 — Önceden Solmuş Bitki
+Brief: 3
+Fikir: Bitki öldürmekten bıkanlar için zaten kurumuş halde teslim edilen saksı bitkisi, "asla hayal kırıklığı yaşamayacaksınız" vaadiyle.
+Senaryo:
+- 0–5 sn: Dikey. Sıcak ışıklı, yumuşak odaklı yaşam tarzı reklamı. Bir kadın pencere önünde kahvesini içiyor, yanında kahverengi, tamamen kurumuş bir bitki. Dış ses (yumuşak, yatıştırıcı): "Hayat zaten yeterince zor."
+- 5–10 sn: Flashback (gri ton): kadın bir bitkiyi suluyor, bitki ertesi gün sararıyor; başka bir tane, aynısı. Kadın üzgün. Dış ses: "Sevdiniz. Suladınız. Kaybettiniz."
+- 10–16 sn: Ürün çekimi: kurumuş bitki şık bir kutudan çıkıyor, yaprak döküyor, slow-motion. Dış ses: "Yeni Huzur Bitkisi. Önceden solmuş. Önceden kabullenilmiş."
+- 16–24 sn: Mutlu kullanıcı görüşleri, kendi sesleriyle: bir adam kameraya: "Üç yıldır bende. Hiç değişmedi." Bir kadın gözleri dolu: "İlk defa bir şeyi öldürmedim."
+- 24–30 sn: Kadın bitkiye su döküyor, toprak bile emmiyor. Gülümsüyor. Logo. Dış ses: "Huzur Bitkisi. Artık sorun siz değilsiniz." Küçük yazı: "Sulamayın. Gerek yok. Hiç olmadı."
+Diyalog:
+- DIŞ SES: "Hayat zaten yeterince zor."
+- DIŞ SES: "Sevdiniz. Suladınız. Kaybettiniz."
+- DIŞ SES: "Yeni Huzur Bitkisi. Önceden solmuş. Önceden kabullenilmiş."
+- ADAM: "Üç yıldır bende. Hiç değişmedi."
+- KADIN: "İlk defa bir şeyi öldürmedim."
+- DIŞ SES: "Huzur Bitkisi. Artık sorun siz değilsiniz."
+
+## S08 — Ekran Koruyucu
+Brief: 2
+Fikir: Yeni ekran koruyucunun altındaki tek hava kabarcığı, bastırıldıkça kaçıyor ve sonunda telefondan çıkıp masadaki başka yüzeylere taşınıyor.
+Senaryo:
+- 0–2 sn: Yukarıdan yakın plan; masada siyah ekranlı bir telefon, ortasında belirgin tek kabarcık. Bir başparmak kabarcığın üstünde bekliyor.
+- 2–7 sn: Başparmak kabarcığı kenara doğru sürer; kabarcık kenara gider ve kaybolur. El bir banka kartı alır, ekranı düzler (kart sürtme sesi). Tatmin edici, temiz ekran.
+- 7–12 sn: Kart kalkar; kabarcık ekranın tam ortasında yeniden belirir. Başparmak tekrar iter; kabarcık bu kez parmaktan önce kendi kendine kaçar, bir köşeye kayar.
+- 12–18 sn: Kart köşeye bastırır. Kabarcık telefonun kenarından çıkar ve masadaki cam bardak altlığının altına "geçer"; altlığın camında aynı kabarcık. El duraksar. Kamera hafif sallanır (çeken kişi irkildi).
+- 18–23 sn: El altlığı kaldırıp kartla bastırır; kabarcık camdan kayar, masanın yanındaki pencere camına sıçrar ve camın ortasına yerleşir; tek bir "...hm." (isteğe bağlı, sözcük değil). El kartı bırakır. Kısa boşluk.
+- 23–25 sn: El, yenilmiş, telefonu ters çevirip masaya koyar (bir kez sert nefes verme). Kamera telefona yaklaşır: telefonun arka kamera lensinin üstünde aynı kabarcık. Kesme; açılış karesine dönülür.
+Diyalog: yok
+
+## S09 — Sandviç Geri Bildirim (The Feedback Sandwich)
+Brief: 1
+Fikir: Yönetici Glen "eleştiriyi iki iltifat arasına koy" tekniğini harfiyen uyguluyor; eleştiriler büyüdükçe iltifatları tükeniyor ve sonunda kötü haberi gerçek bir sandviçin içinde veriyor.
+Senaryo:
+- 0–2 sn: Yönetici masasında, dosyaların yanında bir somun ekmek ve ekmek bıçağı. Glen gülümseyerek oturuyor. Karşısında Rosa, elinde not defteri.
+- 2–7 sn: Glen: "Rosa! Performance review. Love this. Let's go." Rosa gergin.
+- 7–12 sn: Glen: "Great tie. You're late a lot. Great tie." Rosa kendi yakasına bakar; kravat takmıyor. Glen yine de onaylarcasına başını sallar.
+- 12–19 sn: Glen kâğıda bakar, yüzü düşer, gülümsemeyi zorlar: "Beautiful handwriting. You deleted the client database. ...Beautiful handwriting." Rosa: "That's the same one." Glen: "It's very beautiful."
+- 19–26 sn: Glen son kâğıdı çıkarır (zarf). Konuşmaz. Ekmekten iki dilim keser, zarfı araya koyar, kibarca peçeteye sarar, masanın üzerinden iter. Kısa boşluk.
+- 26–30 sn: Rosa sandviçe bakar: "Is this... rye?" Glen, rahatlamış: "You have great taste." Kesme; somunun kalanı açılış karesindeki gibi masada.
+Diyalog:
+- GLEN: "Rosa! Performance review. Love this. Let's go." (Rosa! Performans değerlendirmesi. Bayıldım. Başlayalım.)
+- GLEN: "Great tie. You're late a lot. Great tie." (Harika kravat. Çok geç kalıyorsun. Harika kravat.)
+- GLEN: "Beautiful handwriting. You deleted the client database. ...Beautiful handwriting." (Güzel el yazısı. Müşteri veri tabanını sildin. ...Güzel el yazısı.)
+- ROSA: "That's the same one." (O aynısı.)
+- GLEN: "It's very beautiful." (Çok güzel.)
+- ROSA (sandviçe bakarak): "Is this... rye?" (Bu... çavdar mı?)
+- GLEN: "You have great taste." (Zevkin çok iyi.)
+
+## S10 — KapakKapağı
+Brief: 3
+Fikir: Gece yarısı tele-alışveriş reklamı, kavanoz kapağını açmayı kolaylaştıran bir kapağı satıyor; sonra o kapağın kapağını, sonra onun da kapağını.
+Senaryo:
+- 0–2 sn: Siyah-beyaz, abartılı çaresizlik: bir adam kavanoz kapağını açamıyor, kavanoz elinden kayıp tezgâhta yuvarlanıyor. Tele-alışveriş tipi kırmızı çerçeve.
+- 2–6 sn: Dış ses: "Kavanoz kapakları. Hayat neden bu kadar zor?" Adam kameraya acı çeker gibi bakar.
+- 6–12 sn: Renk birden gelir. Gülümseyen sunucu: "İşte KapakKapağı!" Kavanozun kapağına geçen büyük, tırtıklı plastik bir kapak. Adam çevirir, açılır. Yapay seyirci alkışı.
+- 12–19 sn: Siyah-beyaz yeniden: adam KapakKapağı'nı kavanozdan çıkaramıyor. Dış ses: "KapakKapağı'nı açamıyor musunuz?" Sunucu: "KapakKapağı Kapağı!" Bir boy büyük ikinci kapak, birincinin üstüne.
+- 19–26 sn: Hızlı kesme: kapaklar üst üste, kavanoz artık el kovası büyüklüğünde bir kapak kulesinin altında. Adam iki eliyle direksiyon gibi çeviriyor. Dış ses hızla: "Kapak! Kapak Kapağı! Kapak Kapağı Kapağı! Hepsi bir arada!"
+- 26–31 sn: "Ama durun, dahası var!" Sunucu kumandaya basar: adamın mutfağının tamamının üstüne, tavandan inen dev bir tırtıklı kapak. Kısa boşluk. Kapak dönmeye başlar; tüm mutfak birlikte döner.
+- 31–35 sn: Dış ses, ciddi: "KapakKapağı. Çünkü her kapağın bir kapağı vardır." Son kare: siyah-beyaz, dev kapağın içindeki adam yine küçük kavanozu açamıyor (açılış karesine dönülür).
+Diyalog:
+- DIŞ SES: "Kavanoz kapakları. Hayat neden bu kadar zor?"
+- SUNUCU: "İşte KapakKapağı!"
+- DIŞ SES: "KapakKapağı'nı açamıyor musunuz?"
+- SUNUCU: "KapakKapağı Kapağı!"
+- DIŞ SES (hızla): "Kapak! Kapak Kapağı! Kapak Kapağı Kapağı! Hepsi bir arada!"
+- SUNUCU: "Ama durun, dahası var!"
+- DIŞ SES: "KapakKapağı. Çünkü her kapağın bir kapağı vardır."
+
+## S11 — Otomatik Musluk
+Brief: 2
+Fikir: Umumi lavaboda sensörlü musluk elleri görmüyor; su hep kişinin az önce terk ettiği ya da hiç durmadığı yerden akıyor.
+Senaryo:
+- 0–2 sn: Telefon, arkadaşının omzunun üstünden çekiyor. Üç lavabolu sıradan bir umumi tuvalet; kişi ortadaki muslukta ellerini sallıyor, su yok. Yandaki boş musluktan su akıyor (musluk akışı sesi).
+- 2–7 sn: Kişi yandaki akan musluğa geçer; elini uzattığı anda o durur, az önce bıraktığı ortadaki musluk akmaya başlar.
+- 7–13 sn: Geri döner: ortadaki durur, yeni bıraktığı akar. Bir kez daha, daha hızlı: aynı şey. Kişi kameraya (arkadaşına) bakar; çekenin bastırılmış nefesi (gülme sesi değil, sadece nefes).
+- 13–20 sn: Kişi iki eliyle iki musluğa birden uzanır. İkisi de durur; arkasındaki duvarda el kurutma makinesi tek başına çalışır (kurutucu uğultusu), sonra köşedeki sabunluk boşluğa sabun bırakır.
+- 20–25 sn: Kişi pes eder, ıslak olmayan ellerini pantolonuna silip kapıya yürür. Kapı arkasından kapanırken bütün musluklar, kurutucu ve sabunluk aynı anda çalışır, gürültü dolar.
+- 25–28 sn: Kapı yeniden açılır, kişi geri girer; her şey aynı anda susar. Kişi ortadaki muslukta elini sallar; yandaki akar (açılış karesine dönülür).
+Diyalog: yok
+
+## S12 — Eş Çorap
+Brief: 2
+Fikir: Kurutma makinesinden eksik tek çorabı arayan kişi elini içeri her sokuşunda başka bir tek çorap çıkarıyor; sonunda eşi bulunuyor ama arkasında yüzlerce eşsiz çorap tepesi var.
+Senaryo:
+- 0–2 sn: Yakın plan: bir el, tek bir çizgili çorap tutuyor ve kameraya gösteriyor; arkada açık kapaklı kurutma makinesi, içi boş görünüyor.
+- 2–7 sn: Kişi çorabı katlanmış çamaşır yığınının üstüne bırakır, eğilip makinenin içine elini sokar, tamburu tarar (tambur tıkırtısı, kumaş hışırtısı).
+- 7–12 sn: Bir çorap çıkarır: düz mavi, eşleşmiyor. Omuz silker, yere bırakır, yine elini sokar.
+- 12–18 sn: Hızlanan kurgu, aynı açı: kırmızı, puantiyeli, bebek çorabı, uzun yün çorap, bir futbol tozluğu. Yerde yığın büyür, kişinin ayak bileğine kadar.
+- 18–25 sn: Kamera geri çekilir: çamaşır odasının zemini diz boyu farklı tek çoraplarla dolu. Kişi kolunu omzuna kadar makineye sokmuş. Kısa boşluk. Yavaşça çizgili eşi çıkarır.
+- 25–30 sn: Kişi iki çizgili çorabı yan yana tutup zaferle kameraya gösterir (açılış karesinin aynısı, artık iki çorap); kısa bir zafer nefesi. Arkada çorap dağı. Kesme; açılış karesine dönülür.
+Diyalog: yok
+
+## S13 — Toplantı Daveti (The Invite)
+Brief: 1
+Fikir: Yan yana oturan iki iş arkadaşından Dana, Kevin'le yaptığı her konuşmayı, Kevin'in kendi konuşma sırası da dahil, takvim davetiyle planlıyor.
+Senaryo:
+- 0–2 sn: Yakın plan, Kevin'in dizüstü ekranı: bildirim sesi, "Invitation: Coffee? (1 min) — Organizer: Dana" (Davet: Kahve? (1 dk) — Düzenleyen: Dana). Kamera geri çekilir: Dana tam yanında oturuyor, ona bakmıyor.
+- 2–6 sn: Kevin başını çevirir, Dana'ya bakar. Dana gözünü ekrandan ayırmadan bekler. Kevin "Kabul et"e tıklar. Dana kalkar, iki kahve getirir, birini koyar, oturur.
+- 6–13 sn: Kevin ağzını açar, Dana parmağını kaldırır. Kevin'in ekranı: "Updated: Coffee? — Agenda attached" (Güncellendi: Kahve? — Gündem ekte). Kevin eki açar: tek satır "1. Sugar?" (1. Şeker?). Kevin sesli cevap verir: "...Two. Two sugars." Dana not alır.
+- 13–20 sn: Dana dosya istemek için ağzını açar, durur, yazar. Kevin'in ekranı: "Invitation: Can I borrow your stapler? — Optional attendees: Entire Floor (48)" (Davet: Zımbanı ödünç alabilir miyim? — İsteğe bağlı katılımcılar: Tüm Kat (48)). Arka planda tüm ofiste aynı bildirim sesi; birkaç kafa kalkar. Kevin zımbayı sessizce uzatır.
+- 20–27 sn: Kevin sonunda dayanamaz, Dana'ya döner: "Dana—" Dana parmağını kaldırır, yazar. Kevin'in ekranı: "Invitation: Kevin talks to Dana (2 min) — Location: Here" (Davet: Kevin Dana'yla konuşur (2 dk) — Yer: Burası). Kısa boşluk. Kevin kabul eder. Dana ona döner, ilk kez göz teması, ellerini masada birleştirir, bekler.
+- 27–30 sn: Kevin: "...Hi." Dana başını sallar, ekrana döner. Kevin'in ekranında bildirim sesi: "Meeting notes: Kevin talks to Dana" (Toplantı notları: Kevin Dana'yla konuşur). Bu ses ve ekran açılış karesine bağlanır.
+Diyalog:
+- KEVIN (ekrana bakıp, sesli): "...Two. Two sugars." (...İki. İki şeker.)
+- KEVIN: "Dana—" (Dana—)
+- KEVIN: "...Hi." (...Selam.)
+- Dana hiç konuşmuyor.
+
+## S14 — Quick Question
+Brief: 1
+Fikir: "Hızlı bir sorum var" diye başlayan konuşma, aynı iki kişi aynı pozda kalırken etraflarında günler geçmesine dönüşür.
+Senaryo:
+- 0–3 sn: Dikey, tek sabit açı (kamera hiç kıpırdamıyor). Gündüz, kalabalık ofis. Sam (elinde kupa) Priya'nın (kibar ama çaresiz) masasına yaslanır. Sam: "Quick question." Priya: "Sure."
+- 3–7 sn: Kesme. Aynı poz. Pencere dışı akşam, ofis boşalmış. Sam: "...so that's the context. Now, the question —"
+- 7–11 sn: Kesme. Gece. Temizlik görevlisi arkalarında yer siliyor. Priya'nın kupası değişmiş. Sam: "— but before the question, a bit of background."
+- 11–16 sn: Kesme. Sabah. Mesai arkadaşları yeniden geliyor, biri Priya'ya doğum günü pastası bırakıyor, mum yanıyor. Priya kıpırdamıyor. Sam: "Okay. Okay. Here's the question."
+- 16–20 sn: Sam derin nefes alır. Priya öne eğilir. Sam: "Do you have a minute?"
+- 20–25 sn: Priya'nın yüzü yakın. Mum söner. Priya: "...No." Kesme.
+Diyalog:
+- SAM: "Quick question." (Hızlı bir soru.)
+- PRIYA: "Sure." (Tabii.)
+- SAM: "...so that's the context. Now, the question —" (...bu bağlamdı. Şimdi soru —)
+- SAM: "— but before the question, a bit of background." (— ama sorudan önce biraz arka plan.)
+- SAM: "Okay. Okay. Here's the question." (Tamam. Tamam. İşte soru.)
+- SAM: "Do you have a minute?" (Bir dakikan var mı?)
+- PRIYA: "...No." (...Hayır.)
+
+## S15 — SessizPaket
+Brief: 3
+Fikir: Toplantıda ses çıkarmadan cips yemek için tasarlanmış, hışırdamayan cips paketi; klasik "önce/sonra" tele-satış reklamı kalıbında.
+Senaryo:
+- 0–5 sn: Dikey. Siyah-beyaz, abartılı "önce" sahnesi: sessiz bir toplantı odası. Bir adam masanın altında cips paketini açmaya çalışıyor; paket hışırtısı patlama gibi yüksek. Herkes yavaşça dönüp ona bakıyor. Dış ses (coşkulu): "Bu sizin de başınıza geldi mi?"
+- 5–9 sn: Adam kameraya dönüp umutsuzca ellerini açar. Dış ses: "Artık bitti!"
+- 9–15 sn: Renkli geçiş, parlak stüdyo. Ürün çekimi: tamamen sıradan görünen paket dönüyor, ışık parlıyor. Dış ses: "Tanıştırayım: SessizPaket! Sıfır hışırtı. Sıfır suçluluk."
+- 15–23 sn: Aynı toplantı, renkli. Adam paketi açıyor: hiç ses yok. Cipsi ağzına atıyor ve ısırıyor: KITIR sesi odayı sallıyor, bardaklar titriyor. Herkes yine dönüyor. Dış ses bir an susuyor.
+- 23–28 sn: Dış ses hiç bozulmadan devam ediyor. Ekranda "PAKET" kelimesinin altı çizili. Dış ses: "Paket sessiz. Gerisi size kalmış."
+- 28–35 sn: Hızlı okunan yasal uyarı, ekran altında küçük yazı. Dış ses (çok hızlı): "SessizPaket cipsin sesini azaltmaz. Kullanıcıların yüzde doksanı toplantıdan çıkarıldı. Muz ile kullanılması tavsiye edilir."
+Diyalog:
+- DIŞ SES: "Bu sizin de başınıza geldi mi?"
+- DIŞ SES: "Artık bitti!"
+- DIŞ SES: "Tanıştırayım: SessizPaket! Sıfır hışırtı. Sıfır suçluluk."
+- DIŞ SES: "Paket sessiz. Gerisi size kalmış."
+- DIŞ SES (çok hızlı): "SessizPaket cipsin sesini azaltmaz. Kullanıcıların yüzde doksanı toplantıdan çıkarıldı. Muz ile kullanılması tavsiye edilir."
+
+## S16 — Koli Bandı
+Brief: 2
+Fikir: Bir koliyi bantlamak isteyen kişi bandı çekiyor; bant hiç bitmiyor ve rulo hiç incelmiyor, çeken kişi geri geri evden çıkıyor.
+Senaryo:
+- 0–4 sn: Dikey; arkadaşın telefonundan takip çekimi. Oturma odası, yerde açık koli. Kişi bant tabancası yerine elde rulo ile bandı çekmeye başlar. Bandın yırtılma/sökülme sesi.
+- 4–9 sn: Bant uzar, kişi geri adım atar. Kolinin üstünden geçer. Rulo hâlâ aynı kalınlıkta (yakın plan). Sürekli bant sesi.
+- 9–16 sn: Geri geri koridora çıkar. Kamera takip eder. Bant yerde ince bir çizgi gibi uzanır. Bant sesi + çekenin bastırılmış gülme nefesi.
+- 16–23 sn: Kapıdan dışarı, merdiven boşluğu. Bir komşu kapısını açar, bandın üstünden dikkatle adım atar, selam verir gibi başını sallar, gider. Komşunun ayak sesi.
+- 23–30 sn: Kişi sonunda durur, dişleriyle bandı koparır (kopma sesi), geri dönüp uzun yolu yürür. Son kare: kolinin üstüne o bandın sadece 10 santimlik ucunu yapıştırır. Sessizlik.
+Diyalog: yok
+
+## S17 — Ilık Fotokopi
+Brief: 3
+Fikir: Lüks parfüm reklamının bütün dili (ağır çekim, deniz, at, fısıltı) kullanılıyor; ama satılan koku "pazartesi sabahı ofiste yeni çıkmış ılık fotokopi".
+Senaryo:
+- 0–2 sn: Ağır çekim, gün batımında kumsalda koşan bir at; üstünde siyah takım elbiseli bir kadın. Saçlarında rüzgâr, kolunun altında bir dosya.
+- 2–8 sn: Yakın planlar: dalga, ipek kumaş, kadının kapanan gözleri. Fısıltı dış ses, İngilizce aksanlı değil, Türkçe: "Arzu. Özgürlük. Sonsuzluk."
+- 8–14 sn: Kadın attan iner, denizin ortasında duran ve ışık saçan bir fotokopi makinesine yürür. Kapağı açar; makinenin yeşil ışığı yüzünü tarar. Çıkan kâğıdı yüzüne tutar, gözleri kapalı, derin bir nefes alır.
+- 14–20 sn: Fısıltı: "Toner notaları. Hafif bir sıcaklık. Biraz kâğıt sıkışması." Makineden kısa bir sıkışma sesi; kadın bundan haz duyar gibi başını arkaya atar.
+- 20–26 sn: Bir erkek model sahile gelir, ağır çekimde gömleğini açar; altında boyuna asılı bir personel kartı. Floresan ofis lambaları kumsalın üstünde tek tek yanar. İkisi birbirine yaklaşır, tam öpüşecekken araya biri girip "toplantı odası boş mu" der gibi işaret eder (sessiz, ağır çekim).
+- 26–30 sn: Siyah ekranda ince şişe: içinde sıcak bir A4 kâğıdı rulo hâlinde. Fısıltı: "Ilık Fotokopi. Maison Pazartesi." Son kare: at kumsalda tek başına bekliyor, sırtında artık bir fotokopi makinesi (açılış karesine bağlanır).
+Diyalog:
+- DIŞ SES (fısıltı): "Arzu. Özgürlük. Sonsuzluk."
+- DIŞ SES (fısıltı): "Toner notaları. Hafif bir sıcaklık. Biraz kâğıt sıkışması."
+- DIŞ SES (fısıltı): "Ilık Fotokopi. Maison Pazartesi."
+
+## S18 — Sticky Notes
+Brief: 1
+Fikir: Ortak mutfakta iki çalışan, birbirinin yanında durdukları hâlde yalnızca buzdolabına yapışkan notlarla tartışıyor.
+Senaryo:
+- 0–4 sn: Dikey; buzdolabı kapısı ve iki yüz. June (yoğurdu yenmiş kişi) buzdolabını açar, yoğurdunun yerinde boş kap var. Kapıda not: "SOMEONE ATE MY YOGURT." (BİRİ YOĞURDUMU YEDİ.) Kamera yakın. Sessiz.
+- 4–9 sn: Mark (düzen takıntılı) içeri girer, June'un hemen yanında durur. June notun altına yeni not yapıştırır: "That was MY yogurt." (O BENİM yoğurdumdu.) Sessiz.
+- 9–14 sn: Mark, omuz omuza dururken kendi notunu yazar ve yapıştırır: "It had no name on it." (Üstünde isim yoktu.) Sessiz.
+- 14–20 sn: Hızlanan ritim: not, not, not. Kapı sarıya boğuluyor. Kısa kesmeler: "It was IMPLIED." (Belliydi.) / "Labels are not implied." (Etiketler belli olmaz, yazılır.) / "Per policy 4.2" (4.2 numaralı kural gereği). Sessiz, sadece kalem gıcırtısı.
+- 20–27 sn: Not bitiyor. June son bloğu Mark'tan alır. Mark yeni blok için dolaba uzanır, yoktur. İkisi bir an göz göze gelir. Konuşacakları an. Mark ağzını açar, durur.
+- 27–35 sn: Mark cebinden telefonu çıkarır, yazar. June'un telefonu titrer. June bakar, Mark'a döner. Ekranda: "Can we talk?" (Konuşabilir miyiz?) June cevap yazar: "Not in front of the fridge." (Buzdolabının önünde olmaz.) Sessiz.
+Diyalog: yok (yazılı notlar ve mesajlar senaryoda; kimse sesli konuşmuyor)

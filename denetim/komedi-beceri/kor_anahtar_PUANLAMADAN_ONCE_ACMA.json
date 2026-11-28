@@ -1,0 +1,92 @@
+{
+ "S01": {
+  "kosul": "temel",
+  "brief": 2,
+  "sira": 2
+ },
+ "S02": {
+  "kosul": "sonra",
+  "brief": 1,
+  "sira": 1
+ },
+ "S03": {
+  "kosul": "temel",
+  "brief": 1,
+  "sira": 0
+ },
+ "S04": {
+  "kosul": "temel",
+  "brief": 2,
+  "sira": 0
+ },
+ "S05": {
+  "kosul": "sonra",
+  "brief": 3,
+  "sira": 2
+ },
+ "S06": {
+  "kosul": "temel",
+  "brief": 3,
+  "sira": 2
+ },
+ "S07": {
+  "kosul": "temel",
+  "brief": 3,
+  "sira": 1
+ },
+ "S08": {
+  "kosul": "sonra",
+  "brief": 2,
+  "sira": 0
+ },
+ "S09": {
+  "kosul": "sonra",
+  "brief": 1,
+  "sira": 2
+ },
+ "S10": {
+  "kosul": "sonra",
+  "brief": 3,
+  "sira": 0
+ },
+ "S11": {
+  "kosul": "sonra",
+  "brief": 2,
+  "sira": 1
+ },
+ "S12": {
+  "kosul": "sonra",
+  "brief": 2,
+  "sira": 2
+ },
+ "S13": {
+  "kosul": "sonra",
+  "brief": 1,
+  "sira": 0
+ },
+ "S14": {
+  "kosul": "temel",
+  "brief": 1,
+  "sira": 1
+ },
+ "S15": {
+  "kosul": "temel",
+  "brief": 3,
+  "sira": 0
+ },
+ "S16": {
+  "kosul": "temel",
+  "brief": 2,
+  "sira": 1
+ },
+ "S17": {
+  "kosul": "sonra",
+  "brief": 3,
+  "sira": 1
+ },
+ "S18": {
+  "kosul": "temel",
+  "brief": 1,
+  "sira": 2
+ }
+}
