@@ -25,6 +25,12 @@ def main(argv=None):
     p.add_argument("--cikti-klasor", default=str(KOK / "istihbarat/olcumler"))
     a = p.parse_args(argv)
     liste = json.loads(Path(a.liste).read_text(encoding="utf-8"))
+    yeni = liste.get("yeni_adaylar", {})
+    for pl, anahtarlar in (("tiktok", ("tiktok", "tiktok_pasif")), ("youtube", ("youtube",))):
+        for ek in anahtarlar:
+            for h in yeni.get(ek, []):
+                if h not in liste.setdefault(pl, []):
+                    liste[pl].append(h)
     bas = datetime.now(timezone.utc)
     sonuc = {"olcum_basla_utc": bas.isoformat(timespec="seconds"), "liste": a.liste,
              "youtube": olc("youtube", liste.get("youtube", [])),

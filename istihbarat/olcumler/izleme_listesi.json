@@ -1,3 +1,55 @@
-{"_aciklama": "Zaman serisi için düzenli yeniden ölçülecek hesaplar (G-0048, G-0051). Ölçüm: python3 -I scripts/hesap_olc.py. Çıktı: istihbarat/olcumler/<UTC tarih>.json. 14 günde bir tekrar önerisi (Bora onayı bekliyor).",
- "youtube": ["@BandarApnaDost","@meowtakeover","@MPMinds_","@tailbitpets","@funntastic_AI","@ai.shxdda","@storyarcpaws","@AiKittenverse","@HasanAi202","@catrealmai","@kittenstoriesdaily01","@animalshortssb","@simonscat","@lazysquare","@NeuralViz"],
- "tiktok": ["meowtakeover","mpminds","tailbitpets","officialdivingdog","chubbycat_1","aibeaststudio","pablo.prompt","cat_tommmy","asmraiworks","impossibleais","simonscat","kiwisburnttoast"]}
+{
+ "_aciklama": "Zaman serisi için düzenli yeniden ölçülecek hesaplar (G-0048, G-0051). Ölçüm: python3 -I scripts/hesap_olc.py. Çıktı: istihbarat/olcumler/<UTC tarih>.json. 14 günde bir tekrar önerisi (Bora onayı bekliyor).",
+ "youtube": [
+  "@BandarApnaDost",
+  "@meowtakeover",
+  "@MPMinds_",
+  "@tailbitpets",
+  "@funntastic_AI",
+  "@ai.shxdda",
+  "@storyarcpaws",
+  "@AiKittenverse",
+  "@HasanAi202",
+  "@catrealmai",
+  "@kittenstoriesdaily01",
+  "@animalshortssb",
+  "@simonscat",
+  "@lazysquare",
+  "@NeuralViz"
+ ],
+ "tiktok": [
+  "meowtakeover",
+  "mpminds",
+  "tailbitpets",
+  "officialdivingdog",
+  "chubbycat_1",
+  "aibeaststudio",
+  "pablo.prompt",
+  "cat_tommmy",
+  "asmraiworks",
+  "impossibleais",
+  "simonscat",
+  "kiwisburnttoast"
+ ],
+ "yeni_adaylar": {
+  "_aciklama": "G-0061 (K-036), 2026-11-28: küçük hesaplar (<=100K takipçi). Handle'lar WebSearch sonucunda görünen gerçek URL'den/metinden alındı, hesap_olc.py ile varlık doğrulandı. 'tiktok' = son klibi 2026-10-29 sonrası (hesap_olc embed tarihi). 'tiktok_pasif' = son klip >30 gün önce (durağan kontrol grubu; sayıya dahil değil). YouTube küçük hesapların klip tarihi araçla okunamadığı için eklenmedi.",
+  "tiktok": [
+   "cartoon_story_6",
+   "aitoons.111",
+   "zador_creator",
+   "scenelab03",
+   "aifruit055",
+   "douknowwhoelse",
+   "proxy_art_studio",
+   "ofernandorank",
+   "aikademi",
+   "aivideo.804",
+   "crazy.baby0972"
+  ],
+  "tiktok_pasif": [
+   "epic.cartoon0",
+   "aicartoons208",
+   "mystcat_t"
+  ]
+ }
+}
