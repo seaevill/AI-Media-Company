@@ -1,0 +1,31 @@
+{
+ "test_utc": "2026-11-28",
+ "ayar": ".claude/settings.json permissions.deny",
+ "sonuclar": [
+  {
+   "test": "ana oturum fire_trigger (sahte id)",
+   "sonuc": "Permission ... denied",
+   "durum": "ENGELLENDİ"
+  },
+  {
+   "test": "alt ajan fire_trigger",
+   "sonuc": "araç listesinde yok",
+   "durum": "ENGELLENDİ"
+  },
+  {
+   "test": "alt ajan create_session görünür mü",
+   "sonuc": "hayır",
+   "durum": "ENGELLENDİ"
+  },
+  {
+   "test": "alt ajan Higgsfield üretim araçları",
+   "sonuc": "yok (yalnız salt-okunur Higgsfield_AI kaldı)",
+   "durum": "ENGELLENDİ"
+  }
+ ],
+ "acik_kalanlar": [
+  "Bash/curl ile doğrudan HTTP çağrısı teknik olarak engellenmedi (ücretli servislerin anahtarı ortamda yok; Gemini anahtarı ücretsiz katman)",
+  "Ayar dosyası Edit ile değiştirilemez ama Bash ile değiştirilebilir — teknik değil, kural+denetim (dogrula.py) ile korunuyor",
+  "Claude kullanım bütçesi için teknik üst sınır yok; yalnızca CONFIG limitleri ve kayıt"
+ ]
+}

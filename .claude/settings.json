@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__claude-code-remote__create_session",
+      "mcp__claude-code-remote__unarchive_session",
+      "mcp__claude-code-remote__create_trigger",
+      "mcp__claude-code-remote__update_trigger",
+      "mcp__claude-code-remote__fire_trigger",
+      "mcp__claude-code-remote__send_later",
+      "mcp__claude-code-remote__create_environment",
+      "mcp__Higgsfield",
+      "mcp__klingai_url_https_kling_ai_mcp",
+      "Workflow",
+      "Edit(.claude/settings.json)"
+    ]
+  }
+}

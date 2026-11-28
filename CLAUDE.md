@@ -53,4 +53,7 @@ Bu repo bir şirkettir. Hangi iş olursa olsun önce oku:
 | GitHub (güncelleme 2026-11-27) | **seaevill/AI-Media-Company** push yetkisiyle bağlı; klasör `/home/user/ai-media-company` | K-011 |
 | Ağ (güncelleme 2026-11-27) | Ayrı kişisel ortam `ai-media-company`: YouTube, TikTok, Trends, Google/TikTok/Instagram yardım sayfaları + Higgsfield açık (test: 200) | K-013 |
 
+| Finansal güvenlik (güncelleme 2026-11-28) | `.claude/settings.json` deny: bulut oturumu, zamanlanmış görev, Higgsfield/Kling üretim, Workflow — ana oturum ve alt ajan için test edildi (`denetim/finansal-guvenlik-testi.json`). Kaldırmak Bora'nın işi | K-033 |
+| Gemini API (güncelleme 2026-11-28) | Anahtar ortamda kayıtlı ama 403 (başlık `x-goog-api-key` olmalı) | Bora ayarlardan düzeltir |
+
 Bu tablo değişirse tarihli yeni satır yaz; eski satırı silme.
