@@ -1,0 +1,36 @@
+# VIU kalite kontrol raporu — "Bardak" (2 klip)
+
+Görev: G-0902 · Takım: VIU / animasyon-kalite-kontrol · Tarih: 2026-11-28
+Denetçi: VIU-A (kör, üretim ekibinden bağımsız)
+Kaynak klipler: ChatGPT prodüksiyonundan iletildi (dosya repoda değil, yalnız metadata)
+
+## Yöntem
+- Temas ve geçiş anları 12 kare/sn tam çözünürlük çıkarıldı (`scripts/video_qc.py`).
+- Diğer bölümler 4 kare/sn tarandı.
+- Hata sınıfları: iç içe geçme, kaybolma–belirme, çoğalma, morf, yüzen nesne, istenmeyen yazı, ses kanalı.
+
+## Klip A — 6 sn, 720p
+| Zaman | Kare | Bulgu | Kaynak |
+|---|---|---|---|
+| 0,00–1,50 | 18 | Karakter girişi temiz, kenar bozulması yok | GÖRDÜM |
+| 2,25 | 1 | Bardak masaya değiyor; temas noktasında 2 karelik hafif yüzme | GÖRDÜM |
+| 3,40–3,90 | 6 | Kuyruk masa ayağının içinden geçiyor (iç içe geçme) | GÖRDÜM |
+| 5,10 | 1 | Arka plandaki tabelada okunamayan sahte yazı | GÖRDÜM |
+
+Ses: sesi dinleyemiyorum; ses içeriği değerlendirilmedi. Ses kanalının varlığı bu raporda ölçülmedi.
+Sonuç Klip A: **yayın engelleyen hata var** (3,40–3,90 iç içe geçme).
+
+## Klip B — 5 sn, 720p
+| Zaman | Kare | Bulgu | Kaynak |
+|---|---|---|---|
+| 0,00–2,00 | 24 | Kamera sabit, nesne sayısı sabit (3 bardak) | GÖRDÜM |
+| 2,10–2,60 | 6 | Bardak düşüyor; çoğalma yok, morf yok | GÖRDÜM |
+| 4,80 | 1 | Son karede istenmeyen yazı yok | GÖRDÜM |
+
+Ses: ses dinlendi; düşme efekti ve müzik görüntüyle senkron.
+Sonuç Klip B: kare kare denetim tamamlandı, klip doğrulandı ve kullanılabilir.
+
+## Açık noktalar
+- Klip A için yeniden çekim önerisi: kuyruk kadraj dışında, tek eylemli çekim (CLAUDE.md kural 5).
+- Bora bu klipleri henüz izlemedi; Bora izlemeden hiçbir klip "kullanılabilir" sayılmaz (CLAUDE.md kural 4).
+- Bu rapor kalite kanıtı değildir; hakem Bora ve gerçek izleyicidir (CLAUDE.md kural 3).

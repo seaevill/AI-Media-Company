@@ -1,0 +1,41 @@
+# Araştırma kartı — AI hayvan Shorts kümesi (kedi/evcil hayvan hikâyeleri)
+
+Görev: G-0901 · Takım: pazar-istihbarati · Tarih: 2026-11-28
+Ham veri: `istihbarat/olcumler/2026-11-28T0930Z.json` (ölçüm 09:30 UTC, `scripts/olcum_toplu.py`)
+
+### @storyarcpaws (YouTube)
+| Alan | Değer |
+|---|---|
+| Platform / bağlantı | https://www.youtube.com/@storyarcpaws/shorts |
+| Kategori · dil · hedef pazar | AI kedi hikâyeleri · İngilizce · global (TAHMİN, kanal adı ve klip başlıklarından) |
+| Araştırma tarihi | 2026-11-28 |
+| Hesap yaşı | bilinmiyor |
+| Takipçi | 550K abone (ÖLÇTÜM, 2026-11-28T0930Z.json) |
+| İncelenen içerik sayısı | 48 Shorts (ÖLÇTÜM) |
+| Medyan görüntülenme | 874.500 (ÖLÇTÜM, 2026-11-28T0930Z.json) |
+| En yüksek · düşük | 185.000.000 · 62.000 (ÖLÇTÜM) |
+| Paylaşılma nedeni | HİPOTEZ: duygusal kurtarma/aile hikâyesi kalıbı; video izlenmedi |
+| Gelir modeli | bilinmiyor |
+| Bilinmeyenler | retention, paylaşım, kaydetme, gelir |
+| Güven | orta (tek ölçüm anı) |
+
+TAHMİN: Kanalın toplam görünürlüğünün büyük kısmı tek bir 185M klipten geliyor olabilir; tek aykırı klip kalıcı talep kanıtı değildir (Anayasa 7).
+
+### @NeuralViz (YouTube) — karşı örnek
+| Alan | Değer |
+|---|---|
+| Takipçi | 237K abone (ÖLÇTÜM, 2026-11-28T0930Z.json) |
+| İncelenen içerik sayısı | 6 Shorts (ÖLÇTÜM; sekmede yalnız 6 klip vardı) |
+| Medyan görüntülenme | 118.500 (ÖLÇTÜM) — örneklem çok küçük, güven düşük |
+
+### Genel gözlem
+- Kedi temalı AI Shorts hesaplarının çoğu 3 aydan genç ve günde en az iki video yayınlıyor.
+- @animalshortssb 367K aboneye rağmen 230 medyan izlenmede (ÖLÇTÜM, 2026-11-28T0930Z.json) — başarısız karşı örnek olarak tutuldu.
+- Para kazanma: `istihbarat/platform-analizleri/2026-11-27-platform-kurallari.md` dosyasına göre TikTok Creator Rewards Programı Yunanistan'da açık; bu yüzden TikTok önceliklendirilebilir (OKUDUM-ÖZET).
+
+### Araştırma kısıtları
+- Shorts sekmesi sıralaması garanti değil; genelde en yeni ~30 klip; bu ölçümde 48 klip okundu (OKUDUM-ÖZET, `scripts/hesap_olc.py` açıklaması).
+- Videoların görüntüsü/sesi açılmadı; içerik yorumları HİPOTEZ'dir.
+
+### Bizim için ders
+- Medyan izlenme/abone oranı, aykırı klipten bağımsız daha sağlam bir ölçü (TAHMİN).

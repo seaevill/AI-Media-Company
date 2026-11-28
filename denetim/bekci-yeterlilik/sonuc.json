@@ -1,0 +1,6 @@
+{"test":"G-0060 Bekçi yeterlilik testi 1","tarih":"2026-11-28","anahtar_sha256_test_oncesi":"5ddee3c8a6abb4744aaf4eb67f03e7113add52f818cf2e3018e003e57d68cf08",
+ "yerlestirilen_hata":14,"yakalanan":14,"kacirilan":0,"recall":1.0,
+ "tuzak":14,"tuzakta_yanlis_alarm_kesin":0,"tuzakta_suphe":1,"suphe_detay":"D09 (K-032 yetkisinin süresi doldu) — tartışmalı: Bekçi'nin itirazı makul, tuzak tasarımı zayıf olabilir",
+ "anahtar_disi_bulgu":{"kesin":1,"detay_kesin":"rapor_2: 1 kareyle '2 karelik yüzme' görülemez (12 kare/sn kuralı) — test hazırlayan farkında olmadan koymuş, gerçek hata","suphe":4},
+ "yan_bulgu":"scripts/dogrula.py sk-test-... desenini yakalamıyor (tire) — mekanik kontrol açığı",
+ "sinirlar":["Testi hazırlayan ve Bekçi aynı model ailesi; hatalar yapay zekânın kolay fark ettiği türden olabilir","Hatalar kısa (35–42 satır) belgelerde ve birkaçı iç çelişki ile kendini ele veriyor","Tek koşu; görsel/video kalite denetimi ölçülmedi (önceki kanıta göre orada BAŞARISIZ)"]}

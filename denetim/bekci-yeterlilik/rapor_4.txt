@@ -1,0 +1,35 @@
+# Pazar ölçüm tablosu — küçük ve orta AI hayvan hesapları
+
+Görev: G-0901 · Takım: pazar-istihbarati · Tarih: 2026-11-28
+Kaynak: `istihbarat/olcumler/2026-11-28T0930Z.json` (ÖLÇTÜM, `scripts/olcum_toplu.py`, 09:30 UTC)
+Yöntem: abone ve Shorts izlenme medyanı platform sayfasından doğrudan; arama özeti kullanılmadı.
+
+## YouTube Shorts (abone < 200K)
+| Hesap | Abone | Shorts n | Medyan izlenme | En yüksek | Kaynak |
+|---|---|---|---|---|---|
+| @meowtakeover | 25.200 | 48 | 22.500 | 2.100.000 | ÖLÇTÜM |
+| @tailbitpets | 153.000 | 48 | 65.500 | 3.800.000 | ÖLÇTÜM |
+| @ai.shxdda | 39.200 | 48 | 9.150 | 44.000 | ÖLÇTÜM |
+| @AiKittenverse | 19.500 | 48 | 25.000 | 96.000 | ÖLÇTÜM |
+| @HasanAi202 | 11.900 | 46 | 6.300 | 3.800.000 | ÖLÇTÜM |
+
+## Türetilen değerler (tablodan hesap)
+- 5 hesabın medyan izlenmelerinin medyanı: 25.000 (ÖLÇTÜM, tablodan hesap).
+- @tailbitpets medyan/abone = 65.500 / 153.000 = 0,64 (ÖLÇTÜM, tablodan hesap).
+- @HasanAi202 en yüksek/medyan = 3.800.000 / 6.300 ≈ 603 (ÖLÇTÜM, tablodan hesap) — tek bir aykırı klip; hesabın tipik performansı değil.
+- @AiKittenverse medyan/abone = 25.000 / 19.500 = 1,28 (ÖLÇTÜM, tablodan hesap) — medyan izlenme aboneden fazla.
+
+## TikTok (aynı ölçüm)
+| Hesap | Takipçi | Video n | Medyan izlenme | Kaynak |
+|---|---|---|---|---|
+| @asmraiworks | 172.600 | 10 | 580.700 | ÖLÇTÜM |
+| @kiwisburnttoast | 1.980.790 | 10 | 87.550 | ÖLÇTÜM |
+| @cat_tommmy | 360.200 | 10 | 4.853 | ÖLÇTÜM |
+
+- @asmraiworks medyan/takipçi = 580.700 / 172.600 = 3,36 (ÖLÇTÜM, tablodan hesap) — embed sayfası son ~10 klibi veriyor; sabitlenmiş klip etkisi TAHMİN ile ayıklandı.
+- @cat_tommmy: 360K takipçiye karşın medyan 4.853 — başarısız karşı örnek (ÖLÇTÜM).
+
+## Kısıtlar
+- Tek ölçüm anı; 48 saat ve 14 gün tekrarları planlı (K-034, elle).
+- Retention, paylaşım, gelir bilinmiyor.
+- Güven: orta.

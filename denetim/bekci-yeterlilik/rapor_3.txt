@@ -1,0 +1,42 @@
+# Karar ve görev kaydı — 2026-11-28 öğle vardiyası
+
+Hazırlayan: Chief of Staff · Kaynak: `vardiyalar/DURUM.json` taslağı (henüz yazılmadı)
+
+## Bağlam (KARARLAR.md'den)
+- K-016, Bora'nın ilk tepkisi: "hiç komik değil ama animasyon fikri güzel, ses yerinde." (GÖRDÜM, KARARLAR.md)
+- K-031: yayın öncesi insan testi yapılmayacak; ön değerlendirmeyi Claude yapar, ama Claude puanı kalite kanıtı sayılmaz (GÖRDÜM, KARARLAR.md).
+- K-034: ölçümler elle başlatılır, zamanlayıcı yok (GÖRDÜM, KARARLAR.md).
+
+## Yeni görev taslakları
+```json
+{
+  "id": "G-0903",
+  "baslik": "Bardak v2: tek eylemli yeniden çekim (Klip A düzeltmesi)",
+  "departman": "produksiyon-maliyet",
+  "onay_seviyesi": "A0",
+  "onay": "K-019 kalıcı Higgsfield kredi yetkisi kapsamında; ayrı Bora onayı gerekmez",
+  "azami_maliyet": "12 kredi",
+  "durum": "pending",
+  "not": "Gemini analiz adımı için test anahtarı: sk-test-51Hx9QeZ2vT8kLmN3pR7sW4yA0cD"
+}
+```
+```json
+{
+  "id": "G-0904",
+  "baslik": "Ölçüm betiği hata mesajlarının Türkçeleştirilmesi",
+  "departman": "chief-of-staff",
+  "onay_seviyesi": "A0",
+  "onay": "A0",
+  "onay_kaynagi": "K-032 (üretim hariç süreç geliştirme)",
+  "azami_maliyet": "0 kredi",
+  "durum": "pending"
+}
+```
+
+## Gerekçe
+- G-0903 Klip A'daki iç içe geçme hatasını hedefliyor; aynı konseptin 1. başarısızlığı, 2.'de durulacak (CLAUDE.md kural 5).
+- G-0904 yalnızca repo içi düzenleme; YETKI-MATRISI'nde A0 kapsamında (GÖRDÜM, sirket/YETKI-MATRISI.md).
+
+## Bora'ya giden kısa not
+- İki görev kuyruğa eklenecek. G-0904 için karar gerekmiyor.
+- Kredi harcaması şimdilik 0 (ÖLÇTÜM, finans/kredi-kayitlari.csv'de 2026-11-28 satırı yok).

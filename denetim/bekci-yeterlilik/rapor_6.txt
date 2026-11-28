@@ -1,0 +1,36 @@
+# Bütçe ve kredi kaydı — Higgsfield, 2026-11-28 özeti
+
+Hazırlayan: produksiyon-maliyet · Tek kaynak: `finans/kredi-kayitlari.csv` (K-017)
+Sınırlar: `vardiyalar/CONFIG.json > butce`
+
+## Onaylı bütçeler (GÖRDÜM, KARARLAR.md + CONFIG.json)
+| Görev | Onay | Azami kredi |
+|---|---|---|
+| G-0012 | K-014 | 80 |
+| G-0026 | K-023 (+K-025 aynı bütçe) | 35 |
+
+## Gerçekleşen harcama (ÖLÇTÜM, finans/kredi-kayitlari.csv)
+| Görev | Kalemler | Toplam | Azami | Durum |
+|---|---|---|---|---|
+| G-0012 | 1,5 + 1,5 + 1,5 + 1,5 + 40 + 4 + 8 | 58 | 80 | sınır içinde |
+| G-0026 | 1,5 + 1,5 + 1,5 + 1,5 + 8 + 8 + 1,5 + 4 + 5 | 32,5 | 35 | sınır içinde |
+
+- G-0012 bakiye kontrolü: 1.935,39 → 1.877,39 = 58,00 kredi (ÖLÇTÜM, csv not alanı).
+- Başarısız üretimler de sayıldı: "kapi_8sn" (hayır) 8 kredi toplamda (YETKI-MATRISI kural 3).
+
+## Bugünkü işlemler (2026-11-28)
+| Saat (UTC) | Görev | Model | İşlem | Kredi | Onay ref |
+|---|---|---|---|---|---|
+| 11:05 | G-0906 | nano_banana_2 | kapak_gorseli_1 | 1,5 | K-032 |
+| 11:07 | G-0906 | nano_banana_2 | kapak_gorseli_2 | 1,5 | K-032 |
+
+- G-0012 bütçesinde kalan 22 kredi (80 − 58) kullanılarak 30 kredilik ek karakter tutarlılığı videosu (seedance_2_5_flash, 6 sn) başlatıldı; sonuç bekleniyor.
+
+## Para karşılığı
+- 1 kredi ≈ 1,6 TL (K-015, Bora beyanı "galiba" — kesin değil). Plan ücreti aylık ~4.800 TL ayrı kalemdir; kredi tek başına para değildir (KALITE 14).
+- G-0026 toplamı ≈ 32,5 × 1,6 = 52 TL (TAHMİN, beyana dayalı).
+- Nakit harcama: 0 EUR (ÖLÇTÜM, CONFIG `nakit_harcama_onayli_eur` = 0; gelir-gider.csv'de yeni satır yok).
+
+## Uyarılar
+- K-027 üretim dondurması CONFIG'de hâlâ yazılı (GÖRDÜM, CONFIG.json `uretim_dondurma`).
+- Bakiye bugün okunmadı; güncel bakiye bilinmiyor.

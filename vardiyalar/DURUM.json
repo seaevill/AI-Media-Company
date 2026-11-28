@@ -1620,7 +1620,7 @@
    "kaynak": "K-036",
    "olusturma": "2026-11-28T10:00:00Z",
    "bagimliliklar": [],
-   "gercek_maliyet": null,
+   "gercek_maliyet": "0 kredi",
    "deneme": 1,
    "en_erken": null,
    "ilgili_pr": null,
@@ -1631,7 +1631,9 @@
    "onay": "A0",
    "onay_kaynagi": "Bora K-036",
    "azami_maliyet": "0 kredi",
-   "ilgili_dosyalar": [],
+   "ilgili_dosyalar": [
+    "denetim/bekci-yeterlilik/"
+   ],
    "sonraki_guvenli_adim": null,
    "beklenen_cikti": "",
    "basari_kriteri": "",
@@ -1640,7 +1642,7 @@
    "departman": "bekci",
    "sorumlu_ajan": "bekci",
    "baslik": "Bekçi yeterlilik testi: bilinen hatalı kontrollü raporlar",
-   "durum": "in_progress"
+   "durum": "review"
   },
   {
    "kaynak": "K-036",
@@ -1757,6 +1759,16 @@
    "maliyet": "Claude kullanımı",
    "geri_alinabilir_mi": true,
    "ilgili_gorev": "G-0012"
+  },
+  {
+   "id": "K-B16",
+   "soru": "scripts/dogrula.py (korumalı) sır desenini 'sk-test-...' gibi tireli anahtarları da yakalayacak şekilde düzeltmeme izin verir misin?",
+   "olusturma": "2026-11-28"
+  },
+  {
+   "id": "K-B17",
+   "soru": "Canva (AI görsel/video, kota harcar), Product Hunt (reklam/ödeme), Gumroad (ürün yayını) bağlantıları harcama yasak listesine eklensin mi?",
+   "olusturma": "2026-11-28"
   }
  ]
 }
